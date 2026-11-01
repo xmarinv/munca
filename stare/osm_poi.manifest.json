@@ -1,0 +1,165 @@
+{
+  "sursa": "osm_poi",
+  "versiune": "20261101-00c17087",
+  "amprenta": "00c170870fedf2ae9aed27e09a6d5a87b830975d723dcf2be458bd30feeabdbf",
+  "creat_utc": "2026-11-01T18:27:47+00:00",
+  "descarcat_in": "actions",
+  "nume": "OpenStreetMap – extrasele Geofabrik pentru Spania și Canare: biblioteci, cazări turistice, lăcașuri de cult",
+  "editor": "OpenStreetMap contributors; extrase Geofabrik GmbH (download.geofabrik.de)",
+  "pagina": "https://download.geofabrik.de/europe/spain.html",
+  "licenta": "ODbL 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). © OpenStreetMap contributors.",
+  "atribuire": "„© OpenStreetMap contributors (ODbL)”",
+  "fisiere_brute": [
+    {
+      "fisier": "osm_poi.osm.pbf",
+      "url": "https://download.geofabrik.de/europe/spain-latest.osm.pbf + https://download.geofabrik.de/africa/canary-islands-latest.osm.pbf",
+      "extrase": [
+        {
+          "fisier": "spain-latest.osm.pbf",
+          "url": "https://download.geofabrik.de/europe/spain-latest.osm.pbf",
+          "octeti": 1497413551,
+          "md5": "a572380abdbfd2da1b1b8ab2f56d4ef3",
+          "osm_pana_la": "2026-10-31T21:23:06Z"
+        },
+        {
+          "fisier": "canary-islands-latest.osm.pbf",
+          "url": "https://download.geofabrik.de/africa/canary-islands-latest.osm.pbf",
+          "octeti": 60241325,
+          "md5": "3c45378ac7b4816d06666295c7b4d2f7",
+          "osm_pana_la": "2026-10-31T21:23:06Z"
+        }
+      ],
+      "filtre": [
+        "nwr/amenity=library,public_bookcase,place_of_worship",
+        "nwr/tourism=hotel,guest_house,hostel,motel,apartment,chalet,camp_site,caravan_site,alpine_hut,wilderness_hut",
+        "nwr/building=church,chapel,cathedral,mosque,synagogue,temple,shrine,monastery"
+      ],
+      "octeti": 9512946,
+      "sha256": "47d60545fb7cd9f31490d692cbc68b1d547981f99a8065cef301dff6ba2dc5b5"
+    }
+  ],
+  "produse": [
+    {
+      "fisier": "osm_poi.parquet",
+      "randuri": 82740,
+      "octeti": 6755108,
+      "sha256": "e815590559ea4b6c55d1b47f4067cd24395bce3f7e3987e5a6386488d9189746",
+      "coloane": {
+        "osm": "string",
+        "lat": "double",
+        "lon": "double",
+        "geom": "string",
+        "amenity": "string",
+        "tourism": "string",
+        "building": "string",
+        "religion": "string",
+        "denomination": "string",
+        "name": "string",
+        "operator": "string",
+        "stars": "string",
+        "rooms": "string",
+        "beds": "string",
+        "capacity": "string",
+        "access": "string",
+        "wikidata": "string",
+        "etichete": "string",
+        "extras": "string"
+      }
+    }
+  ],
+  "profil": {
+    "obiecte": 82740,
+    "pe_geom": {
+      "Point": 26629,
+      "LineString": 54357,
+      "MultiPolygon": 1754
+    },
+    "pe_eticheta_filtrata": {
+      "amenity=place_of_worship": 39846,
+      "building=church": 18760,
+      "tourism=hotel": 15022,
+      "building=chapel": 8274,
+      "tourism=chalet": 4303,
+      "tourism=guest_house": 3929,
+      "tourism=hostel": 3733,
+      "amenity=library": 3514,
+      "tourism=apartment": 3158,
+      "tourism=camp_site": 1817,
+      "tourism=caravan_site": 1653,
+      "tourism=wilderness_hut": 862,
+      "tourism=alpine_hut": 447,
+      "building=monastery": 294,
+      "amenity=public_bookcase": 284,
+      "tourism=motel": 261,
+      "building=temple": 139,
+      "building=cathedral": 103,
+      "building=mosque": 29,
+      "building=shrine": 14,
+      "building=synagogue": 9
+    },
+    "fara_nume": {
+      "amenity=place_of_worship": 3778,
+      "building=church": 2361,
+      "tourism=chalet": 1705,
+      "tourism=hotel": 653,
+      "building=chapel": 621,
+      "tourism=apartment": 484,
+      "tourism=caravan_site": 424,
+      "amenity=library": 392,
+      "tourism=guest_house": 230,
+      "tourism=hostel": 198,
+      "amenity=public_bookcase": 178,
+      "tourism=camp_site": 170,
+      "tourism=wilderness_hut": 123,
+      "building=monastery": 70,
+      "tourism=alpine_hut": 36,
+      "tourism=motel": 17,
+      "building=temple": 16,
+      "building=cathedral": 14,
+      "building=mosque": 7,
+      "building=shrine": 6
+    },
+    "religion": {
+      "christian": 39503,
+      "muslim": 231,
+      "buddhist": 32,
+      "jewish": 19,
+      "hindu": 11,
+      "multifaith": 7,
+      "sikh": 6,
+      "scientologist": 3,
+      "taoist": 2,
+      "bahai": 2,
+      "unitarian_universalist": 2,
+      "shinto": 2,
+      "pagan": 2,
+      ";paganchristian": 1,
+      "mahikari": 1
+    }
+  },
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:osm_poi.osm.pbf",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:osm_poi.osm.pbf",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:osm_poi.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:osm_poi.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "82740 rânduri, minim 40000"
+    }
+  ],
+  "versiunea_anterioara": null,
+  "rezultat": "TRECE",
+  "rulare": "41336247515"
+}

@@ -1,0 +1,31 @@
+{
+  "sursa": "osm_poi",
+  "pornit_utc": "2026-11-01T18:22:22+00:00",
+  "rezultat": "publicat",
+  "noutati": [],
+  "amprenta": "00c170870fedf2ae9aed27e09a6d5a87b830975d723dcf2be458bd30feeabdbf",
+  "versiune": "20261101-00c17087",
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:osm_poi.osm.pbf",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:osm_poi.osm.pbf",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:osm_poi.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:osm_poi.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "82740 rânduri, minim 40000"
+    }
+  ],
+  "terminat_utc": "2026-11-01T18:27:52+00:00"
+}
