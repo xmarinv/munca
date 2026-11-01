@@ -1,0 +1,621 @@
+{
+  "sursa": "eea_aer",
+  "versiune": "20261101-513bc1b6",
+  "amprenta": "513bc1b65d753beb4dbf30b0ed00b0daf4deb63bb933dc5a1b6213ab21231e9b",
+  "creat_utc": "2026-11-01T09:32:39+00:00",
+  "descarcat_in": "actions",
+  "nume": "European air quality data (interpolated data) – PM2.5, NO2, O3; grilă 1 km, decupată pe Spania (Peninsula, Baleare, Canare)",
+  "editor": "European Environment Agency (EEA); hărțile ETC HE (metoda „regression-interpolation-merging mapping”)",
+  "pagina": "https://www.eea.europa.eu/en/datahub/datahubitem-view/82700fbd-2953-467b-be0a-78a520c3a7ef",
+  "licenta": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Copyright holder: European Environment Agency (EEA).",
+  "atribuire": "„Fuente: Agencia Europea de Medio Ambiente (EEA), mapas interpolados de calidad del aire”",
+  "fisiere_brute": [
+    {
+      "fisier": "pm25_2024_validat.zip",
+      "url": "https://sdi.eea.europa.eu/datashare/s/D9xrKSZSj3ci4tN/download",
+      "uuid": "c3db03e4-82e9-4a40-acb1-a5bd15f11f8c",
+      "poluant": "pm25",
+      "an": 2024,
+      "stare": "validat",
+      "titlu": "PM2.5, European air quality data for 2024, (interpolated data), validated data, June 2026",
+      "descarcat_utc": "2026-11-01T09:32:01Z",
+      "octeti": 78199351,
+      "sha256": "66d5c0fbb3336567e193e6dedc1345ccd54817b13339ea0ac2a9321a8b937f5d"
+    },
+    {
+      "fisier": "no2_2024_validat.zip",
+      "url": "https://sdi.eea.europa.eu/datashare/s/C5KfDFbTDtjGAQK/download",
+      "uuid": "4c6361bd-cfd4-48de-9b4b-101cfb37f1f0",
+      "poluant": "no2",
+      "an": 2024,
+      "stare": "validat",
+      "titlu": "NO2, European air quality data for 2024, (interpolated data), validated data, June 2026",
+      "descarcat_utc": "2026-11-01T09:32:11Z",
+      "octeti": 78186051,
+      "sha256": "cfd89b864e14355c712d529422be6c9ab31480d9d75f1c4fc6ea20358eddc29b"
+    },
+    {
+      "fisier": "o3_2024_validat.zip",
+      "url": "https://sdi.eea.europa.eu/datashare/s/kbTMsiyQeAr3yKa/download",
+      "uuid": "a0eff88d-8728-4374-aa46-50c32c5f1ee7",
+      "poluant": "o3",
+      "an": 2024,
+      "stare": "validat",
+      "titlu": "O3, European air quality data for 2024, (interpolated data), validated data, June 2026",
+      "descarcat_utc": "2026-11-01T09:32:37Z",
+      "octeti": 390880579,
+      "sha256": "341c5ac2e05557db19fc85963543496c2503ae365a807e6de25333836281b53f"
+    }
+  ],
+  "produse": [
+    {
+      "fisier": "eea_aer_celule.parquet",
+      "randuri": 5193596,
+      "octeti": 21423281,
+      "sha256": "824f3dc0c0d7cf930fb2dadaab86b13b67af8de23a3719b9817ecace74010de1",
+      "coloane": {
+        "poluant": "string",
+        "an": "int16",
+        "fisier_tif": "string",
+        "zona": "string",
+        "x": "int32",
+        "y": "int32",
+        "valoare": "float"
+      }
+    }
+  ],
+  "profil": [
+    {
+      "arhiva": "pm25_2024_validat.zip",
+      "membri": [
+        "eea_r_3035_1_km_aq-interpolated-pm25_p_2024_v01_r00/",
+        "eea_r_3035_1_km_aq-interpolated-pm25_p_2024_v01_r00/PM25_2024_avg.png",
+        "eea_r_3035_1_km_aq-interpolated-pm25_p_2024_v01_r00/pm25_avg_24.tif",
+        "eea_r_3035_1_km_aq-interpolated-pm25_p_2024_v01_r00/PM2_5_European_air_quality_data_for_2024_interpolated_data_validated_d_metadata_c3db03e4-82e9-4a40-acb1-a5bd15f11f8c.xml",
+        "eea_r_3035_1_km_aq-interpolated-pm25_p_2024_v01_r00/README.md"
+      ]
+    },
+    {
+      "arhiva": "pm25_2024_validat.zip",
+      "tif": "pm25_avg_24.tif",
+      "crs": "PROJCS[\"ETRS89-extended / LAEA Europe\",GEOGCS[\"ETRS89\",DATUM[\"European_Terrestrial_Reference_System_1989\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6258\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4258\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",52],PARAMETER[\"longitude_of_center\",10],PARAMETER[\"false_easting\",4321000],PARAMETER[\"false_northing\",3210000],UNIT[\"metre\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3035\"]]",
+      "rezolutie": [
+        1000.0000000000006,
+        1000.0
+      ],
+      "nodata": -3.4028234663852886e+38,
+      "tip": "float32",
+      "benzi": 1,
+      "dimensiune": [
+        4680,
+        4037
+      ],
+      "descriere": [
+        null
+      ],
+      "etichete": {
+        "DataType": "Generic",
+        "AREA_OR_POINT": "Area"
+      },
+      "zone": {
+        "IBEB": {
+          "celule": 729688,
+          "min": 1.8539999723434448,
+          "max": 12.774999618530273,
+          "medie": 5.2970075607299805
+        },
+        "CAN": {
+          "celule": 0,
+          "in_afara_grilei": true,
+          "limite_grila": [
+            2636000.0,
+            1386000.0,
+            7316000.000000003,
+            5423000.0
+          ],
+          "limite_zona": [
+            1527430.3376912735,
+            853144.5579907293,
+            2055418.6409822572,
+            1225293.0677747768
+          ]
+        }
+      }
+    },
+    {
+      "arhiva": "no2_2024_validat.zip",
+      "membri": [
+        "eea_r_3035_1_km_aq-interpolated-no2_p_2024_v01_r00/",
+        "eea_r_3035_1_km_aq-interpolated-no2_p_2024_v01_r00/NO2_2024_avg.png",
+        "eea_r_3035_1_km_aq-interpolated-no2_p_2024_v01_r00/no2_avg_24.tif",
+        "eea_r_3035_1_km_aq-interpolated-no2_p_2024_v01_r00/NO2_European_air_quality_data_for_2024_interpolated_data_validated_dat_metadata_4c6361bd-cfd4-48de-9b4b-101cfb37f1f0.xml",
+        "eea_r_3035_1_km_aq-interpolated-no2_p_2024_v01_r00/README.md"
+      ]
+    },
+    {
+      "arhiva": "no2_2024_validat.zip",
+      "tif": "no2_avg_24.tif",
+      "crs": "PROJCS[\"ETRS89-extended / LAEA Europe\",GEOGCS[\"ETRS89\",DATUM[\"European_Terrestrial_Reference_System_1989\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6258\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4258\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",52],PARAMETER[\"longitude_of_center\",10],PARAMETER[\"false_easting\",4321000],PARAMETER[\"false_northing\",3210000],UNIT[\"metre\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3035\"]]",
+      "rezolutie": [
+        1000.0000000000006,
+        1000.0
+      ],
+      "nodata": -3.4028234663852886e+38,
+      "tip": "float32",
+      "benzi": 1,
+      "dimensiune": [
+        4680,
+        4037
+      ],
+      "descriere": [
+        "Band_1"
+      ],
+      "etichete": {
+        "DataType": "Generic",
+        "AREA_OR_POINT": "Area"
+      },
+      "zone": {
+        "IBEB": {
+          "celule": 729688,
+          "min": 0.04999999701976776,
+          "max": 34.443302154541016,
+          "medie": 3.073557138442993
+        },
+        "CAN": {
+          "celule": 0,
+          "in_afara_grilei": true,
+          "limite_grila": [
+            2636000.0,
+            1386000.0,
+            7316000.000000003,
+            5423000.0
+          ],
+          "limite_zona": [
+            1527430.3376912735,
+            853144.5579907293,
+            2055418.6409822572,
+            1225293.0677747768
+          ]
+        }
+      }
+    },
+    {
+      "arhiva": "o3_2024_validat.zip",
+      "membri": [
+        "eea_r_3035_1_km_aq-interpolated-O3_p_2024_v01_r00/",
+        "eea_r_3035_1_km_aq-interpolated-O3_p_2024_v01_r00/O3_2024_AOT40f.png",
+        "eea_r_3035_1_km_aq-interpolated-O3_p_2024_v01_r00/o3_aot40f_24.tif",
+        "eea_r_3035_1_km_aq-interpolated-O3_p_2024_v01_r00/o3_aot40f_5y2024.tif",
+        "eea_r_3035_1_km_aq-interpolated-O3_p_2024_v01_r00/o3_aot40v_24.tif",
+        "eea_r_3035_1_km_aq-interpolated-O3_p_2024_v01_r00/o3_aot40v_5y2024.tif",
+        "eea_r_3035_1_km_aq-interpolated-O3_p_2024_v01_r00/O3_European_air_quality_data_for_2024_interpolated_data_validated_data_metadata_a0eff88d-8728-4374-aa46-50c32c5f1ee7.xml",
+        "eea_r_3035_1_km_aq-interpolated-O3_p_2024_v01_r00/o3_p932_24.tif",
+        "eea_r_3035_1_km_aq-interpolated-O3_p_2024_v01_r00/o3_p932_3y2224.tif",
+        "eea_r_3035_1_km_aq-interpolated-O3_p_2024_v01_r00/o3_peak_24.tif",
+        "eea_r_3035_1_km_aq-interpolated-O3_p_2024_v01_r00/o3_s35_24.tif",
+        "eea_r_3035_1_km_aq-interpolated-O3_p_2024_v01_r00/README.md"
+      ]
+    },
+    {
+      "arhiva": "o3_2024_validat.zip",
+      "tif": "o3_aot40f_24.tif",
+      "crs": "PROJCS[\"ETRS89-extended / LAEA Europe\",GEOGCS[\"ETRS89\",DATUM[\"European_Terrestrial_Reference_System_1989\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6258\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4258\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",52],PARAMETER[\"longitude_of_center\",10],PARAMETER[\"false_easting\",4321000],PARAMETER[\"false_northing\",3210000],UNIT[\"metre\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3035\"]]",
+      "rezolutie": [
+        2000.0000000000016,
+        2000.0000000000014
+      ],
+      "nodata": -3.4028234663852886e+38,
+      "tip": "float32",
+      "benzi": 1,
+      "dimensiune": [
+        2355,
+        2035
+      ],
+      "descriere": [
+        "resr_aot40f"
+      ],
+      "etichete": {
+        "DataType": "Generic",
+        "AREA_OR_POINT": "Area"
+      },
+      "zone": {
+        "IBEB": {
+          "celule": 203867,
+          "min": 0.0,
+          "max": 53277.33984375,
+          "medie": 22780.228515625
+        },
+        "CAN": {
+          "celule": 0,
+          "in_afara_grilei": true,
+          "limite_grila": [
+            2619999.9999999995,
+            1369999.9999999972,
+            7330000.000000004,
+            5440000.0
+          ],
+          "limite_zona": [
+            1527430.3376912735,
+            853144.5579907293,
+            2055418.6409822572,
+            1225293.0677747768
+          ]
+        }
+      }
+    },
+    {
+      "arhiva": "o3_2024_validat.zip",
+      "tif": "o3_aot40f_5y2024.tif",
+      "crs": "PROJCS[\"ETRS89-extended / LAEA Europe\",GEOGCS[\"ETRS89\",DATUM[\"European_Terrestrial_Reference_System_1989\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6258\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4258\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",52],PARAMETER[\"longitude_of_center\",10],PARAMETER[\"false_easting\",4321000],PARAMETER[\"false_northing\",3210000],UNIT[\"metre\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3035\"]]",
+      "rezolutie": [
+        2000.0000000000007,
+        1999.9999999999995
+      ],
+      "nodata": -3.4028234663852886e+38,
+      "tip": "float32",
+      "benzi": 1,
+      "dimensiune": [
+        2355,
+        2036
+      ],
+      "descriere": [
+        "resr_aot40f"
+      ],
+      "etichete": {
+        "DataType": "Generic",
+        "AREA_OR_POINT": "Area"
+      },
+      "zone": {
+        "IBEB": {
+          "celule": 203867,
+          "min": 2171.257080078125,
+          "max": 49840.7265625,
+          "medie": 23466.892578125
+        },
+        "CAN": {
+          "celule": 0,
+          "in_afara_grilei": true,
+          "limite_grila": [
+            2619999.9999999995,
+            1368000.0000000019,
+            7330000.000000002,
+            5440000.000000001
+          ],
+          "limite_zona": [
+            1527430.3376912735,
+            853144.5579907293,
+            2055418.6409822572,
+            1225293.0677747768
+          ]
+        }
+      }
+    },
+    {
+      "arhiva": "o3_2024_validat.zip",
+      "tif": "o3_aot40v_24.tif",
+      "crs": "PROJCS[\"ETRS89-extended / LAEA Europe\",GEOGCS[\"ETRS89\",DATUM[\"European_Terrestrial_Reference_System_1989\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6258\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4258\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",52],PARAMETER[\"longitude_of_center\",10],PARAMETER[\"false_easting\",4321000],PARAMETER[\"false_northing\",3210000],UNIT[\"metre\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3035\"]]",
+      "rezolutie": [
+        2000.0000000000016,
+        2000.0000000000014
+      ],
+      "nodata": -3.4028234663852886e+38,
+      "tip": "float32",
+      "benzi": 1,
+      "dimensiune": [
+        2355,
+        2035
+      ],
+      "descriere": [
+        "resr_aot40v"
+      ],
+      "etichete": {
+        "DataType": "Generic",
+        "AREA_OR_POINT": "Area"
+      },
+      "zone": {
+        "IBEB": {
+          "celule": 203867,
+          "min": 0.0,
+          "max": 27816.142578125,
+          "medie": 11012.3837890625
+        },
+        "CAN": {
+          "celule": 0,
+          "in_afara_grilei": true,
+          "limite_grila": [
+            2619999.9999999995,
+            1369999.9999999972,
+            7330000.000000004,
+            5440000.0
+          ],
+          "limite_zona": [
+            1527430.3376912735,
+            853144.5579907293,
+            2055418.6409822572,
+            1225293.0677747768
+          ]
+        }
+      }
+    },
+    {
+      "arhiva": "o3_2024_validat.zip",
+      "tif": "o3_aot40v_5y2024.tif",
+      "crs": "PROJCS[\"ETRS89-extended / LAEA Europe\",GEOGCS[\"ETRS89\",DATUM[\"European_Terrestrial_Reference_System_1989\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6258\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4258\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",52],PARAMETER[\"longitude_of_center\",10],PARAMETER[\"false_easting\",4321000],PARAMETER[\"false_northing\",3210000],UNIT[\"metre\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3035\"]]",
+      "rezolutie": [
+        2000.0000000000007,
+        1999.9999999999995
+      ],
+      "nodata": -3.4028234663852886e+38,
+      "tip": "float32",
+      "benzi": 1,
+      "dimensiune": [
+        2355,
+        2036
+      ],
+      "descriere": [
+        "resr_aot40v"
+      ],
+      "etichete": {
+        "DataType": "Generic",
+        "AREA_OR_POINT": "Area"
+      },
+      "zone": {
+        "IBEB": {
+          "celule": 203867,
+          "min": 566.810546875,
+          "max": 27305.48828125,
+          "medie": 12639.8232421875
+        },
+        "CAN": {
+          "celule": 0,
+          "in_afara_grilei": true,
+          "limite_grila": [
+            2619999.9999999995,
+            1368000.0000000019,
+            7330000.000000002,
+            5440000.000000001
+          ],
+          "limite_zona": [
+            1527430.3376912735,
+            853144.5579907293,
+            2055418.6409822572,
+            1225293.0677747768
+          ]
+        }
+      }
+    },
+    {
+      "arhiva": "o3_2024_validat.zip",
+      "tif": "o3_p932_24.tif",
+      "crs": "PROJCS[\"ETRS89-extended / LAEA Europe\",GEOGCS[\"ETRS89\",DATUM[\"European_Terrestrial_Reference_System_1989\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6258\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4258\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",52],PARAMETER[\"longitude_of_center\",10],PARAMETER[\"false_easting\",4321000],PARAMETER[\"false_northing\",3210000],UNIT[\"metre\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3035\"]]",
+      "rezolutie": [
+        1000.0000000000008,
+        1000.0000000000007
+      ],
+      "nodata": -3.4028234663852886e+38,
+      "tip": "float32",
+      "benzi": 1,
+      "dimensiune": [
+        4710,
+        4070
+      ],
+      "descriere": [
+        "Band_1"
+      ],
+      "etichete": {
+        "DataType": "Generic",
+        "AREA_OR_POINT": "Area"
+      },
+      "zone": {
+        "IBEB": {
+          "celule": 729688,
+          "min": 83.50804901123047,
+          "max": 140.93861389160156,
+          "medie": 108.71272277832031
+        },
+        "CAN": {
+          "celule": 0,
+          "in_afara_grilei": true,
+          "limite_grila": [
+            2619999.9999999995,
+            1369999.9999999972,
+            7330000.000000004,
+            5440000.0
+          ],
+          "limite_zona": [
+            1527430.3376912735,
+            853144.5579907293,
+            2055418.6409822572,
+            1225293.0677747768
+          ]
+        }
+      }
+    },
+    {
+      "arhiva": "o3_2024_validat.zip",
+      "tif": "o3_p932_3y2224.tif",
+      "crs": "PROJCS[\"ETRS89-extended / LAEA Europe\",GEOGCS[\"ETRS89\",DATUM[\"European_Terrestrial_Reference_System_1989\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6258\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4258\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",52],PARAMETER[\"longitude_of_center\",10],PARAMETER[\"false_easting\",4321000],PARAMETER[\"false_northing\",3210000],UNIT[\"metre\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3035\"]]",
+      "rezolutie": [
+        1000.0000000000008,
+        1000.0000000000007
+      ],
+      "nodata": -3.4028234663852886e+38,
+      "tip": "float32",
+      "benzi": 1,
+      "dimensiune": [
+        4710,
+        4070
+      ],
+      "descriere": [
+        "Band_1"
+      ],
+      "etichete": {
+        "DataType": "Generic",
+        "AREA_OR_POINT": "Area"
+      },
+      "zone": {
+        "IBEB": {
+          "celule": 729688,
+          "min": 87.07230377197266,
+          "max": 133.42648315429688,
+          "medie": 110.9452896118164
+        },
+        "CAN": {
+          "celule": 0,
+          "in_afara_grilei": true,
+          "limite_grila": [
+            2619999.9999999995,
+            1369999.9999999972,
+            7330000.000000004,
+            5440000.0
+          ],
+          "limite_zona": [
+            1527430.3376912735,
+            853144.5579907293,
+            2055418.6409822572,
+            1225293.0677747768
+          ]
+        }
+      }
+    },
+    {
+      "arhiva": "o3_2024_validat.zip",
+      "tif": "o3_peak_24.tif",
+      "crs": "PROJCS[\"ETRS89-extended / LAEA Europe\",GEOGCS[\"ETRS89\",DATUM[\"European_Terrestrial_Reference_System_1989\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6258\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4258\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",52],PARAMETER[\"longitude_of_center\",10],PARAMETER[\"false_easting\",4321000],PARAMETER[\"false_northing\",3210000],UNIT[\"metre\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3035\"]]",
+      "rezolutie": [
+        1000.0000000000003,
+        1000.0
+      ],
+      "nodata": -3.4028234663852886e+38,
+      "tip": "float32",
+      "benzi": 1,
+      "dimensiune": [
+        4710,
+        4070
+      ],
+      "descriere": [
+        null
+      ],
+      "etichete": {
+        "DataType": "Generic",
+        "AREA_OR_POINT": "Area"
+      },
+      "zone": {
+        "IBEB": {
+          "celule": 729688,
+          "min": 69.41545104980469,
+          "max": 118.7171859741211,
+          "medie": 92.98011016845703
+        },
+        "CAN": {
+          "celule": 0,
+          "in_afara_grilei": true,
+          "limite_grila": [
+            2619999.999999999,
+            1370000.000000001,
+            7330000.000000001,
+            5440000.000000001
+          ],
+          "limite_zona": [
+            1527430.3376912735,
+            853144.5579907293,
+            2055418.6409822572,
+            1225293.0677747768
+          ]
+        }
+      }
+    },
+    {
+      "arhiva": "o3_2024_validat.zip",
+      "tif": "o3_s35_24.tif",
+      "crs": "PROJCS[\"ETRS89-extended / LAEA Europe\",GEOGCS[\"ETRS89\",DATUM[\"European_Terrestrial_Reference_System_1989\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6258\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4258\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",52],PARAMETER[\"longitude_of_center\",10],PARAMETER[\"false_easting\",4321000],PARAMETER[\"false_northing\",3210000],UNIT[\"metre\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3035\"]]",
+      "rezolutie": [
+        1000.0000000000008,
+        1000.0000000000007
+      ],
+      "nodata": -3.4028234663852886e+38,
+      "tip": "float32",
+      "benzi": 1,
+      "dimensiune": [
+        4710,
+        4070
+      ],
+      "descriere": [
+        "Band_1"
+      ],
+      "etichete": {
+        "DataType": "Generic",
+        "AREA_OR_POINT": "Area"
+      },
+      "zone": {
+        "IBEB": {
+          "celule": 729688,
+          "min": 1326.509033203125,
+          "max": 12845.0087890625,
+          "medie": 5442.3583984375
+        },
+        "CAN": {
+          "celule": 0,
+          "in_afara_grilei": true,
+          "limite_grila": [
+            2619999.9999999995,
+            1369999.9999999972,
+            7330000.000000004,
+            5440000.0
+          ],
+          "limite_zona": [
+            1527430.3376912735,
+            853144.5579907293,
+            2055418.6409822572,
+            1225293.0677747768
+          ]
+        }
+      }
+    }
+  ],
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:pm25_2024_validat.zip",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:pm25_2024_validat.zip",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:no2_2024_validat.zip",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:no2_2024_validat.zip",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:o3_2024_validat.zip",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:o3_2024_validat.zip",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:eea_aer_celule.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:eea_aer_celule.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "5193596 rânduri, minim 500000"
+    }
+  ],
+  "versiunea_anterioara": null,
+  "rezultat": "TRECE",
+  "rulare": "41293509540"
+}

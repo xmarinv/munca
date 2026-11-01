@@ -1,6 +1,53 @@
 {
   "sursa": "eea_aer",
-  "rezultat": "EROARE",
-  "eroare": "WindowError: Intersection is empty Window(col_off=-1109, row_off=4197, width=528, height=372) Window(col_off=0, row_off=0, width=4680, height=4037)",
-  "terminat_utc": "2026-11-01T09:30:59+00:00"
+  "pornit_utc": "2026-11-01T09:31:50+00:00",
+  "rezultat": "publicat",
+  "noutati": [
+    "paznic: seria EEA nu a putut fi citită"
+  ],
+  "amprenta": "513bc1b65d753beb4dbf30b0ed00b0daf4deb63bb933dc5a1b6213ab21231e9b",
+  "versiune": "20261101-513bc1b6",
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:pm25_2024_validat.zip",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:pm25_2024_validat.zip",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:no2_2024_validat.zip",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:no2_2024_validat.zip",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:o3_2024_validat.zip",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:o3_2024_validat.zip",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:eea_aer_celule.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:eea_aer_celule.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "5193596 rânduri, minim 500000"
+    }
+  ],
+  "terminat_utc": "2026-11-01T09:33:26+00:00"
 }
