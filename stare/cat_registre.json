@@ -1,10 +1,10 @@
 {
   "sursa": "cat_registre",
-  "pornit_utc": "2026-11-01T18:53:26+00:00",
+  "pornit_utc": "2026-11-01T18:55:19+00:00",
   "rezultat": "publicat",
   "noutati": [],
-  "amprenta": "c03327eadac6c29328380a0a043a1cbccd2986d1ef25a66c92e5e79a0a790846",
-  "versiune": "20261101-c03327ea",
+  "amprenta": "f521be0da211e7684abe18f268f85e54d154be438dd4854f1626018174cf0c22",
+  "versiune": "20261101-f521be0d",
   "verificari": [
     {
       "verificare": "brut_nu_e_html:equipaments_8gmd-gz7i.csv",
@@ -27,16 +27,6 @@
       "detaliu": ""
     },
     {
-      "verificare": "brut_nu_e_html:allotjament_jrvb-e5fa.csv",
-      "rezultat": "TRECE",
-      "detaliu": ""
-    },
-    {
-      "verificare": "brut_nevid:allotjament_jrvb-e5fa.csv",
-      "rezultat": "TRECE",
-      "detaliu": ""
-    },
-    {
       "verificare": "schema:cat_registre.parquet",
       "rezultat": "TRECE",
       "detaliu": ""
@@ -44,8 +34,8 @@
     {
       "verificare": "randuri_minim:cat_registre.parquet",
       "rezultat": "TRECE",
-      "detaliu": "137346 rânduri, minim 1000"
+      "detaliu": "137338 rânduri, minim 1000"
     }
   ],
-  "terminat_utc": "2026-11-01T18:53:45+00:00"
+  "terminat_utc": "2026-11-01T18:55:38+00:00"
 }
