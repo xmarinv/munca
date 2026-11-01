@@ -1,6 +1,51 @@
 {
   "sursa": "cat_registre",
-  "rezultat": "EROARE",
-  "eroare": "HTTPError: 404 Client Error: Not Found for url: https://api.us.socrata.com/api/catalog/v1?domains=analisi.transparenciacatalunya.cat&q=Equipaments+de+Catalunya&limit=50&only=datasets",
-  "terminat_utc": "2026-11-01T18:52:20+00:00"
+  "pornit_utc": "2026-11-01T18:53:26+00:00",
+  "rezultat": "publicat",
+  "noutati": [],
+  "amprenta": "c03327eadac6c29328380a0a043a1cbccd2986d1ef25a66c92e5e79a0a790846",
+  "versiune": "20261101-c03327ea",
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:equipaments_8gmd-gz7i.csv",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:equipaments_8gmd-gz7i.csv",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:allotjament_t2h3-cgys.csv",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:allotjament_t2h3-cgys.csv",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:allotjament_jrvb-e5fa.csv",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:allotjament_jrvb-e5fa.csv",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:cat_registre.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:cat_registre.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "137346 rânduri, minim 1000"
+    }
+  ],
+  "terminat_utc": "2026-11-01T18:53:45+00:00"
 }
