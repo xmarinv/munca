@@ -1,0 +1,32 @@
+# OpenStreetMap – puncte de interes care nu sunt în extrasele din atlas: biblioteci, cazări, lăcașuri de cult.
+nume: "OpenStreetMap – extrasele Geofabrik pentru Spania și Canare: biblioteci, cazări turistice, lăcașuri de cult"
+editor: OpenStreetMap contributors; extrase Geofabrik GmbH (download.geofabrik.de)
+pagina: https://download.geofabrik.de/europe/spain.html
+licenta: "ODbL 1.0 (https://opendatacommons.org/licenses/odbl/1-0/). © OpenStreetMap contributors."
+atribuire: "„© OpenStreetMap contributors (ODbL)”"
+descarcare: actions
+saptamanal: false          # OSM se schimbă zilnic: rulare doar la cerere, nu în paznicul săptămânal
+publica_brute: true        # doar felia filtrată (mică); extrasele întregi se șterg după filtrare
+cadenta: la cerere (de regulă de două ori pe an, împreună cu celelalte extrase OSM)
+
+extrase:
+  - {nume: spain-latest.osm.pbf, url: "https://download.geofabrik.de/europe/spain-latest.osm.pbf"}
+  - {nume: canary-islands-latest.osm.pbf, url: "https://download.geofabrik.de/africa/canary-islands-latest.osm.pbf"}
+
+# Filtrele osmium tags-filter. Generoase: ce înseamnă „bibliotecă”, „cazare” sau „biserică” se decide în atlas.
+filtre:
+  - nwr/amenity=library,public_bookcase,place_of_worship
+  - nwr/tourism=hotel,guest_house,hostel,motel,apartment,chalet,camp_site,caravan_site,alpine_hut,wilderness_hut
+  - nwr/building=church,chapel,cathedral,mosque,synagogue,temple,shrine,monastery
+# Cheile după care un obiect din felie e păstrat (restul sunt doar noduri-geometrie ale altor obiecte).
+chei: [amenity, tourism, building]
+# Coloane scoase separat din etichete (toate etichetele rămân în coloana `etichete`, JSON).
+coloane_eticheta: [amenity, tourism, building, religion, denomination, name, operator, stars, rooms, beds, capacity, access, wikidata]
+
+produse:
+  osm_poi.parquet:
+    coloane: {osm: string, lat: double, lon: double, geom: string, amenity: string, tourism: string, building: string,
+              religion: string, denomination: string, name: string, operator: string, stars: string, rooms: string,
+              beds: string, capacity: string, access: string, wikidata: string, etichete: string, extras: string}
+    randuri_minim: 40000
+scadere_maxima: 0.10

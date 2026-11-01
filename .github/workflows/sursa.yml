@@ -1,7 +1,7 @@
 name: sursa
 
 # La cerere: o sursă anume (sursa) sau toate sursele cu `descarcare: actions` (sursa goală).
-# Săptămânal: paznicul – toate sursele din Actions; motorul se oprește singur dacă amprenta e aceeași.
+# Săptămânal: paznicul – toate sursele din Actions (fără cele cu `saptamanal: false`); motorul se oprește singur dacă amprenta e aceeași.
 on:
   workflow_dispatch:
     inputs:
@@ -38,6 +38,8 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: osmium (sursele OSM)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq osmium-tool
       - name: Motorul
         id: motor
         env:
@@ -50,7 +52,7 @@ jobs:
             surse=$(python - <<'EOF'
           import yaml, pathlib
           for p in sorted(pathlib.Path('surse').glob('*/sursa.yaml')):
-              if not p.parent.name.startswith('_') and yaml.safe_load(p.read_text())['descarcare'] == 'actions':
+              if not p.parent.name.startswith('_') and (c := yaml.safe_load(p.read_text()))['descarcare'] == 'actions' and c.get('saptamanal', True):
                   print(p.parent.name)
           EOF
           )
