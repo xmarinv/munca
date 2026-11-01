@@ -3,8 +3,8 @@
 descarca: pentru fiecare set din sursa.yaml, căutare în catalogul Socrata (api.us.socrata.com/api/catalog/v1, domeniul din
           sursa.yaml); toate rezultatele al căror nume se potrivește cu `nume_regex` se descarcă (rows.csv) și se notează
           id-ul, numele, data actualizării și coloanele.
-structureaza: un rând pe înregistrare, cu rândul ca JSON (`rand`), fără coloanele de date personale / de contact
-          (`coloane_excluse`). Nicio interpretare: ce e bibliotecă publică sau cazare, și în ce sat cade, se decid în atlas.
+structureaza: un rând pe înregistrare, cu rândul ca JSON (`rand`), doar cu coloanele permise din sursa.yaml (`coloane`):
+          registrul turistic are titulari, nume de familie, CIF și adrese de locuințe private, care nu se republică. Nicio interpretare: ce e bibliotecă publică sau cazare, și în ce sat cade, se decid în atlas.
 """
 import csv, json, re, time
 from collections import Counter
@@ -68,7 +68,8 @@ def descarca(dir_brute, cfg):
             with cere(url, stream=True) as resp, open(Path(dir_brute) / fis, 'wb') as f:
                 for bloc in resp.iter_content(1 << 20):
                     f.write(bloc)
-            rez.append({'fisier': fis, 'url': url, 'set_cheie': s['cheie'], 'set_id': g['id'], 'set_nume': g['name'],
+            rez.append({'fisier': fis, 'url': url, 'set_cheie': s['cheie'], 'coloane_permise': s['coloane'],
+                        'set_id': g['id'], 'set_nume': g['name'],
                         'set_actualizat': g.get('data_updated_at') or g.get('updatedAt'),
                         'coloane': g.get('columns_name')})
     (Path(dir_brute).parent / 'seturi.json').write_text(json.dumps(rez, ensure_ascii=False), encoding='utf-8')
@@ -77,14 +78,16 @@ def descarca(dir_brute, cfg):
 
 def structureaza(dir_brute, dir_produse, cfg):
     meta = json.loads((Path(dir_brute).parent / 'seturi.json').read_text(encoding='utf-8'))
-    excl = [e.lower() for e in cfg['coloane_excluse']]
     cols = {k: [] for k in ['set_cheie', 'set_id', 'set_nume', 'set_actualizat', 'rand']}
     profil = {}
     for m in meta:
         with open(Path(dir_brute) / m['fisier'], encoding='utf-8-sig', newline='') as f:
             cit = csv.DictReader(f)
             antet = cit.fieldnames or []
-            pastrate = [c for c in antet if not any(e in c.lower() for e in excl)]
+            lipsa = [c for c in m['coloane_permise'] if c not in antet]
+            if lipsa:
+                raise RuntimeError(f"{m['fisier']}: coloanele permise {lipsa} lipsesc din antet {antet}")
+            pastrate = list(m['coloane_permise'])
             valori = {c: Counter() for c in pastrate}
             n = 0
             for r in cit:
@@ -102,7 +105,9 @@ def structureaza(dir_brute, dir_produse, cfg):
             'set_nume': m['set_nume'], 'set_actualizat': m['set_actualizat'], 'randuri': n,
             'coloane_pastrate': pastrate, 'coloane_excluse': [c for c in antet if c not in pastrate],
             # coloanele cu puține valori distincte (tipuri, categorii): toate valorile cu numărul lor
-            'categorii': {c: dict(v.most_common(60)) for c, v in valori.items() if 0 < len(v) < 60},
+            'categorii': {c: dict(v.most_common(200)) for c, v in valori.items()
+                          if 0 < len(v) < 200 and c not in ('Identificador', 'Nom', 'Població', 'Municipi', 'Codi del municipi',
+                                                            'Codi Municipi (IDESCAT)', 'Longitud', 'Latitud', 'Darrera modificació')},
         }
     schema = pa.schema([(k, pa.string()) for k in cols])
     pq.write_table(pa.table(cols, schema=schema), Path(dir_produse) / 'cat_registre.parquet', compression='zstd')

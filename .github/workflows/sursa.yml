@@ -13,6 +13,10 @@ on:
         description: "Publică și dacă amprenta e aceeași"
         type: boolean
         default: false
+      sterge_release:
+        description: "Release-uri de șters înainte de rulare (tag-uri separate prin spațiu; ex. date personale publicate din greșeală)"
+        required: false
+        default: ""
   schedule:
     - cron: "17 4 * * 1"
 
@@ -40,6 +44,11 @@ jobs:
       - run: pip install -r requirements.txt
       - name: osmium (sursele OSM)
         run: sudo apt-get update -qq && sudo apt-get install -y -qq osmium-tool
+      - name: Ștergerea release-urilor cerute
+        if: inputs.sterge_release != ''
+        env:
+          TAGURI: ${{ inputs.sterge_release }}
+        run: for t in $TAGURI; do gh release delete "$t" --cleanup-tag -y && echo "șters $t"; done
       - name: Motorul
         id: motor
         env:

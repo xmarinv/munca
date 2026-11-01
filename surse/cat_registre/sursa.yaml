@@ -11,11 +11,18 @@ publica_brute: false       # registrul turistic poate conține date de contact a
 cadenta: la cerere
 
 domeniu: analisi.transparenciacatalunya.cat
+# Doar coloanele din `coloane` intră în produs (listă permisă, nu listă de excluderi): fără titulari, CIF, nume de familie,
+# adrese, referințe cadastrale, telefoane. Registrul turistic nu are coordonate: comparația cu OSM se face pe municipiu.
 seturi:
-  - {cheie: equipaments, cauta: "Equipaments de Catalunya", nume_regex: "^Equipaments de Catalunya"}
-  - {cheie: allotjament, cauta: "allotjament turístic Registre de Turisme", nume_regex: "(?i)allotjament.*registre de turisme|registre de turisme.*allotjament"}
-# Coloanele cu aceste fragmente în nume nu intră în produs (date personale / de contact ale titularilor).
-coloane_excluse: [titular, nif, dni, telef, tel_, email, correu, mail, fax, web, propietari, representant]
+  - cheie: equipaments
+    cauta: "Equipaments de Catalunya"
+    nume_regex: "^Equipaments de Catalunya$"
+    coloane: [Identificador, Nom, Categoria, Codi del municipi, Població, Comarca, Longitud, Latitud, Darrera modificació]
+  - cheie: allotjament
+    cauta: "allotjament turístic Registre de Turisme"
+    nume_regex: "^Establiments d.allotjament turístic inscrits al Registre de Turisme de Catalunya$"
+    coloane: [Tipus establiment, Estat, Grup, Modalitat, Categoria, Unitat d'allotjament, Total places, Total estances,
+              Municipi, Codi Municipi (IDESCAT), Comarca, Província]
 
 produse:
   cat_registre.parquet:
