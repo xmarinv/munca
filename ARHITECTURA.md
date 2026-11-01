@@ -53,5 +53,10 @@ schimbat. Sursă `actions` -> pornește prelucrarea. Sursă `local` -> deschide 
 
 - Fișierele brute în release (înlocuiesc folderul „date brute”); atenție la licențe (OSM: ODbL).
 - Ordinea surselor de mutat din `atlas`.
-- Testele cu cifre fixe din `set.yaml` se rup la fiecare versiune nouă: cifra așteptată legată de versiunea datelor
-  sau invariante.
+
+## Rezolvat (1.11.2026)
+
+- **Legătura cu `atlas` construită:** workflow-ul `actualizare_seturi` din `atlas` (luni 06:41 UTC, după paznicul de aici);
+  la o versiune nouă reface setul și deschide un PR (`atlas/strat_semantic/actualizeaza.py`).
+- **Testele cu cifre fixe:** în `atlas`, testele sunt `cifra` (se actualizează la o versiune nouă, raportate „de_actualizat”)
+  sau `regula` (trebuie să treacă mereu); `verifica.py --actualizare`.
