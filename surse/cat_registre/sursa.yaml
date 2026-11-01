@@ -1,0 +1,24 @@
+# Catalunya – registre oficiale folosite ca listă de control pentru OSM (biblioteci, cazări): portalul de date deschise al
+# Generalitat (Socrata, analisi.transparenciacatalunya.cat). Seturile se găsesc după nume în catalog; id-ul găsit intră în metadate.
+nume: "Generalitat de Catalunya – Equipaments de Catalunya; Establiments d'allotjament turístic inscrits al Registre de Turisme de Catalunya"
+editor: Generalitat de Catalunya (Dades obertes de Catalunya)
+pagina: https://analisi.transparenciacatalunya.cat
+licenta: "Llicència oberta d'ús d'informació – Catalunya (citarea sursei și a datei de actualizare); Equipaments: CC0"
+atribuire: "„Fuente: Generalitat de Catalunya – Dades obertes”, cu data actualizării"
+descarcare: actions
+saptamanal: false          # listă de control, descărcată la cerere
+publica_brute: false       # registrul turistic poate conține date de contact ale titularilor; brutele nu se publică
+cadenta: la cerere
+
+domeniu: analisi.transparenciacatalunya.cat
+seturi:
+  - {cheie: equipaments, cauta: "Equipaments de Catalunya", nume_regex: "^Equipaments de Catalunya"}
+  - {cheie: allotjament, cauta: "allotjament turístic Registre de Turisme", nume_regex: "(?i)allotjament.*registre de turisme|registre de turisme.*allotjament"}
+# Coloanele cu aceste fragmente în nume nu intră în produs (date personale / de contact ale titularilor).
+coloane_excluse: [titular, nif, dni, telef, tel_, email, correu, mail, fax, web, propietari, representant]
+
+produse:
+  cat_registre.parquet:
+    coloane: {set_cheie: string, set_id: string, set_nume: string, set_actualizat: string, rand: string}
+    randuri_minim: 1000
+scadere_maxima: 0.10
