@@ -1,0 +1,6 @@
+{
+  "sursa": "eea_aer",
+  "rezultat": "EROARE",
+  "eroare": "WindowError: Intersection is empty Window(col_off=-1109, row_off=4197, width=528, height=372) Window(col_off=0, row_off=0, width=4680, height=4037)",
+  "terminat_utc": "2026-11-01T09:30:59+00:00"
+}
