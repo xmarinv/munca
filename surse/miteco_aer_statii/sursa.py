@@ -58,16 +58,28 @@ def _nume_coloane(antet):
     return rez
 
 
-def structureaza(dir_brute, dir_produse, cfg):
-    dir_brute, dir_produse = Path(dir_brute), Path(dir_produse)
-    profil, zilnic = [], []
-    with zipfile.ZipFile(dir_brute / 'Datos_DD_2024.zip') as z:
+def _membri(z, prefix=''):
+    """Fișierele unei arhive, inclusiv cele din arhivele interioare."""
+    for m in z.namelist():
+        if m.endswith('/'):
+            continue
+        date = z.read(m)
+        if m.lower().endswith('.zip'):
+            with zipfile.ZipFile(io.BytesIO(date)) as interior:
+                yield from _membri(interior, prefix + m + '/')
+        else:
+            yield prefix + m, date
+
+
+def _text_csv(arhiva, dir_brute, profil, filtru_magnitud=None):
+    tabele = []
+    with zipfile.ZipFile(dir_brute / arhiva) as z:
         membri = [m for m in z.namelist() if not m.endswith('/')]
-        profil.append({'arhiva': 'Datos_DD_2024.zip', 'membri': membri[:200], 'nr_membri': len(membri)})
-        for m in membri:
-            date = z.read(m)
-            if m.lower().endswith('.zip'):
-                raise RuntimeError(f'arhivă în arhivă: {m} (de tratat)')
+        profil.append({'arhiva': arhiva, 'membri': membri[:200], 'nr_membri': len(membri)})
+        for m, date in _membri(z):
+            if not m.lower().endswith(('.csv', '.txt')):
+                profil.append({'fisier': m, 'sarit': 'nu e fișier text'})
+                continue
             text = None
             for enc in ('utf-8-sig', 'cp1252', 'latin-1'):
                 try:
@@ -88,14 +100,28 @@ def structureaza(dir_brute, dir_produse, cfg):
             antet_pare = sum(not x.replace('.', '').replace(',', '').strip().lstrip('-').isdigit() for x in randuri[0]) > len(randuri[0]) / 2
             antet = _nume_coloane(randuri[0] if antet_pare else [f'col_{j}' for j in range(max(map(len, randuri)))])
             corp = randuri[1:] if antet_pare else randuri
+            if filtru_magnitud is not None and antet_pare and 'MAGNITUD' in randuri[0]:
+                j = randuri[0].index('MAGNITUD')
+                corp = [r for r in corp if len(r) > j and r[j].strip() in filtru_magnitud]
+                if not corp:
+                    profil.append({'fisier': m, 'sarit': 'nicio magnitudine cerută', 'primele': linii[:2]})
+                    continue
             latime = max(len(antet), max(map(len, corp)) if corp else 0)
             antet = _nume_coloane(antet + [f'col_{j}' for j in range(len(antet), latime)])
             profil.append({'fisier': m, 'codare': enc, 'delimitator': delim, 'antet_detectat': antet_pare,
                            'coloane': antet, 'randuri': len(corp), 'primele': linii[:4]})
-            zilnic.append(_tabel_text(corp, antet, {'fisier_sursa': m}))
-    if zilnic:
-        pq.write_table(pa.concat_tables(zilnic, promote_options='permissive'), dir_produse / 'miteco_aer_zilnic.parquet',
-                       compression='zstd')
+            tabele.append(_tabel_text(corp, antet, {'fisier_sursa': m}))
+    return tabele
+
+
+def structureaza(dir_brute, dir_produse, cfg):
+    dir_brute, dir_produse = Path(dir_brute), Path(dir_produse)
+    profil = []
+    for arhiva, produs, filtru in (('Datos_DD_2024.zip', 'miteco_aer_zilnic.parquet', None),
+                                   ('Datos_HH_2024.zip', 'miteco_aer_orar.parquet', set(cfg['magnitudini_orare']))):
+        tabele = _text_csv(arhiva, dir_brute, profil, filtru)
+        if tabele:
+            pq.write_table(pa.concat_tables(tabele, promote_options='permissive'), dir_produse / produs, compression='zstd')
 
     wb = openpyxl.load_workbook(dir_brute / 'Metainformacion_2024.xlsx', read_only=True, data_only=True)
     meta = []

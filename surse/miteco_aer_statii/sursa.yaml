@@ -11,10 +11,17 @@ cadenta: anuala (datele oficiale ale anului N, în a doua jumătate a anului N+1
 
 fisiere:
   - {fisier: Datos_DD_2024.zip, url: "https://www.miteco.gob.es/content/dam/miteco/es/calidad-y-evaluacion-ambiental/sgalsi/atm%c3%b3sfera-y-calidad-del-aire/evaluaci%c3%b3n-2024/Datos_DD_2024.zip"}
+  - {fisier: Datos_HH_2024.zip, url: "https://www.miteco.gob.es/content/dam/miteco/es/calidad-y-evaluacion-ambiental/sgalsi/atm%c3%b3sfera-y-calidad-del-aire/evaluaci%c3%b3n-2024/Datos_HH_2024.zip"}
   - {fisier: Metainformacion_2024.xlsx, url: "https://www.miteco.gob.es/content/dam/miteco/es/calidad-y-evaluacion-ambiental/sgalsi/atm%c3%b3sfera-y-calidad-del-aire/evaluaci%c3%b3n-2024/Metainformacion_2024.xlsx"}
   - {fisier: formato_datos.pdf, url: "https://www.miteco.gob.es/content/dam/miteco/es/calidad-y-evaluacion-ambiental/temas/atmosfera-y-calidad-del-aire/formatodatoscsvmiteco_web_tcm30-501420.pdf"}
 
+# Din datele orare se structurează doar magnitudinile de mai jos (codurile MITECO din foaia „Magnitudes”):
+# 8 = NO2, 14 = O3. Restul rămân în fișierul brut, publicat în brute.zip.
+magnitudini_orare: ['8', '14']
+
 produse:
+  miteco_aer_orar.parquet:
+    randuri_minim: 10000
   miteco_aer_zilnic.parquet:
     randuri_minim: 10000
   miteco_aer_metainfo.parquet:
