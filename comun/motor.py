@@ -197,7 +197,12 @@ def main():
         shutil.copy(lucru / 'produse' / 'manifest.json', RADACINA / 'stare' / f'{args.sursa}.manifest.json')
     print(json.dumps({k: v for k, v in stare.items() if k != 'verificari'}, indent=2, ensure_ascii=False))
     if IN_ACTIONS and (stare['rezultat'] in ('EȘUAT', 'EROARE') or stare.get('noutati')):
-        titlu = f"[{args.sursa}] " + ('eșec' if stare['rezultat'] in ('EȘUAT', 'EROARE') else 'date noi la sursă')
+        if stare['rezultat'] in ('EȘUAT', 'EROARE'):
+            titlu = f'[{args.sursa}] eșec'
+        elif all(str(n).startswith('paznic:') for n in stare['noutati']):
+            titlu = f'[{args.sursa}] paznicul nu a putut verifica sursa'
+        else:
+            titlu = f'[{args.sursa}] date noi la sursă'
         deja = gh('issue', 'list', '--state', 'open', '--search', f'"{titlu}" in:title', '--json', 'number', verifica=False)
         if deja.returncode == 0 and json.loads(deja.stdout or '[]'):
             pass   # issue deschis deja

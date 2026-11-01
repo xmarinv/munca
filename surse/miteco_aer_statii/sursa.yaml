@@ -1,0 +1,22 @@
+# Datele oficiale de calitate a aerului ale stațiilor din Spania (MITECO), anul evaluării 2024: valorile zilnice și
+# metainformația stațiilor (coordonate, tip, zonă). Folosite în atlas pentru comparația externă a grilei EEA.
+nume: "Datos oficiales de calidad del aire 2024 (MITECO): datos diarios y metainformación de estaciones"
+editor: Ministerio para la Transición Ecológica y el Reto Demográfico (MITECO), din datele rețelelor autonome și locale
+pagina: https://www.miteco.gob.es/es/calidad-y-evaluacion-ambiental/temas/atmosfera-y-calidad-del-aire/evaluacion-y-datos-de-calidad-del-aire/datos/datos-oficiales-2024.html
+licenta: "Reutilizare permisă cu citarea sursei (aviso legal MITECO, Ley 37/2007 de reutilización de la información del sector público)"
+atribuire: "„Fuente: Ministerio para la Transición Ecológica y el Reto Demográfico”"
+descarcare: actions
+publica_brute: true
+cadenta: anuala (datele oficiale ale anului N, în a doua jumătate a anului N+1)
+
+fisiere:
+  - {fisier: Datos_DD_2024.zip, url: "https://www.miteco.gob.es/content/dam/miteco/es/calidad-y-evaluacion-ambiental/sgalsi/atm%c3%b3sfera-y-calidad-del-aire/evaluaci%c3%b3n-2024/Datos_DD_2024.zip"}
+  - {fisier: Metainformacion_2024.xlsx, url: "https://www.miteco.gob.es/content/dam/miteco/es/calidad-y-evaluacion-ambiental/sgalsi/atm%c3%b3sfera-y-calidad-del-aire/evaluaci%c3%b3n-2024/Metainformacion_2024.xlsx"}
+  - {fisier: formato_datos.pdf, url: "https://www.miteco.gob.es/content/dam/miteco/es/calidad-y-evaluacion-ambiental/temas/atmosfera-y-calidad-del-aire/formatodatoscsvmiteco_web_tcm30-501420.pdf"}
+
+produse:
+  miteco_aer_zilnic.parquet:
+    randuri_minim: 10000
+  miteco_aer_metainfo.parquet:
+    randuri_minim: 100
+scadere_maxima: 0.10

@@ -122,7 +122,8 @@ def verifica_noutati(cfg):
     """Paznicul: un an mai nou decât cel configurat, cu date validate, apărut în seria EEA."""
     an_cfg = max(f['an'] for f in cfg['fisiere'] if f['stare'] == 'validat')
     text = ''
-    for url in (f"{BAZA}/catalogue/srv/api/records/{cfg['serie_uuid']}/related?type=children",
+    for url in (f"{BAZA}/catalogue/datahub/api/records/{cfg['serie_uuid']}?language=eng",
+                f"{BAZA}/catalogue/srv/api/records/{cfg['serie_uuid']}/related?type=children",
                 f"{BAZA}/catalogue/srv/api/records/{cfg['serie_uuid']}/formatters/xml"):
         try:
             r = requests.get(url, headers={**UA, 'Accept': 'application/json'}, timeout=60)
