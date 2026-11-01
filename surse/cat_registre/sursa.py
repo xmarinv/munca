@@ -33,10 +33,29 @@ def cere(url, **kw):
             time.sleep(20 * (i + 1))
 
 
+def catalog(domeniu, q):
+    """Catalogul Socrata: întâi cel al domeniului, apoi cel central; prima variantă care răspunde."""
+    variante = [(f'https://{domeniu}/api/catalog/v1', {'q': q, 'limit': 50, 'only': 'dataset'}),
+                (f'https://{domeniu}/api/catalog/v1', {'q': q, 'limit': 50}),
+                (CATALOG, {'domains': domeniu, 'q': q, 'limit': 50, 'only': 'dataset'}),
+                (CATALOG, {'domains': domeniu, 'q': q, 'limit': 50})]
+    erori = []
+    for url, p in variante:
+        try:
+            r = requests.get(url, params=p, headers=UA, timeout=(30, 120))
+            if r.ok and 'results' in r.json():
+                print(f'catalog: {r.url}', flush=True)
+                return r.json()
+            erori.append(f'{r.url}: HTTP {r.status_code}')
+        except (requests.RequestException, ValueError) as e:
+            erori.append(f'{url}: {e}')
+    raise RuntimeError('catalogul nu răspunde: ' + ' | '.join(erori))
+
+
 def descarca(dir_brute, cfg):
     rez = []
     for s in cfg['seturi']:
-        r = cere(CATALOG, params={'domains': cfg['domeniu'], 'q': s['cauta'], 'limit': 50, 'only': 'datasets'}).json()
+        r = catalog(cfg['domeniu'], s['cauta'])
         gasite = [x['resource'] for x in r.get('results', []) if re.search(s['nume_regex'], x['resource']['name'])]
         print(f"{s['cheie']}: {len(r.get('results', []))} rezultate, {len(gasite)} potrivite: "
               + '; '.join(f"{g['id']} {g['name']}" for g in gasite), flush=True)
