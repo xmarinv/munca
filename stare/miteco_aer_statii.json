@@ -1,0 +1,61 @@
+{
+  "sursa": "miteco_aer_statii",
+  "pornit_utc": "2026-11-01T09:38:04+00:00",
+  "rezultat": "publicat",
+  "noutati": [],
+  "amprenta": "f8c575b679d2cd21d5e6a44def9056370e95f876068e1e467ce50ce8f6ff90f3",
+  "versiune": "20261101-f8c575b6",
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:Datos_DD_2024.zip",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:Datos_DD_2024.zip",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:Metainformacion_2024.xlsx",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:Metainformacion_2024.xlsx",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:formato_datos.pdf",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:formato_datos.pdf",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:miteco_aer_zilnic.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:miteco_aer_zilnic.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "17948 rânduri, minim 10000"
+    },
+    {
+      "verificare": "schema:miteco_aer_metainfo.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:miteco_aer_metainfo.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "665 rânduri, minim 100"
+    }
+  ],
+  "terminat_utc": "2026-11-01T09:38:14+00:00"
+}
