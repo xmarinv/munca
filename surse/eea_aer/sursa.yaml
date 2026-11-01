@@ -1,0 +1,31 @@
+# Calitatea aerului – hărțile EEA interpolate (grilă 1 km, EPSG:3035), decupate pe Spania.
+nume: "European air quality data (interpolated data) – PM2.5, NO2, O3; grilă 1 km, decupată pe Spania (Peninsula, Baleare, Canare)"
+editor: European Environment Agency (EEA); hărțile ETC HE (metoda „regression-interpolation-merging mapping”)
+pagina: https://www.eea.europa.eu/en/datahub/datahubitem-view/82700fbd-2953-467b-be0a-78a520c3a7ef
+licenta: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Copyright holder: European Environment Agency (EEA)."
+atribuire: "„Fuente: Agencia Europea de Medio Ambiente (EEA), mapas interpolados de calidad del aire”"
+descarcare: actions
+publica_brute: true
+cadenta: anuala (hărțile validate ale anului N apar în iunie N+2; cele provizorii în iunie N+1)
+
+# Fișierele din catalogul EEA (sdi.eea.europa.eu/data/<uuid>). Doar datele validate intră în atlas;
+# paznicul (verifica_noutati) semnalează un an validat nou.
+serie_uuid: 82700fbd-2953-467b-be0a-78a520c3a7ef
+fisiere:
+  - {poluant: pm25, an: 2024, stare: validat, uuid: c3db03e4-82e9-4a40-acb1-a5bd15f11f8c,
+     titlu: "PM2.5, European air quality data for 2024, (interpolated data), validated data, June 2026"}
+  - {poluant: no2, an: 2024, stare: validat, uuid: 4c6361bd-cfd4-48de-9b4b-101cfb37f1f0,
+     titlu: "NO2, European air quality data for 2024, (interpolated data), validated data, June 2026"}
+  - {poluant: o3, an: 2024, stare: validat, uuid: a0eff88d-8728-4374-aa46-50c32c5f1ee7,
+     titlu: "O3, European air quality data for 2024, (interpolated data), validated data, June 2026"}
+
+# Decupajul (lon/lat, transformat în proiecția grilei). Doar formă, fără sens: ce celulă aparține unui sat se decide în atlas.
+zone:
+  IBEB: [-9.6, 35.1, 4.6, 44.0]     # Peninsula, Baleare, Ceuta, Melilla
+  CAN: [-18.3, 27.5, -13.3, 29.5]   # Canare
+
+produse:
+  eea_aer_celule.parquet:
+    coloane: {poluant: string, an: int16, fisier_tif: string, zona: string, x: int32, y: int32, valoare: float}
+    randuri_minim: 500000
+scadere_maxima: 0.10
