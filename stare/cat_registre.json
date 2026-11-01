@@ -1,0 +1,6 @@
+{
+  "sursa": "cat_registre",
+  "rezultat": "EROARE",
+  "eroare": "HTTPError: 404 Client Error: Not Found for url: https://api.us.socrata.com/api/catalog/v1?domains=analisi.transparenciacatalunya.cat&q=Equipaments+de+Catalunya&limit=50&only=datasets",
+  "terminat_utc": "2026-11-01T18:52:20+00:00"
+}
