@@ -1,8 +1,8 @@
 {
   "sursa": "miteco_aer_statii",
-  "versiune": "20261101-f8c575b6",
-  "amprenta": "f8c575b679d2cd21d5e6a44def9056370e95f876068e1e467ce50ce8f6ff90f3",
-  "creat_utc": "2026-11-01T09:38:09+00:00",
+  "versiune": "20261101-db46bbce",
+  "amprenta": "db46bbce53e7eb3d2c0391f7f4d88addb1e421163cde8757ecf8d5ec64369c47",
+  "creat_utc": "2026-11-01T09:39:48+00:00",
   "descarcat_in": "actions",
   "nume": "Datos oficiales de calidad del aire 2024 (MITECO): datos diarios y metainformación de estaciones",
   "editor": "Ministerio para la Transición Ecológica y el Reto Demográfico (MITECO), din datele rețelelor autonome și locale",
@@ -13,21 +13,28 @@
     {
       "fisier": "Datos_DD_2024.zip",
       "url": "https://www.miteco.gob.es/content/dam/miteco/es/calidad-y-evaluacion-ambiental/sgalsi/atm%c3%b3sfera-y-calidad-del-aire/evaluaci%c3%b3n-2024/Datos_DD_2024.zip",
-      "descarcat_utc": "2026-11-01T09:38:06Z",
+      "descarcat_utc": "2026-11-01T09:39:28Z",
       "octeti": 565613,
       "sha256": "ddc257838a900c044bdfc8997e31f8ee305a8f0fecbd1cc3fa9826884fa37ada"
     },
     {
+      "fisier": "Datos_HH_2024.zip",
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/calidad-y-evaluacion-ambiental/sgalsi/atm%c3%b3sfera-y-calidad-del-aire/evaluaci%c3%b3n-2024/Datos_HH_2024.zip",
+      "descarcat_utc": "2026-11-01T09:39:36Z",
+      "octeti": 27345981,
+      "sha256": "eb013cf9d2ecca6093373633b80afec76b7a5ddabcf467407e5b4a270de8fed9"
+    },
+    {
       "fisier": "Metainformacion_2024.xlsx",
       "url": "https://www.miteco.gob.es/content/dam/miteco/es/calidad-y-evaluacion-ambiental/sgalsi/atm%c3%b3sfera-y-calidad-del-aire/evaluaci%c3%b3n-2024/Metainformacion_2024.xlsx",
-      "descarcat_utc": "2026-11-01T09:38:07Z",
+      "descarcat_utc": "2026-11-01T09:39:37Z",
       "octeti": 104601,
       "sha256": "eda6940fd97049f7c20cc6f17573f54a377a7fcbd1ab9f1e1bb7dc9cf6d919a5"
     },
     {
       "fisier": "formato_datos.pdf",
       "url": "https://www.miteco.gob.es/content/dam/miteco/es/calidad-y-evaluacion-ambiental/temas/atmosfera-y-calidad-del-aire/formatodatoscsvmiteco_web_tcm30-501420.pdf",
-      "descarcat_utc": "2026-11-01T09:38:08Z",
+      "descarcat_utc": "2026-11-01T09:39:38Z",
       "octeti": 529480,
       "sha256": "a16898cfe42b2d54d277aabf80cf088dd7b7c381381c5d386e58fbe172aeaf72"
     }
@@ -71,6 +78,47 @@
         "EST": "string",
         "ZONA": "string",
         "DIRECCION": "string"
+      }
+    },
+    {
+      "fisier": "miteco_aer_orar.parquet",
+      "randuri": 343958,
+      "octeti": 9751638,
+      "sha256": "69932a1d58b9dbbb68dca4c20d55e2ef4d34e6a8f69c08e07dfb4ecc66155362",
+      "coloane": {
+        "fisier_sursa": "string",
+        "PROVINCIA": "string",
+        "MUNICIPIO": "string",
+        "ESTACION": "string",
+        "MAGNITUD": "string",
+        "PUNTO_MUESTREO": "string",
+        "ANNO": "string",
+        "MES": "string",
+        "DIA": "string",
+        "H01": "string",
+        "H02": "string",
+        "H03": "string",
+        "H04": "string",
+        "H05": "string",
+        "H06": "string",
+        "H07": "string",
+        "H08": "string",
+        "H09": "string",
+        "H10": "string",
+        "H11": "string",
+        "H12": "string",
+        "H13": "string",
+        "H14": "string",
+        "H15": "string",
+        "H16": "string",
+        "H17": "string",
+        "H18": "string",
+        "H19": "string",
+        "H20": "string",
+        "H21": "string",
+        "H22": "string",
+        "H23": "string",
+        "H24": "string"
       }
     },
     {
@@ -561,6 +609,171 @@
       ]
     },
     {
+      "arhiva": "Datos_HH_2024.zip",
+      "membri": [
+        "PM10_HH_2024.csv",
+        "PM25_HH_2024.csv",
+        "SO2_HH_2024.csv",
+        "C6H6_HH_2024.csv",
+        "CO_HH_2024.csv",
+        "NO_HH_2024.csv",
+        "NO2_HH_2024.csv",
+        "NOx_HH_2024.csv",
+        "O3_HH_2024.csv"
+      ],
+      "nr_membri": 9
+    },
+    {
+      "fisier": "PM10_HH_2024.csv",
+      "sarit": "nicio magnitudine cerută",
+      "primele": [
+        "PROVINCIA;MUNICIPIO;ESTACION;MAGNITUD;PUNTO_MUESTREO;ANNO;MES;DIA;H01;H02;H03;H04;H05;H06;H07;H08;H09;H10;H11;H12;H13;H14;H15;H16;H17;H18;H19;H20;H21;H22;H23;H24",
+        "1;22;1;10;01022001_10_47;2024;1;1;6.0;7.0;6.0;5.0;6.0;6.0;6.0;6.0;6.0;3.0;6.0;6.0;5.0;5.0;7.0;6.0;6.0;6.0;8.0;8.0;8.0;11.0;8.0;8.0"
+      ]
+    },
+    {
+      "fisier": "PM25_HH_2024.csv",
+      "sarit": "nicio magnitudine cerută",
+      "primele": [
+        "PROVINCIA;MUNICIPIO;ESTACION;MAGNITUD;PUNTO_MUESTREO;ANNO;MES;DIA;H01;H02;H03;H04;H05;H06;H07;H08;H09;H10;H11;H12;H13;H14;H15;H16;H17;H18;H19;H20;H21;H22;H23;H24",
+        "1;36;4;9;01036004_9_46;2024;1;1;23.0;34.0;20.0;10.0;9.0;7.0;6.0;6.0;7.0;7.0;5.0;3.0;4.0;3.0;3.0;4.0;7.0;8.0;10.0;11.0;13.0;12.0;10.0;5.0"
+      ]
+    },
+    {
+      "fisier": "SO2_HH_2024.csv",
+      "sarit": "nicio magnitudine cerută",
+      "primele": [
+        "PROVINCIA;MUNICIPIO;ESTACION;MAGNITUD;PUNTO_MUESTREO;ANNO;MES;DIA;H01;H02;H03;H04;H05;H06;H07;H08;H09;H10;H11;H12;H13;H14;H15;H16;H17;H18;H19;H20;H21;H22;H23;H24",
+        "1;36;4;1;01036004_1_38;2024;1;1;8.0;9.0;6.0;6.0;5.0;6.0;5.0;5.0;6.0;6.0;6.0;6.0;6.0;6.0;6.0;6.0;5.0;6.0;5.0;5.0;5.0;5.0;5.0;5.0"
+      ]
+    },
+    {
+      "fisier": "C6H6_HH_2024.csv",
+      "sarit": "nicio magnitudine cerută",
+      "primele": [
+        "PROVINCIA;MUNICIPIO;ESTACION;MAGNITUD;PUNTO_MUESTREO;ANNO;MES;DIA;H01;H02;H03;H04;H05;H06;H07;H08;H09;H10;H11;H12;H13;H14;H15;H16;H17;H18;H19;H20;H21;H22;H23;H24",
+        "3;14;6;30;03014006_30_59;2024;1;1;0.2;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.2;0.2;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.1;0.2;0.3;0.2;0.3;0.2"
+      ]
+    },
+    {
+      "fisier": "CO_HH_2024.csv",
+      "sarit": "nicio magnitudine cerută",
+      "primele": [
+        "PROVINCIA;MUNICIPIO;ESTACION;MAGNITUD;PUNTO_MUESTREO;ANNO;MES;DIA;H01;H02;H03;H04;H05;H06;H07;H08;H09;H10;H11;H12;H13;H14;H15;H16;H17;H18;H19;H20;H21;H22;H23;H24",
+        "1;36;4;6;01036004_6_48;2024;1;1;0.55;0.56;0.5;0.48;0.46;0.44;0.44;0.44;0.48;0.35;0.16;0.17;0.15;0.12;0.15;0.22;0.31;0.38;0.4;0.37;0.43;0.37;0.31;0.19"
+      ]
+    },
+    {
+      "fisier": "NO_HH_2024.csv",
+      "sarit": "nicio magnitudine cerută",
+      "primele": [
+        "PROVINCIA;MUNICIPIO;ESTACION;MAGNITUD;PUNTO_MUESTREO;ANNO;MES;DIA;H01;H02;H03;H04;H05;H06;H07;H08;H09;H10;H11;H12;H13;H14;H15;H16;H17;H18;H19;H20;H21;H22;H23;H24",
+        "1;22;1;7;01022001_7_8;2024;1;1;4.0;4.0;3.0;3.0;4.0;2.0;2.0;2.0;2.0;2.0;4.0;4.0;4.0;4.0;4.0;4.0;4.0;4.0;4.0;4.0;4.0;4.0;3.0;3.0"
+      ]
+    },
+    {
+      "fisier": "NO2_HH_2024.csv",
+      "codare": "utf-8-sig",
+      "delimitator": ";",
+      "antet_detectat": true,
+      "coloane": [
+        "PROVINCIA",
+        "MUNICIPIO",
+        "ESTACION",
+        "MAGNITUD",
+        "PUNTO_MUESTREO",
+        "ANNO",
+        "MES",
+        "DIA",
+        "H01",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "H09",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H20",
+        "H21",
+        "H22",
+        "H23",
+        "H24"
+      ],
+      "randuri": 188659,
+      "primele": [
+        "PROVINCIA;MUNICIPIO;ESTACION;MAGNITUD;PUNTO_MUESTREO;ANNO;MES;DIA;H01;H02;H03;H04;H05;H06;H07;H08;H09;H10;H11;H12;H13;H14;H15;H16;H17;H18;H19;H20;H21;H22;H23;H24",
+        "1;22;1;8;01022001_8_8;2024;1;1;4.0;3.0;4.0;3.0;1.0;3.0;3.0;3.0;2.0;2.0;1.0;1.0;0.0;0.0;0.0;0.0;1.0;2.0;4.0;3.0;3.0;9.0;6.0;7.0",
+        "1;22;1;8;01022001_8_8;2024;1;2;7.0;7.0;5.0;5.0;7.0;6.0;7.0;5.0;8.0;10.0;7.0;5.0;8.0;17.0;12.0;8.0;9.0;10.0;10.0;8.0;7.0;4.0;8.0;12.0",
+        "1;22;1;8;01022001_8_8;2024;1;3;8.0;5.0;6.0;6.0;5.0;5.0;5.0;5.0;8.0;8.0;6.0;3.0;6.0;5.0;0.0;0.0;0.0;0.0;2.0;2.0;2.0;1.0;1.0;2.0"
+      ]
+    },
+    {
+      "fisier": "NOx_HH_2024.csv",
+      "sarit": "nicio magnitudine cerută",
+      "primele": [
+        "PROVINCIA;MUNICIPIO;ESTACION;MAGNITUD;PUNTO_MUESTREO;ANNO;MES;DIA;H01;H02;H03;H04;H05;H06;H07;H08;H09;H10;H11;H12;H13;H14;H15;H16;H17;H18;H19;H20;H21;H22;H23;H24",
+        "1;22;1;12;01022001_12_8;2024;1;1;9.0;8.0;8.0;7.0;7.0;6.0;6.0;6.0;5.0;5.0;7.0;7.0;6.0;6.0;6.0;6.0;7.0;8.0;10.0;9.0;9.0;15.0;10.0;10.0"
+      ]
+    },
+    {
+      "fisier": "O3_HH_2024.csv",
+      "codare": "utf-8-sig",
+      "delimitator": ";",
+      "antet_detectat": true,
+      "coloane": [
+        "PROVINCIA",
+        "MUNICIPIO",
+        "ESTACION",
+        "MAGNITUD",
+        "PUNTO_MUESTREO",
+        "ANNO",
+        "MES",
+        "DIA",
+        "H01",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "H09",
+        "H10",
+        "H11",
+        "H12",
+        "H13",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H20",
+        "H21",
+        "H22",
+        "H23",
+        "H24"
+      ],
+      "randuri": 155299,
+      "primele": [
+        "PROVINCIA;MUNICIPIO;ESTACION;MAGNITUD;PUNTO_MUESTREO;ANNO;MES;DIA;H01;H02;H03;H04;H05;H06;H07;H08;H09;H10;H11;H12;H13;H14;H15;H16;H17;H18;H19;H20;H21;H22;H23;H24",
+        "1;22;1;14;01022001_14_6;2024;1;1;41.0;40.0;37.0;;45.0;39.0;37.0;37.0;38.0;44.0;52.0;55.0;61.0;65.0;63.0;63.0;62.0;60.0;55.0;52.0;50.0;40.0;36.0;28.0",
+        "1;22;1;14;01022001_14_6;2024;1;2;25.0;27.0;32.0;;26.0;25.0;29.0;34.0;30.0;24.0;32.0;36.0;32.0;23.0;26.0;30.0;28.0;22.0;21.0;24.0;31.0;33.0;27.0;22.0",
+        "1;22;1;14;01022001_14_6;2024;1;3;27.0;31.0;28.0;;27.0;26.0;24.0;29.0;26.0;23.0;28.0;35.0;34.0;53.0;70.0;65.0;68.0;72.0;68.0;58.0;56.0;61.0;60.0;55.0"
+      ]
+    },
+    {
       "foaie": "Magnitudes",
       "coloane": [
         "MAGNITUD",
@@ -747,6 +960,16 @@
       "detaliu": ""
     },
     {
+      "verificare": "brut_nu_e_html:Datos_HH_2024.zip",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:Datos_HH_2024.zip",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
       "verificare": "brut_nu_e_html:Metainformacion_2024.xlsx",
       "rezultat": "TRECE",
       "detaliu": ""
@@ -767,6 +990,16 @@
       "detaliu": ""
     },
     {
+      "verificare": "schema:miteco_aer_orar.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:miteco_aer_orar.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "343958 rânduri, minim 10000"
+    },
+    {
       "verificare": "schema:miteco_aer_zilnic.parquet",
       "rezultat": "TRECE",
       "detaliu": ""
@@ -777,6 +1010,11 @@
       "detaliu": "17948 rânduri, minim 10000"
     },
     {
+      "verificare": "scadere_randuri:miteco_aer_zilnic.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "17948 -> 17948 (-0.0%); prag −10%"
+    },
+    {
       "verificare": "schema:miteco_aer_metainfo.parquet",
       "rezultat": "TRECE",
       "detaliu": ""
@@ -785,9 +1023,14 @@
       "verificare": "randuri_minim:miteco_aer_metainfo.parquet",
       "rezultat": "TRECE",
       "detaliu": "665 rânduri, minim 100"
+    },
+    {
+      "verificare": "scadere_randuri:miteco_aer_metainfo.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "665 -> 665 (-0.0%); prag −10%"
     }
   ],
-  "versiunea_anterioara": null,
+  "versiunea_anterioara": "20261101-f8c575b6",
   "rezultat": "TRECE",
-  "rulare": "41293959478"
+  "rulare": "41294054628"
 }
