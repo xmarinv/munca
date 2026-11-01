@@ -9,6 +9,7 @@ import re, time, zipfile
 from pathlib import Path
 
 import numpy as np
+import rasterio.errors
 import pyarrow as pa
 import pyarrow.parquet as pq
 import rasterio
@@ -88,7 +89,12 @@ def structureaza(dir_brute, dir_produse, cfg):
                 for zona, bbox in cfg['zone'].items():
                     st, jos, dr, sus = transform_bounds('EPSG:4326', src.crs, *bbox, densify_pts=21)
                     w = from_bounds(st, jos, dr, sus, src.transform).round_offsets().round_lengths()
-                    w = w.intersection(rasterio.windows.Window(0, 0, src.width, src.height))
+                    try:
+                        w = w.intersection(rasterio.windows.Window(0, 0, src.width, src.height))
+                    except rasterio.errors.WindowError:   # zona e în afara grilei (de ex. Canarele)
+                        info['zone'][zona] = {'celule': 0, 'in_afara_grilei': True,
+                                              'limite_grila': list(src.bounds), 'limite_zona': [st, jos, dr, sus]}
+                        continue
                     a = src.read(1, window=w, masked=True)
                     valid = ~np.ma.getmaskarray(a) & np.isfinite(np.ma.filled(a.astype('float64'), np.nan))
                     rand, col = np.nonzero(valid)
