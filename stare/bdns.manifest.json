@@ -1,0 +1,4164 @@
+{
+  "sursa": "bdns",
+  "versiune": "20261102-78f39413",
+  "amprenta": "78f394136a77bdc7cc38d1b3d38306ac6e51dca3ef196b946bf4a7b9149d4650",
+  "creat_utc": "2026-11-02T09:57:25+00:00",
+  "descarcat_in": "actions",
+  "nume": "Base de Datos Nacional de Subvenciones (BDNS) – convocatorias, API REST del SNPSAP",
+  "editor": "Intervención General de la Administración del Estado (IGAE), Ministerio de Hacienda",
+  "pagina": "https://www.infosubvenciones.es/bdnstrans",
+  "licenta": "Información libremente reutilizable (SNPSAP; Ley 37/2007 de reutilización), con cita de la fuente y la fecha",
+  "atribuire": "„Fuente: Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (BDNS), IGAE”, cu data descărcării",
+  "fisiere_brute": [
+    {
+      "fisier": "conv_20140101_20140131.json",
+      "desde": "2014-01-01",
+      "hasta": "2014-01-31",
+      "total": 95,
+      "primite": 95,
+      "octeti": 43940,
+      "sha256": "b991f3492457a40614583ae265f697b42adca20da7a5c8956e57682ec16a51ce"
+    },
+    {
+      "fisier": "conv_20140201_20140228.json",
+      "desde": "2014-02-01",
+      "hasta": "2014-02-28",
+      "total": 13,
+      "primite": 13,
+      "octeti": 6261,
+      "sha256": "7abb11a50bd3bc658b9433ffeb050fa4c3fb9b5fc7e744588f5e575577bd5064"
+    },
+    {
+      "fisier": "conv_20140301_20140301.json",
+      "desde": "2014-03-01",
+      "hasta": "2014-03-01",
+      "total": 1,
+      "primite": 1,
+      "octeti": 387,
+      "sha256": "7cc141e4a7ec9fcbb89fb51a724db59e0300ce80a39a41dffea940a15d96f224"
+    },
+    {
+      "fisier": "conv_20140302_20140302.json",
+      "desde": "2014-03-02",
+      "hasta": "2014-03-02",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20140303_20140303.json",
+      "desde": "2014-03-03",
+      "hasta": "2014-03-03",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20140304_20140304.json",
+      "desde": "2014-03-04",
+      "hasta": "2014-03-04",
+      "total": 3,
+      "primite": 3,
+      "octeti": 1771,
+      "sha256": "ef155995d25e0caac2e995f5950cc83855404783908eb72579d0ed89c976571f"
+    },
+    {
+      "fisier": "conv_20140305_20140305.json",
+      "desde": "2014-03-05",
+      "hasta": "2014-03-05",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20140306_20140306.json",
+      "desde": "2014-03-06",
+      "hasta": "2014-03-06",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20140307_20140307.json",
+      "desde": "2014-03-07",
+      "hasta": "2014-03-07",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20140308_20140308.json",
+      "desde": "2014-03-08",
+      "hasta": "2014-03-08",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20140309_20140309.json",
+      "desde": "2014-03-09",
+      "hasta": "2014-03-09",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20140310_20140310.json",
+      "desde": "2014-03-10",
+      "hasta": "2014-03-10",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20140311_20140311.json",
+      "desde": "2014-03-11",
+      "hasta": "2014-03-11",
+      "total": 2,
+      "primite": 2,
+      "octeti": 1000,
+      "sha256": "4de7bb7d508921e7007e7e281915c21e265680e6fcc4d0ec2344e65ba6f067c7"
+    },
+    {
+      "fisier": "conv_20140312_20140312.json",
+      "desde": "2014-03-12",
+      "hasta": "2014-03-12",
+      "total": 1,
+      "primite": 1,
+      "octeti": 502,
+      "sha256": "008db3b92a538ea6e2efdffa7fe7073c65d0068cc0590763adf84119483a8041"
+    },
+    {
+      "fisier": "conv_20140313_20140313.json",
+      "desde": "2014-03-13",
+      "hasta": "2014-03-13",
+      "total": 2,
+      "primite": 2,
+      "octeti": 1218,
+      "sha256": "a58135a228c3d2705f12286270a1e7aa4c6020b3ad71bdf1bbfaff2fa209c22f"
+    },
+    {
+      "fisier": "conv_20140314_20140314.json",
+      "desde": "2014-03-14",
+      "hasta": "2014-03-14",
+      "total": 6,
+      "primite": 6,
+      "octeti": 2576,
+      "sha256": "836d53b2be6b876934ee7a5b2d0b41c66c2663d3440166f1b37ade03cf72e9bd"
+    },
+    {
+      "fisier": "conv_20140315_20140315.json",
+      "desde": "2014-03-15",
+      "hasta": "2014-03-15",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20140316_20140316.json",
+      "desde": "2014-03-16",
+      "hasta": "2014-03-16",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20140317_20140317.json",
+      "desde": "2014-03-17",
+      "hasta": "2014-03-17",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20140318_20140318.json",
+      "desde": "2014-03-18",
+      "hasta": "2014-03-18",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20140319_20140319.json",
+      "desde": "2014-03-19",
+      "hasta": "2014-03-19",
+      "total": 1,
+      "primite": 1,
+      "octeti": 577,
+      "sha256": "45f2f64c10736d67621e65dabd5ea6074badd70755f1bafa5e634a0605efc1a0"
+    },
+    {
+      "fisier": "conv_20140320_20140320.json",
+      "desde": "2014-03-20",
+      "hasta": "2014-03-20",
+      "total": 1,
+      "primite": 1,
+      "octeti": 633,
+      "sha256": "fd4489f88d03179d0fa7abbbdf7dc8335c15aeaa57824cd0a0d2c99e622f4a83"
+    },
+    {
+      "fisier": "conv_20140321_20140321.json",
+      "desde": "2014-03-21",
+      "hasta": "2014-03-21",
+      "total": 2,
+      "primite": 2,
+      "octeti": 1168,
+      "sha256": "e184257acdf219f9f5ddabeb2c11abc4cfd9b1923cf4daf8acffeede02e1b178"
+    },
+    {
+      "fisier": "conv_20140322_20140322.json",
+      "desde": "2014-03-22",
+      "hasta": "2014-03-22",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20140323_20140323.json",
+      "desde": "2014-03-23",
+      "hasta": "2014-03-23",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20140324_20140324.json",
+      "desde": "2014-03-24",
+      "hasta": "2014-03-24",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20140325_20140325.json",
+      "desde": "2014-03-25",
+      "hasta": "2014-03-25",
+      "total": 6,
+      "primite": 6,
+      "octeti": 2623,
+      "sha256": "6e17941a814de1e800e0aad2f456da3eb2fb62a533d70766584e65320062604d"
+    },
+    {
+      "fisier": "conv_20140326_20140326.json",
+      "desde": "2014-03-26",
+      "hasta": "2014-03-26",
+      "total": 1,
+      "primite": 1,
+      "octeti": 408,
+      "sha256": "9f27864c6325711915dcbabfa3494edf0285dc02845e2942820ce1d766994bc8"
+    },
+    {
+      "fisier": "conv_20140327_20140327.json",
+      "desde": "2014-03-27",
+      "hasta": "2014-03-27",
+      "total": 3,
+      "primite": 3,
+      "octeti": 1318,
+      "sha256": "c5bb45384162746cd345c56ec18d23431f7ad9226430b3ea9b36a9666e0e934e"
+    },
+    {
+      "fisier": "conv_20140328_20140328.json",
+      "desde": "2014-03-28",
+      "hasta": "2014-03-28",
+      "total": 2,
+      "primite": 2,
+      "octeti": 1068,
+      "sha256": "ec0bee98d3ab9b705db08bb75cf1d80faa450eae8431a8e1ea51d5c638b0ad4e"
+    },
+    {
+      "fisier": "conv_20140329_20140329.json",
+      "desde": "2014-03-29",
+      "hasta": "2014-03-29",
+      "total": 5,
+      "primite": 5,
+      "octeti": 2035,
+      "sha256": "33b0f00c98b00cc05e7e6e361f5c3f1113bdf313aca76d05d92d25632e34c1ad"
+    },
+    {
+      "fisier": "conv_20140330_20140330.json",
+      "desde": "2014-03-30",
+      "hasta": "2014-03-30",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20140331_20140331.json",
+      "desde": "2014-03-31",
+      "hasta": "2014-03-31",
+      "total": 17035,
+      "primite": 17035,
+      "octeti": 5381323,
+      "sha256": "c73042e0dc91557e715061e6acf02b27556c1579a75423c6da9436b4f54db02d"
+    },
+    {
+      "fisier": "conv_20140401_20140430.json",
+      "desde": "2014-04-01",
+      "hasta": "2014-04-30",
+      "total": 131,
+      "primite": 131,
+      "octeti": 52016,
+      "sha256": "f960e9097701363c26a74391b2a519c8bdaa4b39e28eead68c44b67d3cbbce10"
+    },
+    {
+      "fisier": "conv_20140501_20140531.json",
+      "desde": "2014-05-01",
+      "hasta": "2014-05-31",
+      "total": 32,
+      "primite": 32,
+      "octeti": 14636,
+      "sha256": "92b13ab098e866665af21708b1386f292e5a1371b8a0caa0185fabfef4c73863"
+    },
+    {
+      "fisier": "conv_20140601_20140630.json",
+      "desde": "2014-06-01",
+      "hasta": "2014-06-30",
+      "total": 271,
+      "primite": 271,
+      "octeti": 89075,
+      "sha256": "84b1606c892bf8b44aca069e155689edc7804ef6e9f73859d72c0fda3773b5ed"
+    },
+    {
+      "fisier": "conv_20140701_20140731.json",
+      "desde": "2014-07-01",
+      "hasta": "2014-07-31",
+      "total": 49,
+      "primite": 49,
+      "octeti": 21206,
+      "sha256": "9c2a06fe1da51244e9721e14f21e793bb124b17906ebeebf4a686e5390ec9813"
+    },
+    {
+      "fisier": "conv_20140801_20140831.json",
+      "desde": "2014-08-01",
+      "hasta": "2014-08-31",
+      "total": 13,
+      "primite": 13,
+      "octeti": 5524,
+      "sha256": "b9523db63931d239af1f7034875a510e09938573396d1e8eb486f64575a19277"
+    },
+    {
+      "fisier": "conv_20140901_20140930.json",
+      "desde": "2014-09-01",
+      "hasta": "2014-09-30",
+      "total": 4584,
+      "primite": 4584,
+      "octeti": 1279308,
+      "sha256": "6a59f1c9c328b6e221d25dee97536eabc02578467964a97e816b6e3ff61eebbf"
+    },
+    {
+      "fisier": "conv_20141001_20141031.json",
+      "desde": "2014-10-01",
+      "hasta": "2014-10-31",
+      "total": 77,
+      "primite": 77,
+      "octeti": 35073,
+      "sha256": "c1217b339263df72aa36336f442ce149706056dfa3a145f99ad5e7822f67c02f"
+    },
+    {
+      "fisier": "conv_20141101_20141130.json",
+      "desde": "2014-11-01",
+      "hasta": "2014-11-30",
+      "total": 85,
+      "primite": 85,
+      "octeti": 39433,
+      "sha256": "a015779627253a9cab10de9e60d408470837d48000dc92a8c300c412e6037ca7"
+    },
+    {
+      "fisier": "conv_20141201_20141231.json",
+      "desde": "2014-12-01",
+      "hasta": "2014-12-31",
+      "total": 3901,
+      "primite": 3901,
+      "octeti": 1143647,
+      "sha256": "a574b09d2c06f5645377bcab6e21be47089eccb6d50bf8bf63b4b01a0294f04c"
+    },
+    {
+      "fisier": "conv_20150101_20150131.json",
+      "desde": "2015-01-01",
+      "hasta": "2015-01-31",
+      "total": 102,
+      "primite": 102,
+      "octeti": 44478,
+      "sha256": "225d7fc0c44eb936f8954223bdf5e056a8e3affc08d89459421b32a2063c9087"
+    },
+    {
+      "fisier": "conv_20150201_20150228.json",
+      "desde": "2015-02-01",
+      "hasta": "2015-02-28",
+      "total": 117,
+      "primite": 117,
+      "octeti": 47887,
+      "sha256": "494449b1c57e311acbd37dab1f01492b7afc9f10e7a1ad3e5346cd5aeb9079ce"
+    },
+    {
+      "fisier": "conv_20150301_20150301.json",
+      "desde": "2015-03-01",
+      "hasta": "2015-03-01",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20150302_20150302.json",
+      "desde": "2015-03-02",
+      "hasta": "2015-03-02",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20150303_20150303.json",
+      "desde": "2015-03-03",
+      "hasta": "2015-03-03",
+      "total": 2,
+      "primite": 2,
+      "octeti": 1121,
+      "sha256": "d89842c9cd2bd7587a49f12625a6c806e7c829ab7f8978c289e0f576dc112807"
+    },
+    {
+      "fisier": "conv_20150304_20150304.json",
+      "desde": "2015-03-04",
+      "hasta": "2015-03-04",
+      "total": 3,
+      "primite": 3,
+      "octeti": 1426,
+      "sha256": "f7900baedbd3903a4178c62c2b29d4bdbd9625be1951f7320e647c43fd4be9ac"
+    },
+    {
+      "fisier": "conv_20150305_20150305.json",
+      "desde": "2015-03-05",
+      "hasta": "2015-03-05",
+      "total": 3,
+      "primite": 3,
+      "octeti": 1604,
+      "sha256": "6ecf85dd9620f753009bc05a2bddbab96135b3e9e3c85baca335234ca8b5ee24"
+    },
+    {
+      "fisier": "conv_20150306_20150306.json",
+      "desde": "2015-03-06",
+      "hasta": "2015-03-06",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20150307_20150307.json",
+      "desde": "2015-03-07",
+      "hasta": "2015-03-07",
+      "total": 2,
+      "primite": 2,
+      "octeti": 890,
+      "sha256": "24d46324e18921b9df8261d0e24e3d787c7857f2a2a0faf88ac49f389459128f"
+    },
+    {
+      "fisier": "conv_20150308_20150308.json",
+      "desde": "2015-03-08",
+      "hasta": "2015-03-08",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20150309_20150309.json",
+      "desde": "2015-03-09",
+      "hasta": "2015-03-09",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20150310_20150310.json",
+      "desde": "2015-03-10",
+      "hasta": "2015-03-10",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20150311_20150311.json",
+      "desde": "2015-03-11",
+      "hasta": "2015-03-11",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20150312_20150312.json",
+      "desde": "2015-03-12",
+      "hasta": "2015-03-12",
+      "total": 4,
+      "primite": 4,
+      "octeti": 2212,
+      "sha256": "acb3c45964ba33af034869f628c6a29fc55305b6ac40408df6d199dea8a0a5f8"
+    },
+    {
+      "fisier": "conv_20150313_20150313.json",
+      "desde": "2015-03-13",
+      "hasta": "2015-03-13",
+      "total": 2,
+      "primite": 2,
+      "octeti": 1201,
+      "sha256": "f368339a2e1e66c5fe2aebeac2a31316d0e3266bbf4a5825c313dcc9069fc507"
+    },
+    {
+      "fisier": "conv_20150314_20150314.json",
+      "desde": "2015-03-14",
+      "hasta": "2015-03-14",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20150315_20150315.json",
+      "desde": "2015-03-15",
+      "hasta": "2015-03-15",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20150316_20150316.json",
+      "desde": "2015-03-16",
+      "hasta": "2015-03-16",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20150317_20150317.json",
+      "desde": "2015-03-17",
+      "hasta": "2015-03-17",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20150318_20150318.json",
+      "desde": "2015-03-18",
+      "hasta": "2015-03-18",
+      "total": 1,
+      "primite": 1,
+      "octeti": 401,
+      "sha256": "406c5ec32d186620c44e63c84f888f464a1bb1afc64d64c6e3350e5164197e41"
+    },
+    {
+      "fisier": "conv_20150319_20150319.json",
+      "desde": "2015-03-19",
+      "hasta": "2015-03-19",
+      "total": 2,
+      "primite": 2,
+      "octeti": 1165,
+      "sha256": "59ab7bb0f8e608e1db38c37105ae366f6e53328a14034aa90eb7b2864cd7b3e7"
+    },
+    {
+      "fisier": "conv_20150320_20150320.json",
+      "desde": "2015-03-20",
+      "hasta": "2015-03-20",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20150321_20150321.json",
+      "desde": "2015-03-21",
+      "hasta": "2015-03-21",
+      "total": 6,
+      "primite": 6,
+      "octeti": 2933,
+      "sha256": "f7954f15f7bd027ef9a4145fc42f5adbcd6501436bd41693f36c5991d761ee17"
+    },
+    {
+      "fisier": "conv_20150322_20150322.json",
+      "desde": "2015-03-22",
+      "hasta": "2015-03-22",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20150323_20150323.json",
+      "desde": "2015-03-23",
+      "hasta": "2015-03-23",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20150324_20150324.json",
+      "desde": "2015-03-24",
+      "hasta": "2015-03-24",
+      "total": 1,
+      "primite": 1,
+      "octeti": 454,
+      "sha256": "e99e9f44bcfd46cce9844ea0b9fd54c26ddbddd6dacc6e42fc5621f249825d15"
+    },
+    {
+      "fisier": "conv_20150325_20150325.json",
+      "desde": "2015-03-25",
+      "hasta": "2015-03-25",
+      "total": 1,
+      "primite": 1,
+      "octeti": 588,
+      "sha256": "009e2636d95e5717ab281633ca1addc77c320efe3b2c90c1e80426ac664b0abe"
+    },
+    {
+      "fisier": "conv_20150326_20150326.json",
+      "desde": "2015-03-26",
+      "hasta": "2015-03-26",
+      "total": 2,
+      "primite": 2,
+      "octeti": 983,
+      "sha256": "9b9618d40302a419bc19517d7e1d714514086a6d727ea0e4b90044ecccae5b36"
+    },
+    {
+      "fisier": "conv_20150327_20150327.json",
+      "desde": "2015-03-27",
+      "hasta": "2015-03-27",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20150328_20150328.json",
+      "desde": "2015-03-28",
+      "hasta": "2015-03-28",
+      "total": 2,
+      "primite": 2,
+      "octeti": 1008,
+      "sha256": "5171a8786186ae09a0f1516afc58cbdee53fb3472bc27abb0f309ecfcd450a68"
+    },
+    {
+      "fisier": "conv_20150329_20150329.json",
+      "desde": "2015-03-29",
+      "hasta": "2015-03-29",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20150330_20150330.json",
+      "desde": "2015-03-30",
+      "hasta": "2015-03-30",
+      "total": 0,
+      "primite": 0,
+      "octeti": 35,
+      "sha256": "b3ec75dde03abd26247c53728af4d67df3f28e50428c3c8d57c4020b543cab74"
+    },
+    {
+      "fisier": "conv_20150331_20150331.json",
+      "desde": "2015-03-31",
+      "hasta": "2015-03-31",
+      "total": 12709,
+      "primite": 12709,
+      "octeti": 4021600,
+      "sha256": "774c7f37fe3f6c6c6c248c4538180222efb025a7993bb6ba85be8a104dc14a1b"
+    },
+    {
+      "fisier": "conv_20150401_20150430.json",
+      "desde": "2015-04-01",
+      "hasta": "2015-04-30",
+      "total": 96,
+      "primite": 96,
+      "octeti": 44064,
+      "sha256": "73448edfff76d6878f312d2acdfdc56380f57a20334b6364f6844699bd5e6d8f"
+    },
+    {
+      "fisier": "conv_20150501_20150531.json",
+      "desde": "2015-05-01",
+      "hasta": "2015-05-31",
+      "total": 51,
+      "primite": 51,
+      "octeti": 23751,
+      "sha256": "45413343130390c1221162a7d66d370a71b4e53e93929248c3dba3de16d9362a"
+    },
+    {
+      "fisier": "conv_20150601_20150630.json",
+      "desde": "2015-06-01",
+      "hasta": "2015-06-30",
+      "total": 2678,
+      "primite": 2678,
+      "octeti": 767636,
+      "sha256": "499e60707d5b510565a80b449895c0b06462c4be4e3b2d0a9f4648b7af3767a4"
+    },
+    {
+      "fisier": "conv_20150701_20150731.json",
+      "desde": "2015-07-01",
+      "hasta": "2015-07-31",
+      "total": 78,
+      "primite": 78,
+      "octeti": 35032,
+      "sha256": "b5b9c982140cd65dbf16f5d337af37c8f1d5e4873975e18bcbc51146f8b193b3"
+    },
+    {
+      "fisier": "conv_20150801_20150831.json",
+      "desde": "2015-08-01",
+      "hasta": "2015-08-31",
+      "total": 20,
+      "primite": 20,
+      "octeti": 9231,
+      "sha256": "87f0fe3bc86c45e5ce42679f3452c0a6a84985b4db62d09d632dcc5f209fd69a"
+    },
+    {
+      "fisier": "conv_20150901_20150930.json",
+      "desde": "2015-09-01",
+      "hasta": "2015-09-30",
+      "total": 3075,
+      "primite": 3075,
+      "octeti": 908845,
+      "sha256": "f81bf3fde2bf4fa4cdd226dbd5f1d4b503cc609f973b3613f9fe58a9dfd0c8e3"
+    },
+    {
+      "fisier": "conv_20151001_20151031.json",
+      "desde": "2015-10-01",
+      "hasta": "2015-10-31",
+      "total": 78,
+      "primite": 78,
+      "octeti": 35057,
+      "sha256": "29446f942d8a1a481916b24875692af5832b5ce3c0b68afc98ab98d13072c9e5"
+    },
+    {
+      "fisier": "conv_20151101_20151130.json",
+      "desde": "2015-11-01",
+      "hasta": "2015-11-30",
+      "total": 107,
+      "primite": 107,
+      "octeti": 48478,
+      "sha256": "0e5681cbad9c83a5927f26f81e809b00a074ce159d5ba8df17fab79e253dcb02"
+    },
+    {
+      "fisier": "conv_20151201_20151231.json",
+      "desde": "2015-12-01",
+      "hasta": "2015-12-31",
+      "total": 253,
+      "primite": 253,
+      "octeti": 88019,
+      "sha256": "b5bae4bf3e266ba67743b1b5b73f6dcf314eb6e65a05b7b5206f42b43552e19b"
+    },
+    {
+      "fisier": "conv_20160101_20160131.json",
+      "desde": "2016-01-01",
+      "hasta": "2016-01-31",
+      "total": 184,
+      "primite": 184,
+      "octeti": 74198,
+      "sha256": "20bec1e5de0500a077fc01c1d696adb0a3a0d509488dcf869c5adc39ddea965e"
+    },
+    {
+      "fisier": "conv_20160201_20160229.json",
+      "desde": "2016-02-01",
+      "hasta": "2016-02-29",
+      "total": 790,
+      "primite": 790,
+      "octeti": 328194,
+      "sha256": "c2990c228c4bfa47f4926c57671ead11a017eefb40c6c288fb6be6f274de55a2"
+    },
+    {
+      "fisier": "conv_20160301_20160331.json",
+      "desde": "2016-03-01",
+      "hasta": "2016-03-31",
+      "total": 1264,
+      "primite": 1264,
+      "octeti": 507895,
+      "sha256": "2a704c7be7e40a4e846cdbaf2fd09cc6fb14de78b11d16c3ecba19a44bae3217"
+    },
+    {
+      "fisier": "conv_20160401_20160430.json",
+      "desde": "2016-04-01",
+      "hasta": "2016-04-30",
+      "total": 1947,
+      "primite": 1947,
+      "octeti": 765264,
+      "sha256": "f9fd063b9073de6c35ec2e5dc4f2dabdfeb412f669f4cd962dc9dcebeae7ff1b"
+    },
+    {
+      "fisier": "conv_20160501_20160531.json",
+      "desde": "2016-05-01",
+      "hasta": "2016-05-31",
+      "total": 2554,
+      "primite": 2554,
+      "octeti": 987186,
+      "sha256": "1476fd2d3e4f5c008fe656568fd41498a367348b68128fe8b7d01bd861e4fd62"
+    },
+    {
+      "fisier": "conv_20160601_20160630.json",
+      "desde": "2016-06-01",
+      "hasta": "2016-06-30",
+      "total": 2907,
+      "primite": 2907,
+      "octeti": 1109078,
+      "sha256": "2d74f7e029406699f3f14fa27f0648f9848ba7587850992a3795384f1fd9f7e8"
+    },
+    {
+      "fisier": "conv_20160701_20160731.json",
+      "desde": "2016-07-01",
+      "hasta": "2016-07-31",
+      "total": 2601,
+      "primite": 2601,
+      "octeti": 1001206,
+      "sha256": "751809cde66f2a86073b5d72d47f9191ef1a87f59f483dfef5fe1a7d395022ff"
+    },
+    {
+      "fisier": "conv_20160801_20160831.json",
+      "desde": "2016-08-01",
+      "hasta": "2016-08-31",
+      "total": 2268,
+      "primite": 2268,
+      "octeti": 875899,
+      "sha256": "e4d7907188edc1cf70776b67bf1de367049c6890b0a54780497d9016d42b270e"
+    },
+    {
+      "fisier": "conv_20160901_20160930.json",
+      "desde": "2016-09-01",
+      "hasta": "2016-09-30",
+      "total": 2508,
+      "primite": 2508,
+      "octeti": 962389,
+      "sha256": "56f7b6c66a4db441db08c32b34892d21e013d36e6e256aaa6803da98dd69a12d"
+    },
+    {
+      "fisier": "conv_20161001_20161031.json",
+      "desde": "2016-10-01",
+      "hasta": "2016-10-31",
+      "total": 2348,
+      "primite": 2348,
+      "octeti": 878214,
+      "sha256": "99b7bbaf3b009b9c38b5299112d828a674d79e457d2d64cd1509912743b891fa"
+    },
+    {
+      "fisier": "conv_20161101_20161130.json",
+      "desde": "2016-11-01",
+      "hasta": "2016-11-30",
+      "total": 3093,
+      "primite": 3093,
+      "octeti": 1138285,
+      "sha256": "e6a9fbe46359cafa47ae2fb318eb0c20b1752602a88c5d9fc95f0a5a6799ef27"
+    },
+    {
+      "fisier": "conv_20161201_20161231.json",
+      "desde": "2016-12-01",
+      "hasta": "2016-12-31",
+      "total": 3258,
+      "primite": 3258,
+      "octeti": 1202573,
+      "sha256": "d90cc1fb5809572195ac404d793414c51c2f442cbd4e57d48f9ce4a8dddfc997"
+    },
+    {
+      "fisier": "conv_20170101_20170131.json",
+      "desde": "2017-01-01",
+      "hasta": "2017-01-31",
+      "total": 2951,
+      "primite": 2951,
+      "octeti": 1068606,
+      "sha256": "530742038fe17d2401cd3b870e062e2d0c48adbac3bd6ac18ec3c6679aaaab5d"
+    },
+    {
+      "fisier": "conv_20170201_20170228.json",
+      "desde": "2017-02-01",
+      "hasta": "2017-02-28",
+      "total": 2630,
+      "primite": 2630,
+      "octeti": 940459,
+      "sha256": "b65e7802d88d13b0c00918e749f523e9e14cf5da136ba396af0745fbaf3b6498"
+    },
+    {
+      "fisier": "conv_20170301_20170331.json",
+      "desde": "2017-03-01",
+      "hasta": "2017-03-31",
+      "total": 6787,
+      "primite": 6787,
+      "octeti": 2327133,
+      "sha256": "f3fbbee36576c3ba0b5328363aaff7114abc55b6f17b8ef6196b5c8bbbcf07b7"
+    },
+    {
+      "fisier": "conv_20170401_20170430.json",
+      "desde": "2017-04-01",
+      "hasta": "2017-04-30",
+      "total": 3647,
+      "primite": 3647,
+      "octeti": 1301697,
+      "sha256": "6554182d7c2404861f929264354d335d9ebcb88b53132ac01199cf576dd6f0df"
+    },
+    {
+      "fisier": "conv_20170501_20170531.json",
+      "desde": "2017-05-01",
+      "hasta": "2017-05-31",
+      "total": 4306,
+      "primite": 4306,
+      "octeti": 1567202,
+      "sha256": "949bfb6971319042f1245c5c5524ef670f9a612194b55b736fa2e76bdec3196b"
+    },
+    {
+      "fisier": "conv_20170601_20170630.json",
+      "desde": "2017-06-01",
+      "hasta": "2017-06-30",
+      "total": 4275,
+      "primite": 4275,
+      "octeti": 1558915,
+      "sha256": "8994122c0e63f9aad50d2afc2630d039b82a8baaeb289018df7741db2d117a88"
+    },
+    {
+      "fisier": "conv_20170701_20170731.json",
+      "desde": "2017-07-01",
+      "hasta": "2017-07-31",
+      "total": 4294,
+      "primite": 4294,
+      "octeti": 1562950,
+      "sha256": "17ed52a94b829c699bc5516efd490070906407e3e74c26c224d2a691cb7eb905"
+    },
+    {
+      "fisier": "conv_20170801_20170831.json",
+      "desde": "2017-08-01",
+      "hasta": "2017-08-31",
+      "total": 2845,
+      "primite": 2845,
+      "octeti": 1028859,
+      "sha256": "72c9d2e85fff6365b579a3147feec18d315918bf83efffa6da645d2ca8361c51"
+    },
+    {
+      "fisier": "conv_20170901_20170930.json",
+      "desde": "2017-09-01",
+      "hasta": "2017-09-30",
+      "total": 3352,
+      "primite": 3352,
+      "octeti": 1230070,
+      "sha256": "22f51c0a5d282fa21c6f6ec0dc1be0a6fb39a7236051dc8988b3669dbb89c6e4"
+    },
+    {
+      "fisier": "conv_20171001_20171031.json",
+      "desde": "2017-10-01",
+      "hasta": "2017-10-31",
+      "total": 4467,
+      "primite": 4467,
+      "octeti": 1679780,
+      "sha256": "d684dd4248b8be13fe9beb49f98a2b534d55036b630c649b9c536030755f840d"
+    },
+    {
+      "fisier": "conv_20171101_20171130.json",
+      "desde": "2017-11-01",
+      "hasta": "2017-11-30",
+      "total": 4666,
+      "primite": 4666,
+      "octeti": 1644668,
+      "sha256": "4e8507658ee54c34cd3c3fcec9f11561268b76c930d8b742e726247cb12c40f2"
+    },
+    {
+      "fisier": "conv_20171201_20171231.json",
+      "desde": "2017-12-01",
+      "hasta": "2017-12-31",
+      "total": 5498,
+      "primite": 5498,
+      "octeti": 1982958,
+      "sha256": "d5bed347d6bf8fb0a6785b1af7523b23aad0dccf26ba5ce45cd0e0d5950ee37f"
+    },
+    {
+      "fisier": "conv_20180101_20180131.json",
+      "desde": "2018-01-01",
+      "hasta": "2018-01-31",
+      "total": 4874,
+      "primite": 4874,
+      "octeti": 1774406,
+      "sha256": "a12e9decbd4f1e9a8f678e9731a280a48a017641c6793ef881630f01abfc05b3"
+    },
+    {
+      "fisier": "conv_20180201_20180228.json",
+      "desde": "2018-02-01",
+      "hasta": "2018-02-28",
+      "total": 3446,
+      "primite": 3446,
+      "octeti": 1239325,
+      "sha256": "8ef3e17d2ced24ef5c5181f0b672d47ebc9c2b72e232048a4d289933be6787ae"
+    },
+    {
+      "fisier": "conv_20180301_20180331.json",
+      "desde": "2018-03-01",
+      "hasta": "2018-03-31",
+      "total": 4038,
+      "primite": 4038,
+      "octeti": 1487584,
+      "sha256": "c84b1300b5f194d3a54a68e1238f645c3af5ab903031c729804c0721749ee67d"
+    },
+    {
+      "fisier": "conv_20180401_20180430.json",
+      "desde": "2018-04-01",
+      "hasta": "2018-04-30",
+      "total": 4268,
+      "primite": 4268,
+      "octeti": 1571935,
+      "sha256": "160343ee6a961999c4e6dfc7e5868df9f39f8dbe02a129610941d0439ff4047f"
+    },
+    {
+      "fisier": "conv_20180501_20180531.json",
+      "desde": "2018-05-01",
+      "hasta": "2018-05-31",
+      "total": 4888,
+      "primite": 4888,
+      "octeti": 1788151,
+      "sha256": "afd74f80f2f66ded8399098f0a857ad162ce90fc1f6970f491171f23ddd279a5"
+    },
+    {
+      "fisier": "conv_20180601_20180630.json",
+      "desde": "2018-06-01",
+      "hasta": "2018-06-30",
+      "total": 4491,
+      "primite": 4491,
+      "octeti": 1644095,
+      "sha256": "0fb64b95e6fd0c867e470318e982c608f2aa9899e5c7941b9fa3658aa9fa844f"
+    },
+    {
+      "fisier": "conv_20180701_20180731.json",
+      "desde": "2018-07-01",
+      "hasta": "2018-07-31",
+      "total": 4332,
+      "primite": 4332,
+      "octeti": 1626234,
+      "sha256": "a31eaa59b54782d5d778c888bec20c41ee68ee6c825f0f51d9fa48abf72d9f5d"
+    },
+    {
+      "fisier": "conv_20180801_20180831.json",
+      "desde": "2018-08-01",
+      "hasta": "2018-08-31",
+      "total": 2825,
+      "primite": 2825,
+      "octeti": 1056307,
+      "sha256": "508e68710ca871ca8fec3085f4bff3a0f8a7e08fea3b2fde1c3770ec0d45fe34"
+    },
+    {
+      "fisier": "conv_20180901_20180930.json",
+      "desde": "2018-09-01",
+      "hasta": "2018-09-30",
+      "total": 3569,
+      "primite": 3569,
+      "octeti": 1327713,
+      "sha256": "649ff3ab92f6b5a8bb598017b0929de43ff0320735e2a1a3f75fab59384071a1"
+    },
+    {
+      "fisier": "conv_20181001_20181031.json",
+      "desde": "2018-10-01",
+      "hasta": "2018-10-31",
+      "total": 4358,
+      "primite": 4358,
+      "octeti": 1629917,
+      "sha256": "c73b5ed68b748555eac8291ac10eeea79d94c6b865a47bd07eaa70c547e2cd1d"
+    },
+    {
+      "fisier": "conv_20181101_20181130.json",
+      "desde": "2018-11-01",
+      "hasta": "2018-11-30",
+      "total": 5064,
+      "primite": 5064,
+      "octeti": 1829359,
+      "sha256": "0b42208c734e7c1602872131c8ccd5052c8fa3cd1f3d0c2675f75589bb3810eb"
+    },
+    {
+      "fisier": "conv_20181201_20181231.json",
+      "desde": "2018-12-01",
+      "hasta": "2018-12-31",
+      "total": 5983,
+      "primite": 5983,
+      "octeti": 2114697,
+      "sha256": "967fb46978be44c614c2ee052420fdfd844bf6b03f0bae597d40fc4e9846032f"
+    },
+    {
+      "fisier": "conv_20190101_20190131.json",
+      "desde": "2019-01-01",
+      "hasta": "2019-01-31",
+      "total": 4578,
+      "primite": 4578,
+      "octeti": 1678649,
+      "sha256": "9377c8906adb4add945ac4984965317e5be4250db8d6d03718213edb15bb8aa3"
+    },
+    {
+      "fisier": "conv_20190201_20190228.json",
+      "desde": "2019-02-01",
+      "hasta": "2019-02-28",
+      "total": 4378,
+      "primite": 4378,
+      "octeti": 1609772,
+      "sha256": "4ec52d6a72e8e8666dd7b6678f2d06b76078ae47dc4e6940bab0d69c4eb591da"
+    },
+    {
+      "fisier": "conv_20190301_20190331.json",
+      "desde": "2019-03-01",
+      "hasta": "2019-03-31",
+      "total": 4860,
+      "primite": 4860,
+      "octeti": 1805506,
+      "sha256": "f0c5f71a3e7dabf5d54df2e057643dff8500e7fa0a373bfcbe88f7810b748863"
+    },
+    {
+      "fisier": "conv_20190401_20190430.json",
+      "desde": "2019-04-01",
+      "hasta": "2019-04-30",
+      "total": 5538,
+      "primite": 5538,
+      "octeti": 2012748,
+      "sha256": "95ab6f68a3bdda5f3e3a123517c6b998701c81fd18ca257d1285c769f87679e9"
+    },
+    {
+      "fisier": "conv_20190501_20190531.json",
+      "desde": "2019-05-01",
+      "hasta": "2019-05-31",
+      "total": 6122,
+      "primite": 6122,
+      "octeti": 2276624,
+      "sha256": "c196cf9bc04c0218a6511f60b8a5fbddaac417ba079f40ebd34e0b6240c74290"
+    },
+    {
+      "fisier": "conv_20190601_20190630.json",
+      "desde": "2019-06-01",
+      "hasta": "2019-06-30",
+      "total": 5129,
+      "primite": 5129,
+      "octeti": 1875064,
+      "sha256": "fc55add95f628a05a2195c940ddf78e8b43f2d6d50629afc0aae15779f6ccb68"
+    },
+    {
+      "fisier": "conv_20190701_20190731.json",
+      "desde": "2019-07-01",
+      "hasta": "2019-07-31",
+      "total": 4606,
+      "primite": 4606,
+      "octeti": 1691909,
+      "sha256": "1bb5baa380a92b4f63df04473518b9e780ebf6d1e90f854209aab80e24026d16"
+    },
+    {
+      "fisier": "conv_20190801_20190831.json",
+      "desde": "2019-08-01",
+      "hasta": "2019-08-31",
+      "total": 2816,
+      "primite": 2816,
+      "octeti": 1022220,
+      "sha256": "56a17a5cf3d48d4d382ab31e223348102720ca25cd1e64aff2996b12c113d608"
+    },
+    {
+      "fisier": "conv_20190901_20190930.json",
+      "desde": "2019-09-01",
+      "hasta": "2019-09-30",
+      "total": 3240,
+      "primite": 3240,
+      "octeti": 1197942,
+      "sha256": "165e85461fa0e75b08c947aef678be6a209b8dcda0dbaffa9971c67671b6227d"
+    },
+    {
+      "fisier": "conv_20191001_20191031.json",
+      "desde": "2019-10-01",
+      "hasta": "2019-10-31",
+      "total": 4787,
+      "primite": 4787,
+      "octeti": 1760400,
+      "sha256": "ad1a90f2a8b3724cb89f91c06d7185facf608a65a4732956c9291c88631a72e8"
+    },
+    {
+      "fisier": "conv_20191101_20191130.json",
+      "desde": "2019-11-01",
+      "hasta": "2019-11-30",
+      "total": 4172,
+      "primite": 4172,
+      "octeti": 1540957,
+      "sha256": "0c8576e4e6c1cfe12df658d88d8ce7fdec0d08787b2fce7ad12dd32c5fa5ca11"
+    },
+    {
+      "fisier": "conv_20191201_20191231.json",
+      "desde": "2019-12-01",
+      "hasta": "2019-12-31",
+      "total": 5509,
+      "primite": 5509,
+      "octeti": 1995458,
+      "sha256": "502301dfed85946defbe5ad706e22e94603bec01b72ace7ead1886029e5c20d9"
+    },
+    {
+      "fisier": "conv_20200101_20200131.json",
+      "desde": "2020-01-01",
+      "hasta": "2020-01-31",
+      "total": 4086,
+      "primite": 4086,
+      "octeti": 1486179,
+      "sha256": "e2d080e6369530b40850f9fa8d68248d6bef2a40a8edce187e4766da147f5806"
+    },
+    {
+      "fisier": "conv_20200201_20200229.json",
+      "desde": "2020-02-01",
+      "hasta": "2020-02-29",
+      "total": 3697,
+      "primite": 3697,
+      "octeti": 1373490,
+      "sha256": "f9350b1454a372f24e5f2c75e4b1bf3a975cc2a9117d4d95ae5df2f107deffd2"
+    },
+    {
+      "fisier": "conv_20200301_20200331.json",
+      "desde": "2020-03-01",
+      "hasta": "2020-03-31",
+      "total": 3355,
+      "primite": 3355,
+      "octeti": 1254961,
+      "sha256": "c956f21b40aae5f1e34a9ca07bb99bed16de5201e9c8e21b343c442815660498"
+    },
+    {
+      "fisier": "conv_20200401_20200430.json",
+      "desde": "2020-04-01",
+      "hasta": "2020-04-30",
+      "total": 2828,
+      "primite": 2828,
+      "octeti": 1016964,
+      "sha256": "3f8b00a235ba3409e2d9f281a56d530eb8158d58dd791073db127ef4fea2fe7a"
+    },
+    {
+      "fisier": "conv_20200501_20200531.json",
+      "desde": "2020-05-01",
+      "hasta": "2020-05-31",
+      "total": 3529,
+      "primite": 3529,
+      "octeti": 1336547,
+      "sha256": "3c6affb250664c81dd638ca2137a92c5240ea0701b0b54d21bb7c6d93ed38d23"
+    },
+    {
+      "fisier": "conv_20200601_20200630.json",
+      "desde": "2020-06-01",
+      "hasta": "2020-06-30",
+      "total": 5041,
+      "primite": 5041,
+      "octeti": 1920910,
+      "sha256": "d1e0fcf8690b3489c6f8f121bf633707cf79f3d61ae759cbbb4644ba8caaf456"
+    },
+    {
+      "fisier": "conv_20200701_20200731.json",
+      "desde": "2020-07-01",
+      "hasta": "2020-07-31",
+      "total": 4827,
+      "primite": 4827,
+      "octeti": 1953303,
+      "sha256": "2c44e38baedbb57eaae279a6dda9b819931a847b1023bd6a39d3b590f262b588"
+    },
+    {
+      "fisier": "conv_20200801_20200831.json",
+      "desde": "2020-08-01",
+      "hasta": "2020-08-31",
+      "total": 3365,
+      "primite": 3365,
+      "octeti": 1352146,
+      "sha256": "0f14f482afcdda247d95ce0efe7606ad00298eb9fc4be8a87470bc942f6a9467"
+    },
+    {
+      "fisier": "conv_20200901_20200930.json",
+      "desde": "2020-09-01",
+      "hasta": "2020-09-30",
+      "total": 3940,
+      "primite": 3940,
+      "octeti": 1565781,
+      "sha256": "6aa6bdd280e889269132deb91f2cea88c67b4a145bc9f5be852b2b6755350edd"
+    },
+    {
+      "fisier": "conv_20201001_20201031.json",
+      "desde": "2020-10-01",
+      "hasta": "2020-10-31",
+      "total": 4417,
+      "primite": 4417,
+      "octeti": 1779137,
+      "sha256": "962675f109dc9b2997a314e99dea3c3d214fa9aacfe4de64c6b483891637b323"
+    },
+    {
+      "fisier": "conv_20201101_20201130.json",
+      "desde": "2020-11-01",
+      "hasta": "2020-11-30",
+      "total": 5283,
+      "primite": 5283,
+      "octeti": 2082944,
+      "sha256": "4473e21cde05df32d56275cb4cbe784cfb5bd068f702ee668077fa36edcf4742"
+    },
+    {
+      "fisier": "conv_20201201_20201231.json",
+      "desde": "2020-12-01",
+      "hasta": "2020-12-31",
+      "total": 6250,
+      "primite": 6250,
+      "octeti": 2482311,
+      "sha256": "4377f5f637ae7f3e658f48b3cb9c387f2d385adc3dec0594c347d1054d839973"
+    },
+    {
+      "fisier": "conv_20210101_20210131.json",
+      "desde": "2021-01-01",
+      "hasta": "2021-01-31",
+      "total": 3793,
+      "primite": 3793,
+      "octeti": 1428655,
+      "sha256": "83c1164dad5709d9f3ef31db678c06fa239343bffd1bd2cd5336f0a25a25c0a3"
+    },
+    {
+      "fisier": "conv_20210201_20210228.json",
+      "desde": "2021-02-01",
+      "hasta": "2021-02-28",
+      "total": 3902,
+      "primite": 3902,
+      "octeti": 1548596,
+      "sha256": "497f40cab0d085201703d910b1b5e2d0454a36a5af7db1a9dcd4a48885937044"
+    },
+    {
+      "fisier": "conv_20210301_20210331.json",
+      "desde": "2021-03-01",
+      "hasta": "2021-03-31",
+      "total": 4304,
+      "primite": 4304,
+      "octeti": 1774878,
+      "sha256": "3f0f3feb41d632dd0e996952435c429673c8d7907e2832a021bb74829b26ff30"
+    },
+    {
+      "fisier": "conv_20210401_20210430.json",
+      "desde": "2021-04-01",
+      "hasta": "2021-04-30",
+      "total": 5122,
+      "primite": 5122,
+      "octeti": 2050748,
+      "sha256": "f2367ee12a624ccf997523e67daa13c9692248e0af5d913b94b87e124448cd20"
+    },
+    {
+      "fisier": "conv_20210501_20210531.json",
+      "desde": "2021-05-01",
+      "hasta": "2021-05-31",
+      "total": 5776,
+      "primite": 5776,
+      "octeti": 2355608,
+      "sha256": "3ca81a5ea6b5d48b161eeb2d25fb10a8fafa0226bfb294e306f715f2eba996f0"
+    },
+    {
+      "fisier": "conv_20210601_20210630.json",
+      "desde": "2021-06-01",
+      "hasta": "2021-06-30",
+      "total": 5395,
+      "primite": 5395,
+      "octeti": 2219052,
+      "sha256": "2b755b06341a297516004b52cf6c612a6e7acbad9c0ff6c7be7af95b0f980b0a"
+    },
+    {
+      "fisier": "conv_20210701_20210731.json",
+      "desde": "2021-07-01",
+      "hasta": "2021-07-31",
+      "total": 4914,
+      "primite": 4914,
+      "octeti": 2064578,
+      "sha256": "d72c969ac9a614c3ecb72f9faf1115d267b7e4f6d62db104d8e9c0c04e63be08"
+    },
+    {
+      "fisier": "conv_20210801_20210831.json",
+      "desde": "2021-08-01",
+      "hasta": "2021-08-31",
+      "total": 3622,
+      "primite": 3622,
+      "octeti": 1456787,
+      "sha256": "3363286942b4acd0c9b16bafe9102a527059a5e22e439b953f5c76bfe12f16e9"
+    },
+    {
+      "fisier": "conv_20210901_20210930.json",
+      "desde": "2021-09-01",
+      "hasta": "2021-09-30",
+      "total": 4372,
+      "primite": 4372,
+      "octeti": 1820582,
+      "sha256": "411cfa29978bdf7634da0eea6969767b84318c59ddc0db20a7fb5abe644e380a"
+    },
+    {
+      "fisier": "conv_20211001_20211031.json",
+      "desde": "2021-10-01",
+      "hasta": "2021-10-31",
+      "total": 4702,
+      "primite": 4702,
+      "octeti": 1910235,
+      "sha256": "455b612ce9e47e4c0af3ebb7f318a5210c95ca3cacd3e9a3a9d3499af305e616"
+    },
+    {
+      "fisier": "conv_20211101_20211130.json",
+      "desde": "2021-11-01",
+      "hasta": "2021-11-30",
+      "total": 5061,
+      "primite": 5061,
+      "octeti": 2056579,
+      "sha256": "901a4c80a0fbf6464c87d6ae587385cfb0b45382d4f15979e45a1278576a6f21"
+    },
+    {
+      "fisier": "conv_20211201_20211231.json",
+      "desde": "2021-12-01",
+      "hasta": "2021-12-31",
+      "total": 6090,
+      "primite": 6090,
+      "octeti": 2462540,
+      "sha256": "349ee19dd7dcb95353ee22476960cf4977b50f920534d54496d48886a6f8938d"
+    },
+    {
+      "fisier": "conv_20220101_20220131.json",
+      "desde": "2022-01-01",
+      "hasta": "2022-01-31",
+      "total": 4107,
+      "primite": 4107,
+      "octeti": 1638625,
+      "sha256": "6d2505e9b574e893770fc01e591bdacf0b97f90e2d05fd218bbe6f186a6fb141"
+    },
+    {
+      "fisier": "conv_20220201_20220228.json",
+      "desde": "2022-02-01",
+      "hasta": "2022-02-28",
+      "total": 4015,
+      "primite": 4015,
+      "octeti": 1618903,
+      "sha256": "cadf21b0f435f6a7c7e96b7a0ac696b0aecf7346e7209ff644639c330ccc5873"
+    },
+    {
+      "fisier": "conv_20220301_20220331.json",
+      "desde": "2022-03-01",
+      "hasta": "2022-03-31",
+      "total": 5935,
+      "primite": 5935,
+      "octeti": 2444394,
+      "sha256": "e3a82b410ebc6f88485b59ca62e04aace10000c06c41fa9069a2a1bab4e8983d"
+    },
+    {
+      "fisier": "conv_20220401_20220430.json",
+      "desde": "2022-04-01",
+      "hasta": "2022-04-30",
+      "total": 5183,
+      "primite": 5183,
+      "octeti": 2148633,
+      "sha256": "796301da471157994257d3b87220258ec1039e79a99a77632b8077b0bc4d9cfe"
+    },
+    {
+      "fisier": "conv_20220501_20220531.json",
+      "desde": "2022-05-01",
+      "hasta": "2022-05-31",
+      "total": 6461,
+      "primite": 6461,
+      "octeti": 2643854,
+      "sha256": "5822ec3ec647389e22bca12a08cde884291c3af3d06eace11db92badf5ad79c3"
+    },
+    {
+      "fisier": "conv_20220601_20220630.json",
+      "desde": "2022-06-01",
+      "hasta": "2022-06-30",
+      "total": 6048,
+      "primite": 6048,
+      "octeti": 2483114,
+      "sha256": "4916b1b1fe8557a6021b18b671191ab12455477efe75414aaa4fba8068ab000d"
+    },
+    {
+      "fisier": "conv_20220701_20220731.json",
+      "desde": "2022-07-01",
+      "hasta": "2022-07-31",
+      "total": 5034,
+      "primite": 5034,
+      "octeti": 2129914,
+      "sha256": "c48c3a7556c3379cd1cb06c15c910789c24bcda3a92286f1a1509720634f4faa"
+    },
+    {
+      "fisier": "conv_20220801_20220831.json",
+      "desde": "2022-08-01",
+      "hasta": "2022-08-31",
+      "total": 4380,
+      "primite": 4380,
+      "octeti": 1790815,
+      "sha256": "ee6824a552fa4b2fad5d948283e93e9bff89242bc3ba2541f8e45a94dba7d22f"
+    },
+    {
+      "fisier": "conv_20220901_20220930.json",
+      "desde": "2022-09-01",
+      "hasta": "2022-09-30",
+      "total": 4935,
+      "primite": 4935,
+      "octeti": 2043767,
+      "sha256": "28d96c4b2d6555a6142f3d5eae5a9c303e2a4b770f005ca41c095135bf8ee313"
+    },
+    {
+      "fisier": "conv_20221001_20221031.json",
+      "desde": "2022-10-01",
+      "hasta": "2022-10-31",
+      "total": 4988,
+      "primite": 4988,
+      "octeti": 2057258,
+      "sha256": "2d6a33c377171fdd3f8b83498972dccab20b8d2664db02c945be57af7d1fbc9a"
+    },
+    {
+      "fisier": "conv_20221101_20221130.json",
+      "desde": "2022-11-01",
+      "hasta": "2022-11-30",
+      "total": 5350,
+      "primite": 5350,
+      "octeti": 2177708,
+      "sha256": "186fd5de458fa5f0c4f433e33c898cb8c90247009380197c340dffd999121765"
+    },
+    {
+      "fisier": "conv_20221201_20221231.json",
+      "desde": "2022-12-01",
+      "hasta": "2022-12-31",
+      "total": 6280,
+      "primite": 6280,
+      "octeti": 2543900,
+      "sha256": "6c211feaa02ff751b0df15f18bf678a834baf4135fb2fab833a705f71b3fde22"
+    },
+    {
+      "fisier": "conv_20230101_20230131.json",
+      "desde": "2023-01-01",
+      "hasta": "2023-01-31",
+      "total": 4798,
+      "primite": 4798,
+      "octeti": 1902588,
+      "sha256": "8dedc9da944974d6ba7b4a0a7b4aa662efd7e8a05559f0b383de0740849b82b8"
+    },
+    {
+      "fisier": "conv_20230201_20230228.json",
+      "desde": "2023-02-01",
+      "hasta": "2023-02-28",
+      "total": 5434,
+      "primite": 5434,
+      "octeti": 2218759,
+      "sha256": "710fcacd3da37c93b1e90e974938c2c775d431e6402f24e914d4ba9c932eedb1"
+    },
+    {
+      "fisier": "conv_20230301_20230331.json",
+      "desde": "2023-03-01",
+      "hasta": "2023-03-31",
+      "total": 6555,
+      "primite": 6555,
+      "octeti": 2753699,
+      "sha256": "3b71d7d8f73f3e5f3b99ce7b1e1fff764d349094994a29d6dd4d1c54de0e1dde"
+    },
+    {
+      "fisier": "conv_20230401_20230430.json",
+      "desde": "2023-04-01",
+      "hasta": "2023-04-30",
+      "total": 5762,
+      "primite": 5762,
+      "octeti": 2346514,
+      "sha256": "93d2f66ad1ca12eabfe46abd9812d3068e5a19ef93510847cc4d2c6c7c8ba187"
+    },
+    {
+      "fisier": "conv_20230501_20230531.json",
+      "desde": "2023-05-01",
+      "hasta": "2023-05-31",
+      "total": 8328,
+      "primite": 8328,
+      "octeti": 3446826,
+      "sha256": "52c8ee2e35c03d0d9b2bd48a7335239a8e26df019065f38776823ca0c2801cb5"
+    },
+    {
+      "fisier": "conv_20230601_20230630.json",
+      "desde": "2023-06-01",
+      "hasta": "2023-06-30",
+      "total": 5917,
+      "primite": 5917,
+      "octeti": 2432607,
+      "sha256": "effd9c4edeb1098453f05696a74eb5df76978219742f4790d245e43cb7f7fd2f"
+    },
+    {
+      "fisier": "conv_20230701_20230731.json",
+      "desde": "2023-07-01",
+      "hasta": "2023-07-31",
+      "total": 4480,
+      "primite": 4480,
+      "octeti": 1867259,
+      "sha256": "5f15d5b6f883ba4bdf2d7671f0061d10bd42c1e8bbecd2f7af57a7cbb4babb1d"
+    },
+    {
+      "fisier": "conv_20230801_20230831.json",
+      "desde": "2023-08-01",
+      "hasta": "2023-08-31",
+      "total": 3737,
+      "primite": 3737,
+      "octeti": 1522782,
+      "sha256": "5615bb5d6c334b0a6e5b9a5688c12bf6e3cfa79dec6c6d34d6a5c9620ec579d5"
+    },
+    {
+      "fisier": "conv_20230901_20230930.json",
+      "desde": "2023-09-01",
+      "hasta": "2023-09-30",
+      "total": 4221,
+      "primite": 4221,
+      "octeti": 1762524,
+      "sha256": "9f2d95c39fb08c85fec1b03784860c6d801f81b7e1c96f8d3cabcaa3bd13300f"
+    },
+    {
+      "fisier": "conv_20231001_20231031.json",
+      "desde": "2023-10-01",
+      "hasta": "2023-10-31",
+      "total": 5215,
+      "primite": 5215,
+      "octeti": 2151449,
+      "sha256": "9c81eee3af44f595766dbfa529ae73c4f09f4cabae115f4da14522912f2b0450"
+    },
+    {
+      "fisier": "conv_20231101_20231130.json",
+      "desde": "2023-11-01",
+      "hasta": "2023-11-30",
+      "total": 6161,
+      "primite": 6161,
+      "octeti": 2534326,
+      "sha256": "eacd7bc03492636ef099ab05996864ed8a12d737b56231d00b6cf81fa19f5859"
+    },
+    {
+      "fisier": "conv_20231201_20231231.json",
+      "desde": "2023-12-01",
+      "hasta": "2023-12-31",
+      "total": 6099,
+      "primite": 6099,
+      "octeti": 2510829,
+      "sha256": "95ef8d714413a3b4b7df0eeda1e2976e761b6afef502b661310727035cc02a01"
+    },
+    {
+      "fisier": "conv_20240101_20240131.json",
+      "desde": "2024-01-01",
+      "hasta": "2024-01-31",
+      "total": 4908,
+      "primite": 4908,
+      "octeti": 2005533,
+      "sha256": "3b667549a97fcb42728322d50fba2d1e3da344449908c97e22e47fb42fd506fb"
+    },
+    {
+      "fisier": "conv_20240201_20240229.json",
+      "desde": "2024-02-01",
+      "hasta": "2024-02-29",
+      "total": 4163,
+      "primite": 4163,
+      "octeti": 1711758,
+      "sha256": "ea15161476b8aeb8daad73d6379fb3d2857f51949170293278b2f3190953038f"
+    },
+    {
+      "fisier": "conv_20240301_20240331.json",
+      "desde": "2024-03-01",
+      "hasta": "2024-03-31",
+      "total": 5026,
+      "primite": 5026,
+      "octeti": 2067324,
+      "sha256": "01966c8baa7229c63579895766115b7fe9d9ffddc2f9a1f87d749c561c5fc777"
+    },
+    {
+      "fisier": "conv_20240401_20240430.json",
+      "desde": "2024-04-01",
+      "hasta": "2024-04-30",
+      "total": 6320,
+      "primite": 6320,
+      "octeti": 2584265,
+      "sha256": "b950818e9c81164eaadda44dad30c39633539d09a71c89aa0218bef17ec45f22"
+    },
+    {
+      "fisier": "conv_20240501_20240531.json",
+      "desde": "2024-05-01",
+      "hasta": "2024-05-31",
+      "total": 6668,
+      "primite": 6668,
+      "octeti": 2757846,
+      "sha256": "a247d05163cd5f8972176d5c2a0f94f2c81132c5c1a1a6477240370960ce3010"
+    },
+    {
+      "fisier": "conv_20240601_20240630.json",
+      "desde": "2024-06-01",
+      "hasta": "2024-06-30",
+      "total": 6362,
+      "primite": 6362,
+      "octeti": 2666603,
+      "sha256": "d95812f4ed2df884303343824f2de1a683acc7b102b1a73830c36c2adc784d1a"
+    },
+    {
+      "fisier": "conv_20240701_20240731.json",
+      "desde": "2024-07-01",
+      "hasta": "2024-07-31",
+      "total": 6569,
+      "primite": 6569,
+      "octeti": 2728074,
+      "sha256": "272f63ce7a3d8470d8e060c767376188e07ec8fae6808b686f362ac815042747"
+    },
+    {
+      "fisier": "conv_20240801_20240831.json",
+      "desde": "2024-08-01",
+      "hasta": "2024-08-31",
+      "total": 4560,
+      "primite": 4560,
+      "octeti": 1960448,
+      "sha256": "0242ecb58a4016fb24e87fae458be6864272cc8b39a005f5da5f3c4a1ee47e17"
+    },
+    {
+      "fisier": "conv_20240901_20240930.json",
+      "desde": "2024-09-01",
+      "hasta": "2024-09-30",
+      "total": 4769,
+      "primite": 4769,
+      "octeti": 1981091,
+      "sha256": "f383f3e92ea379807a2298f48c28791ffb6def1c5136dae7bad71b97f5948540"
+    },
+    {
+      "fisier": "conv_20241001_20241031.json",
+      "desde": "2024-10-01",
+      "hasta": "2024-10-31",
+      "total": 6176,
+      "primite": 6176,
+      "octeti": 2573883,
+      "sha256": "cbe1891a8ff46f2340e6d1d8fa0a6ad156595bb9a9c6959e66e635bbd31ecbe9"
+    },
+    {
+      "fisier": "conv_20241101_20241130.json",
+      "desde": "2024-11-01",
+      "hasta": "2024-11-30",
+      "total": 5413,
+      "primite": 5413,
+      "octeti": 2264714,
+      "sha256": "e3d9c6cfb6706fd00591c3345b9979db67a60026bb40848c3f68eeca77435b65"
+    },
+    {
+      "fisier": "conv_20241201_20241231.json",
+      "desde": "2024-12-01",
+      "hasta": "2024-12-31",
+      "total": 6391,
+      "primite": 6391,
+      "octeti": 2635136,
+      "sha256": "2d993a10af3c304bcc884571a90541025afd8644b44fedc729f6ce27294c4477"
+    },
+    {
+      "fisier": "conv_20250101_20250131.json",
+      "desde": "2025-01-01",
+      "hasta": "2025-01-31",
+      "total": 5508,
+      "primite": 5508,
+      "octeti": 2273714,
+      "sha256": "1f6f785c2d5aee13b459e2e4c014c491cf72fda0b1271871c679d7c9341f74a1"
+    },
+    {
+      "fisier": "conv_20250201_20250228.json",
+      "desde": "2025-02-01",
+      "hasta": "2025-02-28",
+      "total": 5186,
+      "primite": 5186,
+      "octeti": 2142392,
+      "sha256": "2393a631f99f93de04081aba3658cbc3759c7115af15feb62903827512e200a9"
+    },
+    {
+      "fisier": "conv_20250301_20250331.json",
+      "desde": "2025-03-01",
+      "hasta": "2025-03-31",
+      "total": 6125,
+      "primite": 6125,
+      "octeti": 2563861,
+      "sha256": "53008e92a28f4f97705add3f259510763643d2ae4f18b2dd10cee65e1df07fb7"
+    },
+    {
+      "fisier": "conv_20250401_20250430.json",
+      "desde": "2025-04-01",
+      "hasta": "2025-04-30",
+      "total": 5599,
+      "primite": 5599,
+      "octeti": 2374182,
+      "sha256": "c1e8fecf1cd5696cb0a73c12dece098006a8c3ed29fbdc32772c24c75f54d55c"
+    },
+    {
+      "fisier": "conv_20250501_20250531.json",
+      "desde": "2025-05-01",
+      "hasta": "2025-05-31",
+      "total": 6490,
+      "primite": 6490,
+      "octeti": 2737126,
+      "sha256": "59bf028d2722faa1c675c8055678724783e28ddb5231521356ae9df64397cb04"
+    },
+    {
+      "fisier": "conv_20250601_20250630.json",
+      "desde": "2025-06-01",
+      "hasta": "2025-06-30",
+      "total": 6381,
+      "primite": 6381,
+      "octeti": 2655605,
+      "sha256": "7333ca829fcd3f4444145db784818f670f5a1437d38c219fd4a81ee5374afbf3"
+    },
+    {
+      "fisier": "conv_20250701_20250731.json",
+      "desde": "2025-07-01",
+      "hasta": "2025-07-31",
+      "total": 6172,
+      "primite": 6172,
+      "octeti": 2629736,
+      "sha256": "6d2b1cacf066e03cb8fd88c6eed1a47654a1186ec6f1232f0c30fccb8b7df2c2"
+    },
+    {
+      "fisier": "conv_20250801_20250831.json",
+      "desde": "2025-08-01",
+      "hasta": "2025-08-31",
+      "total": 4385,
+      "primite": 4385,
+      "octeti": 1827161,
+      "sha256": "82e81dc45b2d25b1562726d24d1d7b943583875f5cc17027eb8896ef885ca069"
+    },
+    {
+      "fisier": "conv_20250901_20250930.json",
+      "desde": "2025-09-01",
+      "hasta": "2025-09-30",
+      "total": 5609,
+      "primite": 5609,
+      "octeti": 2368487,
+      "sha256": "64d9c54e0b8c0650116a122d8b120c9e4f0d5e9f3b2d923cde0c3aa6d4f4c48a"
+    },
+    {
+      "fisier": "conv_20251001_20251031.json",
+      "desde": "2025-10-01",
+      "hasta": "2025-10-31",
+      "total": 5942,
+      "primite": 5942,
+      "octeti": 2540608,
+      "sha256": "e010c400c708d06276a051721941e41a82e9cddbceac5e34ac1ab62c3f17b885"
+    },
+    {
+      "fisier": "conv_20251101_20251130.json",
+      "desde": "2025-11-01",
+      "hasta": "2025-11-30",
+      "total": 5480,
+      "primite": 5480,
+      "octeti": 2339462,
+      "sha256": "2d377bbe8eb7395fd4a20ed70f350a4cde041c26abf08caed64ee331e40878e5"
+    },
+    {
+      "fisier": "conv_20251201_20251231.json",
+      "desde": "2025-12-01",
+      "hasta": "2025-12-31",
+      "total": 7335,
+      "primite": 7335,
+      "octeti": 3088276,
+      "sha256": "9c711d8c5dc98dfeb05875adea6db32f96218198ec544545a5088adc99615848"
+    },
+    {
+      "fisier": "conv_20260101_20260131.json",
+      "desde": "2026-01-01",
+      "hasta": "2026-01-31",
+      "total": 4972,
+      "primite": 4972,
+      "octeti": 2033684,
+      "sha256": "a592fd9a28bd3ba91242e147635b137739a4f4fac3f7e30c9f64c14c90bbcd22"
+    },
+    {
+      "fisier": "conv_20260201_20260228.json",
+      "desde": "2026-02-01",
+      "hasta": "2026-02-28",
+      "total": 5704,
+      "primite": 5704,
+      "octeti": 2362476,
+      "sha256": "d9b58f2964c7414314735cd3c4a8074f6adfe485ad40ab9a351a4648404d9088"
+    },
+    {
+      "fisier": "conv_20260301_20260331.json",
+      "desde": "2026-03-01",
+      "hasta": "2026-03-31",
+      "total": 6039,
+      "primite": 6039,
+      "octeti": 2559706,
+      "sha256": "134df00fa4d558a67feeb9ce2ab964d5427270c444048bcbdcf1a086a8ec6c6b"
+    },
+    {
+      "fisier": "conv_20260401_20260430.json",
+      "desde": "2026-04-01",
+      "hasta": "2026-04-30",
+      "total": 6313,
+      "primite": 6313,
+      "octeti": 2673055,
+      "sha256": "07bb2546fd0c9eb8b3b2f5c76019781b212837f1cfabba8caf1b094f5e98a670"
+    },
+    {
+      "fisier": "conv_20260501_20260531.json",
+      "desde": "2026-05-01",
+      "hasta": "2026-05-31",
+      "total": 6231,
+      "primite": 6231,
+      "octeti": 2599404,
+      "sha256": "c93124ae70c29a463d213dfea5c60abf9f4d78ffc4a6cbd50d3d2dbc2f7e9f71"
+    },
+    {
+      "fisier": "conv_20260601_20260630.json",
+      "desde": "2026-06-01",
+      "hasta": "2026-06-30",
+      "total": 6795,
+      "primite": 6795,
+      "octeti": 2836292,
+      "sha256": "2d602daeadf404c52201ab09501144d073af5f1ab716f11c0b18a82cffbdcc8f"
+    },
+    {
+      "fisier": "conv_20260701_20260731.json",
+      "desde": "2026-07-01",
+      "hasta": "2026-07-31",
+      "total": 6578,
+      "primite": 6578,
+      "octeti": 2799114,
+      "sha256": "efc4846d5b8534b91ebcc6e80e4c127df30989de5db9a1f279b23ba2c6ebf426"
+    },
+    {
+      "fisier": "conv_20260801_20260831.json",
+      "desde": "2026-08-01",
+      "hasta": "2026-08-31",
+      "total": 3925,
+      "primite": 3925,
+      "octeti": 1649753,
+      "sha256": "5e591cbd3fac90bf6855a3426e7e3fcc89b6b52141f658604532d75583ad9bde"
+    },
+    {
+      "fisier": "conv_20260901_20260930.json",
+      "desde": "2026-09-01",
+      "hasta": "2026-09-30",
+      "total": 5403,
+      "primite": 5403,
+      "octeti": 2268316,
+      "sha256": "19abc947f22ffa95ae6b948536fd9bb682df4d77eb96c1624b76ad6e916ae1fe"
+    },
+    {
+      "fisier": "conv_20261001_20261031.json",
+      "desde": "2026-10-01",
+      "hasta": "2026-10-31",
+      "total": 6239,
+      "primite": 6239,
+      "octeti": 2645008,
+      "sha256": "3f37f4720d3ec41e2f724ef5f3b6a3e2ab7d13df3f77eb41139f1c42b9c9e119"
+    },
+    {
+      "fisier": "conv_20261101_20261130.json",
+      "desde": "2026-11-01",
+      "hasta": "2026-11-30",
+      "total": 1,
+      "primite": 1,
+      "octeti": 317,
+      "sha256": "fad57df234900db8d772be9d01d432a077d1c30236a4d095cee78476931d7b3a"
+    }
+  ],
+  "produse": [
+    {
+      "fisier": "bdns_convocatorias.parquet",
+      "randuri": 661859,
+      "octeti": 31470320,
+      "sha256": "413dfd1bfd3f72c87d0ebbfa48c746a043fce132b476025a537a6bfad428b7c9",
+      "coloane": {
+        "id": "int64",
+        "numeroConvocatoria": "string",
+        "descripcion": "string",
+        "descripcionLeng": "string",
+        "fechaRecepcion": "string",
+        "nivel1": "string",
+        "nivel2": "string",
+        "nivel3": "string",
+        "mrr": "bool",
+        "codigoInvente": "string"
+      }
+    }
+  ],
+  "profil": {
+    "total_general": 661875,
+    "format_data": "%d/%m/%Y",
+    "marime_pagina": 10000,
+    "declarat_ferestre": 661859,
+    "primit": 661859,
+    "unice": 661859,
+    "lipsa_fata_de_total_general": 16,
+    "pe_ani": {
+      "2014": 26322,
+      "2015": 19395,
+      "2016": 25722,
+      "2017": 49718,
+      "2018": 52136,
+      "2019": 55735,
+      "2020": 50618,
+      "2021": 57053,
+      "2022": 62716,
+      "2023": 66707,
+      "2024": 67325,
+      "2025": 70212,
+      "2026": 58200
+    },
+    "pe_nivel1": {
+      "ESTADO": 62690,
+      "AUTONOMICA": 154625,
+      "LOCAL": 428163,
+      "OTROS": 16381
+    }
+  },
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:conv_20140101_20140131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140101_20140131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140201_20140228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140201_20140228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140301_20140301.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140301_20140301.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140302_20140302.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140302_20140302.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140303_20140303.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140303_20140303.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140304_20140304.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140304_20140304.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140305_20140305.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140305_20140305.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140306_20140306.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140306_20140306.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140307_20140307.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140307_20140307.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140308_20140308.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140308_20140308.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140309_20140309.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140309_20140309.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140310_20140310.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140310_20140310.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140311_20140311.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140311_20140311.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140312_20140312.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140312_20140312.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140313_20140313.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140313_20140313.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140314_20140314.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140314_20140314.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140315_20140315.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140315_20140315.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140316_20140316.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140316_20140316.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140317_20140317.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140317_20140317.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140318_20140318.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140318_20140318.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140319_20140319.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140319_20140319.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140320_20140320.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140320_20140320.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140321_20140321.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140321_20140321.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140322_20140322.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140322_20140322.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140323_20140323.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140323_20140323.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140324_20140324.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140324_20140324.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140325_20140325.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140325_20140325.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140326_20140326.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140326_20140326.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140327_20140327.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140327_20140327.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140328_20140328.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140328_20140328.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140329_20140329.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140329_20140329.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140330_20140330.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140330_20140330.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140331_20140331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140331_20140331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140401_20140430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140401_20140430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140501_20140531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140501_20140531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140601_20140630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140601_20140630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140701_20140731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140701_20140731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140801_20140831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140801_20140831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20140901_20140930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20140901_20140930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20141001_20141031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20141001_20141031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20141101_20141130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20141101_20141130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20141201_20141231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20141201_20141231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150101_20150131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150101_20150131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150201_20150228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150201_20150228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150301_20150301.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150301_20150301.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150302_20150302.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150302_20150302.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150303_20150303.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150303_20150303.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150304_20150304.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150304_20150304.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150305_20150305.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150305_20150305.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150306_20150306.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150306_20150306.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150307_20150307.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150307_20150307.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150308_20150308.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150308_20150308.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150309_20150309.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150309_20150309.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150310_20150310.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150310_20150310.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150311_20150311.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150311_20150311.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150312_20150312.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150312_20150312.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150313_20150313.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150313_20150313.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150314_20150314.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150314_20150314.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150315_20150315.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150315_20150315.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150316_20150316.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150316_20150316.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150317_20150317.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150317_20150317.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150318_20150318.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150318_20150318.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150319_20150319.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150319_20150319.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150320_20150320.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150320_20150320.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150321_20150321.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150321_20150321.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150322_20150322.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150322_20150322.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150323_20150323.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150323_20150323.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150324_20150324.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150324_20150324.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150325_20150325.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150325_20150325.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150326_20150326.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150326_20150326.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150327_20150327.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150327_20150327.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150328_20150328.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150328_20150328.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150329_20150329.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150329_20150329.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150330_20150330.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150330_20150330.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150331_20150331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150331_20150331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150401_20150430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150401_20150430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150501_20150531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150501_20150531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150601_20150630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150601_20150630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150701_20150731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150701_20150731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150801_20150831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150801_20150831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20150901_20150930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20150901_20150930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20151001_20151031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20151001_20151031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20151101_20151130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20151101_20151130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20151201_20151231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20151201_20151231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20160101_20160131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20160101_20160131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20160201_20160229.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20160201_20160229.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20160301_20160331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20160301_20160331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20160401_20160430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20160401_20160430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20160501_20160531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20160501_20160531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20160601_20160630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20160601_20160630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20160701_20160731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20160701_20160731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20160801_20160831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20160801_20160831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20160901_20160930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20160901_20160930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20161001_20161031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20161001_20161031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20161101_20161130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20161101_20161130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20161201_20161231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20161201_20161231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20170101_20170131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20170101_20170131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20170201_20170228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20170201_20170228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20170301_20170331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20170301_20170331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20170401_20170430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20170401_20170430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20170501_20170531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20170501_20170531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20170601_20170630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20170601_20170630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20170701_20170731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20170701_20170731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20170801_20170831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20170801_20170831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20170901_20170930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20170901_20170930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20171001_20171031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20171001_20171031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20171101_20171130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20171101_20171130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20171201_20171231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20171201_20171231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20180101_20180131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20180101_20180131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20180201_20180228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20180201_20180228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20180301_20180331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20180301_20180331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20180401_20180430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20180401_20180430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20180501_20180531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20180501_20180531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20180601_20180630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20180601_20180630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20180701_20180731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20180701_20180731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20180801_20180831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20180801_20180831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20180901_20180930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20180901_20180930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20181001_20181031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20181001_20181031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20181101_20181130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20181101_20181130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20181201_20181231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20181201_20181231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20190101_20190131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20190101_20190131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20190201_20190228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20190201_20190228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20190301_20190331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20190301_20190331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20190401_20190430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20190401_20190430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20190501_20190531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20190501_20190531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20190601_20190630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20190601_20190630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20190701_20190731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20190701_20190731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20190801_20190831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20190801_20190831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20190901_20190930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20190901_20190930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20191001_20191031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20191001_20191031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20191101_20191130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20191101_20191130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20191201_20191231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20191201_20191231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20200101_20200131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20200101_20200131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20200201_20200229.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20200201_20200229.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20200301_20200331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20200301_20200331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20200401_20200430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20200401_20200430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20200501_20200531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20200501_20200531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20200601_20200630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20200601_20200630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20200701_20200731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20200701_20200731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20200801_20200831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20200801_20200831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20200901_20200930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20200901_20200930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20201001_20201031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20201001_20201031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20201101_20201130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20201101_20201130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20201201_20201231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20201201_20201231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20210101_20210131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20210101_20210131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20210201_20210228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20210201_20210228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20210301_20210331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20210301_20210331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20210401_20210430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20210401_20210430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20210501_20210531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20210501_20210531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20210601_20210630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20210601_20210630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20210701_20210731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20210701_20210731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20210801_20210831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20210801_20210831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20210901_20210930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20210901_20210930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20211001_20211031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20211001_20211031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20211101_20211130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20211101_20211130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20211201_20211231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20211201_20211231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20220101_20220131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20220101_20220131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20220201_20220228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20220201_20220228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20220301_20220331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20220301_20220331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20220401_20220430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20220401_20220430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20220501_20220531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20220501_20220531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20220601_20220630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20220601_20220630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20220701_20220731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20220701_20220731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20220801_20220831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20220801_20220831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20220901_20220930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20220901_20220930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20221001_20221031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20221001_20221031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20221101_20221130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20221101_20221130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20221201_20221231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20221201_20221231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20230101_20230131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20230101_20230131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20230201_20230228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20230201_20230228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20230301_20230331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20230301_20230331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20230401_20230430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20230401_20230430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20230501_20230531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20230501_20230531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20230601_20230630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20230601_20230630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20230701_20230731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20230701_20230731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20230801_20230831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20230801_20230831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20230901_20230930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20230901_20230930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20231001_20231031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20231001_20231031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20231101_20231130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20231101_20231130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20231201_20231231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20231201_20231231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20240101_20240131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20240101_20240131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20240201_20240229.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20240201_20240229.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20240301_20240331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20240301_20240331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20240401_20240430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20240401_20240430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20240501_20240531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20240501_20240531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20240601_20240630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20240601_20240630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20240701_20240731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20240701_20240731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20240801_20240831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20240801_20240831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20240901_20240930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20240901_20240930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20241001_20241031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20241001_20241031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20241101_20241130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20241101_20241130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20241201_20241231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20241201_20241231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20250101_20250131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20250101_20250131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20250201_20250228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20250201_20250228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20250301_20250331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20250301_20250331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20250401_20250430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20250401_20250430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20250501_20250531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20250501_20250531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20250601_20250630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20250601_20250630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20250701_20250731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20250701_20250731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20250801_20250831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20250801_20250831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20250901_20250930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20250901_20250930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20251001_20251031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20251001_20251031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20251101_20251130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20251101_20251130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20251201_20251231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20251201_20251231.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20260101_20260131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20260101_20260131.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20260201_20260228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20260201_20260228.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20260301_20260331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20260301_20260331.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20260401_20260430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20260401_20260430.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20260501_20260531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20260501_20260531.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20260601_20260630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20260601_20260630.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20260701_20260731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20260701_20260731.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20260801_20260831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20260801_20260831.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20260901_20260930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20260901_20260930.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20261001_20261031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20261001_20261031.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:conv_20261101_20261130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:conv_20261101_20261130.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:bdns_convocatorias.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:bdns_convocatorias.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "661859 rânduri, minim 100000"
+    }
+  ],
+  "versiunea_anterioara": null,
+  "rezultat": "TRECE",
+  "rulare": "41423800086"
+}
