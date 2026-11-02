@@ -1,0 +1,25 @@
+# BDNS – Base de Datos Nacional de Subvenciones, prin API-ul REST al Sistema Nacional de Publicidad de Subvenciones y
+# Ayudas Públicas (SNPSAP, infosubvenciones.es). Etapa 1: lista completă a convocărilor (metadatele din căutare), lună cu
+# lună de la `de_la`. Beneficiarii (concesiones) vin într-o etapă separată, doar pentru convocările alese în atlas, fără
+# persoane fizice.
+nume: "Base de Datos Nacional de Subvenciones (BDNS) – convocatorias, API REST del SNPSAP"
+editor: "Intervención General de la Administración del Estado (IGAE), Ministerio de Hacienda"
+pagina: https://www.infosubvenciones.es/bdnstrans
+licenta: "Información libremente reutilizable (SNPSAP; Ley 37/2007 de reutilización), con cita de la fuente y la fecha"
+atribuire: "„Fuente: Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (BDNS), IGAE”, cu data descărcării"
+descarcare: actions
+saptamanal: false          # la cerere până se decide cadența
+publica_brute: false       # produsul parquet conține tot ce dă căutarea; brutele (JSON pe pagini) nu se republică
+cadenta: la cerere
+
+baza: https://www.infosubvenciones.es/bdnstrans/api
+de_la: "2014-01"           # primele convocări din BDNS
+marime_pagina: 10000       # se micșorează singur dacă API-ul taie paginile
+pauza_s: 0.3
+
+produse:
+  bdns_convocatorias.parquet:
+    coloane: {id: int64, numeroConvocatoria: string, descripcion: string, descripcionLeng: string,
+              fechaRecepcion: string, nivel1: string, nivel2: string, nivel3: string, mrr: bool, codigoInvente: string}
+    randuri_minim: 100000
+scadere_maxima: 0.02
