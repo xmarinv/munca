@@ -1,10 +1,10 @@
 {
   "sursa": "bdns_publicuri",
-  "versiune": "20261102-8340bdd8",
-  "amprenta": "8340bdd8d933287579bb49145a0517dba98213a154eff2ae0874d7ae39ae73d6",
-  "creat_utc": "2026-11-02T14:48:06+00:00",
+  "versiune": "20261102-ff960c90",
+  "amprenta": "ff960c90dbb536fc8f1540aa09d4b11d1c72b35682f97d8e72dbd54509f4329c",
+  "creat_utc": "2026-11-02T16:30:01+00:00",
   "descarcat_in": "actions",
-  "nume": "Base de Datos Nacional de Subvenciones (BDNS) – detalle de convocatorias y totales de concesiones, API REST del SNPSAP",
+  "nume": "Base de Datos Nacional de Subvenciones (BDNS) – detalle de convocatorias recientes (filtros por público), API REST del SNPSAP",
   "editor": "Intervención General de la Administración del Estado (IGAE), Ministerio de Hacienda",
   "pagina": "https://www.infosubvenciones.es/bdnstrans",
   "licenta": "Información libremente reutilizable (SNPSAP; Ley 37/2007 de reutilización), con cita de la fuente y la fecha",
@@ -12,51 +12,56 @@
   "fisiere_brute": [
     {
       "fisier": "detalii.json",
-      "octeti": 14726740,
-      "sha256": "afbde8708963168416235048931db146994ee34896ec4c915a088db59afcb490"
+      "octeti": 12258055,
+      "sha256": "f876eccf04efa03119e81aed95aafe8112cf6e44f41d6fd435e537775dfc0b7a"
     },
     {
       "fisier": "totaluri.json",
       "octeti": 2,
       "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "fisier": "publicuri.json",
+      "octeti": 149950,
+      "sha256": "3ea0dbd1bc42a42aaa5eff04438bd2ab27713224f67e0db86611a2ad4814a4cd"
     }
   ],
   "produse": [
     {
-      "fisier": "bdns_concesiuni_totaluri.parquet",
-      "randuri": 0,
-      "octeti": 1399,
-      "sha256": "33be5c50c35d4d7d61cfd5a6febc6f18ebb99f01213fbce6e1a28fb9c9ef1f97",
-      "coloane": {
-        "numeroConvocatoria": "string",
-        "an": "string",
-        "tip_beneficiar": "string",
-        "instrument": "string",
-        "acordari": "int64",
-        "suma_importe": "double",
-        "suma_ayuda_equivalente": "double"
-      }
-    },
-    {
       "fisier": "bdns_detalii.parquet",
-      "randuri": 2199,
-      "octeti": 2726883,
-      "sha256": "267e08f1cccd576a35c6e12c5f1c26e3309fe89caa4c0f24f640a147c0417fc1",
+      "randuri": 1808,
+      "octeti": 2276448,
+      "sha256": "c731de2bb5033c446c53b882a5e3528acd22c5a26ddc5ea4687a504094ab814c",
       "coloane": {
         "numeroConvocatoria": "string",
         "ok": "bool",
         "eroare": "string",
         "detaliu_json": "string"
       }
+    },
+    {
+      "fisier": "bdns_publicuri.parquet",
+      "randuri": 1816,
+      "octeti": 9429,
+      "sha256": "971498c4c9e1e98bd511a49981e5f0a792beadea4f390c87d88d8c154ba24c0a",
+      "coloane": {
+        "numeroConvocatoria": "string",
+        "public": "string",
+        "rural_in_titlu": "bool"
+      }
     }
   ],
   "profil": {
-    "convocari": 2199,
+    "de_la": "2025-05-01",
+    "pana_la": "2026-11-02",
+    "convocari_in_fereastra": 106120,
+    "potrivite": 1808,
     "fara_detaliu": 0,
-    "acordari_declarate": 0,
-    "acordari_primite": 0,
-    "convocari_cu_acordari": 0,
-    "pe_tip_beneficiar": {}
+    "pe_public": {
+      "familii": 859,
+      "antreprenori": 945,
+      "teletrabajo": 12
+    }
   },
   "verificari": [
     {
@@ -80,6 +85,16 @@
       "detaliu": ""
     },
     {
+      "verificare": "brut_nu_e_html:publicuri.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:publicuri.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
       "verificare": "schema:bdns_detalii.parquet",
       "rezultat": "TRECE",
       "detaliu": ""
@@ -87,10 +102,25 @@
     {
       "verificare": "randuri_minim:bdns_detalii.parquet",
       "rezultat": "TRECE",
-      "detaliu": "2199 rânduri, minim 1500"
+      "detaliu": "1808 rânduri, minim 1000"
+    },
+    {
+      "verificare": "scadere_randuri:bdns_detalii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "2199 -> 1808 (-17.8%); prag −30%"
+    },
+    {
+      "verificare": "schema:bdns_publicuri.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:bdns_publicuri.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "1816 rânduri, minim 1000"
     }
   ],
-  "versiunea_anterioara": null,
+  "versiunea_anterioara": "20261102-8340bdd8",
   "rezultat": "TRECE",
-  "rulare": "41462871465"
+  "rulare": "41479909249"
 }

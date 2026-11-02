@@ -1,10 +1,10 @@
 {
   "sursa": "bdns_publicuri",
-  "pornit_utc": "2026-11-02T14:32:54+00:00",
+  "pornit_utc": "2026-11-02T16:17:26+00:00",
   "rezultat": "publicat",
   "noutati": [],
-  "amprenta": "8340bdd8d933287579bb49145a0517dba98213a154eff2ae0874d7ae39ae73d6",
-  "versiune": "20261102-8340bdd8",
+  "amprenta": "ff960c90dbb536fc8f1540aa09d4b11d1c72b35682f97d8e72dbd54509f4329c",
+  "versiune": "20261102-ff960c90",
   "verificari": [
     {
       "verificare": "brut_nu_e_html:detalii.json",
@@ -27,6 +27,16 @@
       "detaliu": ""
     },
     {
+      "verificare": "brut_nu_e_html:publicuri.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:publicuri.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
       "verificare": "schema:bdns_detalii.parquet",
       "rezultat": "TRECE",
       "detaliu": ""
@@ -34,8 +44,23 @@
     {
       "verificare": "randuri_minim:bdns_detalii.parquet",
       "rezultat": "TRECE",
-      "detaliu": "2199 rânduri, minim 1500"
+      "detaliu": "1808 rânduri, minim 1000"
+    },
+    {
+      "verificare": "scadere_randuri:bdns_detalii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "2199 -> 1808 (-17.8%); prag −30%"
+    },
+    {
+      "verificare": "schema:bdns_publicuri.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:bdns_publicuri.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "1816 rânduri, minim 1000"
     }
   ],
-  "terminat_utc": "2026-11-02T14:48:13+00:00"
+  "terminat_utc": "2026-11-02T16:30:11+00:00"
 }
