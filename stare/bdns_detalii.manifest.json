@@ -1,0 +1,119 @@
+{
+  "sursa": "bdns_detalii",
+  "versiune": "20261102-27852c5b",
+  "amprenta": "27852c5b5d04c43ba354443629a40b48d875afa1f9745fc2371f4100776250aa",
+  "creat_utc": "2026-11-02T11:40:45+00:00",
+  "descarcat_in": "actions",
+  "nume": "Base de Datos Nacional de Subvenciones (BDNS) – detalle de convocatorias y totales de concesiones, API REST del SNPSAP",
+  "editor": "Intervención General de la Administración del Estado (IGAE), Ministerio de Hacienda",
+  "pagina": "https://www.infosubvenciones.es/bdnstrans",
+  "licenta": "Información libremente reutilizable (SNPSAP; Ley 37/2007 de reutilización), con cita de la fuente y la fecha",
+  "atribuire": "„Fuente: Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (BDNS), IGAE”, cu data descărcării",
+  "fisiere_brute": [
+    {
+      "fisier": "detalii.json",
+      "octeti": 34988916,
+      "sha256": "4ff648c28b90aa7dd7a89fe66b7abdcd9dbd83d83b5db95e8fc3a78cffd9c9b3"
+    },
+    {
+      "fisier": "totaluri.json",
+      "octeti": 330897,
+      "sha256": "b32f64f375572773f40ef9ccbe75f5ddd8adbf0bc7c179aa56deb2e89954b31a"
+    }
+  ],
+  "produse": [
+    {
+      "fisier": "bdns_concesiuni_totaluri.parquet",
+      "randuri": 2757,
+      "octeti": 52623,
+      "sha256": "e3ec8be40c9494fe6333d6c3b248dd5affa2536363af1b5516c64d30da77df6b",
+      "coloane": {
+        "numeroConvocatoria": "string",
+        "an": "string",
+        "tip_beneficiar": "string",
+        "instrument": "string",
+        "acordari": "int64",
+        "suma_importe": "double",
+        "suma_ayuda_equivalente": "double"
+      }
+    },
+    {
+      "fisier": "bdns_detalii.parquet",
+      "randuri": 5281,
+      "octeti": 4212473,
+      "sha256": "2e5fd3ac00d0c4ca3e5cd9705fc8587d6dcb7e6dbd24890a65cf718582279e4d",
+      "coloane": {
+        "numeroConvocatoria": "string",
+        "ok": "bool",
+        "eroare": "string",
+        "detaliu_json": "string"
+      }
+    }
+  ],
+  "profil": {
+    "convocari": 5281,
+    "fara_detaliu": 0,
+    "acordari_declarate": 2083665,
+    "acordari_primite": 2083665,
+    "convocari_cu_acordari": 1754,
+    "pe_tip_beneficiar": {
+      "entitate": {
+        "acordari": 721586,
+        "suma": 4721746036.96
+      },
+      "persoana_fizica": {
+        "acordari": 1346253,
+        "suma": 2929119301.53
+      },
+      "administratie": {
+        "acordari": 15826,
+        "suma": 844809165.78
+      }
+    }
+  },
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:detalii.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:detalii.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:totaluri.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:totaluri.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:bdns_detalii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:bdns_detalii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "5281 rânduri, minim 5000"
+    },
+    {
+      "verificare": "schema:bdns_concesiuni_totaluri.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:bdns_concesiuni_totaluri.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "2757 rânduri, minim 1"
+    }
+  ],
+  "versiunea_anterioara": null,
+  "rezultat": "TRECE",
+  "rulare": "41426164976"
+}

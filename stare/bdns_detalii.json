@@ -1,0 +1,51 @@
+{
+  "sursa": "bdns_detalii",
+  "pornit_utc": "2026-11-02T10:07:29+00:00",
+  "rezultat": "publicat",
+  "noutati": [],
+  "amprenta": "27852c5b5d04c43ba354443629a40b48d875afa1f9745fc2371f4100776250aa",
+  "versiune": "20261102-27852c5b",
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:detalii.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:detalii.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:totaluri.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:totaluri.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:bdns_detalii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:bdns_detalii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "5281 rânduri, minim 5000"
+    },
+    {
+      "verificare": "schema:bdns_concesiuni_totaluri.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:bdns_concesiuni_totaluri.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "2757 rânduri, minim 1"
+    }
+  ],
+  "terminat_utc": "2026-11-02T11:40:51+00:00"
+}
