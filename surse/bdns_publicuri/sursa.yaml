@@ -17,14 +17,11 @@ baza: https://www.infosubvenciones.es/bdnstrans/api
 lista: convocatorii.txt
 marime_pagina: 10000
 pauza_s: 0.25
+totaluri: false            # Marin, 2.11.2026: doar ce se poate cere acum, fără acordările din trecut
 erori_maxime: 0.05          # peste 5% convocări fără detaliu -> eșec
 
 produse:
   bdns_detalii.parquet:
     coloane: {numeroConvocatoria: string, ok: bool, eroare: string, detaliu_json: string}
-    randuri_minim: 9000
-  bdns_concesiuni_totaluri.parquet:
-    coloane: {numeroConvocatoria: string, an: string, tip_beneficiar: string, instrument: string,
-              acordari: int64, suma_importe: double, suma_ayuda_equivalente: double}
-    randuri_minim: 1
+    randuri_minim: 1500
 scadere_maxima: 0.10

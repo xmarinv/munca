@@ -94,6 +94,8 @@ def descarca(dir_brute, cfg):
             det.append({'numeroConvocatoria': n, 'ok': False, 'eroare': str(e)[:300], 'detaliu_json': None})
         if not det[-1]['ok']:
             jurnal['fara_detaliu'] += 1
+        if not cfg.get('totaluri', True):
+            continue
         try:
             declarat, primit, rows = totaluri(cfg, n)
             jurnal['acordari_declarate'] += declarat or 0
