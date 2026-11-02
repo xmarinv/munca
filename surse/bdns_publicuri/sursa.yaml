@@ -8,7 +8,7 @@ pagina: https://www.infosubvenciones.es/bdnstrans
 licenta: "Condiciones de uso de los datos del SNPSAP (aviso legal, actualizado 02/11/2026): reutilización comercial y no comercial; Ley 37/2007, RD 1495/2011"
 atribuire: "Origen de los datos: Intervención General de la Administración del Estado (SNPSAP / BDNS), con la fecha de descarga; sin sugerir apoyo de la IGAE. Disociación de datos personales: realizada por VivaPueblo (munca) – de los beneficiarios solo se conserva la categoría (administración / entidad / persona física) y los totales."
 descarcare: actions
-saptamanal: true           # Marin, 2.11.2026: reîmprospătare săptămânală pentru paginile pe public
+saptamanal: false          # înlocuită de bdns_catalog (Marin, 2.11.2026: toate subvențiile, fără filtre pe public)
 publica_brute: false
 cadenta: săptămânal (paznicul de luni)
 

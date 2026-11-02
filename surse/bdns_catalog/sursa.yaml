@@ -1,0 +1,28 @@
+# BDNS – catalogul convocărilor din ultimii 2 ani, cu detaliul fiecăreia, pentru toată Spania (Marin, 2.11.2026: toate
+# subvențiile, fără filtre pe public sau pe populație; selecția – ce e valabil acum, ce sat, ce public – în atlas sau în alte
+# aplicații; fără acordări și fără beneficiari). Săptămânal: convocările noi + reîmprospătarea celor încă deschise.
+# Prima descărcare (~140.000 de detalii) se face în mai multe rulări care se continuă singure (fișierul continua/).
+nume: "Base de Datos Nacional de Subvenciones (BDNS) – catálogo de convocatorias con su detalle, API REST del SNPSAP"
+editor: "Intervención General de la Administración del Estado (IGAE), Ministerio de Hacienda"
+pagina: https://www.infosubvenciones.es/bdnstrans
+licenta: "Condiciones de uso de los datos del SNPSAP (aviso legal, actualizado 02/11/2026): reutilización comercial y no comercial; Ley 37/2007, RD 1495/2011"
+atribuire: "Origen de los datos: Intervención General de la Administración del Estado (SNPSAP / BDNS), con la fecha de descarga; sin sugerir apoyo de la IGAE."
+descarcare: actions
+saptamanal: true
+publica_brute: false
+cadenta: săptămânal (paznicul de luni); continuări automate până la detaliul complet
+
+_sursa: bdns_catalog
+baza: https://www.infosubvenciones.es/bdnstrans/api
+zile_inapoi: 730
+zile_reimprospatare: 120      # fără termen: se recitește cât timp e mai nouă de 120 de zile
+marime_pagina: 10000
+pauza_s: 0.15
+minute_max: 250               # sub limita jobului de 300 min (publicarea și continuarea au nevoie de timp)
+
+produse:
+  bdns_catalog.parquet:
+    coloane: {numeroConvocatoria: string, fechaRecepcion: string, nivel1: string, nivel2: string, titlu: string,
+              cu_detaliu: bool, tipuri_beneficiari: string, fechaFinSolicitud: string, detaliu_json: string}
+    randuri_minim: 50000
+scadere_maxima: 0.20

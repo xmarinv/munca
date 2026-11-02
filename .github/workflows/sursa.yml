@@ -23,6 +23,7 @@ on:
 permissions:
   contents: write
   issues: write
+  actions: write      # continuările automate (surse lungi, ex. bdns_catalog)
 
 concurrency:
   group: munca-sursa
@@ -82,6 +83,12 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "stare: rularea ${{ github.run_id }}"
             for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
+          fi
+      - name: Continuări (sursele care n-au terminat în timpul rulării)
+        if: always()
+        run: |
+          if [ -d continua ]; then
+            for f in continua/*; do s=$(basename "$f"); echo "continuare $s ($(cat "$f") rămase)"; gh workflow run sursa.yml -f sursa="$s"; done
           fi
       - name: Rezultat
         if: steps.motor.outputs.esec == '1'
