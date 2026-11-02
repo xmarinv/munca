@@ -1,0 +1,29 @@
+# BDNS, etapa 2: detaliul convocărilor candidate și TOTALURILE acordărilor (concesiones), fără niciun beneficiar.
+# Lista convocărilor (convocatorii.txt) vine din atlas (cercetari/bdns/harta_bdns.py); alegerea e a atlasului.
+# Decizia Marin (2.11.2026): nu ne interesează nici persoanele, nici entitățile, doar totalurile. Numele și NIF-urile
+# beneficiarilor nu se scriu nicăieri (nici în brute): acordările se adună în memorie, la descărcare.
+nume: "Base de Datos Nacional de Subvenciones (BDNS) – detalle de convocatorias y totales de concesiones, API REST del SNPSAP"
+editor: "Intervención General de la Administración del Estado (IGAE), Ministerio de Hacienda"
+pagina: https://www.infosubvenciones.es/bdnstrans
+licenta: "Información libremente reutilizable (SNPSAP; Ley 37/2007 de reutilización), con cita de la fuente y la fecha"
+atribuire: "„Fuente: Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (BDNS), IGAE”, cu data descărcării"
+descarcare: actions
+saptamanal: false
+publica_brute: false
+cadenta: la cerere
+
+baza: https://www.infosubvenciones.es/bdnstrans/api
+lista: convocatorii.txt
+marime_pagina: 10000
+pauza_s: 0.25
+erori_maxime: 0.05          # peste 5% convocări fără detaliu -> eșec
+
+produse:
+  bdns_detalii.parquet:
+    coloane: {numeroConvocatoria: string, ok: bool, eroare: string, detaliu_json: string}
+    randuri_minim: 5000
+  bdns_concesiuni_totaluri.parquet:
+    coloane: {numeroConvocatoria: string, an: string, tip_beneficiar: string, instrument: string,
+              acordari: int64, suma_importe: double, suma_ayuda_equivalente: double}
+    randuri_minim: 1
+scadere_maxima: 0.10
