@@ -1,27 +1,55 @@
-# BDNS, etapa 3: detaliul convocărilor din filtrele pe public (familii, antreprenori, teletrabajo; Marin, 2.11.2026)
-# – același cod ca bdns_detalii (sursa.py îl importă); doar lista diferă. Inițial: detaliul convocărilor candidate și TOTALURILE acordărilor (concesiones), fără niciun beneficiar.
-# Lista convocărilor (convocatorii.txt) vine din atlas (cercetari/bdns/harta_bdns.py); alegerea e a atlasului.
-# Decizia Marin (2.11.2026): nu ne interesează nici persoanele, nici entitățile, doar totalurile. Numele și NIF-urile
-# beneficiarilor nu se scriu nicăieri (nici în brute): acordările se adună în memorie, la descărcare.
-nume: "Base de Datos Nacional de Subvenciones (BDNS) – detalle de convocatorias y totales de concesiones, API REST del SNPSAP"
+# BDNS – ce se poate cere acum, pentru paginile pe public ale atlasului (familii, antreprenori / autónomos, teletrabajo;
+# Marin, 2.11.2026). Săptămânal: căutarea pe ultimele 550 de zile, filtrele pe titlu de mai jos, detaliul convocărilor
+# potrivite. Fără acordări și fără niciun beneficiar. Ce e „deschisă” și pentru ce sat se decide în atlas
+# (cercetari/bdns/deschise.py).
+nume: "Base de Datos Nacional de Subvenciones (BDNS) – detalle de convocatorias recientes (filtros por público), API REST del SNPSAP"
 editor: "Intervención General de la Administración del Estado (IGAE), Ministerio de Hacienda"
 pagina: https://www.infosubvenciones.es/bdnstrans
 licenta: "Información libremente reutilizable (SNPSAP; Ley 37/2007 de reutilización), con cita de la fuente y la fecha"
 atribuire: "„Fuente: Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (BDNS), IGAE”, cu data descărcării"
 descarcare: actions
-saptamanal: false
+saptamanal: true           # Marin, 2.11.2026: reîmprospătare săptămânală pentru paginile pe public
 publica_brute: false
-cadenta: la cerere
+cadenta: săptămânal (paznicul de luni)
 
+# Fereastra: ultimele 550 de zile (~18 luni); filtrele: copia din atlas cercetari/bdns/filtre_publicuri.py (2.11.2026) –
+# se schimbă în ambele locuri. scadere_maxima 0.30: fereastra alunecă, numărul variază de la o săptămână la alta.
 baza: https://www.infosubvenciones.es/bdnstrans/api
-lista: convocatorii.txt
+zile_inapoi: 550
 marime_pagina: 10000
 pauza_s: 0.25
-totaluri: false            # Marin, 2.11.2026: doar ce se poate cere acum, fără acordările din trecut
-erori_maxime: 0.05          # peste 5% convocări fără detaliu -> eșec
-
+totaluri: false
+erori_maxime: 0.05
+rural: despobla|reto demografico|repobla|medio rural|zonas? rurales?|municipios? (de menos|pequen|rurales)|pequenos municipios|nucleos? rurales?|riesgo de despoblacion|despoboamento|repte demografic|mon
+  rural|rural
+filtre:
+  familii:
+    rx: natalidad|nacimiento|cheque bebe|bono bebe|bebe|adopcion|empadronamiento|empadronad[oa]s|nuevos (vecinos|residentes|pobladores)|emancipacion|alquiler de vivienda|ayudas? (al|para el) alquiler|adquisicion
+      de (la )?vivienda|compra de (la )?vivienda|rehabilitacion de (la )?vivienda|vivienda habitual|viviendas? vacias?|primera vivienda|natalitat|naixement|empadronament|lloguer
+    nivel: LOCAL
+    rural_daca_nu_local: false
+  antreprenori:
+    rx: creacion de (nuevas )?empresas|nuevas empresas|emprendedor|emprendimiento|emprendedur|autonom[oa]s|trabajadores? por cuenta propia|apertura de (nuevos )?(negocios|establecimientos|comercios|locales)|implantacion
+      de (empresas|negocios|actividad)|inicio de (la )?actividad|cuota cero|tarifa plana|traslado de (empresas|la actividad|negocios)|relocaliz|locales? (comerciales? )?vacios|alquiler de locales|comercio
+      (local|de proximidad|rural)|relevo generacional|nous negocis|autonoms
+    nivel: null
+    rural_daca_nu_local: true
+  teletrabajo:
+    rx: teletrabajo|teletreball|coworking|cotreball|nomadas? digitales?|trabajo en remoto|trabajo a distancia|espacios? de trabajo compartido
+    nivel: null
+    rural_daca_nu_local: false
 produse:
   bdns_detalii.parquet:
-    coloane: {numeroConvocatoria: string, ok: bool, eroare: string, detaliu_json: string}
-    randuri_minim: 1500
-scadere_maxima: 0.10
+    coloane:
+      numeroConvocatoria: string
+      ok: bool
+      eroare: string
+      detaliu_json: string
+    randuri_minim: 1000
+  bdns_publicuri.parquet:
+    coloane:
+      numeroConvocatoria: string
+      public: string
+      rural_in_titlu: bool
+    randuri_minim: 1000
+scadere_maxima: 0.3

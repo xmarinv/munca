@@ -81,9 +81,10 @@ def totaluri(cfg, n):
     return total, vazute, [[k[0], k[1], k[2], *v] for k, v in agg.items()]
 
 
-def descarca(dir_brute, cfg):
-    nums = [l.strip() for l in (AICI / cfg['lista']).read_text(encoding='utf-8').splitlines()
-            if l.strip() and not l.startswith('#')]
+def descarca(dir_brute, cfg, nums=None):
+    if nums is None:
+        nums = [l.strip() for l in (AICI / cfg['lista']).read_text(encoding='utf-8').splitlines()
+                if l.strip() and not l.startswith('#')]
     det, tot, jurnal = [], [], {'convocari': len(nums), 'fara_detaliu': 0, 'acordari_declarate': 0, 'acordari_primite': 0}
     for i, n in enumerate(nums):
         try:
