@@ -5,8 +5,8 @@
 nume: "Base de Datos Nacional de Subvenciones (BDNS) – convocatorias, API REST del SNPSAP"
 editor: "Intervención General de la Administración del Estado (IGAE), Ministerio de Hacienda"
 pagina: https://www.infosubvenciones.es/bdnstrans
-licenta: "Información libremente reutilizable (SNPSAP; Ley 37/2007 de reutilización), con cita de la fuente y la fecha"
-atribuire: "„Fuente: Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (BDNS), IGAE”, cu data descărcării"
+licenta: "Condiciones de uso de los datos del SNPSAP (aviso legal, actualizado 02/11/2026): reutilización comercial y no comercial; Ley 37/2007, RD 1495/2011"
+atribuire: "Origen de los datos: Intervención General de la Administración del Estado (SNPSAP / BDNS), con la fecha de descarga; sin sugerir apoyo de la IGAE."
 descarcare: actions
 saptamanal: false          # la cerere până se decide cadența
 publica_brute: false       # produsul parquet conține tot ce dă căutarea; brutele (JSON pe pagini) nu se republică
