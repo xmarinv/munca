@@ -1,12 +1,12 @@
 {
   "sursa": "eea_aer",
-  "pornit_utc": "2026-11-01T09:31:50+00:00",
+  "pornit_utc": "2026-11-02T12:28:59+00:00",
   "rezultat": "publicat",
   "noutati": [
     "paznic: seria EEA nu a putut fi citită"
   ],
-  "amprenta": "513bc1b65d753beb4dbf30b0ed00b0daf4deb63bb933dc5a1b6213ab21231e9b",
-  "versiune": "20261101-513bc1b6",
+  "amprenta": "4e3101f7f10110af681e909b21dca3bfedcaa694df81697f2da30cccd6f5e562",
+  "versiune": "20261102-4e3101f7",
   "verificari": [
     {
       "verificare": "brut_nu_e_html:pm25_2024_validat.zip",
@@ -47,7 +47,12 @@
       "verificare": "randuri_minim:eea_aer_celule.parquet",
       "rezultat": "TRECE",
       "detaliu": "5193596 rânduri, minim 500000"
+    },
+    {
+      "verificare": "scadere_randuri:eea_aer_celule.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "5193596 -> 5193596 (-0.0%); prag −10%"
     }
   ],
-  "terminat_utc": "2026-11-01T09:33:26+00:00"
+  "terminat_utc": "2026-11-02T12:30:20+00:00"
 }
