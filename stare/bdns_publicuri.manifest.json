@@ -1,0 +1,96 @@
+{
+  "sursa": "bdns_publicuri",
+  "versiune": "20261102-8340bdd8",
+  "amprenta": "8340bdd8d933287579bb49145a0517dba98213a154eff2ae0874d7ae39ae73d6",
+  "creat_utc": "2026-11-02T14:48:06+00:00",
+  "descarcat_in": "actions",
+  "nume": "Base de Datos Nacional de Subvenciones (BDNS) – detalle de convocatorias y totales de concesiones, API REST del SNPSAP",
+  "editor": "Intervención General de la Administración del Estado (IGAE), Ministerio de Hacienda",
+  "pagina": "https://www.infosubvenciones.es/bdnstrans",
+  "licenta": "Información libremente reutilizable (SNPSAP; Ley 37/2007 de reutilización), con cita de la fuente y la fecha",
+  "atribuire": "„Fuente: Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (BDNS), IGAE”, cu data descărcării",
+  "fisiere_brute": [
+    {
+      "fisier": "detalii.json",
+      "octeti": 14726740,
+      "sha256": "afbde8708963168416235048931db146994ee34896ec4c915a088db59afcb490"
+    },
+    {
+      "fisier": "totaluri.json",
+      "octeti": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ],
+  "produse": [
+    {
+      "fisier": "bdns_concesiuni_totaluri.parquet",
+      "randuri": 0,
+      "octeti": 1399,
+      "sha256": "33be5c50c35d4d7d61cfd5a6febc6f18ebb99f01213fbce6e1a28fb9c9ef1f97",
+      "coloane": {
+        "numeroConvocatoria": "string",
+        "an": "string",
+        "tip_beneficiar": "string",
+        "instrument": "string",
+        "acordari": "int64",
+        "suma_importe": "double",
+        "suma_ayuda_equivalente": "double"
+      }
+    },
+    {
+      "fisier": "bdns_detalii.parquet",
+      "randuri": 2199,
+      "octeti": 2726883,
+      "sha256": "267e08f1cccd576a35c6e12c5f1c26e3309fe89caa4c0f24f640a147c0417fc1",
+      "coloane": {
+        "numeroConvocatoria": "string",
+        "ok": "bool",
+        "eroare": "string",
+        "detaliu_json": "string"
+      }
+    }
+  ],
+  "profil": {
+    "convocari": 2199,
+    "fara_detaliu": 0,
+    "acordari_declarate": 0,
+    "acordari_primite": 0,
+    "convocari_cu_acordari": 0,
+    "pe_tip_beneficiar": {}
+  },
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:detalii.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:detalii.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:totaluri.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:totaluri.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:bdns_detalii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:bdns_detalii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "2199 rânduri, minim 1500"
+    }
+  ],
+  "versiunea_anterioara": null,
+  "rezultat": "TRECE",
+  "rulare": "41462871465"
+}
