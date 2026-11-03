@@ -1,10 +1,10 @@
 {
   "sursa": "bdns_catalog",
-  "pornit_utc": "2026-11-02T21:19:45+00:00",
+  "pornit_utc": "2026-11-03T01:30:28+00:00",
   "rezultat": "publicat",
   "noutati": [],
-  "amprenta": "cbfcfba0f9cb732e1583faf41545c882945eff781cb7b17ed40e497954feb58a",
-  "versiune": "20261103-cbfcfba0",
+  "amprenta": "d2a6f740a04467f5ceaa207525e704e2415ac73e9353bdd97b00552d1355407e",
+  "versiune": "20261103-d2a6f740",
   "verificari": [
     {
       "verificare": "brut_nu_e_html:catalog.jsonl",
@@ -25,7 +25,12 @@
       "verificare": "randuri_minim:bdns_catalog.parquet",
       "rezultat": "TRECE",
       "detaliu": "140340 rânduri, minim 50000"
+    },
+    {
+      "verificare": "scadere_randuri:bdns_catalog.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "140340 -> 140340 (-0.0%); prag −20%"
     }
   ],
-  "terminat_utc": "2026-11-03T01:30:00+00:00"
+  "terminat_utc": "2026-11-03T05:40:54+00:00"
 }
