@@ -5,7 +5,8 @@ Produse:
                          termen in text), `termen_sigur` (data de sfârșit: din câmp sau o dată completă scrisă în text),
                          legătura spre pagina BDNS
   ajutoare_arii.parquet  convocare x arie: `arie_tip` (muni / insula / prov / ccaa / stat / doar_pagina), `arie_cod`
-                         (cod INE municipiu / NUTS3 / cod INE provincie / cheia comunității / ES), `metoda`
+                         (cod INE municipiu / NUTS3 / cod INE provincie / cheia comunității / ES), `metoda`, `provincii`
+                         (codurile INE ale provinciilor acoperite, separate prin spațiu)
 Aria = teritoriul emitentului; `regiuni` (NUTS, regiunea de impact) doar îngustează. `doar_pagina`: comarques,
 mancomunidades, „alte organisme” – fără legătură cu municipiile, doar pentru pagina de provincie, după `regiuni`.
 """
@@ -252,6 +253,11 @@ def structureaza(dir_brute, dir_produse, cfg):
             else:
                 rows.append(dict(numeroConvocatoria=r.numeroConvocatoria, arie_tip=tip, arie_cod=cod, metoda=metoda))
     a = pd.DataFrame(rows).drop_duplicates()
+    # provinciile acoperite de arie (coduri INE, separate prin spațiu), ca atlas să lege fără să refacă regulile;
+    # pentru insulă – provincia insulei (municipiile insulei se iau după NUTS3 din teritorii)
+    a['provincii'] = [' '.join(sorted({m[:2] for m in muni(t, c)})) if t != 'doar_pagina' else
+                      (' '.join(sorted(prov_arii([tuple(c.split(':', 1))]))) if isinstance(c, str) else None)
+                      for t, c in zip(a.arie_tip, a.arie_cod)]
     v.to_parquet(Path(dir_produse) / 'ajutoare.parquet', index=False, compression='zstd')
     a.to_parquet(Path(dir_produse) / 'ajutoare_arii.parquet', index=False, compression='zstd')
 
