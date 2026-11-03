@@ -9,7 +9,7 @@ atribuire: "„Fuente: INE” și „Source: Eurostat, LAU – NUTS 2024 corresp
 descarcare: actions
 saptamanal: false
 publica_brute: true
-cadenta: anuala (INE: lista la 1 ianuarie; Eurostat: corespondența LAU pe an)
+cadenta: "anuala (INE – lista la 1 ianuarie; Eurostat – corespondența LAU pe an)"
 
 fisiere:
   - {fisier: diccionario26.xlsx, url: "https://www.ine.es/daco/daco42/codmun/diccionario26.xlsx"}
