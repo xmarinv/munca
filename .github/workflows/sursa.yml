@@ -61,9 +61,13 @@ jobs:
           else
             surse=$(python - <<'EOF'
           import yaml, pathlib
-          for p in sorted(pathlib.Path('surse').glob('*/sursa.yaml')):
+          # ordinea: `ordine` din sursa.yaml (implicit 50), apoi numele – sursele derivate (ex. bdns_ajutoare, 90) după intrările lor
+          surse = []
+          for p in pathlib.Path('surse').glob('*/sursa.yaml'):
               if not p.parent.name.startswith('_') and (c := yaml.safe_load(p.read_text()))['descarcare'] == 'actions' and c.get('saptamanal', True):
-                  print(p.parent.name)
+                  surse.append((c.get('ordine', 50), p.parent.name))
+          for _, n in sorted(surse):
+              print(n)
           EOF
           )
           fi

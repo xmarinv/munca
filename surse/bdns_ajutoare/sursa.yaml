@@ -1,0 +1,26 @@
+# Ajutoarele BDNS care se pot cere acum, legate de teritoriu – prelucrare derivată, fără secrete de aparat (excepția din
+# CLAUDE.md, Marin 3.11.2026). Intrări: release-urile `bdns_catalog-ultima` și `teritorii-ultima` din acest depozit.
+# Deciziile (raportul din atlas, cercetari/raport_bdns_subventii.md): doar convocările „canónica”; deschise, care se
+# deschid sau cu termen doar în text (arătate separat, fără dată calculată; o dată completă scrisă în text se citește);
+# aria = teritoriul celui care dă ajutorul, îngustat de `regiuni`; comarques, mancomunidades și „alte organisme” nu se
+# leagă de municipii (doar pagina de provincie). Rulează săptămânal, după bdns_catalog (ordine 90): „valabil acum”
+# depinde de ziua rulării, de aceea ziua intră în amprentă.
+nume: "Ayudas de la BDNS que se pueden solicitar, con su ámbito territorial (derivado del catálogo BDNS)"
+editor: "Intervención General de la Administración del Estado (IGAE) – BDNS; INE; Eurostat (legarea: munca)"
+pagina: https://www.infosubvenciones.es/bdnstrans
+licenta: "Condiciones de uso de los datos del SNPSAP (reutilización comercial y no comercial); INE și Eurostat cu citarea sursei"
+atribuire: "Origen de los datos: Intervención General de la Administración del Estado (SNPSAP / BDNS), con la fecha de descarga; sin sugerir apoyo de la IGAE."
+descarcare: actions
+saptamanal: true
+ordine: 90
+publica_brute: false
+cadenta: săptămânal, după bdns_catalog
+
+zile_termen_text: 120          # termen doar în text: se arată cât timp convocarea e mai nouă de 120 de zile
+
+produse:
+  ajutoare.parquet:
+    randuri_minim: 1000
+  ajutoare_arii.parquet:
+    randuri_minim: 1000
+scadere_maxima: 0.40           # numărul ajutoarelor deschise variază de la o săptămână la alta
