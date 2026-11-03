@@ -1,0 +1,98 @@
+{
+  "sursa": "bdns_catalog",
+  "versiune": "20261103-cbfcfba0",
+  "amprenta": "cbfcfba0f9cb732e1583faf41545c882945eff781cb7b17ed40e497954feb58a",
+  "creat_utc": "2026-11-03T01:29:52+00:00",
+  "descarcat_in": "actions",
+  "nume": "Base de Datos Nacional de Subvenciones (BDNS) – catálogo de convocatorias con su detalle, API REST del SNPSAP",
+  "editor": "Intervención General de la Administración del Estado (IGAE), Ministerio de Hacienda",
+  "pagina": "https://www.infosubvenciones.es/bdnstrans",
+  "licenta": "Condiciones de uso de los datos del SNPSAP (aviso legal, actualizado 02/11/2026): reutilización comercial y no comercial; Ley 37/2007, RD 1495/2011",
+  "atribuire": "Origen de los datos: Intervención General de la Administración del Estado (SNPSAP / BDNS), con la fecha de descarga; sin sugerir apoyo de la IGAE.",
+  "fisiere_brute": [
+    {
+      "fisier": "catalog.jsonl",
+      "octeti": 263403093,
+      "sha256": "9c85922c0ffc81616be616d08afe11182f5395354c0d69781b0617ee26ea07a0"
+    }
+  ],
+  "produse": [
+    {
+      "fisier": "bdns_catalog.parquet",
+      "randuri": 140340,
+      "octeti": 35861593,
+      "sha256": "9565e4b39abde428ffe95a770daf1fcc423990886af82b22c9d9496cb1129054",
+      "coloane": {
+        "numeroConvocatoria": "string",
+        "id": "int64",
+        "fechaRecepcion": "string",
+        "nivel1": "string",
+        "nivel2": "string",
+        "nivel3": "string",
+        "titlu": "string",
+        "titlu_cooficial": "string",
+        "mrr": "bool",
+        "cu_detaliu": "bool",
+        "tipoConvocatoria": "string",
+        "instrumente": "string",
+        "tipuri_beneficiari": "string",
+        "sectoare": "string",
+        "regiuni": "string",
+        "fonduri": "string",
+        "obiective": "string",
+        "finalitate": "string",
+        "buget": "double",
+        "fechaInicioSolicitud": "string",
+        "fechaFinSolicitud": "string",
+        "textInicio": "string",
+        "textFin": "string",
+        "abierto": "bool",
+        "sedeElectronica": "string",
+        "urlBasesReguladoras": "string",
+        "descripcionBasesReguladoras": "string",
+        "descarcat_utc": "string",
+        "detaliu_json": "string"
+      }
+    }
+  ],
+  "profil": {
+    "fereastra": [
+      "2024-11-02",
+      "2026-11-02"
+    ],
+    "convocari": 140340,
+    "din_anterior": 0,
+    "noi": 140340,
+    "reimprospatate_tinta": 0,
+    "cereri_facute": 43713,
+    "erori": 0,
+    "ramase_pentru_continuare": 96627,
+    "cu_detaliu": 43713,
+    "fara_detaliu": 96627
+  },
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:catalog.jsonl",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:catalog.jsonl",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:bdns_catalog.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:bdns_catalog.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "140340 rânduri, minim 50000"
+    }
+  ],
+  "versiunea_anterioara": null,
+  "rezultat": "TRECE",
+  "rulare": "41527278849"
+}
