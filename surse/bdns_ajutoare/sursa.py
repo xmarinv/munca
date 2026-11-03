@@ -34,6 +34,11 @@ def descarca(dir_brute, cfg):
     # „valabil acum” depinde de zi: ziua intră în amprentă, deci rularea de luni publică mereu
     (Path(dir_brute) / 'azi.txt').write_text(dt.date.today().isoformat())
     rez.append({'fisier': 'azi.txt', 'url': 'ziua rulării'})
+    # prelucrare derivată: și codul intră în amprentă (o regulă schimbată = o versiune nouă)
+    import hashlib
+    cod = Path(__file__).read_bytes() + (Path(__file__).parent / 'sursa.yaml').read_bytes()
+    (Path(dir_brute) / 'cod.txt').write_text(hashlib.sha256(cod).hexdigest())
+    rez.append({'fisier': 'cod.txt', 'url': 'amprenta codului sursa.py + sursa.yaml'})
     return rez
 
 
