@@ -1,0 +1,233 @@
+{
+  "sursa": "bdns_ajutoare",
+  "versiune": "20261103-f2f6bbff",
+  "amprenta": "f2f6bbffeb64540aa3e5f2d5b7f22bf199ad6af17db2eb6e22a1f76759134555",
+  "creat_utc": "2026-11-03T15:23:11+00:00",
+  "descarcat_in": "actions",
+  "nume": "Ayudas de la BDNS que se pueden solicitar, con su ámbito territorial (derivado del catálogo BDNS)",
+  "editor": "Intervención General de la Administración del Estado (IGAE) – BDNS; INE; Eurostat (legarea: munca)",
+  "pagina": "https://www.infosubvenciones.es/bdnstrans",
+  "licenta": "Condiciones de uso de los datos del SNPSAP (reutilización comercial y no comercial); INE și Eurostat cu citarea sursei",
+  "atribuire": "Origen de los datos: Intervención General de la Administración del Estado (SNPSAP / BDNS), con la fecha de descarga; sin sugerir apoyo de la IGAE.",
+  "fisiere_brute": [
+    {
+      "fisier": "bdns_catalog-ultima/bdns_catalog.parquet",
+      "url": "release bdns_catalog-ultima (versiunea 20261103-647080b1)",
+      "descarcat_utc": "2026-11-03T15:22:58Z",
+      "octeti": 95350371,
+      "sha256": "10cc7a1321bf44a49050f2d0e12e6d886a578cd69eeded8103bd3d045a9fc1e0"
+    },
+    {
+      "fisier": "bdns_catalog-ultima/manifest.json",
+      "url": "release bdns_catalog-ultima (versiunea 20261103-647080b1)",
+      "descarcat_utc": "2026-11-03T15:22:58Z",
+      "octeti": 3272,
+      "sha256": "2eeede5440563befa2b5abfa384e4772fb6c0634d774caf2eaa898c796aa381d"
+    },
+    {
+      "fisier": "teritorii-ultima/ine_municipii.parquet",
+      "url": "release teritorii-ultima (versiunea 20261103-51dbf601)",
+      "descarcat_utc": "2026-11-03T15:22:59Z",
+      "octeti": 84904,
+      "sha256": "3b3e9a3980e828609c36d3da4027e5b35b3473ad42782c314b5d3046c5a0bafa"
+    },
+    {
+      "fisier": "teritorii-ultima/lau_nuts_es.parquet",
+      "url": "release teritorii-ultima (versiunea 20261103-51dbf601)",
+      "descarcat_utc": "2026-11-03T15:22:59Z",
+      "octeti": 275999,
+      "sha256": "84f26a1751b3d224bdd9893027ad8bb9678f271852a706caf381d39cd287f96b"
+    },
+    {
+      "fisier": "teritorii-ultima/manifest.json",
+      "url": "release teritorii-ultima (versiunea 20261103-51dbf601)",
+      "descarcat_utc": "2026-11-03T15:22:59Z",
+      "octeti": 6351,
+      "sha256": "9ba9d11a9b8287831861868ab1a17d8d4728259dbeaf67e7df6a3752312dac25"
+    },
+    {
+      "fisier": "azi.txt",
+      "url": "ziua rulării",
+      "octeti": 10,
+      "sha256": "5078719ef4595b8e11268bd4e2f6ee8e06947062f001f3e0e3c472c2a34fff81"
+    }
+  ],
+  "produse": [
+    {
+      "fisier": "ajutoare.parquet",
+      "randuri": 5317,
+      "octeti": 944324,
+      "sha256": "b61176d3f7dc04123c6da002402198183936971ec3254a4a56055e826fe55d15",
+      "coloane": {
+        "numeroConvocatoria": "string",
+        "id": "int64",
+        "fechaRecepcion": "string",
+        "nivel1": "string",
+        "nivel2": "string",
+        "nivel3": "string",
+        "titlu": "string",
+        "titlu_cooficial": "string",
+        "mrr": "bool",
+        "cu_detaliu": "bool",
+        "tipoConvocatoria": "string",
+        "instrumente": "string",
+        "tipuri_beneficiari": "string",
+        "sectoare": "string",
+        "regiuni": "string",
+        "fonduri": "string",
+        "obiective": "string",
+        "finalitate": "string",
+        "buget": "double",
+        "fechaInicioSolicitud": "string",
+        "fechaFinSolicitud": "string",
+        "textInicio": "string",
+        "textFin": "string",
+        "abierto": "bool",
+        "sedeElectronica": "string",
+        "urlBasesReguladoras": "string",
+        "descripcionBasesReguladoras": "string",
+        "descarcat_utc": "string",
+        "termen_din_text": "string",
+        "stare": "large_string",
+        "termen_sigur": "string",
+        "url_bdns": "large_string",
+        "valabil_la": "large_string"
+      }
+    },
+    {
+      "fisier": "ajutoare_arii.parquet",
+      "randuri": 5379,
+      "octeti": 41531,
+      "sha256": "e416d40d75e8b74da48d14f8b588e886c17b35297e326a66f34d1be57473e657",
+      "coloane": {
+        "numeroConvocatoria": "large_string",
+        "arie_tip": "large_string",
+        "arie_cod": "large_string",
+        "metoda": "large_string"
+      }
+    }
+  ],
+  "profil": [
+    {
+      "valabil_la": "2026-11-03",
+      "convocari": 5317,
+      "pe_stare": {
+        "deschisa": 2626,
+        "termen in text": 2569,
+        "se deschide": 122
+      },
+      "termen_citit_din_text": 413,
+      "legate_de_teritoriu": 4882,
+      "doar_pagina": 435,
+      "pe_arie": {
+        "muni": 3250,
+        "ccaa": 1058,
+        "prov": 454,
+        "doar_pagina": 449,
+        "insula": 92,
+        "stat": 76
+      },
+      "pe_metoda": {
+        "municipal": 3250,
+        "emitent": 1106,
+        "diputacion": 361,
+        "alte organisme": 344,
+        "emitent ingustat de regiuni": 121,
+        "asociere de municipii / entitate locala menor": 103,
+        "cabildo/consell": 92,
+        "municipiu negasit": 2
+      },
+      "pe_emitent": {
+        "LOCAL": 3803,
+        "AUTONOMICA": 1068,
+        "OTROS": 335,
+        "ESTADO": 111
+      }
+    }
+  ],
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:bdns_catalog-ultima/bdns_catalog.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:bdns_catalog-ultima/bdns_catalog.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:bdns_catalog-ultima/manifest.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:bdns_catalog-ultima/manifest.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:teritorii-ultima/ine_municipii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:teritorii-ultima/ine_municipii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:teritorii-ultima/lau_nuts_es.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:teritorii-ultima/lau_nuts_es.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:teritorii-ultima/manifest.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:teritorii-ultima/manifest.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:azi.txt",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:azi.txt",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:ajutoare.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:ajutoare.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "5317 rânduri, minim 1000"
+    },
+    {
+      "verificare": "schema:ajutoare_arii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:ajutoare_arii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "5379 rânduri, minim 1000"
+    }
+  ],
+  "versiunea_anterioara": null,
+  "rezultat": "TRECE",
+  "rulare": "41663203427"
+}
