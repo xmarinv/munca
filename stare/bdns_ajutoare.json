@@ -1,6 +1,111 @@
 {
   "sursa": "bdns_ajutoare",
-  "rezultat": "EROARE",
-  "eroare": "RuntimeError: gh release create bdns_ajutoare-20261103-f2f6bbff /tmp/munca_bdns_ajutoare_2auedl6l/produse/manifest.json /tmp/munca_bdns_ajutoare_2auedl6l/produse/ajutoare.parquet /tmp/munca_bdns_ajutoare_2auedl6l/produse/ajutoare_arii.parquet --title bdns_ajutoare 20261103-f2f6bbff --notes-file /tmp/munca_bdns_ajutoare_2auedl6l/produse/note.md --latest=false: a release with the same tag name already exists: bdns_ajutoare-20261103-f2f6bbff",
-  "terminat_utc": "2026-11-03T17:04:27+00:00"
+  "pornit_utc": "2026-11-03T17:05:40+00:00",
+  "rezultat": "publicat",
+  "noutati": [],
+  "amprenta": "6e0fea611d9d0107baf74b7959ae9a5c882a4f3dbe2cc2f914cf2135f61ab020",
+  "versiune": "20261103-6e0fea61",
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:bdns_catalog-ultima/bdns_catalog.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:bdns_catalog-ultima/bdns_catalog.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:bdns_catalog-ultima/manifest.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:bdns_catalog-ultima/manifest.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:teritorii-ultima/ine_municipii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:teritorii-ultima/ine_municipii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:teritorii-ultima/lau_nuts_es.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:teritorii-ultima/lau_nuts_es.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:teritorii-ultima/manifest.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:teritorii-ultima/manifest.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:azi.txt",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:azi.txt",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:cod.txt",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:cod.txt",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:ajutoare.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:ajutoare.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "5317 rânduri, minim 1000"
+    },
+    {
+      "verificare": "scadere_randuri:ajutoare.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "5317 -> 5317 (-0.0%); prag −40%"
+    },
+    {
+      "verificare": "schema:ajutoare_arii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:ajutoare_arii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "5379 rânduri, minim 1000"
+    },
+    {
+      "verificare": "scadere_randuri:ajutoare_arii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "5379 -> 5379 (-0.0%); prag −40%"
+    }
+  ],
+  "terminat_utc": "2026-11-03T17:06:06+00:00"
 }
