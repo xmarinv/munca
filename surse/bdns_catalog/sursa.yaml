@@ -1,7 +1,8 @@
 # BDNS – catalogul convocărilor din ultimii 2 ani, cu detaliul fiecăreia, pentru toată Spania (Marin, 2.11.2026: toate
 # subvențiile, fără filtre pe public sau pe populație; selecția – ce e valabil acum, ce sat, ce public – în atlas sau în alte
 # aplicații; fără acordări și fără beneficiari). Săptămânal: convocările noi + reîmprospătarea celor încă deschise.
-# Prima descărcare (~140.000 de detalii) se face în mai multe rulări care se continuă singure (fișierul continua/).
+# Se păstrează doar ce se poate cere (Marin, 3.11.2026): convocările „canónica” cu detaliul întreg; cele „instrumental” (acordări
+# directe, fără apel către beneficiari) rămân doar ca rând subțire și nu mai sunt recitite. Prima descărcare (~140.000 de detalii) se face în mai multe rulări care se continuă singure (fișierul continua/).
 nume: "Base de Datos Nacional de Subvenciones (BDNS) – catálogo de convocatorias con su detalle, API REST del SNPSAP"
 editor: "Intervención General de la Administración del Estado (IGAE), Ministerio de Hacienda"
 pagina: https://www.infosubvenciones.es/bdnstrans
