@@ -1,0 +1,24 @@
+# Tabelele de referință pentru legarea geografică (prima folosire: ajutoarele BDNS, Marin 3.11.2026):
+# lista oficială a municipiilor (INE, coduri și denumiri) și corespondența oficială municipiu (LAU) -> NUTS 3 (Eurostat),
+# care dă provincia și, în Baleare și Canare, insula. Doar citire și forma tabelului.
+nume: "Relación de municipios y sus códigos (INE) și corespondența LAU – NUTS 2024 (Eurostat)"
+editor: "Instituto Nacional de Estadística (INE); Eurostat (Comisia Europeană)"
+pagina: https://www.ine.es/daco/daco42/codmun/codmun.htm
+licenta: "INE: reutilizare cu citarea sursei (aviso legal INE, Ley 37/2007). Eurostat: reutilizare permisă cu citarea sursei (Decizia Comisiei 2011/833/UE; © European Union)"
+atribuire: "„Fuente: INE” și „Source: Eurostat, LAU – NUTS 2024 correspondence”"
+descarcare: actions
+saptamanal: false
+publica_brute: true
+cadenta: anuala (INE: lista la 1 ianuarie; Eurostat: corespondența LAU pe an)
+
+fisiere:
+  - {fisier: diccionario26.xlsx, url: "https://www.ine.es/daco/daco42/codmun/diccionario26.xlsx"}
+  - {fisier: lau_nuts_2024.xlsx, url: "https://ec.europa.eu/eurostat/documents/345175/501971/EU-27-LAU-2024-NUTS-2024.xlsx",
+     foi: ['ES']}
+
+produse:
+  ine_municipii.parquet:
+    randuri_minim: 8100
+  lau_nuts_es.parquet:
+    randuri_minim: 8100
+scadere_maxima: 0.02
