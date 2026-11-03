@@ -9,6 +9,9 @@ Starea proiectului și deciziile: `STARE.md` din `atlas`.
   arhivă în proiectul claude.ai și se notează în `STARE.md` din `atlas`.
 - **Structurarea nu are reguli de business:** citire, tipuri, forma tabelului. Ce înseamnă o cifră, ce an se ia, ce
   celulă aparține unui sat – în `atlas`.
+  **Excepție (Marin, 3.11.2026):** prelucrările derivate fără „secrete de aparat” pot rula aici, ca produse ale unei surse
+  (prima: legarea geografică a ajutoarelor BDNS – cine le dă și ce teritoriu acoperă – și fișierul săptămânal al
+  ajutoarelor). Rămân în `atlas`: stratul semantic, indicatorii, validarea, textele și situl.
 - **O sursă = un folder** `surse/<sursa>/` cu `sursa.yaml` (de unde, unde se descarcă: `actions` / `local`, licența,
   produsele și schema lor) și `sursa.py` (`descarca`, `structureaza`, opțional `verifica_noutati`). Motorul comun
   (`comun/motor.py`) face restul: amprenta, comparația cu versiunea anterioară, verificările, manifestul, release-ul.
