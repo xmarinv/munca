@@ -1,8 +1,8 @@
 {
   "sursa": "bdns_catalog",
-  "versiune": "20261103-2d6e7b87",
-  "amprenta": "2d6e7b87a68cdbb5f713ff7efaf69a94ea2cd1dabc92f9713126a89324c7e5a9",
-  "creat_utc": "2026-11-03T09:51:41+00:00",
+  "versiune": "20261103-647080b1",
+  "amprenta": "647080b1e36821692b58678e56f73a48c1854410cd9db47b78a27a70b597261f",
+  "creat_utc": "2026-11-03T12:34:51+00:00",
   "descarcat_in": "actions",
   "nume": "Base de Datos Nacional de Subvenciones (BDNS) – catálogo de convocatorias con su detalle, API REST del SNPSAP",
   "editor": "Intervención General de la Administración del Estado (IGAE), Ministerio de Hacienda",
@@ -12,16 +12,16 @@
   "fisiere_brute": [
     {
       "fisier": "catalog.jsonl",
-      "octeti": 662814809,
-      "sha256": "80f99e3bce4fe0e399aedcf618eb37b47fdf53d1164bb530566546671f8c8b1c"
+      "octeti": 701386200,
+      "sha256": "21e8be335e43dacfb3398c33238f35c40d575fb9f66f04df3b2a837e072438ed"
     }
   ],
   "produse": [
     {
       "fisier": "bdns_catalog.parquet",
       "randuri": 140344,
-      "octeti": 90365582,
-      "sha256": "fd6d12cdb61e150d65594859a52767f532e51e9a98d3bd02f0f080e5a057e7ce",
+      "octeti": 95350371,
+      "sha256": "10cc7a1321bf44a49050f2d0e12e6d886a578cd69eeded8103bd3d045a9fc1e0",
       "coloane": {
         "numeroConvocatoria": "string",
         "id": "int64",
@@ -61,14 +61,14 @@
       "2026-11-03"
     ],
     "convocari": 140344,
-    "din_anterior": 90136,
-    "noi": 50208,
-    "reimprospatate_tinta": 1544,
-    "cereri_facute": 42246,
+    "din_anterior": 130838,
+    "noi": 9506,
+    "reimprospatate_tinta": 14890,
+    "cereri_facute": 24396,
     "erori": 0,
-    "ramase_pentru_continuare": 9506,
-    "cu_detaliu": 130838,
-    "fara_detaliu": 9506
+    "ramase_pentru_continuare": 0,
+    "cu_detaliu": 140344,
+    "fara_detaliu": 0
   },
   "verificari": [
     {
@@ -94,10 +94,10 @@
     {
       "verificare": "scadere_randuri:bdns_catalog.parquet",
       "rezultat": "TRECE",
-      "detaliu": "140340 -> 140344 (+0.0%); prag −20%"
+      "detaliu": "140344 -> 140344 (-0.0%); prag −20%"
     }
   ],
-  "versiunea_anterioara": "20261103-d2a6f740",
+  "versiunea_anterioara": "20261103-2d6e7b87",
   "rezultat": "TRECE",
-  "rulare": "41585321501"
+  "rulare": "41614477717"
 }
