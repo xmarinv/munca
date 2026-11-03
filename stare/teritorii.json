@@ -1,6 +1,51 @@
 {
   "sursa": "teritorii",
-  "rezultat": "EROARE",
-  "eroare": "ScannerError: mapping values are not allowed here\n  in \"<unicode string>\", line 12, column 21:\n    cadenta: anuala (INE: lista la 1 ianuarie; Eurostat: ... \n                        ^",
-  "terminat_utc": "2026-11-03T15:15:50+00:00"
+  "pornit_utc": "2026-11-03T15:16:43+00:00",
+  "rezultat": "publicat",
+  "noutati": [],
+  "amprenta": "51dbf60133289cf17d6020e02aaba9b2979248df0c21c58ecf0d5e0289eacf94",
+  "versiune": "20261103-51dbf601",
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:diccionario26.xlsx",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:diccionario26.xlsx",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:lau_nuts_2024.xlsx",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:lau_nuts_2024.xlsx",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:ine_municipii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:ine_municipii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "8132 rânduri, minim 8100"
+    },
+    {
+      "verificare": "schema:lau_nuts_es.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:lau_nuts_es.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "8132 rânduri, minim 8100"
+    }
+  ],
+  "terminat_utc": "2026-11-03T15:17:10+00:00"
 }

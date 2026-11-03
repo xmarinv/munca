@@ -1,0 +1,281 @@
+{
+  "sursa": "teritorii",
+  "versiune": "20261103-51dbf601",
+  "amprenta": "51dbf60133289cf17d6020e02aaba9b2979248df0c21c58ecf0d5e0289eacf94",
+  "creat_utc": "2026-11-03T15:17:03+00:00",
+  "descarcat_in": "actions",
+  "nume": "Relación de municipios y sus códigos (INE) și corespondența LAU – NUTS 2024 (Eurostat)",
+  "editor": "Instituto Nacional de Estadística (INE); Eurostat (Comisia Europeană)",
+  "pagina": "https://www.ine.es/daco/daco42/codmun/codmun.htm",
+  "licenta": "INE: reutilizare cu citarea sursei (aviso legal INE, Ley 37/2007). Eurostat: reutilizare permisă cu citarea sursei (Decizia Comisiei 2011/833/UE; © European Union)",
+  "atribuire": "„Fuente: INE” și „Source: Eurostat, LAU – NUTS 2024 correspondence”",
+  "fisiere_brute": [
+    {
+      "fisier": "diccionario26.xlsx",
+      "url": "https://www.ine.es/daco/daco42/codmun/diccionario26.xlsx",
+      "descarcat_utc": "2026-11-03T15:16:45Z",
+      "octeti": 306819,
+      "sha256": "07f8e8d64eba73fe9d425196fe82f4e09a9886a287abd650e88ca8d98dd49052"
+    },
+    {
+      "fisier": "lau_nuts_2024.xlsx",
+      "url": "https://ec.europa.eu/eurostat/documents/345175/501971/EU-27-LAU-2024-NUTS-2024.xlsx",
+      "descarcat_utc": "2026-11-03T15:17:00Z",
+      "octeti": 19299900,
+      "sha256": "1528df47dfc8fa6815e3e7b9fca78b38d40c1142c6b4748ff5fa512f281b5446"
+    }
+  ],
+  "produse": [
+    {
+      "fisier": "ine_municipii.parquet",
+      "randuri": 8132,
+      "octeti": 84904,
+      "sha256": "3b3e9a3980e828609c36d3da4027e5b35b3473ad42782c314b5d3046c5a0bafa",
+      "coloane": {
+        "foaie": "string",
+        "CODAUTO": "string",
+        "CPRO": "string",
+        "CMUN": "string",
+        "DC": "string",
+        "NOMBRE": "string"
+      }
+    },
+    {
+      "fisier": "lau_nuts_es.parquet",
+      "randuri": 8132,
+      "octeti": 275999,
+      "sha256": "84f26a1751b3d224bdd9893027ad8bb9678f271852a706caf381d39cd287f96b",
+      "coloane": {
+        "foaie": "string",
+        "NUTS3": "string",
+        "LAU CODE": "string",
+        "EU LAU CODE": "string",
+        "LAU NAME NATIONAL": "string",
+        "LAU NAME LATIN": "string",
+        "CHANGE": "string",
+        "POPULATION": "string",
+        "TOTAL AREA (m2)": "string",
+        "DEGURBA": "string",
+        "COASTAL AREA": "string",
+        "CITY ID": "string",
+        "CITY NAME": "string",
+        "FUA ID": "string",
+        "FUA_NAME": "string"
+      }
+    }
+  ],
+  "profil": [
+    {
+      "fisier": "diccionario26.xlsx",
+      "foi_toate": [
+        "dic25"
+      ],
+      "foi_alese": [
+        "dic25"
+      ]
+    },
+    {
+      "foaie": "dic25",
+      "titlu_ignorat": [
+        [
+          "Relación de municipios y códigos por comunidades autónomas y provincias a 1 de enero de 2026",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "coloane": [
+        "CODAUTO",
+        "CPRO",
+        "CMUN",
+        "DC",
+        "NOMBRE"
+      ],
+      "randuri": 8132,
+      "primele": [
+        [
+          "16",
+          "01",
+          "051",
+          "3",
+          "Agurain/Salvatierra"
+        ],
+        [
+          "16",
+          "01",
+          "001",
+          "4",
+          "Alegría-Dulantzi"
+        ],
+        [
+          "16",
+          "01",
+          "002",
+          "9",
+          "Amurrio"
+        ]
+      ]
+    },
+    {
+      "fisier": "lau_nuts_2024.xlsx",
+      "foi_toate": [
+        "File_info",
+        "Overview",
+        "Overview_Population",
+        "FUAs_information",
+        "BE",
+        "BG",
+        "CZ",
+        "DK",
+        "DE",
+        "EE",
+        "IE",
+        "EL",
+        "ES",
+        "FR",
+        "HR",
+        "IT",
+        "CY",
+        "LV",
+        "LT",
+        "LU",
+        "HU",
+        "MT",
+        "NL",
+        "AT",
+        "PL",
+        "PT",
+        "RO",
+        "SI",
+        "SK",
+        "FI",
+        "SE",
+        "LI",
+        "NO",
+        "CH",
+        "MK",
+        "TR"
+      ],
+      "foi_alese": [
+        "ES"
+      ]
+    },
+    {
+      "foaie": "ES",
+      "titlu_ignorat": [],
+      "coloane": [
+        "NUTS3",
+        "LAU CODE",
+        "EU LAU CODE",
+        "LAU NAME NATIONAL",
+        "LAU NAME LATIN",
+        "CHANGE",
+        "POPULATION",
+        "TOTAL AREA (m2)",
+        "DEGURBA",
+        "COASTAL AREA",
+        "CITY ID",
+        "CITY NAME",
+        "FUA ID",
+        "FUA_NAME"
+      ],
+      "randuri": 8132,
+      "primele": [
+        [
+          "ES111",
+          "15001",
+          "ES_15001",
+          "Abegondo",
+          "Abegondo",
+          "N",
+          "5578",
+          "83896337",
+          "3",
+          "0",
+          "",
+          "",
+          "ES025F",
+          "A Coruña"
+        ],
+        [
+          "ES111",
+          "15002",
+          "ES_15002",
+          "Ames",
+          "Ames",
+          "N",
+          "32812",
+          "80099100",
+          "2",
+          "0",
+          "",
+          "",
+          "ES011F",
+          "Santiago de Compostela"
+        ],
+        [
+          "ES111",
+          "15003",
+          "ES_15003",
+          "Aranga",
+          "Aranga",
+          "N",
+          "1799",
+          "119590180",
+          "3",
+          "0",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ],
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:diccionario26.xlsx",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:diccionario26.xlsx",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:lau_nuts_2024.xlsx",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:lau_nuts_2024.xlsx",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:ine_municipii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:ine_municipii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "8132 rânduri, minim 8100"
+    },
+    {
+      "verificare": "schema:lau_nuts_es.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:lau_nuts_es.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "8132 rânduri, minim 8100"
+    }
+  ],
+  "versiunea_anterioara": null,
+  "rezultat": "TRECE",
+  "rulare": "41662137008"
+}
