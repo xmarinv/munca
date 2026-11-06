@@ -12,7 +12,7 @@ pagina: https://www.hacienda.gob.es/es-es/gobiernoabierto/datos%20abiertos/pagin
 licenta: "Datos abiertos PLACSP, reutilizare conform Ley 37/2007 (atribuire; uz comercial permis; copiere, modificare, extragere, combinare). Sursă secundară (rezumat primit de la Marin); Avisul legal al PLACSP nu a fost citit direct – de confirmat. Se menționează sursa: Plataforma de Contratación del Sector Público."
 atribuire: "Origen de los datos: Plataforma de Contratación del Sector Público (Ministerio de Hacienda), con la fecha de descarga."
 descarcare: actions
-saptamanal: true
+saptamanal: false
 publica_brute: false       # felia filtrată în XML brut; nu se republică până nu e clară licența
 cadenta: "sursa se actualizează zilnic (fișierul lunii curente acoperă până la ziua precedentă); aici săptămânal, ca paznicul"
 
