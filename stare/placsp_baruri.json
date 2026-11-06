@@ -1,0 +1,41 @@
+{
+  "sursa": "placsp_baruri",
+  "pornit_utc": "2026-11-06T15:13:02+00:00",
+  "rezultat": "publicat",
+  "noutati": [],
+  "amprenta": "ec6adefdc1d06e99954d3d16d90f8e7480de1b3f73d1f52ba52cd1cc884055b5",
+  "versiune": "20261106-ec6adefd",
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:placsp_baruri_brute.jsonl.gz",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:placsp_baruri_brute.jsonl.gz",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:placsp_baruri_parcurs.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:placsp_baruri_parcurs.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:licitatii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:licitatii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "5821 rânduri, minim 2000"
+    }
+  ],
+  "terminat_utc": "2026-11-06T15:44:32+00:00"
+}

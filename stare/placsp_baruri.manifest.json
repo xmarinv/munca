@@ -1,0 +1,324 @@
+{
+  "sursa": "placsp_baruri",
+  "versiune": "20261106-ec6adefd",
+  "amprenta": "ec6adefdc1d06e99954d3d16d90f8e7480de1b3f73d1f52ba52cd1cc884055b5",
+  "creat_utc": "2026-11-06T15:44:27+00:00",
+  "descarcat_in": "actions",
+  "nume": "Plataforma de Contratación del Sector Público (PLACSP) – licitații cu bar, centru social sau multiservicio (perfiles de contratante și platforme agregate)",
+  "editor": "Ministerio de Hacienda – Plataforma de Contratación del Sector Público",
+  "pagina": "https://www.hacienda.gob.es/es-es/gobiernoabierto/datos%20abiertos/paginas/licitacionescontratante.aspx",
+  "licenta": "Datos abiertos de la PLACSP; pagina sursei nu numește o licență (de verificat aviso legal înainte de orice republicare a fișierelor brute)",
+  "atribuire": "Origen de los datos: Plataforma de Contratación del Sector Público (Ministerio de Hacienda), con la fecha de descarga.",
+  "fisiere_brute": [
+    {
+      "fisier": "placsp_baruri_brute.jsonl.gz",
+      "url": [
+        "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3_{luna}.zip",
+        "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_1044/PlataformasAgregadasSinMenores_{luna}.zip"
+      ],
+      "intrari_pastrate": 5821,
+      "octeti": 11829433,
+      "sha256": "6a444d46897d00b9b90c7abb331290d05a468ee5d877221df829a4ad57724046"
+    },
+    {
+      "fisier": "placsp_baruri_parcurs.json",
+      "url": null,
+      "octeti": 2436,
+      "sha256": "e2dcd39ff5ea94bd7851cf67e0fb43e901a3140174573c4f61ec06308d9550e2"
+    }
+  ],
+  "produse": [
+    {
+      "fisier": "licitatii.parquet",
+      "randuri": 5821,
+      "octeti": 3069694,
+      "sha256": "06d934682bc93a1dfc2b2fa68430344b19c1c38e13dc70e591d62ffd217dad84",
+      "coloane": {
+        "id": "string",
+        "set": "string",
+        "luna_fisier": "string",
+        "updated": "string",
+        "link": "string",
+        "titlu": "string",
+        "expediente": "string",
+        "estat": "string",
+        "organ": "string",
+        "nif": "string",
+        "dir3": "string",
+        "id_plataforma": "string",
+        "oras": "string",
+        "cod_postal": "string",
+        "tip_organ": "string",
+        "tip_contract": "string",
+        "subtip_contract": "string",
+        "procedura": "string",
+        "cpv": "string",
+        "nuts": "string",
+        "valoare_buget": "double",
+        "valoare_buget_fara_tva": "double",
+        "valoare_estimata": "double",
+        "durata": "double",
+        "durata_unitate": "string",
+        "termen_data": "string",
+        "termen_ora": "string",
+        "documente": "string",
+        "publicatii": "string",
+        "rezumat": "string"
+      }
+    }
+  ],
+  "profil": {
+    "randuri": 5821,
+    "de_la": "202601",
+    "intrari_citite": 544702,
+    "luni_lipsa": [],
+    "completare": {
+      "id": 1.0,
+      "set": 1.0,
+      "luna_fisier": 1.0,
+      "updated": 1.0,
+      "link": 1.0,
+      "titlu": 1.0,
+      "expediente": 0.9998,
+      "estat": 1.0,
+      "organ": 1.0,
+      "nif": 0.7612,
+      "dir3": 0.6851,
+      "id_plataforma": 0.7571,
+      "oras": 0.7612,
+      "cod_postal": 0.7612,
+      "tip_organ": 0.7612,
+      "tip_contract": 1.0,
+      "subtip_contract": 0.4487,
+      "procedura": 0.9998,
+      "cpv": 0.9553,
+      "nuts": 0.9993,
+      "valoare_buget": 0.7612,
+      "valoare_buget_fara_tva": 0.9997,
+      "valoare_estimata": 1.0,
+      "durata": 0.8131,
+      "durata_unitate": 0.8131,
+      "termen_data": 0.9282,
+      "termen_ora": 0.9282,
+      "documente": 0.9234,
+      "publicatii": 0.9974,
+      "rezumat": 1.0
+    },
+    "estat": {
+      "RES": 2572,
+      "PUB": 1154,
+      "EV": 1025,
+      "ADJ": 1000,
+      "PRE": 43,
+      "ANUL": 27
+    },
+    "tip_contract": {
+      "22": 1894,
+      "2": 1423,
+      "50": 1116,
+      "3": 447,
+      "7": 380,
+      "1": 233,
+      "8": 225,
+      "999": 58,
+      "21": 42,
+      "32": 3
+    },
+    "set": {
+      "perfiles": 4431,
+      "agregacion": 1390
+    },
+    "termen_cel_mai_nou": "2099-09-09",
+    "pe_luna": [
+      {
+        "http": 200,
+        "intrari": 31842,
+        "luna": "202601",
+        "pastrate": 564,
+        "set": "perfiles"
+      },
+      {
+        "http": 200,
+        "intrari": 13576,
+        "luna": "202601",
+        "pastrate": 226,
+        "set": "agregacion"
+      },
+      {
+        "http": 200,
+        "intrari": 34205,
+        "luna": "202602",
+        "pastrate": 711,
+        "set": "perfiles"
+      },
+      {
+        "http": 200,
+        "intrari": 13420,
+        "luna": "202602",
+        "pastrate": 234,
+        "set": "agregacion"
+      },
+      {
+        "http": 200,
+        "intrari": 37519,
+        "luna": "202603",
+        "pastrate": 833,
+        "set": "perfiles"
+      },
+      {
+        "http": 200,
+        "intrari": 16322,
+        "luna": "202603",
+        "pastrate": 300,
+        "set": "agregacion"
+      },
+      {
+        "http": 200,
+        "intrari": 37891,
+        "luna": "202604",
+        "pastrate": 970,
+        "set": "perfiles"
+      },
+      {
+        "http": 200,
+        "intrari": 14243,
+        "luna": "202604",
+        "pastrate": 350,
+        "set": "agregacion"
+      },
+      {
+        "http": 200,
+        "intrari": 39613,
+        "luna": "202605",
+        "pastrate": 1142,
+        "set": "perfiles"
+      },
+      {
+        "http": 200,
+        "intrari": 14753,
+        "luna": "202605",
+        "pastrate": 422,
+        "set": "agregacion"
+      },
+      {
+        "http": 200,
+        "intrari": 42412,
+        "luna": "202606",
+        "pastrate": 1138,
+        "set": "perfiles"
+      },
+      {
+        "http": 200,
+        "intrari": 16136,
+        "luna": "202606",
+        "pastrate": 397,
+        "set": "agregacion"
+      },
+      {
+        "http": 200,
+        "intrari": 39087,
+        "luna": "202607",
+        "pastrate": 901,
+        "set": "perfiles"
+      },
+      {
+        "http": 200,
+        "intrari": 17152,
+        "luna": "202607",
+        "pastrate": 336,
+        "set": "agregacion"
+      },
+      {
+        "http": 200,
+        "intrari": 34819,
+        "luna": "202608",
+        "pastrate": 714,
+        "set": "perfiles"
+      },
+      {
+        "http": 200,
+        "intrari": 11665,
+        "luna": "202608",
+        "pastrate": 207,
+        "set": "agregacion"
+      },
+      {
+        "http": 200,
+        "intrari": 42213,
+        "luna": "202609",
+        "pastrate": 777,
+        "set": "perfiles"
+      },
+      {
+        "http": 200,
+        "intrari": 17105,
+        "luna": "202609",
+        "pastrate": 251,
+        "set": "agregacion"
+      },
+      {
+        "http": 200,
+        "intrari": 39995,
+        "luna": "202610",
+        "pastrate": 679,
+        "set": "perfiles"
+      },
+      {
+        "http": 200,
+        "intrari": 17087,
+        "luna": "202610",
+        "pastrate": 223,
+        "set": "agregacion"
+      },
+      {
+        "http": 200,
+        "intrari": 9510,
+        "luna": "202611",
+        "pastrate": 178,
+        "set": "perfiles"
+      },
+      {
+        "http": 200,
+        "intrari": 4137,
+        "luna": "202611",
+        "pastrate": 68,
+        "set": "agregacion"
+      }
+    ]
+  },
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:placsp_baruri_brute.jsonl.gz",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:placsp_baruri_brute.jsonl.gz",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:placsp_baruri_parcurs.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:placsp_baruri_parcurs.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:licitatii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:licitatii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "5821 rânduri, minim 2000"
+    }
+  ],
+  "versiunea_anterioara": null,
+  "rezultat": "TRECE",
+  "rulare": "42240892496"
+}
