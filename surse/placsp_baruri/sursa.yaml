@@ -1,0 +1,66 @@
+# Licitațiile PLACSP care par oferte de bar / local social / multiservicio, cu termenul, starea, legătura și documentele.
+# Pentru pagina „Pueblos que buscan quien lleve el bar" (atlas, docs/todo.md #13). Strategie aprobată de Marin, 26.10.2026.
+# Ce intră aici este un filtru GENEROS (CPV de hosteleria sau un cuvânt-cheie în titlu), doar ca să nu ținem 500.000 de
+# licitații. Ce e „bar permanent", „de sezon" sau „alt contract", care primărie e și ce municipiu INE e – se decid în atlas
+# (vederi.sql / legătura), unde se văd și se aprobă. Aici: citire, tipuri, forma tabelului.
+nume: "Plataforma de Contratación del Sector Público (PLACSP) – licitații cu bar, centru social sau multiservicio (perfiles de contratante și platforme agregate)"
+editor: "Ministerio de Hacienda – Plataforma de Contratación del Sector Público"
+pagina: https://www.hacienda.gob.es/es-es/gobiernoabierto/datos%20abiertos/paginas/licitacionescontratante.aspx
+# NEVERIFICAT: pagina sursei (verificată 6.11.2026) nu numește nicio licență și nicio clauză de reutilizare; textul din „Aviso legal"
+# nu a putut fi citit. Raportul din atlas (raport_baruri_rurale.md) notează „reutilizare liberă, fără licență numită". De confirmat de
+# Marin înainte să se publice fișierele brute; de aceea publica_brute este false.
+licenta: "Datos abiertos de la PLACSP; pagina sursei nu numește o licență (de verificat aviso legal înainte de orice republicare a fișierelor brute)"
+atribuire: "Origen de los datos: Plataforma de Contratación del Sector Público (Ministerio de Hacienda), con la fecha de descarga."
+descarcare: actions
+saptamanal: true
+publica_brute: false       # felia filtrată în XML brut; nu se republică până nu e clară licența
+cadenta: "sursa se actualizează zilnic (fișierul lunii curente acoperă până la ziua precedentă); aici săptămânal, ca paznicul"
+
+# Lunile de citit: de la `de_la` până la luna curentă, de fiecare dată în întregime (fără stare între rulări, deci fără
+# fisuri dacă o rulare lipsește). Sursa nu păstrează istoricul altfel: o licitație reapare cu starea nouă în luna în care s-a
+# schimbat; se ține apariția cu `updated` cel mai recent.
+de_la: "202601"
+seturi:
+  perfiles: "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3_{luna}.zip"
+  agregacion: "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_1044/PlataformasAgregadasSinMenores_{luna}.zip"
+
+# Filtrul generos (același spirit ca la osm_poi: ce înseamnă „bar permanent" se decide în atlas).
+filtru:
+  cpv: ["5541", "5530", "5540", "5551"]      # bar, cafenea, servirea băuturilor, cantină (prefixe CPV)
+  titlu: "\\b(bar|bares|cafeter[ií]a|cafeter[ií]as|teleclub|hogar del jubilado|hogar de mayores|hogar del pensionista|centro social|multiservicio|ultramarinos|cantina|merendero|chiringuito|kiosco|quiosco|casal)\\b"
+
+produse:
+  licitatii.parquet:
+    coloane:
+      id: string
+      set: string
+      luna_fisier: string
+      updated: string
+      link: string
+      titlu: string
+      expediente: string
+      estat: string
+      organ: string
+      nif: string
+      dir3: string
+      id_plataforma: string
+      oras: string
+      cod_postal: string
+      tip_organ: string
+      tip_contract: string
+      subtip_contract: string
+      procedura: string
+      cpv: string
+      nuts: string
+      valoare_buget: double
+      valoare_buget_fara_tva: double
+      valoare_estimata: double
+      durata: double
+      durata_unitate: string
+      termen_data: string
+      termen_ora: string
+      documente: string
+      publicatii: string
+      rezumat: string
+    randuri_minim: 2000      # rularea de cercetare din 21.10.2026 a găsit 6.401 intrări în ian.–oct. 2026
+scadere_maxima: 0.05
