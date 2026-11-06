@@ -9,7 +9,7 @@ pagina: https://www.hacienda.gob.es/es-es/gobiernoabierto/datos%20abiertos/pagin
 # NEVERIFICAT: pagina sursei (verificată 6.11.2026) nu numește nicio licență și nicio clauză de reutilizare; textul din „Aviso legal"
 # nu a putut fi citit. Raportul din atlas (raport_baruri_rurale.md) notează „reutilizare liberă, fără licență numită". De confirmat de
 # Marin înainte să se publice fișierele brute; de aceea publica_brute este false.
-licenta: "Datos abiertos de la PLACSP; pagina sursei nu numește o licență (de verificat aviso legal înainte de orice republicare a fișierelor brute)"
+licenta: "Datos abiertos PLACSP, reutilizare conform Ley 37/2007 (atribuire; uz comercial permis; copiere, modificare, extragere, combinare). Sursă secundară (rezumat primit de la Marin); Avisul legal al PLACSP nu a fost citit direct – de confirmat. Se menționează sursa: Plataforma de Contratación del Sector Público."
 atribuire: "Origen de los datos: Plataforma de Contratación del Sector Público (Ministerio de Hacienda), con la fecha de descarga."
 descarcare: actions
 saptamanal: true
