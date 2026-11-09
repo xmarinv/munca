@@ -1,8 +1,8 @@
 {
   "sursa": "eea_aer",
-  "versiune": "20261102-4e3101f7",
-  "amprenta": "4e3101f7f10110af681e909b21dca3bfedcaa694df81697f2da30cccd6f5e562",
-  "creat_utc": "2026-11-02T12:29:38+00:00",
+  "versiune": "20261109-1a5337a0",
+  "amprenta": "1a5337a02a02283da5e77c5028bc3b8d9eb04b7669261068769bca6df428ce2c",
+  "creat_utc": "2026-11-09T13:34:20+00:00",
   "descarcat_in": "actions",
   "nume": "European air quality data (interpolated data) – PM2.5, NO2, O3; grilă 1 km, decupată pe Spania (Peninsula, Baleare, Canare)",
   "editor": "European Environment Agency (EEA); hărțile ETC HE (metoda „regression-interpolation-merging mapping”)",
@@ -18,9 +18,9 @@
       "an": 2024,
       "stare": "validat",
       "titlu": "PM2.5, European air quality data for 2024, (interpolated data), validated data, June 2026",
-      "descarcat_utc": "2026-11-02T12:29:09Z",
+      "descarcat_utc": "2026-11-09T13:33:48Z",
       "octeti": 78199351,
-      "sha256": "c101ba8fbc212c0c6898cefa56e65f2cb88100a1a3d138ffc91173821d540be1"
+      "sha256": "6469600e6b2082190e887bdd8f68d939fd658329907b8c5c8562850c905742ba"
     },
     {
       "fisier": "no2_2024_validat.zip",
@@ -30,9 +30,9 @@
       "an": 2024,
       "stare": "validat",
       "titlu": "NO2, European air quality data for 2024, (interpolated data), validated data, June 2026",
-      "descarcat_utc": "2026-11-02T12:29:17Z",
+      "descarcat_utc": "2026-11-09T13:33:55Z",
       "octeti": 78186051,
-      "sha256": "9bc0c17c6c632f2ed44f31887e8b602accfeb933490538c394ea87c710311395"
+      "sha256": "699cdc1da2857240a3cc64b2274edf2e0058f34abc796b8450e5427176b8f23f"
     },
     {
       "fisier": "o3_2024_validat.zip",
@@ -42,9 +42,9 @@
       "an": 2024,
       "stare": "validat",
       "titlu": "O3, European air quality data for 2024, (interpolated data), validated data, June 2026",
-      "descarcat_utc": "2026-11-02T12:29:35Z",
+      "descarcat_utc": "2026-11-09T13:34:18Z",
       "octeti": 390880579,
-      "sha256": "24d7d2c163245f576899103409e004e7a38f0e68485f1cf07b46b794489b4b33"
+      "sha256": "d443dcb7488a7d02205101830e05100d298b75856f0637e4db773c4933d663ea"
     }
   ],
   "produse": [
@@ -52,7 +52,7 @@
       "fisier": "eea_aer_celule.parquet",
       "randuri": 5193596,
       "octeti": 21423281,
-      "sha256": "824f3dc0c0d7cf930fb2dadaab86b13b67af8de23a3719b9817ecace74010de1",
+      "sha256": "e336ce894f2e1ad0495d23615a0fda37106e734e0298db1f132fa648b09f72d9",
       "coloane": {
         "poluant": "string",
         "an": "int16",
@@ -620,7 +620,7 @@
       "detaliu": "5193596 -> 5193596 (-0.0%); prag −10%"
     }
   ],
-  "versiunea_anterioara": "20261101-513bc1b6",
+  "versiunea_anterioara": "20261102-4e3101f7",
   "rezultat": "TRECE",
-  "rulare": "41444999463"
+  "rulare": "42620945871"
 }

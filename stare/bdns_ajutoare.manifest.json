@@ -1,8 +1,8 @@
 {
   "sursa": "bdns_ajutoare",
-  "versiune": "20261103-6e0fea61",
-  "amprenta": "6e0fea611d9d0107baf74b7959ae9a5c882a4f3dbe2cc2f914cf2135f61ab020",
-  "creat_utc": "2026-11-03T17:05:58+00:00",
+  "versiune": "20261109-45690763",
+  "amprenta": "45690763bab9f9d5a9667dacb7b7f4b8424adbd9ad65b88178df46f37aa433b7",
+  "creat_utc": "2026-11-09T13:35:34+00:00",
   "descarcat_in": "actions",
   "nume": "Ayudas de la BDNS que se pueden solicitar, con su ámbito territorial (derivado del catálogo BDNS)",
   "editor": "Intervención General de la Administración del Estado (IGAE) – BDNS; INE; Eurostat (legarea: munca)",
@@ -12,36 +12,36 @@
   "fisiere_brute": [
     {
       "fisier": "bdns_catalog-ultima/bdns_catalog.parquet",
-      "url": "release bdns_catalog-ultima (versiunea 20261103-647080b1)",
-      "descarcat_utc": "2026-11-03T17:05:45Z",
-      "octeti": 95350371,
-      "sha256": "10cc7a1321bf44a49050f2d0e12e6d886a578cd69eeded8103bd3d045a9fc1e0"
+      "url": "release bdns_catalog-ultima (versiunea 20261109-057c42b9)",
+      "descarcat_utc": "2026-11-09T13:35:19Z",
+      "octeti": 66626025,
+      "sha256": "b1e0ee89ac875d73f5c24a9aef1ebeeaa60129f54af8cc0b1fc2f939bc445829"
     },
     {
       "fisier": "bdns_catalog-ultima/manifest.json",
-      "url": "release bdns_catalog-ultima (versiunea 20261103-647080b1)",
-      "descarcat_utc": "2026-11-03T17:05:45Z",
-      "octeti": 3272,
-      "sha256": "2eeede5440563befa2b5abfa384e4772fb6c0634d774caf2eaa898c796aa381d"
+      "url": "release bdns_catalog-ultima (versiunea 20261109-057c42b9)",
+      "descarcat_utc": "2026-11-09T13:35:19Z",
+      "octeti": 3352,
+      "sha256": "531bd31d46f6c73346947e12788a0deeb8fd930ee1c220f8c104496a99812fab"
     },
     {
       "fisier": "teritorii-ultima/ine_municipii.parquet",
       "url": "release teritorii-ultima (versiunea 20261103-51dbf601)",
-      "descarcat_utc": "2026-11-03T17:05:47Z",
+      "descarcat_utc": "2026-11-09T13:35:21Z",
       "octeti": 84904,
       "sha256": "3b3e9a3980e828609c36d3da4027e5b35b3473ad42782c314b5d3046c5a0bafa"
     },
     {
       "fisier": "teritorii-ultima/lau_nuts_es.parquet",
       "url": "release teritorii-ultima (versiunea 20261103-51dbf601)",
-      "descarcat_utc": "2026-11-03T17:05:47Z",
+      "descarcat_utc": "2026-11-09T13:35:21Z",
       "octeti": 275999,
       "sha256": "84f26a1751b3d224bdd9893027ad8bb9678f271852a706caf381d39cd287f96b"
     },
     {
       "fisier": "teritorii-ultima/manifest.json",
       "url": "release teritorii-ultima (versiunea 20261103-51dbf601)",
-      "descarcat_utc": "2026-11-03T17:05:47Z",
+      "descarcat_utc": "2026-11-09T13:35:21Z",
       "octeti": 6351,
       "sha256": "9ba9d11a9b8287831861868ab1a17d8d4728259dbeaf67e7df6a3752312dac25"
     },
@@ -49,7 +49,7 @@
       "fisier": "azi.txt",
       "url": "ziua rulării",
       "octeti": 10,
-      "sha256": "5078719ef4595b8e11268bd4e2f6ee8e06947062f001f3e0e3c472c2a34fff81"
+      "sha256": "d66834b1e2633b31445f067d3c463d9b29e4990cf25a07f695578ef8d99b21d3"
     },
     {
       "fisier": "cod.txt",
@@ -61,9 +61,9 @@
   "produse": [
     {
       "fisier": "ajutoare.parquet",
-      "randuri": 5317,
-      "octeti": 944324,
-      "sha256": "b61176d3f7dc04123c6da002402198183936971ec3254a4a56055e826fe55d15",
+      "randuri": 5371,
+      "octeti": 942973,
+      "sha256": "3d8becbb7ee5b21e14a9272cff3917c4c9c7b337ec8cd583942d8bac78ae49ea",
       "coloane": {
         "numeroConvocatoria": "string",
         "id": "int64",
@@ -102,9 +102,9 @@
     },
     {
       "fisier": "ajutoare_arii.parquet",
-      "randuri": 5379,
-      "octeti": 46418,
-      "sha256": "b92ec6e4e1bce21288fc79fafff1bbb3816a5402817bfc684309dc0f151d420b",
+      "randuri": 5437,
+      "octeti": 46898,
+      "sha256": "b42f08ffb8ab5641abd5eacce7a99745cf353bcd6e6032616f369d44d6b9846b",
       "coloane": {
         "numeroConvocatoria": "large_string",
         "arie_tip": "large_string",
@@ -116,39 +116,39 @@
   ],
   "profil": [
     {
-      "valabil_la": "2026-11-03",
-      "convocari": 5317,
+      "valabil_la": "2026-11-09",
+      "convocari": 5371,
       "pe_stare": {
-        "deschisa": 2626,
-        "termen in text": 2569,
-        "se deschide": 122
+        "deschisa": 2659,
+        "termen in text": 2563,
+        "se deschide": 149
       },
-      "termen_citit_din_text": 413,
-      "legate_de_teritoriu": 4882,
-      "doar_pagina": 435,
+      "termen_citit_din_text": 421,
+      "legate_de_teritoriu": 4944,
+      "doar_pagina": 427,
       "pe_arie": {
-        "muni": 3250,
-        "ccaa": 1058,
-        "prov": 454,
-        "doar_pagina": 449,
-        "insula": 92,
-        "stat": 76
+        "muni": 3321,
+        "ccaa": 1018,
+        "prov": 488,
+        "doar_pagina": 441,
+        "insula": 94,
+        "stat": 75
       },
       "pe_metoda": {
-        "municipal": 3250,
-        "emitent": 1106,
-        "diputacion": 361,
-        "alte organisme": 344,
-        "emitent ingustat de regiuni": 121,
-        "asociere de municipii / entitate locala menor": 103,
-        "cabildo/consell": 92,
-        "municipiu negasit": 2
+        "municipal": 3321,
+        "emitent": 1057,
+        "diputacion": 402,
+        "alte organisme": 337,
+        "emitent ingustat de regiuni": 122,
+        "asociere de municipii / entitate locala menor": 101,
+        "cabildo/consell": 94,
+        "municipiu negasit": 3
       },
       "pe_emitent": {
-        "LOCAL": 3803,
-        "AUTONOMICA": 1068,
-        "OTROS": 335,
-        "ESTADO": 111
+        "LOCAL": 3916,
+        "AUTONOMICA": 1015,
+        "OTROS": 328,
+        "ESTADO": 112
       }
     }
   ],
@@ -231,12 +231,12 @@
     {
       "verificare": "randuri_minim:ajutoare.parquet",
       "rezultat": "TRECE",
-      "detaliu": "5317 rânduri, minim 1000"
+      "detaliu": "5371 rânduri, minim 1000"
     },
     {
       "verificare": "scadere_randuri:ajutoare.parquet",
       "rezultat": "TRECE",
-      "detaliu": "5317 -> 5317 (-0.0%); prag −40%"
+      "detaliu": "5317 -> 5371 (+1.0%); prag −40%"
     },
     {
       "verificare": "schema:ajutoare_arii.parquet",
@@ -246,15 +246,15 @@
     {
       "verificare": "randuri_minim:ajutoare_arii.parquet",
       "rezultat": "TRECE",
-      "detaliu": "5379 rânduri, minim 1000"
+      "detaliu": "5437 rânduri, minim 1000"
     },
     {
       "verificare": "scadere_randuri:ajutoare_arii.parquet",
       "rezultat": "TRECE",
-      "detaliu": "5379 -> 5379 (-0.0%); prag −40%"
+      "detaliu": "5379 -> 5437 (+1.1%); prag −40%"
     }
   ],
-  "versiunea_anterioara": "20261103-f2f6bbff",
+  "versiunea_anterioara": "20261103-6e0fea61",
   "rezultat": "TRECE",
-  "rulare": "41680702547"
+  "rulare": "42620945871"
 }

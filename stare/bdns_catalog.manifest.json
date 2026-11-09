@@ -1,8 +1,8 @@
 {
   "sursa": "bdns_catalog",
-  "versiune": "20261103-647080b1",
-  "amprenta": "647080b1e36821692b58678e56f73a48c1854410cd9db47b78a27a70b597261f",
-  "creat_utc": "2026-11-03T12:34:51+00:00",
+  "versiune": "20261109-057c42b9",
+  "amprenta": "057c42b914f2be539552fb6ac0e708f5af4a350097823eb9b31385be4126755a",
+  "creat_utc": "2026-11-09T13:33:25+00:00",
   "descarcat_in": "actions",
   "nume": "Base de Datos Nacional de Subvenciones (BDNS) – catálogo de convocatorias con su detalle, API REST del SNPSAP",
   "editor": "Intervención General de la Administración del Estado (IGAE), Ministerio de Hacienda",
@@ -12,16 +12,16 @@
   "fisiere_brute": [
     {
       "fisier": "catalog.jsonl",
-      "octeti": 701386200,
-      "sha256": "21e8be335e43dacfb3398c33238f35c40d575fb9f66f04df3b2a837e072438ed"
+      "octeti": 386344026,
+      "sha256": "fac0bba1418fb7ea859c9f4a5c9287abd28080676eb6c2d7687603bc8587a776"
     }
   ],
   "produse": [
     {
       "fisier": "bdns_catalog.parquet",
-      "randuri": 140344,
-      "octeti": 95350371,
-      "sha256": "10cc7a1321bf44a49050f2d0e12e6d886a578cd69eeded8103bd3d045a9fc1e0",
+      "randuri": 140365,
+      "octeti": 66626025,
+      "sha256": "b1e0ee89ac875d73f5c24a9aef1ebeeaa60129f54af8cc0b1fc2f939bc445829",
       "coloane": {
         "numeroConvocatoria": "string",
         "id": "int64",
@@ -57,18 +57,20 @@
   ],
   "profil": {
     "fereastra": [
-      "2024-11-03",
-      "2026-11-03"
+      "2024-11-09",
+      "2026-11-09"
     ],
-    "convocari": 140344,
-    "din_anterior": 130838,
-    "noi": 9506,
-    "reimprospatate_tinta": 14890,
-    "cereri_facute": 24396,
+    "convocari": 140365,
+    "din_anterior": 140344,
+    "noi": 1306,
+    "reimprospatate_tinta": 5118,
+    "cereri_facute": 6424,
     "erori": 0,
     "ramase_pentru_continuare": 0,
-    "cu_detaliu": 140344,
-    "fara_detaliu": 0
+    "cu_detaliu": 140365,
+    "fara_detaliu": 0,
+    "canonice_cu_detaliu_intreg": 46158,
+    "instrumentale_rand_subtire": 94207
   },
   "verificari": [
     {
@@ -89,15 +91,15 @@
     {
       "verificare": "randuri_minim:bdns_catalog.parquet",
       "rezultat": "TRECE",
-      "detaliu": "140344 rânduri, minim 50000"
+      "detaliu": "140365 rânduri, minim 50000"
     },
     {
       "verificare": "scadere_randuri:bdns_catalog.parquet",
       "rezultat": "TRECE",
-      "detaliu": "140344 -> 140344 (-0.0%); prag −20%"
+      "detaliu": "140344 -> 140365 (+0.0%); prag −20%"
     }
   ],
-  "versiunea_anterioara": "20261103-2d6e7b87",
+  "versiunea_anterioara": "20261103-647080b1",
   "rezultat": "TRECE",
-  "rulare": "41614477717"
+  "rulare": "42620945871"
 }
