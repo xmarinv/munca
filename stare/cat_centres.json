@@ -1,0 +1,31 @@
+{
+  "sursa": "cat_centres",
+  "pornit_utc": "2026-11-13T09:30:30+00:00",
+  "rezultat": "publicat",
+  "noutati": [],
+  "amprenta": "c7c487f76d12fefe29bb5778c0a440480c4ebb9ec790429c9b001c27368960a8",
+  "versiune": "20261113-c7c487f7",
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:directori_kvmv-ahh4.csv",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:directori_kvmv-ahh4.csv",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:cat_centres.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:cat_centres.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "38108 rânduri, minim 20000"
+    }
+  ],
+  "terminat_utc": "2026-11-13T09:30:58+00:00"
+}

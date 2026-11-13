@@ -1,0 +1,372 @@
+{
+  "sursa": "cat_centres",
+  "versiune": "20261113-c7c487f7",
+  "amprenta": "c7c487f76d12fefe29bb5778c0a440480c4ebb9ec790429c9b001c27368960a8",
+  "creat_utc": "2026-11-13T09:30:53+00:00",
+  "descarcat_in": "actions",
+  "nume": "Generalitat de Catalunya – Directori de centres docents anual. Base 2020",
+  "editor": "Generalitat de Catalunya, Departament d'Educació i Formació Professional (Dades obertes de Catalunya)",
+  "pagina": "https://analisi.transparenciacatalunya.cat/d/kvmv-ahh4",
+  "licenta": "Llicència oberta d'ús d'informació – Catalunya (citarea sursei și a datei de actualizare); metadatele setului spun „See Terms of Use” – valoarea citită la descărcare e în profil (licenta_metadate)",
+  "atribuire": "„Fuente: Generalitat de Catalunya, Departament d'Educació i Formació Professional – Dades obertes”, cu data actualizării",
+  "fisiere_brute": [
+    {
+      "fisier": "directori_kvmv-ahh4.csv",
+      "url": "https://analisi.transparenciacatalunya.cat/resource/kvmv-ahh4.csv",
+      "set_id": "kvmv-ahh4",
+      "set_nume": "Directori de centres docents anual. Base 2020",
+      "licenta_metadate": {
+        "name": "See Terms of Use"
+      },
+      "atribuire_metadate": "Departament d'Educació i Formació Professional",
+      "randuri_actualizate_unix": 1791532171,
+      "coloane_api": [
+        "curs",
+        "any",
+        "codi_centre",
+        "denominaci_completa",
+        "codi_naturalesa",
+        "nom_naturalesa",
+        "codi_titularitat",
+        "nom_titularitat",
+        "adre_a",
+        "codi_postal",
+        "tel_fon",
+        "codi_delegaci",
+        "nom_delegaci",
+        "codi_comarca",
+        "nom_comarca",
+        "codi_municipi",
+        "codi_municipi_6",
+        "nom_municipi",
+        "codi_districte_municipal",
+        "nom_dm",
+        "codi_localitat",
+        "nom_localitat",
+        "coordenades_utm_x",
+        "coordenades_utm_y",
+        "coordenades_geo_x",
+        "coordenades_geo_y",
+        "e_mail_centre",
+        "url",
+        "imatge",
+        "einf1c",
+        "einf2c",
+        "epri",
+        "eso",
+        "batx",
+        "aa01",
+        "cfpm",
+        "ppas",
+        "aa03",
+        "cfps",
+        "ee",
+        "ife",
+        "pfi",
+        "pa01",
+        "cfam",
+        "pa02",
+        "cfas",
+        "esdi",
+        "escm",
+        "escs",
+        "adr",
+        "crbc",
+        "idi",
+        "dane",
+        "danp",
+        "dans",
+        "muse",
+        "musp",
+        "muss",
+        "tegm",
+        "tegs",
+        "estr",
+        "adults",
+        "geo_1",
+        ":@computed_region_bh64_c7uy",
+        ":@computed_region_wvic_k925"
+      ],
+      "octeti": 16430568,
+      "sha256": "151e16d05cdc4a9cc2bf15a64aa49d002267954c53c8d69f462725bf979932b4"
+    }
+  ],
+  "produse": [
+    {
+      "fisier": "cat_centres.parquet",
+      "randuri": 38108,
+      "octeti": 975334,
+      "sha256": "7cd4121d100767c0c9807a669d05ff5f8786c64ea321e515904513bcb9a7497f",
+      "coloane": {
+        "curs": "string",
+        "codi_centre": "string",
+        "denominaci_completa": "string",
+        "codi_naturalesa": "string",
+        "nom_naturalesa": "string",
+        "codi_titularitat": "string",
+        "nom_titularitat": "string",
+        "adre_a": "string",
+        "codi_postal": "string",
+        "codi_comarca": "string",
+        "nom_comarca": "string",
+        "codi_municipi": "string",
+        "codi_municipi_6": "string",
+        "nom_municipi": "string",
+        "codi_localitat": "string",
+        "nom_localitat": "string",
+        "coordenades_geo_x": "string",
+        "coordenades_geo_y": "string",
+        "einf1c": "string",
+        "einf2c": "string",
+        "epri": "string",
+        "eso": "string",
+        "batx": "string",
+        "aa01": "string",
+        "cfpm": "string",
+        "ppas": "string",
+        "aa03": "string",
+        "cfps": "string",
+        "ee": "string",
+        "ife": "string",
+        "pfi": "string",
+        "cfam": "string",
+        "cfas": "string",
+        "esdi": "string",
+        "escm": "string",
+        "escs": "string",
+        "adr": "string",
+        "crbc": "string",
+        "idi": "string",
+        "dane": "string",
+        "danp": "string",
+        "dans": "string",
+        "muse": "string",
+        "musp": "string",
+        "muss": "string",
+        "tegm": "string",
+        "tegs": "string",
+        "estr": "string",
+        "adults": "string"
+      }
+    }
+  ],
+  "profil": {
+    "set_id": "kvmv-ahh4",
+    "set_nume": "Directori de centres docents anual. Base 2020",
+    "licenta_metadate": {
+      "name": "See Terms of Use"
+    },
+    "atribuire_metadate": "Departament d'Educació i Formació Professional",
+    "randuri_actualizate_unix": 1791532171,
+    "coloane_api": [
+      "curs",
+      "any",
+      "codi_centre",
+      "denominaci_completa",
+      "codi_naturalesa",
+      "nom_naturalesa",
+      "codi_titularitat",
+      "nom_titularitat",
+      "adre_a",
+      "codi_postal",
+      "tel_fon",
+      "codi_delegaci",
+      "nom_delegaci",
+      "codi_comarca",
+      "nom_comarca",
+      "codi_municipi",
+      "codi_municipi_6",
+      "nom_municipi",
+      "codi_districte_municipal",
+      "nom_dm",
+      "codi_localitat",
+      "nom_localitat",
+      "coordenades_utm_x",
+      "coordenades_utm_y",
+      "coordenades_geo_x",
+      "coordenades_geo_y",
+      "e_mail_centre",
+      "url",
+      "imatge",
+      "einf1c",
+      "einf2c",
+      "epri",
+      "eso",
+      "batx",
+      "aa01",
+      "cfpm",
+      "ppas",
+      "aa03",
+      "cfps",
+      "ee",
+      "ife",
+      "pfi",
+      "pa01",
+      "cfam",
+      "pa02",
+      "cfas",
+      "esdi",
+      "escm",
+      "escs",
+      "adr",
+      "crbc",
+      "idi",
+      "dane",
+      "danp",
+      "dans",
+      "muse",
+      "musp",
+      "muss",
+      "tegm",
+      "tegs",
+      "estr",
+      "adults",
+      "geo_1",
+      ":@computed_region_bh64_c7uy",
+      ":@computed_region_wvic_k925"
+    ],
+    "randuri": 38108,
+    "coloane_absente_din_csv": [],
+    "coloane_excluse": [
+      "any",
+      "tel_fon",
+      "codi_delegaci",
+      "nom_delegaci",
+      "codi_districte_municipal",
+      "nom_dm",
+      "coordenades_utm_x",
+      "coordenades_utm_y",
+      "e_mail_centre",
+      "url",
+      "imatge",
+      "pa01",
+      "pa02",
+      "geo_1"
+    ],
+    "randuri_pe_curs": {
+      "2020/2021": 5475,
+      "2021/2022": 5459,
+      "2022/2023": 5433,
+      "2023/2024": 5433,
+      "2024/2025": 5446,
+      "2025/2026": 5434,
+      "2026/2027": 5428
+    },
+    "centre_cu_invatamant_pe_curs": {
+      "2020/2021": {
+        "eso": 1208,
+        "batx": 765,
+        "einf1c": 1797,
+        "epri": 2344,
+        "einf2c": 2359
+      },
+      "2021/2022": {
+        "einf1c": 1778,
+        "einf2c": 2356,
+        "epri": 2346,
+        "eso": 1218,
+        "batx": 767
+      },
+      "2022/2023": {
+        "einf2c": 2352,
+        "epri": 2346,
+        "eso": 1227,
+        "einf1c": 1771,
+        "batx": 773
+      },
+      "2023/2024": {
+        "einf1c": 1781,
+        "einf2c": 2350,
+        "epri": 2348,
+        "eso": 1233,
+        "batx": 771
+      },
+      "2024/2025": {
+        "einf2c": 2366,
+        "epri": 2367,
+        "einf1c": 1778,
+        "eso": 1249,
+        "batx": 769
+      },
+      "2025/2026": {
+        "einf2c": 2358,
+        "epri": 2358,
+        "einf1c": 1777,
+        "eso": 1249,
+        "batx": 768
+      },
+      "2026/2027": {
+        "einf2c": 2350,
+        "epri": 2347,
+        "einf1c": 1779,
+        "eso": 1248,
+        "batx": 770
+      }
+    },
+    "chei_curs_centru_duplicate": 0,
+    "fara_coordonate": 0,
+    "valori": {
+      "nom_naturalesa": {
+        "Públic": 26796,
+        "Privat": 11312
+      },
+      "einf1c": {
+        "": 25647,
+        "EINF1C": 12461
+      },
+      "einf2c": {
+        "": 21617,
+        "EINF2C": 16491
+      },
+      "epri": {
+        "": 21652,
+        "EPRI": 16456
+      },
+      "eso": {
+        "": 29476,
+        "ESO": 8632
+      },
+      "batx": {
+        "": 32725,
+        "BATX": 5383
+      },
+      "cfpm": {
+        "": 34708,
+        "CFPM": 3400
+      },
+      "cfps": {
+        "": 34893,
+        "CFPS": 3215
+      },
+      "ee": {
+        "": 37394,
+        "EE": 714
+      }
+    }
+  },
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:directori_kvmv-ahh4.csv",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:directori_kvmv-ahh4.csv",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:cat_centres.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:cat_centres.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "38108 rânduri, minim 20000"
+    }
+  ],
+  "versiunea_anterioara": null,
+  "rezultat": "TRECE",
+  "rulare": "43401825520"
+}
