@@ -1,0 +1,27 @@
+# Bibliotecas públicas españolas en cifras (Ministerio de Cultura, sistemul Alzira): statistica anuală a bibliotecilor
+# publice, pe municipii. Portalul nu are descărcare în bloc: fiecare anexă se cere pe provincie (pagină HTML cu un tabel).
+nume: "Bibliotecas públicas españolas en cifras – anexe pe municipii"
+editor: Ministerio de Cultura, Subdirección General de Coordinación Bibliotecaria (date strânse de comunitățile autonome prin Alzira)
+pagina: https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexos
+licenta: "Aviso legal al Ministerio de Cultura (RD 1495/2011, art. 7–8): reutilizare permisă, și comercială, cu citarea sursei, data actualizării dacă apare, fără denaturarea sensului și fără a sugera sprijinul ministerului (citit 13.11.2026)"
+atribuire: "„Origen de los datos: Ministerio de Cultura.” (Bibliotecas públicas españolas en cifras, anul datelor)"
+descarcare: actions
+saptamanal: false          # un an nou apare o dată pe an (2023 în ianuarie 2025); se rulează la cerere, după schimbarea `ejercicio`
+publica_brute: true        # pagini publice de statistică, fără date personale
+cadenta: anuală
+
+baza: "https://www.mcu.es/alziraweb/alziraweb.cmd"
+ejercicio: 2024
+provincii: ["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26",
+            "27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52"]
+# Anexele cerute (id-ul din portal): 56 unități administrative și biblioteci; 3 titularitate; 11 ore de deschidere pe săptămână;
+# 69 localuri (suprafață, locuri de consultare); 41 calculatoare de uz public; 35 servicii electronice (internet public, WIFI)
+anexe: [56, 3, 11, 69, 41, 35]
+pauza_secunde: 1.0
+
+produse:
+  bpec_municipii.parquet:
+    coloane: {ejercicio: int64, cod_prov: string, anexa: int64, anexa_titlu: string, municipio: string, este_total: bool,
+              coloana: string, valoare: string}
+    randuri_minim: 50000
+scadere_maxima: 0.10
