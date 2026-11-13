@@ -75,7 +75,8 @@ def verificari(cfg, brute, produse, anterior):
         rez.append({'verificare': nume, 'rezultat': 'TRECE' if ok else 'EȘUAT', 'detaliu': detaliu})
 
     for b in brute:
-        adauga(f"brut_nu_e_html:{b['fisier']}", not b['html'], 'pagină HTML în locul fișierului' if b['html'] else '')
+        if not cfg.get('brute_html'):   # sursele ale căror fișiere brute sunt pagini HTML prin natura lor (ex. bpec) o declară
+            adauga(f"brut_nu_e_html:{b['fisier']}", not b['html'], 'pagină HTML în locul fișierului' if b['html'] else '')
         adauga(f"brut_nevid:{b['fisier']}", b['octeti'] > 0)
     asteptate = cfg.get('produse', {})
     prev = {p['fisier']: p for p in (anterior or {}).get('produse', [])}

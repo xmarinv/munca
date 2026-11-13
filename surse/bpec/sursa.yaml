@@ -8,6 +8,7 @@ atribuire: "„Origen de los datos: Ministerio de Cultura.” (Bibliotecas públ
 descarcare: actions        # paginile vin din surse/bpec/intrare/ (descărcate pe calculatorul lui Marin cu local/bpec_descarca.py:
                            # portalul dă HTTP 429 adreselor din Actions, 13.11.2026)
 saptamanal: false          # un an nou apare o dată pe an (2023 în ianuarie 2025); se rulează la cerere, după schimbarea `ejercicio`
+brute_html: true           # fișierele brute sunt pagini HTML (tabele), nu erori ale serverului
 publica_brute: true        # pagini publice de statistică, fără date personale
 cadenta: anuală
 
