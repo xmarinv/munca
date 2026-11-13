@@ -16,7 +16,7 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 import requests
 
-UA = {'User-Agent': 'munca/1.0 (+https://github.com/xmarinv/munca; date deschise, o cerere pe secundă)'}
+UA = {'User-Agent': 'munca/1.0 (+https://github.com/xmarinv/munca; open data, one request per second)'}
 
 
 def cere(url, params):
