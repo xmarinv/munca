@@ -17,7 +17,7 @@ provincii: ["01","02","03","04","05","06","07","08","09","10","11","12","13","14
 # Anexele cerute (id-ul din portal): 56 unități administrative și biblioteci; 3 titularitate; 11 ore de deschidere pe săptămână;
 # 69 localuri (suprafață, locuri de consultare); 41 calculatoare de uz public; 35 servicii electronice (internet public, WIFI)
 anexe: [56, 3, 11, 69, 41, 35]
-pauza_secunde: 1.0
+pauza_secunde: 4.0   # la o cerere pe secundă portalul răspunde 429 (13.11.2026)
 
 produse:
   bpec_municipii.parquet:

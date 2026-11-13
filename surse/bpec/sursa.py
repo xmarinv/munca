@@ -1,7 +1,7 @@
 """Sursa bpec: Bibliotecas públicas españolas en cifras, anexele pe municipii (Ministerio de Cultura, Alzira).
 
 descarca: pentru fiecare anexă și provincie, pagina `?command=GetAnexo&id=<anexa>&origen=PR&codigo=<prov>&ejercicio=<an>`
-          (HTML, ISO-8859-15), salvată neschimbată; o cerere pe secundă.
+          (HTML, ISO-8859-15), salvată neschimbată; pauza dintre cereri din sursa.yaml.
 structureaza: tabelul fiecărei pagini în formă lungă – un rând pe (provincie, anexă, municipiu, coloană), valoarea ca text,
           exact cum o afișează portalul (separator de mii „.”, procente cu „%”). Antetele pe două rânduri se unesc cu „ / ”.
           Rândul TOTAL al provinciei se păstrează (este_total). Municipiile fără bibliotecă nu apar în sursă.
@@ -16,22 +16,27 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 import requests
 
-UA = {'User-Agent': 'munca/1.0 (+https://github.com/xmarinv/munca; open data, one request per second)'}
+UA = {'User-Agent': 'munca/1.0 (+https://github.com/xmarinv/munca; open data, slow polite download)'}
 
 
 def cere(url, params):
-    for i in range(5):
+    """Portalul limitează ritmul (HTTP 429): se respectă Retry-After, altfel pauze tot mai lungi (până la 15 minute)."""
+    pauze = [60, 120, 300, 600, 900, 900]
+    for i in range(len(pauze) + 1):
         try:
             r = requests.get(url, params=params, headers=UA, timeout=(30, 120))
             if r.status_code in (429, 500, 502, 503, 504):
-                raise requests.RequestException(f'HTTP {r.status_code}')
+                ra = r.headers.get('Retry-After', '')
+                raise requests.RequestException(f'HTTP {r.status_code} (Retry-After: {ra or "-"})', response=r)
             r.raise_for_status()
             return r
         except requests.RequestException as e:
-            if i == 4:
-                raise
-            print(f'{params}: {e}; reîncercare', flush=True)
-            time.sleep(15 * (i + 1))
+            if i == len(pauze):
+                raise RuntimeError(f"{e} la anexa {params.get('id')} provincia {params.get('codigo')}, după {i} reîncercări")
+            ra = getattr(getattr(e, 'response', None), 'headers', {}).get('Retry-After', '') if getattr(e, 'response', None) is not None else ''
+            asteapta = min(int(ra), 1800) if str(ra).isdigit() else pauze[i]
+            print(f"{params.get('id')}/{params.get('codigo')}: {e}; aștept {asteapta} s", flush=True)
+            time.sleep(asteapta)
 
 
 def descarca(dir_brute, cfg):
