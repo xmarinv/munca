@@ -5,8 +5,8 @@ editor: Ministerio de Cultura, Subdirección General de Coordinación Biblioteca
 pagina: https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexos
 licenta: "Aviso legal al Ministerio de Cultura (RD 1495/2011, art. 7–8): reutilizare permisă, și comercială, cu citarea sursei, data actualizării dacă apare, fără denaturarea sensului și fără a sugera sprijinul ministerului (citit 13.11.2026)"
 atribuire: "„Origen de los datos: Ministerio de Cultura.” (Bibliotecas públicas españolas en cifras, anul datelor)"
-descarcare: local          # portalul dă HTTP 429 adreselor din Actions (13.11.2026); se descarcă pe calculatorul lui Marin cu local/bpec_descarca.py,
-                           # iar fișierele se urcă în release-ul bpec-intrare; structurarea rămâne în Actions
+descarcare: actions        # paginile vin din surse/bpec/intrare/ (descărcate pe calculatorul lui Marin cu local/bpec_descarca.py:
+                           # portalul dă HTTP 429 adreselor din Actions, 13.11.2026)
 saptamanal: false          # un an nou apare o dată pe an (2023 în ianuarie 2025); se rulează la cerere, după schimbarea `ejercicio`
 publica_brute: true        # pagini publice de statistică, fără date personale
 cadenta: anuală

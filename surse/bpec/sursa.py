@@ -40,16 +40,14 @@ def cere(url, params):
 
 
 def descarca(dir_brute, cfg):
-    fisiere = []
-    for anexa in cfg['anexe']:
-        for prov in cfg['provincii']:
-            p = {'command': 'GetAnexo', 'id': anexa, 'origen': 'PR', 'codigo': prov, 'ejercicio': cfg['ejercicio'], 'porcentaje': ''}
-            r = cere(cfg['baza'], p)
-            nume = f"a{anexa:02d}_p{prov}_{cfg['ejercicio']}.html"
-            (Path(dir_brute) / nume).write_bytes(r.content)
-            fisiere.append({'fisier': nume, 'url': r.url})
-            time.sleep(float(cfg.get('pauza_secunde', 1)))
-    return fisiere
+    """Portalul refuză adresele din Actions (HTTP 429), așa că paginile se descarcă pe calculatorul lui Marin cu
+    local/bpec_descarca.py și se păstrează în surse/bpec/intrare/; aici doar se preiau, neschimbate."""
+    import shutil
+    intrare = Path(__file__).resolve().parent / 'intrare'
+    meta = json.loads((intrare / 'descarcare.json').read_text(encoding='utf-8'))
+    for m in meta:
+        shutil.copy2(intrare / m['fisier'], Path(dir_brute) / m['fisier'])
+    return meta
 
 
 class Tabel(HTMLParser):
