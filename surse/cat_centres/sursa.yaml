@@ -1,0 +1,29 @@
+# Catalunya – directorul centrelor educative, cu învățămintele autorizate pe centru și pe curs (portalul de date deschise
+# al Generalitat, Socrata). Registrul național (RCD) nu are denumirea generică pentru centrele catalane; aici fiecare
+# centru are câte o coloană pe învățământ (EINF1C, EINF2C, EPRI, ESO, BATX…), codul centrului (același ca în RCD) și coordonate.
+nume: "Generalitat de Catalunya – Directori de centres docents anual. Base 2020"
+editor: Generalitat de Catalunya, Departament d'Educació i Formació Professional (Dades obertes de Catalunya)
+pagina: https://analisi.transparenciacatalunya.cat/d/kvmv-ahh4
+licenta: "Llicència oberta d'ús d'informació – Catalunya (citarea sursei și a datei de actualizare); metadatele setului spun „See Terms of Use” – valoarea citită la descărcare e în profil (licenta_metadate)"
+atribuire: "„Fuente: Generalitat de Catalunya, Departament d'Educació i Formació Professional – Dades obertes”, cu data actualizării"
+descarcare: actions
+saptamanal: false          # directorul se actualizează în octombrie și ianuarie; se rulează la cerere
+publica_brute: false       # CSV-ul brut are telefonul și e-mailul centrelor; produsul nu le păstrează
+cadenta: de două ori pe an (octombrie, ianuarie)
+
+domeniu: analisi.transparenciacatalunya.cat
+set_id: kvmv-ahh4
+# Doar aceste coloane (numele de câmp din API) intră în produs, toate ca text, neschimbate.
+coloane: [curs, codi_centre, denominaci_completa, codi_naturalesa, nom_naturalesa, codi_titularitat, nom_titularitat,
+          adre_a, codi_postal, codi_comarca, nom_comarca, codi_municipi, codi_municipi_6, nom_municipi,
+          codi_localitat, nom_localitat, coordenades_geo_x, coordenades_geo_y,
+          einf1c, einf2c, epri, eso, batx, aa01, cfpm, ppas, aa03, cfps, ee, ife, pfi, cfam, cfas, esdi, escm, escs,
+          adr, crbc, idi, dane, danp, dans, muse, musp, muss, tegm, tegs, estr, adults]
+
+produse:
+  cat_centres.parquet:
+    coloane: {curs: string, codi_centre: string, denominaci_completa: string, nom_naturalesa: string,
+              codi_municipi: string, nom_localitat: string, coordenades_geo_x: string, coordenades_geo_y: string,
+              einf1c: string, einf2c: string, epri: string, eso: string, batx: string}
+    randuri_minim: 20000
+scadere_maxima: 0.10
