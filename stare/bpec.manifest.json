@@ -1,0 +1,5209 @@
+{
+  "sursa": "bpec",
+  "versiune": "20261113-e09d37f8",
+  "amprenta": "e09d37f8826604e4dcc3de875ce94e535ce62d5a24a0e9dcbd8ed1d6e4ab2455",
+  "creat_utc": "2026-11-13T22:18:43+00:00",
+  "descarcat_in": "actions",
+  "nume": "Bibliotecas públicas españolas en cifras – anexe pe municipii",
+  "editor": "Ministerio de Cultura, Subdirección General de Coordinación Bibliotecaria (date strânse de comunitățile autonome prin Alzira)",
+  "pagina": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexos",
+  "licenta": "Aviso legal al Ministerio de Cultura (RD 1495/2011, art. 7–8): reutilizare permisă, și comercială, cu citarea sursei, data actualizării dacă apare, fără denaturarea sensului și fără a sugera sprijinul ministerului (citit 13.11.2026)",
+  "atribuire": "„Origen de los datos: Ministerio de Cultura.” (Bibliotecas públicas españolas en cifras, anul datelor)",
+  "fisiere_brute": [
+    {
+      "fisier": "a56_p01_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=01&ejercicio=2024&porcentaje=",
+      "octeti": 16121,
+      "sha256": "8fc6e1a9c601e4e91bdc974af2b79fe9bbc2d5405e47256c9002814097c79c7a"
+    },
+    {
+      "fisier": "a56_p02_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=02&ejercicio=2024&porcentaje=",
+      "octeti": 18590,
+      "sha256": "3304ac0ea17fb81bf378c120a864c43ed38f196abc3f0a74093deef6713bb0b3"
+    },
+    {
+      "fisier": "a56_p03_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=03&ejercicio=2024&porcentaje=",
+      "octeti": 19158,
+      "sha256": "b73bab929d6306593b57b4be7cadf4feeeae3a05f6103a1078983dbe828dc227"
+    },
+    {
+      "fisier": "a56_p04_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=04&ejercicio=2024&porcentaje=",
+      "octeti": 18098,
+      "sha256": "e4e31febc3c74e345847cd722c0422a2d92073d13046c4f7d2c01e5e9f6fbd5b"
+    },
+    {
+      "fisier": "a56_p05_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=05&ejercicio=2024&porcentaje=",
+      "octeti": 16199,
+      "sha256": "d90067d5901ca42c58e4a4bfa9c72cd4e311adb10bda4bd537cbdf08e832eed7"
+    },
+    {
+      "fisier": "a56_p06_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=06&ejercicio=2024&porcentaje=",
+      "octeti": 25126,
+      "sha256": "84715e93e671456a17a2a8d5f6cf14427556a45a86a97654b680f65662cd1b3c"
+    },
+    {
+      "fisier": "a56_p07_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=07&ejercicio=2024&porcentaje=",
+      "octeti": 18220,
+      "sha256": "11b75269defae1827e602c0374b1d016ce7a8de4843d3cff0c756edc47ae4918"
+    },
+    {
+      "fisier": "a56_p08_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=08&ejercicio=2024&porcentaje=",
+      "octeti": 25521,
+      "sha256": "fb1dba15af42b08a075819f05ad59cb8b18882e7883b21c36c73104dfb816e28"
+    },
+    {
+      "fisier": "a56_p09_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=09&ejercicio=2024&porcentaje=",
+      "octeti": 15514,
+      "sha256": "5d93f4e1d597896ee8264a8ccca26173de930bf71ec916c47ff5b5d81adbadf6"
+    },
+    {
+      "fisier": "a56_p10_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=10&ejercicio=2024&porcentaje=",
+      "octeti": 27633,
+      "sha256": "e3640584fa9087349c006edecafae4f41cf4e2c32594875afec8a33057e98ddb"
+    },
+    {
+      "fisier": "a56_p11_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=11&ejercicio=2024&porcentaje=",
+      "octeti": 16808,
+      "sha256": "430200d4b1bce73e5c0f1d5671eec511e049f99eaeff1e3fdab29b2169207884"
+    },
+    {
+      "fisier": "a56_p12_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=12&ejercicio=2024&porcentaje=",
+      "octeti": 17373,
+      "sha256": "21c273370e18d0aacf67f8b97209cb75355c3f48b9b9ce052775bbd5d14e42be"
+    },
+    {
+      "fisier": "a56_p13_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=13&ejercicio=2024&porcentaje=",
+      "octeti": 19452,
+      "sha256": "3b9d48bab132004a3e221396d05ac91641011369622ca4effeb77e7c29384e77"
+    },
+    {
+      "fisier": "a56_p14_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=14&ejercicio=2024&porcentaje=",
+      "octeti": 19086,
+      "sha256": "e2fb23a7b6507da90cd7ec49c701f926d001413cc69e29e29e030a88a25224de"
+    },
+    {
+      "fisier": "a56_p15_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=15&ejercicio=2024&porcentaje=",
+      "octeti": 19674,
+      "sha256": "875e17897476b837a98c257968fb1f12c8395621a34b6877e09842f4dd93225b"
+    },
+    {
+      "fisier": "a56_p16_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=16&ejercicio=2024&porcentaje=",
+      "octeti": 19813,
+      "sha256": "20745b01ce6d7755ee9eccaed7f86fad7fde746c04462c343740b59e76b767e5"
+    },
+    {
+      "fisier": "a56_p17_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=17&ejercicio=2024&porcentaje=",
+      "octeti": 17917,
+      "sha256": "cae31342c4bc8c3202ba5db22047708224dbef7601dc2260fc1877b99d401c70"
+    },
+    {
+      "fisier": "a56_p18_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=18&ejercicio=2024&porcentaje=",
+      "octeti": 19356,
+      "sha256": "893932b3f19d4d818faa9737891919f3f927b2a8fba0be7e2d458c548ea15431"
+    },
+    {
+      "fisier": "a56_p19_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=19&ejercicio=2024&porcentaje=",
+      "octeti": 17114,
+      "sha256": "b4a76b3c7546df3dc33844da9d30ffc928625ccd1c1f41f052017589414dff99"
+    },
+    {
+      "fisier": "a56_p20_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=20&ejercicio=2024&porcentaje=",
+      "octeti": 18954,
+      "sha256": "ce1f8254b4a81eb3959e74765c4e2a41fff5e60e174d71da83aa80a7891552e6"
+    },
+    {
+      "fisier": "a56_p21_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=21&ejercicio=2024&porcentaje=",
+      "octeti": 18149,
+      "sha256": "7e2ee1875259c716f88d3b1d8dd14bf80becb3da2b82850a34104de058f0a75a"
+    },
+    {
+      "fisier": "a56_p22_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=22&ejercicio=2024&porcentaje=",
+      "octeti": 18738,
+      "sha256": "63cbf6dc1b07b188f545401f3c474ee93a3881f6c1a29641f4f9a5d79fa73a29"
+    },
+    {
+      "fisier": "a56_p23_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=23&ejercicio=2024&porcentaje=",
+      "octeti": 18928,
+      "sha256": "7dbde72bf96184eaa270a509dacf01a41096de513469b8c60ad89eb6ae39d7ca"
+    },
+    {
+      "fisier": "a56_p24_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=24&ejercicio=2024&porcentaje=",
+      "octeti": 16271,
+      "sha256": "4777a0c631a7dc8463db850fb3a6dbcd7ef1da9ae735ec570f6aa16fcf33087c"
+    },
+    {
+      "fisier": "a56_p25_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=25&ejercicio=2024&porcentaje=",
+      "octeti": 17208,
+      "sha256": "28716c11367e259246dd9b3183f17caa20e80dd8e1fbc3e713a12864ee65602c"
+    },
+    {
+      "fisier": "a56_p26_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=26&ejercicio=2024&porcentaje=",
+      "octeti": 15314,
+      "sha256": "88fdea7b852c573f3641cf56e84a4e57a759aaefec5f0fc023211b8b4bb7ee15"
+    },
+    {
+      "fisier": "a56_p27_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=27&ejercicio=2024&porcentaje=",
+      "octeti": 16684,
+      "sha256": "5ceaf9cdf8e429a6a19761f41e2df35aad87d8d59f213bcb4417845b08d9b49e"
+    },
+    {
+      "fisier": "a56_p28_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=28&ejercicio=2024&porcentaje=",
+      "octeti": 21222,
+      "sha256": "7cf43cd697ce058ea82fce3adde3cbe6545cca8288a43012b171312e67571664"
+    },
+    {
+      "fisier": "a56_p29_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=29&ejercicio=2024&porcentaje=",
+      "octeti": 19857,
+      "sha256": "edd9c44b99a9d2e5c63a3c2eda0d30b87165409c90042f418a22957a44bb0d5c"
+    },
+    {
+      "fisier": "a56_p30_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=30&ejercicio=2024&porcentaje=",
+      "octeti": 16880,
+      "sha256": "d903fc70397f03e84fdfc92b9e98ef85c6f22d28a9f2dfd2b331f24a146ae8d8"
+    },
+    {
+      "fisier": "a56_p31_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=31&ejercicio=2024&porcentaje=",
+      "octeti": 20122,
+      "sha256": "22c36b6105cf9241fd95a7cdcea809f2553fce6a7bd6a0da8cefc1cea7489aea"
+    },
+    {
+      "fisier": "a56_p32_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=32&ejercicio=2024&porcentaje=",
+      "octeti": 16805,
+      "sha256": "b894e73cbe9a89159eb8c72a1b5af899c32d15b7b1eb9637e9e24e5b46406763"
+    },
+    {
+      "fisier": "a56_p33_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=33&ejercicio=2024&porcentaje=",
+      "octeti": 18274,
+      "sha256": "4a10f3712f72aebc12ec157d65ef2b299b7a5135865e2eb21198753dc61e2470"
+    },
+    {
+      "fisier": "a56_p34_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=34&ejercicio=2024&porcentaje=",
+      "octeti": 15411,
+      "sha256": "02fff050801415f43adbfab752d0fc561fc1093deeb63447ccf44179b169b33b"
+    },
+    {
+      "fisier": "a56_p35_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=35&ejercicio=2024&porcentaje=",
+      "octeti": 15859,
+      "sha256": "7978da41e1471d31ba1eb394451cca96239deace77be7ecf001cd56c77b78eef"
+    },
+    {
+      "fisier": "a56_p36_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=36&ejercicio=2024&porcentaje=",
+      "octeti": 17504,
+      "sha256": "3a305a6cafd5785ebcc13bd3a3787850237efad8716bacd5f524a524e7aeab4f"
+    },
+    {
+      "fisier": "a56_p37_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=37&ejercicio=2024&porcentaje=",
+      "octeti": 16343,
+      "sha256": "65f8fe22000ae5618b4e7c391a0328f929d1ec41863fce5cb68d8bf9b3366235"
+    },
+    {
+      "fisier": "a56_p38_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=38&ejercicio=2024&porcentaje=",
+      "octeti": 17020,
+      "sha256": "a4f59b10112f77c9c14be7cbcaf071b7b864b25c8036538aa0085165be4585fe"
+    },
+    {
+      "fisier": "a56_p39_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=39&ejercicio=2024&porcentaje=",
+      "octeti": 17109,
+      "sha256": "3b20e5ae0d039a571b03b7a2f1e2fda79a4af3f2beb9c1c811f7cc2050bc02aa"
+    },
+    {
+      "fisier": "a56_p40_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=40&ejercicio=2024&porcentaje=",
+      "octeti": 15333,
+      "sha256": "fb566b2867e8821505454e1e77d262e85f5fbfafa58fb5f123e74238963ac121"
+    },
+    {
+      "fisier": "a56_p41_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=41&ejercicio=2024&porcentaje=",
+      "octeti": 21223,
+      "sha256": "ad8712fdc6580c7991ffe7320344bbec27f03b97c808a97554de887c9935d05b"
+    },
+    {
+      "fisier": "a56_p42_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=42&ejercicio=2024&porcentaje=",
+      "octeti": 14981,
+      "sha256": "3164b151f7c7dcade1313dfc852c5f2b1dc6a60e35a96f9126880c9bf10853ce"
+    },
+    {
+      "fisier": "a56_p43_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=43&ejercicio=2024&porcentaje=",
+      "octeti": 18978,
+      "sha256": "e9f72c4e3bfe5e45c026fe6a04abc01990708e0e7f19099dd9a8f4184eea9654"
+    },
+    {
+      "fisier": "a56_p44_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=44&ejercicio=2024&porcentaje=",
+      "octeti": 17303,
+      "sha256": "e6e5dfd5c897fd3eaae5a8c8da8137d9c80f16c9ba37d34dc5b848080298a443"
+    },
+    {
+      "fisier": "a56_p45_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=45&ejercicio=2024&porcentaje=",
+      "octeti": 22995,
+      "sha256": "80abe5d7f5d1fdd4ddddb995cf761c0a729fee3510ecea0cdefe5f5736f9ce1d"
+    },
+    {
+      "fisier": "a56_p46_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=46&ejercicio=2024&porcentaje=",
+      "octeti": 25121,
+      "sha256": "08367dd351f0d615bcfa310375bcc27e38806302c4e5afeae635e115a0b1ba3a"
+    },
+    {
+      "fisier": "a56_p47_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=47&ejercicio=2024&porcentaje=",
+      "octeti": 16046,
+      "sha256": "e30116bbfc5c1f39e7fe67b3372ca41dca716af773f33cf8832198c4aabe0600"
+    },
+    {
+      "fisier": "a56_p48_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=48&ejercicio=2024&porcentaje=",
+      "octeti": 19751,
+      "sha256": "32385b2fce8bbb127aa0fd06a122c6c20bc46b24cbb49bcf9ab5c75a30c3b525"
+    },
+    {
+      "fisier": "a56_p49_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=49&ejercicio=2024&porcentaje=",
+      "octeti": 15412,
+      "sha256": "2884ae9d0765aa7dd9a10f697e6fae65d2b5cd764bfb903f50b9584c25f42553"
+    },
+    {
+      "fisier": "a56_p50_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=50&ejercicio=2024&porcentaje=",
+      "octeti": 20074,
+      "sha256": "0327131205746b3e9cf702a2e0b9d228b2f0c832bbfd43072b80f2a4f36c5858"
+    },
+    {
+      "fisier": "a56_p51_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=51&ejercicio=2024&porcentaje=",
+      "octeti": 13639,
+      "sha256": "5019a61876b1654af8f58fb03b19a8c757aa9961179a3c9d70cb3bab8b4650ec"
+    },
+    {
+      "fisier": "a56_p52_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=56&origen=PR&codigo=52&ejercicio=2024&porcentaje=",
+      "octeti": 13649,
+      "sha256": "fc45f4276ba9885467c1ffaee3ebee5b9b1b3a2ff38d7cbbc362ec87bd61e09a"
+    },
+    {
+      "fisier": "a03_p01_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=01&ejercicio=2024&porcentaje=",
+      "octeti": 16506,
+      "sha256": "bfc6d2cb5c2ac1d7fd155146b37f3ae6212678c0f4942b1a184dde23b45fea83"
+    },
+    {
+      "fisier": "a03_p02_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=02&ejercicio=2024&porcentaje=",
+      "octeti": 19324,
+      "sha256": "60ece4a4edcc0fd64a85c6b9d4c2959c6d0d38a60dbf74128e8d77cf2d0af3a4"
+    },
+    {
+      "fisier": "a03_p03_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=03&ejercicio=2024&porcentaje=",
+      "octeti": 19973,
+      "sha256": "8ae7abbc7a98850ece8c63f49a4c30cb4d9802921e116ae4f0e1e88ef245f19d"
+    },
+    {
+      "fisier": "a03_p04_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=04&ejercicio=2024&porcentaje=",
+      "octeti": 18773,
+      "sha256": "1e4306dda9d2f8abd56d9506aa90a1e32dd1edd4d5a71a6cc38ef21e87ac1993"
+    },
+    {
+      "fisier": "a03_p05_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=05&ejercicio=2024&porcentaje=",
+      "octeti": 16594,
+      "sha256": "11718524e9d22b5012ec3bc0fe6101126eb3261355031fe0ba3220d14ea4da0c"
+    },
+    {
+      "fisier": "a03_p06_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=06&ejercicio=2024&porcentaje=",
+      "octeti": 26699,
+      "sha256": "f32e1ef89950af813398467582e66f16cb009f6c3215040be7663efd8bde3387"
+    },
+    {
+      "fisier": "a03_p07_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=07&ejercicio=2024&porcentaje=",
+      "octeti": 18905,
+      "sha256": "2beade2d62f13a9e5c416c9e21a3ec0b7a3964c3104ecda5250e9072ac483974"
+    },
+    {
+      "fisier": "a03_p08_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=08&ejercicio=2024&porcentaje=",
+      "octeti": 27103,
+      "sha256": "645f7888807e3e88898273d9a9f694a24e71b6174d4e8b41ce222b1e96ae9db3"
+    },
+    {
+      "fisier": "a03_p09_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=09&ejercicio=2024&porcentaje=",
+      "octeti": 15819,
+      "sha256": "7a6d743761f152a106362b46a18402be85d4e97249a14d0f45e6c1ce33b708d4"
+    },
+    {
+      "fisier": "a03_p10_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=10&ejercicio=2024&porcentaje=",
+      "octeti": 29537,
+      "sha256": "f193294312f8a291d8fbd768d004b45267dbb4696c30952a11f61fd7fa8910ec"
+    },
+    {
+      "fisier": "a03_p11_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=11&ejercicio=2024&porcentaje=",
+      "octeti": 17283,
+      "sha256": "10552903abfec76efa0646b89bd468f7f891633065c42a4617deb549b1fec85e"
+    },
+    {
+      "fisier": "a03_p12_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=12&ejercicio=2024&porcentaje=",
+      "octeti": 17919,
+      "sha256": "2a68efb2e0890a96f9a58b1aab1a4c50d3865a95e1b020c2cbc3d04ba7e8c6d3"
+    },
+    {
+      "fisier": "a03_p13_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=13&ejercicio=2024&porcentaje=",
+      "octeti": 20267,
+      "sha256": "74dc41575b6e4a1a85a62ad74bd169a08a672931d82471e08cf3e5309514b96a"
+    },
+    {
+      "fisier": "a03_p14_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=14&ejercicio=2024&porcentaje=",
+      "octeti": 19871,
+      "sha256": "fb61b9fde3deeac925ed8e5018e909d1624fd436eedf54c8bf72f12f116eb429"
+    },
+    {
+      "fisier": "a03_p15_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=15&ejercicio=2024&porcentaje=",
+      "octeti": 20588,
+      "sha256": "949ad064391795b8b3814eb8aa8fa535f06b1c70c34933063dbf8c3b47040e64"
+    },
+    {
+      "fisier": "a03_p16_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=16&ejercicio=2024&porcentaje=",
+      "octeti": 20678,
+      "sha256": "bfa6cf49e1205a0c9dbc5870492b5321ee48d02aa870aa4f1fd208dbe54cb247"
+    },
+    {
+      "fisier": "a03_p17_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=17&ejercicio=2024&porcentaje=",
+      "octeti": 18542,
+      "sha256": "0f43ef97a1f93ea78ccd288bdd741958d57552fa9c1dfb31ec1507bcd2815905"
+    },
+    {
+      "fisier": "a03_p18_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=18&ejercicio=2024&porcentaje=",
+      "octeti": 20191,
+      "sha256": "34308028cb0c2771e9d7ec529cc1beb66929b9b95cfe547dd3a1e6fc07f92898"
+    },
+    {
+      "fisier": "a03_p19_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=19&ejercicio=2024&porcentaje=",
+      "octeti": 17649,
+      "sha256": "440cf3ac6954a1703d84969cd118a09b15e7a5a4e422b9f4a54d8dac7a700385"
+    },
+    {
+      "fisier": "a03_p20_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=20&ejercicio=2024&porcentaje=",
+      "octeti": 19779,
+      "sha256": "0cf3c3d607fc41e2e95e49bca13f79f15bc91b52dfa552b95fa205d2f1e3c32e"
+    },
+    {
+      "fisier": "a03_p21_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=21&ejercicio=2024&porcentaje=",
+      "octeti": 18804,
+      "sha256": "2acd8592bb6c9078a8f21c728a01a8126ef1744e6c28dac438bf74e71d64ac79"
+    },
+    {
+      "fisier": "a03_p22_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=22&ejercicio=2024&porcentaje=",
+      "octeti": 19493,
+      "sha256": "3da1faa4d61f1bb0244d136295d259714c3855cb1161f4b0e3c742bad5deeddc"
+    },
+    {
+      "fisier": "a03_p23_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=23&ejercicio=2024&porcentaje=",
+      "octeti": 19703,
+      "sha256": "be1be3c2a8f691491d7198b8c8190c1b5684869915dd61a86d112a786a92936f"
+    },
+    {
+      "fisier": "a03_p24_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=24&ejercicio=2024&porcentaje=",
+      "octeti": 16677,
+      "sha256": "63a7c0af1dedb35434fb23bdf248c3eaf2e652f973bd0351c54bff2784b49970"
+    },
+    {
+      "fisier": "a03_p25_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=25&ejercicio=2024&porcentaje=",
+      "octeti": 17753,
+      "sha256": "0fa193504a57cd69087eb77626ed90fc50ba8e76acd8e03f66801db188d2156d"
+    },
+    {
+      "fisier": "a03_p26_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=26&ejercicio=2024&porcentaje=",
+      "octeti": 15599,
+      "sha256": "743bb5ca7012467c8c3396efe70590ba18a8c319b9b4e0fa3c0cbc751b21fd3e"
+    },
+    {
+      "fisier": "a03_p27_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=27&ejercicio=2024&porcentaje=",
+      "octeti": 17179,
+      "sha256": "84dbaf0abfe4a405f7076e745751eac7853449efcf736c22bd2c809b71c9989b"
+    },
+    {
+      "fisier": "a03_p28_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=28&ejercicio=2024&porcentaje=",
+      "octeti": 22266,
+      "sha256": "6442fa7a9691712f9a12b6a1601755b6a441b70d74c399e215d228f9765c2001"
+    },
+    {
+      "fisier": "a03_p29_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=29&ejercicio=2024&porcentaje=",
+      "octeti": 20761,
+      "sha256": "96dc3ec08741ed1a5897045698ed527c8c03f2486437959e5ff80f8ad73999b9"
+    },
+    {
+      "fisier": "a03_p30_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=30&ejercicio=2024&porcentaje=",
+      "octeti": 17384,
+      "sha256": "d80d3fe9bd04df9109b738f7efb29a2c2e9983b99d9457775bc888cace867381"
+    },
+    {
+      "fisier": "a03_p31_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=31&ejercicio=2024&porcentaje=",
+      "octeti": 21064,
+      "sha256": "b168e41deab98f06ccb2daa970c7abd4e116fdd61fa0ee12b260b27dcf96d71f"
+    },
+    {
+      "fisier": "a03_p32_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=32&ejercicio=2024&porcentaje=",
+      "octeti": 17300,
+      "sha256": "8cdbf6be973b6ce2d32ba63e4b8d8f444cfcc21bec31936afff2b61a845ddaa5"
+    },
+    {
+      "fisier": "a03_p33_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=33&ejercicio=2024&porcentaje=",
+      "octeti": 18979,
+      "sha256": "aeebec1df296e6b16be799d627db744e83015f76266543226d79a2a6c0f5eb5c"
+    },
+    {
+      "fisier": "a03_p34_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=34&ejercicio=2024&porcentaje=",
+      "octeti": 15696,
+      "sha256": "1868ce161bd78bd23e79688abefe6888861b02b16edddca7441030549d96b307"
+    },
+    {
+      "fisier": "a03_p35_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=35&ejercicio=2024&porcentaje=",
+      "octeti": 16214,
+      "sha256": "252ece6bff426221db4fcdb9b6674f2e8418de2a4b0cf08f1e5f6b78f5ce5373"
+    },
+    {
+      "fisier": "a03_p36_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=36&ejercicio=2024&porcentaje=",
+      "octeti": 18109,
+      "sha256": "b4686b053878b69e61be540c945532b2d7324775921c1afad8544f68ef5baff2"
+    },
+    {
+      "fisier": "a03_p37_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=37&ejercicio=2024&porcentaje=",
+      "octeti": 16759,
+      "sha256": "048735061ea91bdb940702b4c597bd931463af7b90e0e78db8d1a69c30bdc709"
+    },
+    {
+      "fisier": "a03_p38_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=38&ejercicio=2024&porcentaje=",
+      "octeti": 17525,
+      "sha256": "452330337062a3a909d13206af6d994818369b19ef0586484efbea80a5ffc5f7"
+    },
+    {
+      "fisier": "a03_p39_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=39&ejercicio=2024&porcentaje=",
+      "octeti": 17644,
+      "sha256": "ecca118dce76449968526d3cd01eee4595c3803965c0e824d6995e8c518699a7"
+    },
+    {
+      "fisier": "a03_p40_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=40&ejercicio=2024&porcentaje=",
+      "octeti": 15618,
+      "sha256": "4537fc2dca682eeec0730a68c09d31dd4a531cf641fce8ab3c5e609e4633c602"
+    },
+    {
+      "fisier": "a03_p41_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=41&ejercicio=2024&porcentaje=",
+      "octeti": 22277,
+      "sha256": "a4e2b416dae424c87efaff40d8d416d5f68f4dde35372d28326fafffdfdddac7"
+    },
+    {
+      "fisier": "a03_p42_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=42&ejercicio=2024&porcentaje=",
+      "octeti": 15216,
+      "sha256": "a9c870db29fd26abe19f795b9dcf56d2c1645549ef6b97d901a269cdc07b3c53"
+    },
+    {
+      "fisier": "a03_p43_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=43&ejercicio=2024&porcentaje=",
+      "octeti": 19753,
+      "sha256": "b61c40b93ffac1cb8b52fd63d95c2ea464c43801c09257f2e37593b987bd6d78"
+    },
+    {
+      "fisier": "a03_p44_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=44&ejercicio=2024&porcentaje=",
+      "octeti": 17858,
+      "sha256": "88923b7b5e798c740abd3b0b9e20af767193a09676cc5ae38a3b62fec7f06bb7"
+    },
+    {
+      "fisier": "a03_p45_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=45&ejercicio=2024&porcentaje=",
+      "octeti": 24309,
+      "sha256": "7b7ddc1a03a3ba190368c52c13ab763a3966e23e620d773ae620c77470f99df0"
+    },
+    {
+      "fisier": "a03_p46_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=46&ejercicio=2024&porcentaje=",
+      "octeti": 26745,
+      "sha256": "02fb62474c5f8dae4bda0dc429d1d2ab3c094b6330ba05036b0ad46770fd6ce6"
+    },
+    {
+      "fisier": "a03_p47_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=47&ejercicio=2024&porcentaje=",
+      "octeti": 16421,
+      "sha256": "3104657614309700a66c3870db9740fd9377cce6314fb786266a8906929f9256"
+    },
+    {
+      "fisier": "a03_p48_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=48&ejercicio=2024&porcentaje=",
+      "octeti": 20676,
+      "sha256": "1f8e659b983e7a18886f93248691fc5e897b2f1410f23a204606bcd9d1249145"
+    },
+    {
+      "fisier": "a03_p49_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=49&ejercicio=2024&porcentaje=",
+      "octeti": 15697,
+      "sha256": "7cd53ff2e1f917aea7d588d05d7893978986832b11779a78ccd5f08617f1c036"
+    },
+    {
+      "fisier": "a03_p50_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=50&ejercicio=2024&porcentaje=",
+      "octeti": 21009,
+      "sha256": "a8d7c5d67bcda4ad2207ec741e56f4e20088bb5d34ae56ae135a1ab4fffe2b78"
+    },
+    {
+      "fisier": "a03_p51_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=51&ejercicio=2024&porcentaje=",
+      "octeti": 13705,
+      "sha256": "f1fd54aeb930410ee8bed9e367ff0e770e484b43fd28db98620206e4903d433f"
+    },
+    {
+      "fisier": "a03_p52_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=3&origen=PR&codigo=52&ejercicio=2024&porcentaje=",
+      "octeti": 13715,
+      "sha256": "e9212e5febdc2dff7837764011240be767250c4337b50ae99760cbb01037f377"
+    },
+    {
+      "fisier": "a11_p01_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=01&ejercicio=2024&porcentaje=",
+      "octeti": 17439,
+      "sha256": "83a61ddb36a94ed548b0cf7d1ddb165e435c8c1475281b445e9177c2622aa6ce"
+    },
+    {
+      "fisier": "a11_p02_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=02&ejercicio=2024&porcentaje=",
+      "octeti": 20958,
+      "sha256": "dc25affe76675a0169f816dd9a494cbc2df7f3e1c807aee77547057f7f8ddcfe"
+    },
+    {
+      "fisier": "a11_p03_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=03&ejercicio=2024&porcentaje=",
+      "octeti": 21768,
+      "sha256": "7809373ef5a9e54bacd56835cb75d8f07e68267531127529d6bf16084e27e7aa"
+    },
+    {
+      "fisier": "a11_p04_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=04&ejercicio=2024&porcentaje=",
+      "octeti": 20289,
+      "sha256": "af38b385e50ca0ea7033984bb8fab8c15db4713ea5fa59fc495f1884aa082e04"
+    },
+    {
+      "fisier": "a11_p05_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=05&ejercicio=2024&porcentaje=",
+      "octeti": 17549,
+      "sha256": "7cb9af5038291a4776a3031c0bc82492dba03c941eb0c2cbe1a717a8723feb19"
+    },
+    {
+      "fisier": "a11_p06_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=06&ejercicio=2024&porcentaje=",
+      "octeti": 30015,
+      "sha256": "e6fb2ad24faec894e2246333b13a82a12b2391800c2370e4ebf60ae1b69206fb"
+    },
+    {
+      "fisier": "a11_p07_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=07&ejercicio=2024&porcentaje=",
+      "octeti": 20440,
+      "sha256": "d004e4ac47b9ac1c9988ee3a428d0d9d2caba93c8d1c0725ae69cc5f4c52df29"
+    },
+    {
+      "fisier": "a11_p08_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=08&ejercicio=2024&porcentaje=",
+      "octeti": 30438,
+      "sha256": "c0e4d0a2e4ce9b4ce00173c9cb68f643d0cd54fe9c0234211e17ed6f21622599"
+    },
+    {
+      "fisier": "a11_p09_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=09&ejercicio=2024&porcentaje=",
+      "octeti": 16592,
+      "sha256": "6bca4d6bc3fb8f0ad2ab5b508cc812bab65c092b760ecd9b680fe78130777dec"
+    },
+    {
+      "fisier": "a11_p10_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=10&ejercicio=2024&porcentaje=",
+      "octeti": 33512,
+      "sha256": "0065def549bdb11f75d15465f655b477c20e5e3f5c76f3ee684836277cdcc2e4"
+    },
+    {
+      "fisier": "a11_p11_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=11&ejercicio=2024&porcentaje=",
+      "octeti": 18398,
+      "sha256": "beff0e5fe787b3321bdd649e52c7f0d2d43ac65f0a713378bbd61004abefc8d4"
+    },
+    {
+      "fisier": "a11_p12_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=12&ejercicio=2024&porcentaje=",
+      "octeti": 19174,
+      "sha256": "c97c43545445b2b798d29a825a623346d4bea34e7162e1b9ed484624048d4b9f"
+    },
+    {
+      "fisier": "a11_p13_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=13&ejercicio=2024&porcentaje=",
+      "octeti": 22060,
+      "sha256": "965aac71392a92f55818e1e9ab78222a3e0b1c2e0bf5cb46ee137703e72bd5a1"
+    },
+    {
+      "fisier": "a11_p14_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=14&ejercicio=2024&porcentaje=",
+      "octeti": 21606,
+      "sha256": "e9094351fcb649172f3251466b807f7475a09d86d26edb7386670e7217c7fe39"
+    },
+    {
+      "fisier": "a11_p15_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=15&ejercicio=2024&porcentaje=",
+      "octeti": 22583,
+      "sha256": "450557a1bdf417f3e464e9f4b3ad7c6ce0fe29a1081af1d5f57dd9272aca6755"
+    },
+    {
+      "fisier": "a11_p16_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=16&ejercicio=2024&porcentaje=",
+      "octeti": 22572,
+      "sha256": "3272ea6e9f88712d0507eb99c2293693da90601b3cd442c2dcdf76b72574a9de"
+    },
+    {
+      "fisier": "a11_p17_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=17&ejercicio=2024&porcentaje=",
+      "octeti": 19957,
+      "sha256": "2fa4658ec052b541de79d6185601bdcfc1f30c9066c93338db3097f4dd3712d3"
+    },
+    {
+      "fisier": "a11_p18_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=18&ejercicio=2024&porcentaje=",
+      "octeti": 22025,
+      "sha256": "081d67f1d22a0e4a96a437c9cb71db0e5f8dc29a0197e75dcac7822f1b047b06"
+    },
+    {
+      "fisier": "a11_p19_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=19&ejercicio=2024&porcentaje=",
+      "octeti": 18883,
+      "sha256": "61b51a7225bd9035a1639d55b74c847fc1072f40bcd2bcde9a5628ed52b85979"
+    },
+    {
+      "fisier": "a11_p20_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=20&ejercicio=2024&porcentaje=",
+      "octeti": 21593,
+      "sha256": "869ccdd5c35c60574c19818ff9af789367d56f4395145ce5a4cc8458d1e95bc6"
+    },
+    {
+      "fisier": "a11_p21_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=21&ejercicio=2024&porcentaje=",
+      "octeti": 20279,
+      "sha256": "01d443dba5c7b65169a714d962e8816feb4f5b600faf8202419b441abda6467c"
+    },
+    {
+      "fisier": "a11_p22_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=22&ejercicio=2024&porcentaje=",
+      "octeti": 21168,
+      "sha256": "b1e556c945fbc376954bfc43c8f69cbf2f7b506a7d7ff3e607b3cbc3436e9063"
+    },
+    {
+      "fisier": "a11_p23_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=23&ejercicio=2024&porcentaje=",
+      "octeti": 21418,
+      "sha256": "a9cf9c01010407f77e5582bd93aa39ecf4d23e59f5245ee0c6a3d253a7b60cd4"
+    },
+    {
+      "fisier": "a11_p24_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=24&ejercicio=2024&porcentaje=",
+      "octeti": 17650,
+      "sha256": "29241e38b97b01326e14a011f9913e7919dca4a2bf0adc8a237c125fa86ae81b"
+    },
+    {
+      "fisier": "a11_p25_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=25&ejercicio=2024&porcentaje=",
+      "octeti": 19007,
+      "sha256": "6bdfdcb0aa63f0a2dc409280665ed8b6d1dc60373e804b5c40ca33a9a0300669"
+    },
+    {
+      "fisier": "a11_p26_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=26&ejercicio=2024&porcentaje=",
+      "octeti": 16332,
+      "sha256": "140a07b1495e27710d89c416d94f56740d5e8f5fd38a43a113a2fb5330f453ca"
+    },
+    {
+      "fisier": "a11_p27_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=27&ejercicio=2024&porcentaje=",
+      "octeti": 18332,
+      "sha256": "70c65f238322725256e6451223eb1c0d68a549c0f8cdc87f5f5d93e9a02e9c0f"
+    },
+    {
+      "fisier": "a11_p28_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=28&ejercicio=2024&porcentaje=",
+      "octeti": 24522,
+      "sha256": "54b34e1f7973a917981f39a561c45158465279736ef2dc137278d390b1e6038b"
+    },
+    {
+      "fisier": "a11_p29_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=29&ejercicio=2024&porcentaje=",
+      "octeti": 22737,
+      "sha256": "9668ce0a1993005e4244f9519d0bef9a0f0568113cf4ef37fed565dd0a2fcb7e"
+    },
+    {
+      "fisier": "a11_p30_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=30&ejercicio=2024&porcentaje=",
+      "octeti": 18559,
+      "sha256": "f2b11e31dca9536ea2cfa4585600b2e7dbe5e734a198917c941c1740bbc57eb5"
+    },
+    {
+      "fisier": "a11_p31_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=31&ejercicio=2024&porcentaje=",
+      "octeti": 23118,
+      "sha256": "1f3de2b8afb411ca9ad7ced33d42745441d3dc0af45820689296a02b26be716d"
+    },
+    {
+      "fisier": "a11_p32_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=32&ejercicio=2024&porcentaje=",
+      "octeti": 18453,
+      "sha256": "83027d11bb56cf8572855b87cd939bf01088bd877af174f83c07f5837ad39706"
+    },
+    {
+      "fisier": "a11_p33_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=33&ejercicio=2024&porcentaje=",
+      "octeti": 20551,
+      "sha256": "9158822aa8ae5c9ac3021c23005c4466d8008099537ff5be92914565cb310a49"
+    },
+    {
+      "fisier": "a11_p34_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=34&ejercicio=2024&porcentaje=",
+      "octeti": 16429,
+      "sha256": "0f30a629bf4276d9ef3c48982025440bb1b11ea81b69cc706386d9f3bad8f4b8"
+    },
+    {
+      "fisier": "a11_p35_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=35&ejercicio=2024&porcentaje=",
+      "octeti": 17088,
+      "sha256": "65af800b30de46cd14fe110c7b513dc963809900966441e63554baf2aac75e84"
+    },
+    {
+      "fisier": "a11_p36_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=36&ejercicio=2024&porcentaje=",
+      "octeti": 19484,
+      "sha256": "2a1a2aa0bb9a531d18f89f12ad7d231b4f3a07378f94ca945248a20d88ce8598"
+    },
+    {
+      "fisier": "a11_p37_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=37&ejercicio=2024&porcentaje=",
+      "octeti": 17752,
+      "sha256": "a6ed6daca2488017867e9ddc4c2117b37d1523ff4fe8980acfecb15c84e3a91a"
+    },
+    {
+      "fisier": "a11_p38_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=38&ejercicio=2024&porcentaje=",
+      "octeti": 18700,
+      "sha256": "08c96c131cbb9306c69af4ec6d400694eb13314b84f4d728a56d77f6a367db7a"
+    },
+    {
+      "fisier": "a11_p39_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=39&ejercicio=2024&porcentaje=",
+      "octeti": 18879,
+      "sha256": "92f0a5b3b4d70222c9fcbf0dc6c6dcd1ef3f70037e28d7f04446c69d7b043ecd"
+    },
+    {
+      "fisier": "a11_p40_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=40&ejercicio=2024&porcentaje=",
+      "octeti": 16352,
+      "sha256": "3c6de6eefa5b9ce18feb8632c3bec83c2a293a040aec8d1ef3e66decf35dd3fb"
+    },
+    {
+      "fisier": "a11_p41_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=41&ejercicio=2024&porcentaje=",
+      "octeti": 24552,
+      "sha256": "94fae74451b04d540b98802c71cb207a61731dc2cc26207cbbf0788b5f8da96a"
+    },
+    {
+      "fisier": "a11_p42_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=42&ejercicio=2024&porcentaje=",
+      "octeti": 15849,
+      "sha256": "3613fb2a9864165268bae93b4894f60ab185a0f07dc7a8ede9a70574ffaba893"
+    },
+    {
+      "fisier": "a11_p43_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=43&ejercicio=2024&porcentaje=",
+      "octeti": 21467,
+      "sha256": "624481cc6c13ab029c33d47876415e31d0899d80fdc635c61e7c88e6c6977df7"
+    },
+    {
+      "fisier": "a11_p44_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=44&ejercicio=2024&porcentaje=",
+      "octeti": 19133,
+      "sha256": "711c4545ebfaca7147a5a8e1c02b9722414dbb310593901f6694d0380f158597"
+    },
+    {
+      "fisier": "a11_p45_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=45&ejercicio=2024&porcentaje=",
+      "octeti": 27103,
+      "sha256": "280e739871d297803618f1e7c517d7099e907b55ab0ca69954dd8ea3ba1814d8"
+    },
+    {
+      "fisier": "a11_p46_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=46&ejercicio=2024&porcentaje=",
+      "octeti": 30159,
+      "sha256": "e2fd560fe1ccc4a3ea12c7e0486a63d0080733f96fc3fe90d2c4d7b93e623aeb"
+    },
+    {
+      "fisier": "a11_p47_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=47&ejercicio=2024&porcentaje=",
+      "octeti": 17337,
+      "sha256": "93f2915993dfa75ac3e9e1a47ce7a41814503a671cac124183da2ebe907fca2c"
+    },
+    {
+      "fisier": "a11_p48_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=48&ejercicio=2024&porcentaje=",
+      "octeti": 22691,
+      "sha256": "df81ac04f650a32ffa5a79a9584176648222097270774d2f7881bea18ac15048"
+    },
+    {
+      "fisier": "a11_p49_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=49&ejercicio=2024&porcentaje=",
+      "octeti": 16431,
+      "sha256": "9ee277cc8ccd52e78504a376ed2b1dfc31dded235c57f05b52ccb6176ade509a"
+    },
+    {
+      "fisier": "a11_p50_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=50&ejercicio=2024&porcentaje=",
+      "octeti": 23045,
+      "sha256": "ee2c316aea9c3af13261b3f94949c171aaa94e4247a1a7fdcb1446c0a62162d5"
+    },
+    {
+      "fisier": "a11_p51_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=51&ejercicio=2024&porcentaje=",
+      "octeti": 13998,
+      "sha256": "c6fe88e2bc94bdd394af93ee0b92bd588c97ef883c19b447a22797547df6f81d"
+    },
+    {
+      "fisier": "a11_p52_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=11&origen=PR&codigo=52&ejercicio=2024&porcentaje=",
+      "octeti": 14008,
+      "sha256": "c7262d6e39425b9b4a9a44ef7d12781d84cde068a5c7674d9509ca0017596ba7"
+    },
+    {
+      "fisier": "a69_p01_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=01&ejercicio=2024&porcentaje=",
+      "octeti": 17386,
+      "sha256": "6982b9c0435c065daa700799e655b6ffcf4d59fcd2cfe520b2fe0c6a0c85437a"
+    },
+    {
+      "fisier": "a69_p02_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=02&ejercicio=2024&porcentaje=",
+      "octeti": 20969,
+      "sha256": "eec6cef355ed3f20030c5d8ce4fa4eaf020ad5b41df21a230deeba9774887399"
+    },
+    {
+      "fisier": "a69_p03_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=03&ejercicio=2024&porcentaje=",
+      "octeti": 21969,
+      "sha256": "0a215f31777c7dabb0c3ab0bc45fdffc301c853a7a3c589703a1f17009e3045a"
+    },
+    {
+      "fisier": "a69_p04_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=04&ejercicio=2024&porcentaje=",
+      "octeti": 20294,
+      "sha256": "be4738acfc37fb76abb6628bc2d3610a48d2e83c0647e83e38a10709c0c4fe14"
+    },
+    {
+      "fisier": "a69_p05_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=05&ejercicio=2024&porcentaje=",
+      "octeti": 17541,
+      "sha256": "31547ac5c486855ef072ca92546606f336c329ac450a99827cbd42fc8a5eaba4"
+    },
+    {
+      "fisier": "a69_p06_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=06&ejercicio=2024&porcentaje=",
+      "octeti": 29843,
+      "sha256": "21e178e5bfb12ee4dfae54c536fa7bfbf26d30973818e489850994b1648d0a8b"
+    },
+    {
+      "fisier": "a69_p07_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=07&ejercicio=2024&porcentaje=",
+      "octeti": 20436,
+      "sha256": "9f0b2ea7f24aaf330c06ae8a1585f37de5b2b024a6056f26a92aa15b1fe88858"
+    },
+    {
+      "fisier": "a69_p08_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=08&ejercicio=2024&porcentaje=",
+      "octeti": 31107,
+      "sha256": "9fd8f8af7b2fe817b0ada939ffafe6fc80e5e5ab1292c8781fb369aaa4377073"
+    },
+    {
+      "fisier": "a69_p09_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=09&ejercicio=2024&porcentaje=",
+      "octeti": 16660,
+      "sha256": "e62553193ae2af57907749cafc99db6135ae64da651f268b86f0f390f7b13e00"
+    },
+    {
+      "fisier": "a69_p10_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=10&ejercicio=2024&porcentaje=",
+      "octeti": 33040,
+      "sha256": "00326a78f8cdd261e717a5eeb312e7fe335582bc1e347d6e341f299a2f81d6c4"
+    },
+    {
+      "fisier": "a69_p11_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=11&ejercicio=2024&porcentaje=",
+      "octeti": 18503,
+      "sha256": "13c177f3a4e1b3a7225ea72544134c5fc45f07d448a9bfbaa529aba7b0587512"
+    },
+    {
+      "fisier": "a69_p12_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=12&ejercicio=2024&porcentaje=",
+      "octeti": 19230,
+      "sha256": "2d0a0608a8d0d83f1968452eae144424e53bb5283e747f4ee85151913949ab2a"
+    },
+    {
+      "fisier": "a69_p13_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=13&ejercicio=2024&porcentaje=",
+      "octeti": 22101,
+      "sha256": "e5cd1922224f740107cae3d4af399e01ebe9a94226ca683c2d20b0d8613a34fd"
+    },
+    {
+      "fisier": "a69_p14_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=14&ejercicio=2024&porcentaje=",
+      "octeti": 21603,
+      "sha256": "8a0bdede982fa2e55c81c4c6e7412319d88243fd51643b09015b53b3bc6061b5"
+    },
+    {
+      "fisier": "a69_p15_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=15&ejercicio=2024&porcentaje=",
+      "octeti": 22653,
+      "sha256": "4bebe65529423e66c2e7f3b0c3a1bed6e974ec90e0be37ca7cded20c44ecca72"
+    },
+    {
+      "fisier": "a69_p16_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=16&ejercicio=2024&porcentaje=",
+      "octeti": 22509,
+      "sha256": "f5093c35c8a1811a9282969d76f9482fd97ad5745259387c58740cea98701ed2"
+    },
+    {
+      "fisier": "a69_p17_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=17&ejercicio=2024&porcentaje=",
+      "octeti": 20122,
+      "sha256": "337210491b9b3ce6915ba56c2f7b15bf5db9cb71f09f55888a9002d8f798da34"
+    },
+    {
+      "fisier": "a69_p18_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=18&ejercicio=2024&porcentaje=",
+      "octeti": 22022,
+      "sha256": "c1b1869c65a08c16726280fc4ecdad313ba67716bd21ab2d802c720a13a8a5fb"
+    },
+    {
+      "fisier": "a69_p19_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=19&ejercicio=2024&porcentaje=",
+      "octeti": 18872,
+      "sha256": "4da938f319abebf86dc97ed2c7d8c8111f01ae00dde4719ee514f299ec2ffb5f"
+    },
+    {
+      "fisier": "a69_p20_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=20&ejercicio=2024&porcentaje=",
+      "octeti": 21595,
+      "sha256": "998ff7c9649e43a0e26f426e5cd104fc375cea1d1a72befe1257d668d2e65339"
+    },
+    {
+      "fisier": "a69_p21_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=21&ejercicio=2024&porcentaje=",
+      "octeti": 20225,
+      "sha256": "c14a5c73762eb5d86ca920e56b1333e8f35ae14a91e44907d2ed9600c17bd0b1"
+    },
+    {
+      "fisier": "a69_p22_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=22&ejercicio=2024&porcentaje=",
+      "octeti": 21112,
+      "sha256": "e584a47700acbabf0867269b1ffba02db245eddc33190463f676c3414d60e9b6"
+    },
+    {
+      "fisier": "a69_p23_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=23&ejercicio=2024&porcentaje=",
+      "octeti": 21326,
+      "sha256": "9ff1060849677f976d2cb387999ee9a5fd7c39cce79c7950a816413f2510c6e7"
+    },
+    {
+      "fisier": "a69_p24_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=24&ejercicio=2024&porcentaje=",
+      "octeti": 17723,
+      "sha256": "56bd720d5cdcfe1938449620e325e96639162d9a7ce3889465e223847fc523a5"
+    },
+    {
+      "fisier": "a69_p25_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=25&ejercicio=2024&porcentaje=",
+      "octeti": 19062,
+      "sha256": "b59118860d2ba518e6d4ae0d1c7d18efbba99a282867de0729b54b3e3f0d6dfd"
+    },
+    {
+      "fisier": "a69_p26_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=26&ejercicio=2024&porcentaje=",
+      "octeti": 16393,
+      "sha256": "f13f65ea217072904fcd41937aeee9b50d5dd16e388818e932172e90d3aa5371"
+    },
+    {
+      "fisier": "a69_p27_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=27&ejercicio=2024&porcentaje=",
+      "octeti": 18314,
+      "sha256": "4094d60907705aceab81d47431b705b0acf5a7635bd5f3f31c153d3d643c206e"
+    },
+    {
+      "fisier": "a69_p28_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=28&ejercicio=2024&porcentaje=",
+      "octeti": 24904,
+      "sha256": "272238433aa28805548186ef0d14dfdea2457c48ab646fe4926b4e0c302e9d28"
+    },
+    {
+      "fisier": "a69_p29_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=29&ejercicio=2024&porcentaje=",
+      "octeti": 22837,
+      "sha256": "21cb93f14a07302697f31ae5d08dc6c16ff70ddf88855dcfaaabd6edf53b9e83"
+    },
+    {
+      "fisier": "a69_p30_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=30&ejercicio=2024&porcentaje=",
+      "octeti": 18707,
+      "sha256": "5ddbbcf0cbb448ec7cbd967ca69480b2f60fe085f338f125991c79b92fe2bbf2"
+    },
+    {
+      "fisier": "a69_p31_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=31&ejercicio=2024&porcentaje=",
+      "octeti": 23177,
+      "sha256": "bb3d3feff7811911a2df2485a2ad4f7e8a502b050a2880a0be678765cdc9e943"
+    },
+    {
+      "fisier": "a69_p32_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=32&ejercicio=2024&porcentaje=",
+      "octeti": 18374,
+      "sha256": "abcc5a0049e093dcd5b6fb7c907dcf8eedbf3985eddf40735ecfec446c42a0fe"
+    },
+    {
+      "fisier": "a69_p33_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=33&ejercicio=2024&porcentaje=",
+      "octeti": 20658,
+      "sha256": "8f00c4db871252d0060cf05b9126e3b5c9ddacae46e248701a8e049809231012"
+    },
+    {
+      "fisier": "a69_p34_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=34&ejercicio=2024&porcentaje=",
+      "octeti": 16486,
+      "sha256": "154e1e169e64a662111e5c982b96fd05f0ca1875b67f85e57e0064fa79d004fa"
+    },
+    {
+      "fisier": "a69_p35_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=35&ejercicio=2024&porcentaje=",
+      "octeti": 17192,
+      "sha256": "beaef6c6e8fc1883b3c20e5d4e48ea0927357e07821f2f656a144fdfb9de1af1"
+    },
+    {
+      "fisier": "a69_p36_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=36&ejercicio=2024&porcentaje=",
+      "octeti": 19570,
+      "sha256": "79d45c19e1bda70ee574b1a871d1385e502c2eed488babcff683bc204414e622"
+    },
+    {
+      "fisier": "a69_p37_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=37&ejercicio=2024&porcentaje=",
+      "octeti": 17775,
+      "sha256": "c4815bc961df721c8ad72264d13b6df01afc255f29eceb70d9ae191a086ac7a8"
+    },
+    {
+      "fisier": "a69_p38_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=38&ejercicio=2024&porcentaje=",
+      "octeti": 18782,
+      "sha256": "a6a87c385f1835406e06efd74baa2db127b9ffcb163ba98d47465e340e66400b"
+    },
+    {
+      "fisier": "a69_p39_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=39&ejercicio=2024&porcentaje=",
+      "octeti": 18938,
+      "sha256": "7421f3eaddaa9881d3347cb3dccbf1874d28675884617809f00e2f8624b8936e"
+    },
+    {
+      "fisier": "a69_p40_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=40&ejercicio=2024&porcentaje=",
+      "octeti": 16414,
+      "sha256": "65b3478e4c224feea030ba4cd2ca788493710be2401e6ab2c7da5c62f3556605"
+    },
+    {
+      "fisier": "a69_p41_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=41&ejercicio=2024&porcentaje=",
+      "octeti": 24578,
+      "sha256": "5ec65d29fec752a00e41c35b318d385286f5231bb0cab1f026fe9fac7be249e3"
+    },
+    {
+      "fisier": "a69_p42_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=42&ejercicio=2024&porcentaje=",
+      "octeti": 15905,
+      "sha256": "fadca9abf04757650dafaf4d82c102cfd91dd306b4fd29782dfb897e63efcf6d"
+    },
+    {
+      "fisier": "a69_p43_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=43&ejercicio=2024&porcentaje=",
+      "octeti": 21626,
+      "sha256": "c441d61ccc369952356a35bd67c2caed084ebe6e6440240d401c73f70b8c383c"
+    },
+    {
+      "fisier": "a69_p44_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=44&ejercicio=2024&porcentaje=",
+      "octeti": 19132,
+      "sha256": "558a61b4d7d161f5f68ac701a03c4f2cf4655c88d319e9cabe9b4a1587498766"
+    },
+    {
+      "fisier": "a69_p45_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=45&ejercicio=2024&porcentaje=",
+      "octeti": 27055,
+      "sha256": "60a647b8f299128101e450d8ceb6619844152940f7d2cc4dd9ffb10463d8e95f"
+    },
+    {
+      "fisier": "a69_p46_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=46&ejercicio=2024&porcentaje=",
+      "octeti": 30293,
+      "sha256": "cf30fc487ce80448b32aacdc92e8b5aff6894a635625ace3ddbd2f328156fbe5"
+    },
+    {
+      "fisier": "a69_p47_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=47&ejercicio=2024&porcentaje=",
+      "octeti": 17405,
+      "sha256": "d9668e028fc2312ab5400c9e2a64b2a375fe67377e66aa6b1db206e2348b45a5"
+    },
+    {
+      "fisier": "a69_p48_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=48&ejercicio=2024&porcentaje=",
+      "octeti": 22720,
+      "sha256": "8fea7370735666870dbdf04685f1ede3adc0f075d770038fc8bb51ea87a25a6c"
+    },
+    {
+      "fisier": "a69_p49_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=49&ejercicio=2024&porcentaje=",
+      "octeti": 16504,
+      "sha256": "341452f9a645cea161457916ca2bd224f2f36ac8fc481ee52660df2b469798fb"
+    },
+    {
+      "fisier": "a69_p50_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=50&ejercicio=2024&porcentaje=",
+      "octeti": 22986,
+      "sha256": "90dae78681e965ca354bb067b4e9862a50598e46a34830c55847c80b4c2d2e4a"
+    },
+    {
+      "fisier": "a69_p51_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=51&ejercicio=2024&porcentaje=",
+      "octeti": 14072,
+      "sha256": "044da265104f0b7b18cef85d378174888b06e86215d29106452f636b1224c150"
+    },
+    {
+      "fisier": "a69_p52_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=69&origen=PR&codigo=52&ejercicio=2024&porcentaje=",
+      "octeti": 14070,
+      "sha256": "52039cb799ec01e21b0250d9d9d119df181b945f83163e4751b05cbbbf9aae45"
+    },
+    {
+      "fisier": "a41_p01_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=01&ejercicio=2024&porcentaje=",
+      "octeti": 16101,
+      "sha256": "5754de5efbc18c085ddb6d921f0b8da505050993190d644c02c7563d4116ad8d"
+    },
+    {
+      "fisier": "a41_p02_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=02&ejercicio=2024&porcentaje=",
+      "octeti": 18578,
+      "sha256": "7195e9c97ca77d710990f4b6667a0f7a4d6a07226556361741d7d26a03b394cb"
+    },
+    {
+      "fisier": "a41_p03_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=03&ejercicio=2024&porcentaje=",
+      "octeti": 19150,
+      "sha256": "61875a8cb9f4e9aaeb581c9c75e6b1c9b70f99a4d6936db63621079d61f0fce6"
+    },
+    {
+      "fisier": "a41_p04_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=04&ejercicio=2024&porcentaje=",
+      "octeti": 18080,
+      "sha256": "06a1c59e17e09083065c60afba43d49d2e3a98d0681c3d8b1c3aef56ce9306ca"
+    },
+    {
+      "fisier": "a41_p05_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=05&ejercicio=2024&porcentaje=",
+      "octeti": 16184,
+      "sha256": "60f768268f142cbe571c2c4c17453bb9afc5047d86bec25dcf8abd36cca7014c"
+    },
+    {
+      "fisier": "a41_p06_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=06&ejercicio=2024&porcentaje=",
+      "octeti": 25151,
+      "sha256": "8357d59a9fc68860eab2e74de43307b29767d6dd04f4300f695fb4c54acbfb27"
+    },
+    {
+      "fisier": "a41_p07_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=07&ejercicio=2024&porcentaje=",
+      "octeti": 18209,
+      "sha256": "f62354730f589139465aa41e0ae92e9d3912f343c3af28de3fd8796b7879fd7a"
+    },
+    {
+      "fisier": "a41_p08_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=08&ejercicio=2024&porcentaje=",
+      "octeti": 25607,
+      "sha256": "cbd7aae31bf77207c058472652b17bf2e3129cc1d08fffcbb5165e8131b084ed"
+    },
+    {
+      "fisier": "a41_p09_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=09&ejercicio=2024&porcentaje=",
+      "octeti": 15500,
+      "sha256": "15f06d1241d5c50eb8229d9b57ccd44447f818fb68e672ebebd0278ec0b7cf32"
+    },
+    {
+      "fisier": "a41_p10_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=10&ejercicio=2024&porcentaje=",
+      "octeti": 27637,
+      "sha256": "cfb0209831f2a77a9c5fbe0cc2681a693fcb17d8ddabf9bf2bc312afd6bd6b9f"
+    },
+    {
+      "fisier": "a41_p11_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=11&ejercicio=2024&porcentaje=",
+      "octeti": 16793,
+      "sha256": "bcffc14016d29f18df7ab8c00d90502143bc813ec70b372d84010f9feebc3190"
+    },
+    {
+      "fisier": "a41_p12_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=12&ejercicio=2024&porcentaje=",
+      "octeti": 17356,
+      "sha256": "803e52505af2e194357f99a962459a0de8281631a5725626f53ea801b61f18f1"
+    },
+    {
+      "fisier": "a41_p13_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=13&ejercicio=2024&porcentaje=",
+      "octeti": 19448,
+      "sha256": "2a9404c4de9d184ae46e09a6e6ad391c99eb5514f383d68aae5db972ea5b3373"
+    },
+    {
+      "fisier": "a41_p14_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=14&ejercicio=2024&porcentaje=",
+      "octeti": 19072,
+      "sha256": "8911735796e64f27a7422a85d6c0aad0d70b7e38be9de743e383511bcd57b6c8"
+    },
+    {
+      "fisier": "a41_p15_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=15&ejercicio=2024&porcentaje=",
+      "octeti": 19674,
+      "sha256": "6accaf6177c1ae1e29ee58b5ca2583bf5972ac85de2519442d04e6f25f52bb3f"
+    },
+    {
+      "fisier": "a41_p16_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=16&ejercicio=2024&porcentaje=",
+      "octeti": 19814,
+      "sha256": "b5a1087b81d85c8277a6c85b3a63038754e5a0924ff87c70478f4e36ba36c965"
+    },
+    {
+      "fisier": "a41_p17_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=17&ejercicio=2024&porcentaje=",
+      "octeti": 17917,
+      "sha256": "8d06f012e8d573924f231ff8ed599820fb8d91c362f0b7efc00b2ea4d97a0872"
+    },
+    {
+      "fisier": "a41_p18_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=18&ejercicio=2024&porcentaje=",
+      "octeti": 19343,
+      "sha256": "5718ed59c40f44dca50fa223c65b1c395f622386a4c923d614b073716e9f371c"
+    },
+    {
+      "fisier": "a41_p19_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=19&ejercicio=2024&porcentaje=",
+      "octeti": 17105,
+      "sha256": "9189abfef808e756a36db2cf540bad7ceab9a708d70c86924dec3dc71476bb42"
+    },
+    {
+      "fisier": "a41_p20_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=20&ejercicio=2024&porcentaje=",
+      "octeti": 18952,
+      "sha256": "91450ad218bdfd70806c5c1937bf76535471ef18e8aa563d085a07b233fb62a6"
+    },
+    {
+      "fisier": "a41_p21_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=21&ejercicio=2024&porcentaje=",
+      "octeti": 18134,
+      "sha256": "7eb5fb052acfa9963af94d1659bc3aa24939dc177d469237abae315ae383971d"
+    },
+    {
+      "fisier": "a41_p22_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=22&ejercicio=2024&porcentaje=",
+      "octeti": 18723,
+      "sha256": "4d77e60aaab7761fdbc057ff20b36a66b0b51bad0cbe3c4aa68af6549bbd7cbb"
+    },
+    {
+      "fisier": "a41_p23_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=23&ejercicio=2024&porcentaje=",
+      "octeti": 18913,
+      "sha256": "1429951a805550c126be3f7af92493e99d7b7356f382c012d694bb4acb61e8dd"
+    },
+    {
+      "fisier": "a41_p24_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=24&ejercicio=2024&porcentaje=",
+      "octeti": 16254,
+      "sha256": "6249244d06af0fd98e766b55fce28a299900d2eb24ffb65acb0e8363af99037b"
+    },
+    {
+      "fisier": "a41_p25_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=25&ejercicio=2024&porcentaje=",
+      "octeti": 17193,
+      "sha256": "b8f7014cf447383edcf4582d598215acf03b10b1d30ec49f01800367ed241404"
+    },
+    {
+      "fisier": "a41_p26_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=26&ejercicio=2024&porcentaje=",
+      "octeti": 15293,
+      "sha256": "568d57ccd6fadd8261a80f85e298345fef7329918fafb25c2e4c292f3a67d358"
+    },
+    {
+      "fisier": "a41_p27_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=27&ejercicio=2024&porcentaje=",
+      "octeti": 16666,
+      "sha256": "10efb6d3578623b82e02de9a8d1a7a43993f6be7b8768c71770f903985b66853"
+    },
+    {
+      "fisier": "a41_p28_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=28&ejercicio=2024&porcentaje=",
+      "octeti": 21251,
+      "sha256": "3a31e5cddd13efe4e8e9c45efc7124b4c36ff05381cf82a465e0493929afc1d6"
+    },
+    {
+      "fisier": "a41_p29_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=29&ejercicio=2024&porcentaje=",
+      "octeti": 19850,
+      "sha256": "1d037ee6f2b1b32824cfb64b92334f25f211ff0030177523336276b9b860a49d"
+    },
+    {
+      "fisier": "a41_p30_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=30&ejercicio=2024&porcentaje=",
+      "octeti": 16864,
+      "sha256": "c442e3449864036d3a187582c63e5c716e4922f2ad17fc24d587bdd3497e20d3"
+    },
+    {
+      "fisier": "a41_p31_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=31&ejercicio=2024&porcentaje=",
+      "octeti": 20098,
+      "sha256": "bab83db570bff026d87d86df1658a0991bfb66b61b5330aac3516480b352e7e4"
+    },
+    {
+      "fisier": "a41_p32_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=32&ejercicio=2024&porcentaje=",
+      "octeti": 16787,
+      "sha256": "1cd724a32e07aed1fbf546c74d85f1bc31f6ffa4af89eb8c29fceb049d67da3c"
+    },
+    {
+      "fisier": "a41_p33_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=33&ejercicio=2024&porcentaje=",
+      "octeti": 18260,
+      "sha256": "edeebc4261d52a0c532de52693276e3499aecfd5c176ed2857fb88395a635403"
+    },
+    {
+      "fisier": "a41_p34_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=34&ejercicio=2024&porcentaje=",
+      "octeti": 15394,
+      "sha256": "9bb40410d8ea4dcc8cfedd919ecc18500494616d108d9e993cd5ba4806696251"
+    },
+    {
+      "fisier": "a41_p35_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=35&ejercicio=2024&porcentaje=",
+      "octeti": 15851,
+      "sha256": "c3e140e00fc04a60696a359c8bd73f7a4267efee93bc3183c2a9eaba9c173d62"
+    },
+    {
+      "fisier": "a41_p36_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=36&ejercicio=2024&porcentaje=",
+      "octeti": 17496,
+      "sha256": "cbc8d58081a2ff525e42150bbb8261d7dbf97020ac6d50f14bc7c4e2eacff250"
+    },
+    {
+      "fisier": "a41_p37_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=37&ejercicio=2024&porcentaje=",
+      "octeti": 16326,
+      "sha256": "cbd9c50e54dc4a3eda39c0829b98081b7079e99f8c4b37a4e92e66915a337da2"
+    },
+    {
+      "fisier": "a41_p38_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=38&ejercicio=2024&porcentaje=",
+      "octeti": 17009,
+      "sha256": "0d3f8a0d4d925a00fccf52df4f839d0f3100236f1bdb1239a8d04b8188c2f4bc"
+    },
+    {
+      "fisier": "a41_p39_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=39&ejercicio=2024&porcentaje=",
+      "octeti": 17095,
+      "sha256": "77062c0485c08b5787d86981ec289295c891299737d8c26efe9b08b1322f4229"
+    },
+    {
+      "fisier": "a41_p40_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=40&ejercicio=2024&porcentaje=",
+      "octeti": 15317,
+      "sha256": "d7a38ffe5ebf0506e5201a32ea77fa5cd824c3f2211ec5a8c5d0502822c67300"
+    },
+    {
+      "fisier": "a41_p41_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=41&ejercicio=2024&porcentaje=",
+      "octeti": 21218,
+      "sha256": "f1fae377624d896987ddb983d1c28c7b536032d8d22c5113ec0c56674434d6d5"
+    },
+    {
+      "fisier": "a41_p42_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=42&ejercicio=2024&porcentaje=",
+      "octeti": 14961,
+      "sha256": "c98c2f5d2e55e10d625d3964e6f4195284c4a9fc930aa078106ff1af885e69bf"
+    },
+    {
+      "fisier": "a41_p43_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=43&ejercicio=2024&porcentaje=",
+      "octeti": 18976,
+      "sha256": "0b0569c82843e56f4ad2d8b3a8a2a6cfe7b7c6db06ebfa9220b6b8d048515dc9"
+    },
+    {
+      "fisier": "a41_p44_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=44&ejercicio=2024&porcentaje=",
+      "octeti": 17285,
+      "sha256": "12d86fde7549ec0340f693dd0a662953194e9d97ed3a1c4478a765e8419af029"
+    },
+    {
+      "fisier": "a41_p45_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=45&ejercicio=2024&porcentaje=",
+      "octeti": 22998,
+      "sha256": "5e52fd15101bd840f936034ca7a3d16cb7ca71fb9c1c07207d9c5c90c85cedb2"
+    },
+    {
+      "fisier": "a41_p46_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=46&ejercicio=2024&porcentaje=",
+      "octeti": 25117,
+      "sha256": "72a90f003dac8df4eff0aef6b84a574a6768060d798292e6c298cd296f625c32"
+    },
+    {
+      "fisier": "a41_p47_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=47&ejercicio=2024&porcentaje=",
+      "octeti": 16032,
+      "sha256": "bd0ec631585619a403d003b6652bdefcfffb8b4e1b05ca0332218944487cbf52"
+    },
+    {
+      "fisier": "a41_p48_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=48&ejercicio=2024&porcentaje=",
+      "octeti": 19738,
+      "sha256": "347487e830102ef7ae8deb2f59df5462efd5a2e4f28690080a203770d8e0c8ca"
+    },
+    {
+      "fisier": "a41_p49_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=49&ejercicio=2024&porcentaje=",
+      "octeti": 15391,
+      "sha256": "52599363ede71199f759dabc8276243e8f9f459bef2712140b8baf4c4249e838"
+    },
+    {
+      "fisier": "a41_p50_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=50&ejercicio=2024&porcentaje=",
+      "octeti": 20057,
+      "sha256": "37c389d0b19ba9aa1466e14580b3b8fced53d020c49f92066239f92194853c36"
+    },
+    {
+      "fisier": "a41_p51_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=51&ejercicio=2024&porcentaje=",
+      "octeti": 13618,
+      "sha256": "60251eb3cd9eaf3d2ca96e82e0f8fdbdf0a4d4528c22c44147c390ac5d1ce762"
+    },
+    {
+      "fisier": "a41_p52_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=41&origen=PR&codigo=52&ejercicio=2024&porcentaje=",
+      "octeti": 13628,
+      "sha256": "c1bbbf6574998e646039ee5899fa524d90c1011ac4167324e224b959a2076023"
+    },
+    {
+      "fisier": "a35_p01_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=01&ejercicio=2024&porcentaje=",
+      "octeti": 18868,
+      "sha256": "18214b209158a6184b8560e09bb05548ba9f92e009dae1ce6a6baa6068655ba6"
+    },
+    {
+      "fisier": "a35_p02_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=02&ejercicio=2024&porcentaje=",
+      "octeti": 23509,
+      "sha256": "5e092f6a320ab9bf61f898f4b36c9eae7e7b1bad3e00bf4e6253adf50ea4580e"
+    },
+    {
+      "fisier": "a35_p03_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=03&ejercicio=2024&porcentaje=",
+      "octeti": 24583,
+      "sha256": "d5f88c71cee540bacf0ac7285afe2de098ba59e6fd545df89f6a3a9e209b1478"
+    },
+    {
+      "fisier": "a35_p04_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=04&ejercicio=2024&porcentaje=",
+      "octeti": 22583,
+      "sha256": "c8aea5d254811b5051a83d3f682124c943d967acc9e10d57b50113c5b378d919"
+    },
+    {
+      "fisier": "a35_p05_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=05&ejercicio=2024&porcentaje=",
+      "octeti": 19021,
+      "sha256": "3811f1c9b90523b69fc91f4434a24f1c9a64c3dde1eb32204351480de42c1aa5"
+    },
+    {
+      "fisier": "a35_p06_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=06&ejercicio=2024&porcentaje=",
+      "octeti": 34823,
+      "sha256": "b68a97ae834dd360fc03da45fbbe52ab5448d3a85a0fec8b1a13f1d8ebc2da1b"
+    },
+    {
+      "fisier": "a35_p07_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=07&ejercicio=2024&porcentaje=",
+      "octeti": 22794,
+      "sha256": "289e64f720b816c702ad7dd50625efeb9786204ba74f0a1d7ef5fd9c964fe6a9"
+    },
+    {
+      "fisier": "a35_p08_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=08&ejercicio=2024&porcentaje=",
+      "octeti": 35855,
+      "sha256": "2b82ca0d2772c8d00958cd550b1870b2418446fc9f789ffc2ada7dea4cb36e28"
+    },
+    {
+      "fisier": "a35_p09_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=09&ejercicio=2024&porcentaje=",
+      "octeti": 17912,
+      "sha256": "1594e3231142008f39dca8bfffa126ff0b20a757c0f23a62a6e1fadff07ebadd"
+    },
+    {
+      "fisier": "a35_p10_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=10&ejercicio=2024&porcentaje=",
+      "octeti": 39199,
+      "sha256": "a7e6c53bfb329016d8e4ca62d7d0158c37e0a5f1ecf1acb2f67b9f5d845b3ff0"
+    },
+    {
+      "fisier": "a35_p11_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=11&ejercicio=2024&porcentaje=",
+      "octeti": 20156,
+      "sha256": "51ac707d00a854b45031a129f3a1b7bc4afb8f3c30f943fe8f840a7f948de9c8"
+    },
+    {
+      "fisier": "a35_p12_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=12&ejercicio=2024&porcentaje=",
+      "octeti": 21135,
+      "sha256": "8a744cc60b8ec4d68fc0065d751966dfc8bf9ff3d36b7d69019fe94f0fdfd5b8"
+    },
+    {
+      "fisier": "a35_p13_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=13&ejercicio=2024&porcentaje=",
+      "octeti": 24795,
+      "sha256": "2e7743a48405f2f6e364ded922f886deffc04a2a46594570f2b964f8f08f5033"
+    },
+    {
+      "fisier": "a35_p14_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=14&ejercicio=2024&porcentaje=",
+      "octeti": 24249,
+      "sha256": "c6bda0cd8e62efcfa284e4e58a5b2c7629bf943675d298c64454f7a9baebc594"
+    },
+    {
+      "fisier": "a35_p15_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=15&ejercicio=2024&porcentaje=",
+      "octeti": 25695,
+      "sha256": "667ef00239f03f0f523a39c8be740209d9953a8fc28840c530f1503843cdee00"
+    },
+    {
+      "fisier": "a35_p16_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=16&ejercicio=2024&porcentaje=",
+      "octeti": 25477,
+      "sha256": "3ad6690bef3380ad395861bb3a57acf30c6e8ec82202afd6a5c30bfd90daab85"
+    },
+    {
+      "fisier": "a35_p17_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=17&ejercicio=2024&porcentaje=",
+      "octeti": 22283,
+      "sha256": "1950d9349fb2b723205b7be20c83e2507aa4f2e7a59abd87109b58bf4cebe990"
+    },
+    {
+      "fisier": "a35_p18_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=18&ejercicio=2024&porcentaje=",
+      "octeti": 24883,
+      "sha256": "15c9b5f7dcb4d4fa5fa7c60604716ae76e08a2aca6f85ebc81ca4136b76fc4e7"
+    },
+    {
+      "fisier": "a35_p19_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=19&ejercicio=2024&porcentaje=",
+      "octeti": 20789,
+      "sha256": "954337d1353d0d05f4a69b569f101aaea59922090d7b76d92e3d00c2b676cc19"
+    },
+    {
+      "fisier": "a35_p20_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=20&ejercicio=2024&porcentaje=",
+      "octeti": 24341,
+      "sha256": "6e6192be95f86a17bf807c1e57a008191d5de81f7fc51167211a5b05a6ab98cd"
+    },
+    {
+      "fisier": "a35_p21_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=21&ejercicio=2024&porcentaje=",
+      "octeti": 22525,
+      "sha256": "810961f9bdc0447641d356e9b1454badd53c3c7b03933df37f080970724c4f0c"
+    },
+    {
+      "fisier": "a35_p22_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=22&ejercicio=2024&porcentaje=",
+      "octeti": 23739,
+      "sha256": "5c001eb3ab64dc5e9f0bb23c19c2dd8a28d3f513e8ba5d2bbbffcbe39118e077"
+    },
+    {
+      "fisier": "a35_p23_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=23&ejercicio=2024&porcentaje=",
+      "octeti": 23950,
+      "sha256": "153d92d6157dd1f7293f84d67dd1ab970544e9ff2b67b9a820540c5dd1d60f8f"
+    },
+    {
+      "fisier": "a35_p24_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=24&ejercicio=2024&porcentaje=",
+      "octeti": 19215,
+      "sha256": "9e582dc0aa8273b129503331a63f6b35450e67c38c19d54f0dd282cbc6261012"
+    },
+    {
+      "fisier": "a35_p25_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=25&ejercicio=2024&porcentaje=",
+      "octeti": 21089,
+      "sha256": "98454b16ed12f74c3a71909f3359d9c92fde0e724a6d37efcc9c5d17c4bab91b"
+    },
+    {
+      "fisier": "a35_p26_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=26&ejercicio=2024&porcentaje=",
+      "octeti": 17579,
+      "sha256": "a8e1fc39ce96245b9ac90e9f8379a1f51cc2391aaa26ce748f684a1ca8ada40c"
+    },
+    {
+      "fisier": "a35_p27_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=27&ejercicio=2024&porcentaje=",
+      "octeti": 20116,
+      "sha256": "c13eebc0303f952da1289e588d3ee9e6683314601ae82470169d8db32de6955f"
+    },
+    {
+      "fisier": "a35_p28_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=28&ejercicio=2024&porcentaje=",
+      "octeti": 28131,
+      "sha256": "c5b3e9cd234f1a1c9a63af30c80931d026b8e7a88bdbbf6e615eff471e07c3ba"
+    },
+    {
+      "fisier": "a35_p29_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=29&ejercicio=2024&porcentaje=",
+      "octeti": 25775,
+      "sha256": "2fbda9a8449bc90b7b42e979c23783bb650bb6cf4e7d3cd17d5e094f3ed78a7f"
+    },
+    {
+      "fisier": "a35_p30_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=30&ejercicio=2024&porcentaje=",
+      "octeti": 20441,
+      "sha256": "2e5d743d1075638c845cddd471371b50c737daf946658f66d3c36a0e00ec234f"
+    },
+    {
+      "fisier": "a35_p31_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=31&ejercicio=2024&porcentaje=",
+      "octeti": 26304,
+      "sha256": "6068814687a542548de2b640d486049dd1c07239585af0704ee771f76af53b9e"
+    },
+    {
+      "fisier": "a35_p32_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=32&ejercicio=2024&porcentaje=",
+      "octeti": 20220,
+      "sha256": "d61f947298e5d2573143152e7ee5f7c4c8b9d47138bd49ba266ffdf0eaa922e2"
+    },
+    {
+      "fisier": "a35_p33_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=33&ejercicio=2024&porcentaje=",
+      "octeti": 22991,
+      "sha256": "f305d68fecd5ae70dadb1f78c001226bde924e64a1515ce3a50f9b3b001047ca"
+    },
+    {
+      "fisier": "a35_p34_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=34&ejercicio=2024&porcentaje=",
+      "octeti": 17636,
+      "sha256": "c232caf24778606dacce3b0f96ce079f3f794d2963d6d8be044a027abbb973a8"
+    },
+    {
+      "fisier": "a35_p35_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=35&ejercicio=2024&porcentaje=",
+      "octeti": 18506,
+      "sha256": "1434ed6622fcaa176d63304c8cadfa66f3b7bd9556cf4291cc186d9e990d4127"
+    },
+    {
+      "fisier": "a35_p36_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=36&ejercicio=2024&porcentaje=",
+      "octeti": 21667,
+      "sha256": "b94a96f1f8720dc9d28b0fd71cf38e96d883e6b33031accfd54c7cba1246eeca"
+    },
+    {
+      "fisier": "a35_p37_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=37&ejercicio=2024&porcentaje=",
+      "octeti": 19292,
+      "sha256": "6473c27cff905206cda4e1147c94c11df41b1cdc524118d89a5df8479db0070e"
+    },
+    {
+      "fisier": "a35_p38_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=38&ejercicio=2024&porcentaje=",
+      "octeti": 20533,
+      "sha256": "d9cbda6393d386e6fba2cf65300e9f715236a8327e1c85648eaf4ccfe128a4ef"
+    },
+    {
+      "fisier": "a35_p39_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=39&ejercicio=2024&porcentaje=",
+      "octeti": 20819,
+      "sha256": "485e81a8bdeb4ebd0a61306f23194a1a57581c6766b7efbd7e5067292722851b"
+    },
+    {
+      "fisier": "a35_p40_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=40&ejercicio=2024&porcentaje=",
+      "octeti": 17545,
+      "sha256": "170d80f173aa2cad8d7d79fab19682a7f5a2cad4ef4ac0a991b2603db1c718fd"
+    },
+    {
+      "fisier": "a35_p41_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=41&ejercicio=2024&porcentaje=",
+      "octeti": 28048,
+      "sha256": "f473fd981e846a806e4294ee9370ac2864dfade308175382b0b51d187c066cd0"
+    },
+    {
+      "fisier": "a35_p42_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=42&ejercicio=2024&porcentaje=",
+      "octeti": 16905,
+      "sha256": "137c19134d128c6f2813f5c811147a35ba8b825b0f64b5681b9dd30edea33350"
+    },
+    {
+      "fisier": "a35_p43_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=43&ejercicio=2024&porcentaje=",
+      "octeti": 24278,
+      "sha256": "0c435827cc3ae35e3bb00a910cf97df4b60b95ced9c0483fd492b44af352d7bc"
+    },
+    {
+      "fisier": "a35_p44_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=44&ejercicio=2024&porcentaje=",
+      "octeti": 21100,
+      "sha256": "cbfffe775ec44b335a6f38c2fb4bc3299a292e2d3541441e576fd53016f09522"
+    },
+    {
+      "fisier": "a35_p45_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=45&ejercicio=2024&porcentaje=",
+      "octeti": 31317,
+      "sha256": "dacbd50e550d68697aa64489e59af6936518ae4878db7569e3da918163d8358a"
+    },
+    {
+      "fisier": "a35_p46_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=46&ejercicio=2024&porcentaje=",
+      "octeti": 35399,
+      "sha256": "94baaab0477d34b59f8d365a32bc58b7b99169c0579708e79716d7856b6d8250"
+    },
+    {
+      "fisier": "a35_p47_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=47&ejercicio=2024&porcentaje=",
+      "octeti": 18810,
+      "sha256": "87562047a0227c4c4999f8051c56beb530eadd2d69dfee302a6b4b43958a8a64"
+    },
+    {
+      "fisier": "a35_p48_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=48&ejercicio=2024&porcentaje=",
+      "octeti": 25765,
+      "sha256": "9ea5ddaed74c79a888ff59aa4bd1d278b56ab2dcd32d6be9a4a1b6b94277f0a4"
+    },
+    {
+      "fisier": "a35_p49_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=49&ejercicio=2024&porcentaje=",
+      "octeti": 17639,
+      "sha256": "32d6c1ad31c28799d518bd20fa6d9fb6da3a48c623c31e1dd64efe7336e0f868"
+    },
+    {
+      "fisier": "a35_p50_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=50&ejercicio=2024&porcentaje=",
+      "octeti": 26113,
+      "sha256": "52495c4bd0389b4e2223a646c57c6c802edd15de2731b4f33ac28b1381df45a9"
+    },
+    {
+      "fisier": "a35_p51_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=51&ejercicio=2024&porcentaje=",
+      "octeti": 14536,
+      "sha256": "8f48dc4ac28ef8b2e3a2cdeca16e55d4fdbde9032b78ae1cb95be3976956e9c7"
+    },
+    {
+      "fisier": "a35_p52_2024.html",
+      "url": "https://www.mcu.es/alziraweb/alziraweb.cmd?command=GetAnexo&id=35&origen=PR&codigo=52&ejercicio=2024&porcentaje=",
+      "octeti": 14550,
+      "sha256": "7f7f745e6d85bd5e0b4173cbf697463518fd307a864e0400a3ce8b5144ceaa24"
+    }
+  ],
+  "produse": [
+    {
+      "fisier": "bpec_municipii.parquet",
+      "randuri": 117775,
+      "octeti": 176033,
+      "sha256": "82f1b41cc2d1e7b7692c7fe5fb2dfb41e7b33f2096ec7f3eb605043aeb5bf1b7",
+      "coloane": {
+        "ejercicio": "int64",
+        "cod_prov": "string",
+        "anexa": "int64",
+        "anexa_titlu": "string",
+        "municipio": "string",
+        "este_total": "bool",
+        "coloana": "string",
+        "valoare": "string"
+      }
+    }
+  ],
+  "profil": {
+    "ejercicio": 2024,
+    "randuri": 117775,
+    "antete": {
+      "3": [
+        "Municipio",
+        "Administración estatal",
+        "Administración autonómica",
+        "Administración local",
+        "Privada",
+        "Total"
+      ],
+      "11": [
+        "Municipio",
+        "Total Bibliotecas",
+        "Menos de 10h",
+        "de 10 a 20h",
+        "de 21 a 40h",
+        "de 41 a 60h",
+        "más de 60h",
+        "Sin respuesta"
+      ],
+      "35": [
+        "Municipio",
+        "Total Bibliotecas",
+        "Página web / Nº de bibliotecas",
+        "Página web / % de respuesta",
+        "Catálogo en línea / Nº de bibliotecas",
+        "Catálogo en línea / % de respuesta",
+        "Servicio de Acceso Público a Internet / Nº de bibliotecas",
+        "Servicio de Acceso Público a Internet / % de respuesta",
+        "WIFI / Nº de bibliotecas",
+        "WIFI / % de respuesta"
+      ],
+      "41": [
+        "Municipio",
+        "PC",
+        "Impresoras",
+        "Escáneres",
+        "Dispositivos móviles"
+      ],
+      "56": [
+        "Municipio",
+        "Unidades administrativas",
+        "Bibliotecas (PS fijos)",
+        "Bibliobuses",
+        "Total bibliotecas"
+      ],
+      "69": [
+        "Municipio",
+        "Superficie (metros cuadrados) / Superficie útil total",
+        "Superficie (metros cuadrados) / Superficie útil de uso bibliotecario",
+        "Estanterías (metros lineales) / Libre acceso",
+        "Estanterías (metros lineales) / Depósito",
+        "Estanterías (metros lineales) / Total",
+        "Puestos de consulta"
+      ]
+    },
+    "municipii_cu_biblioteca_pe_provincie": {
+      "01": 33,
+      "02": 68,
+      "03": 76,
+      "04": 62,
+      "05": 34,
+      "06": 152,
+      "07": 63,
+      "08": 153,
+      "09": 25,
+      "10": 185,
+      "11": 42,
+      "12": 49,
+      "13": 76,
+      "14": 73,
+      "15": 86,
+      "16": 81,
+      "17": 57,
+      "18": 78,
+      "19": 48,
+      "20": 77,
+      "21": 60,
+      "22": 70,
+      "23": 72,
+      "24": 35,
+      "25": 49,
+      "26": 23,
+      "27": 44,
+      "28": 99,
+      "29": 85,
+      "30": 45,
+      "31": 89,
+      "32": 44,
+      "33": 65,
+      "34": 23,
+      "35": 30,
+      "36": 55,
+      "37": 36,
+      "38": 45,
+      "39": 48,
+      "40": 23,
+      "41": 100,
+      "42": 18,
+      "43": 72,
+      "44": 50,
+      "45": 126,
+      "46": 157,
+      "47": 32,
+      "48": 87,
+      "49": 23,
+      "50": 88,
+      "51": 1,
+      "52": 1
+    },
+    "municipii_cu_biblioteca": 3313,
+    "pagini_fara_tabel": [],
+    "pagini_cu_alt_antet": [],
+    "titluri_prima_anexa": {
+      "56/01": "Número de unidades administrativas y bibliotecas. 2024. País Vasco - Araba/Álava",
+      "56/02": "Número de unidades administrativas y bibliotecas. 2024. Castilla-La Mancha - Albacete",
+      "56/03": "Número de unidades administrativas y bibliotecas. 2024. Comunidad Valenciana - Alicante/Alacant",
+      "56/04": "Número de unidades administrativas y bibliotecas. 2024. Andalucía - Almería",
+      "56/05": "Número de unidades administrativas y bibliotecas. 2024. Castilla y León - Ávila",
+      "56/06": "Número de unidades administrativas y bibliotecas. 2024. Extremadura - Badajoz",
+      "56/07": "Número de unidades administrativas y bibliotecas. 2024. Illes Balears - Illes Balears",
+      "56/08": "Número de unidades administrativas y bibliotecas. 2024. Cataluña - Barcelona",
+      "56/09": "Número de unidades administrativas y bibliotecas. 2024. Castilla y León - Burgos",
+      "56/10": "Número de unidades administrativas y bibliotecas. 2024. Extremadura - Cáceres",
+      "56/11": "Número de unidades administrativas y bibliotecas. 2024. Andalucía - Cádiz",
+      "56/12": "Número de unidades administrativas y bibliotecas. 2024. Comunidad Valenciana - Castellón/Castelló",
+      "56/13": "Número de unidades administrativas y bibliotecas. 2024. Castilla-La Mancha - Ciudad Real",
+      "56/14": "Número de unidades administrativas y bibliotecas. 2024. Andalucía - Córdoba",
+      "56/15": "Número de unidades administrativas y bibliotecas. 2024. Galicia - A Coruña",
+      "56/16": "Número de unidades administrativas y bibliotecas. 2024. Castilla-La Mancha - Cuenca",
+      "56/17": "Número de unidades administrativas y bibliotecas. 2024. Cataluña - Girona",
+      "56/18": "Número de unidades administrativas y bibliotecas. 2024. Andalucía - Granada",
+      "56/19": "Número de unidades administrativas y bibliotecas. 2024. Castilla-La Mancha - Guadalajara",
+      "56/20": "Número de unidades administrativas y bibliotecas. 2024. País Vasco - Gipuzkoa",
+      "56/21": "Número de unidades administrativas y bibliotecas. 2024. Andalucía - Huelva",
+      "56/22": "Número de unidades administrativas y bibliotecas. 2024. Aragón - Huesca",
+      "56/23": "Número de unidades administrativas y bibliotecas. 2024. Andalucía - Jaén",
+      "56/24": "Número de unidades administrativas y bibliotecas. 2024. Castilla y León - León",
+      "56/25": "Número de unidades administrativas y bibliotecas. 2024. Cataluña - Lleida",
+      "56/26": "Número de unidades administrativas y bibliotecas. 2024. La Rioja - La Rioja",
+      "56/27": "Número de unidades administrativas y bibliotecas. 2024. Galicia - Lugo",
+      "56/28": "Número de unidades administrativas y bibliotecas. 2024. Comunidad de Madrid - Madrid",
+      "56/29": "Número de unidades administrativas y bibliotecas. 2024. Andalucía - Málaga",
+      "56/30": "Número de unidades administrativas y bibliotecas. 2024. Región de Murcia - Murcia",
+      "56/31": "Número de unidades administrativas y bibliotecas. 2024. Comunidad Foral de Navarra - Navarra",
+      "56/32": "Número de unidades administrativas y bibliotecas. 2024. Galicia - Ourense",
+      "56/33": "Número de unidades administrativas y bibliotecas. 2024. Principado de Asturias - Asturias",
+      "56/34": "Número de unidades administrativas y bibliotecas. 2024. Castilla y León - Palencia",
+      "56/35": "Número de unidades administrativas y bibliotecas. 2024. Canarias - Las Palmas",
+      "56/36": "Número de unidades administrativas y bibliotecas. 2024. Galicia - Pontevedra",
+      "56/37": "Número de unidades administrativas y bibliotecas. 2024. Castilla y León - Salamanca",
+      "56/38": "Número de unidades administrativas y bibliotecas. 2024. Canarias - Santa Cruz de Tenerife",
+      "56/39": "Número de unidades administrativas y bibliotecas. 2024. Cantabria - Cantabria",
+      "56/40": "Número de unidades administrativas y bibliotecas. 2024. Castilla y León - Segovia",
+      "56/41": "Número de unidades administrativas y bibliotecas. 2024. Andalucía - Sevilla",
+      "56/42": "Número de unidades administrativas y bibliotecas. 2024. Castilla y León - Soria",
+      "56/43": "Número de unidades administrativas y bibliotecas. 2024. Cataluña - Tarragona",
+      "56/44": "Número de unidades administrativas y bibliotecas. 2024. Aragón - Teruel",
+      "56/45": "Número de unidades administrativas y bibliotecas. 2024. Castilla-La Mancha - Toledo",
+      "56/46": "Número de unidades administrativas y bibliotecas. 2024. Comunidad Valenciana - Valencia/València",
+      "56/47": "Número de unidades administrativas y bibliotecas. 2024. Castilla y León - Valladolid",
+      "56/48": "Número de unidades administrativas y bibliotecas. 2024. País Vasco - Bizkaia",
+      "56/49": "Número de unidades administrativas y bibliotecas. 2024. Castilla y León - Zamora",
+      "56/50": "Número de unidades administrativas y bibliotecas. 2024. Aragón - Zaragoza",
+      "56/51": "Número de unidades administrativas y bibliotecas. 2024. Ceuta - Ceuta",
+      "56/52": "Número de unidades administrativas y bibliotecas. 2024. Melilla - Melilla"
+    }
+  },
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:a56_p01_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p01_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p02_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p02_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p03_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p03_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p04_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p04_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p05_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p05_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p06_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p06_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p07_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p07_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p08_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p08_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p09_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p09_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p10_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p10_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p11_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p11_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p12_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p12_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p13_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p13_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p14_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p14_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p15_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p15_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p16_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p16_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p17_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p17_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p18_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p18_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p19_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p19_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p20_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p20_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p21_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p21_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p22_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p22_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p23_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p23_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p24_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p24_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p25_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p25_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p26_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p26_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p27_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p27_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p28_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p28_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p29_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p29_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p30_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p30_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p31_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p31_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p32_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p32_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p33_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p33_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p34_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p34_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p35_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p35_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p36_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p36_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p37_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p37_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p38_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p38_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p39_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p39_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p40_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p40_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p41_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p41_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p42_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p42_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p43_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p43_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p44_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p44_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p45_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p45_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p46_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p46_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p47_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p47_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p48_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p48_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p49_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p49_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p50_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p50_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p51_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p51_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a56_p52_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a56_p52_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p01_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p01_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p02_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p02_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p03_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p03_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p04_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p04_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p05_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p05_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p06_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p06_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p07_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p07_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p08_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p08_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p09_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p09_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p10_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p10_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p11_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p11_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p12_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p12_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p13_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p13_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p14_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p14_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p15_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p15_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p16_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p16_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p17_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p17_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p18_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p18_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p19_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p19_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p20_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p20_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p21_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p21_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p22_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p22_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p23_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p23_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p24_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p24_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p25_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p25_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p26_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p26_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p27_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p27_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p28_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p28_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p29_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p29_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p30_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p30_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p31_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p31_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p32_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p32_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p33_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p33_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p34_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p34_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p35_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p35_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p36_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p36_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p37_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p37_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p38_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p38_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p39_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p39_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p40_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p40_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p41_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p41_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p42_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p42_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p43_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p43_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p44_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p44_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p45_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p45_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p46_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p46_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p47_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p47_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p48_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p48_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p49_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p49_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p50_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p50_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p51_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p51_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a03_p52_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a03_p52_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p01_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p01_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p02_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p02_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p03_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p03_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p04_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p04_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p05_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p05_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p06_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p06_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p07_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p07_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p08_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p08_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p09_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p09_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p10_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p10_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p11_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p11_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p12_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p12_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p13_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p13_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p14_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p14_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p15_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p15_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p16_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p16_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p17_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p17_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p18_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p18_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p19_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p19_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p20_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p20_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p21_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p21_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p22_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p22_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p23_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p23_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p24_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p24_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p25_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p25_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p26_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p26_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p27_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p27_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p28_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p28_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p29_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p29_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p30_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p30_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p31_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p31_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p32_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p32_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p33_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p33_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p34_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p34_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p35_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p35_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p36_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p36_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p37_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p37_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p38_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p38_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p39_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p39_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p40_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p40_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p41_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p41_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p42_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p42_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p43_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p43_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p44_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p44_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p45_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p45_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p46_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p46_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p47_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p47_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p48_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p48_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p49_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p49_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p50_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p50_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p51_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p51_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a11_p52_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a11_p52_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p01_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p01_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p02_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p02_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p03_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p03_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p04_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p04_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p05_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p05_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p06_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p06_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p07_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p07_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p08_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p08_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p09_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p09_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p10_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p10_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p11_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p11_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p12_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p12_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p13_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p13_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p14_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p14_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p15_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p15_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p16_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p16_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p17_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p17_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p18_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p18_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p19_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p19_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p20_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p20_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p21_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p21_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p22_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p22_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p23_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p23_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p24_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p24_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p25_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p25_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p26_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p26_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p27_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p27_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p28_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p28_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p29_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p29_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p30_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p30_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p31_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p31_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p32_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p32_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p33_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p33_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p34_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p34_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p35_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p35_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p36_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p36_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p37_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p37_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p38_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p38_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p39_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p39_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p40_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p40_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p41_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p41_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p42_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p42_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p43_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p43_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p44_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p44_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p45_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p45_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p46_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p46_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p47_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p47_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p48_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p48_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p49_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p49_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p50_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p50_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p51_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p51_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a69_p52_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a69_p52_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p01_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p01_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p02_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p02_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p03_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p03_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p04_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p04_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p05_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p05_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p06_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p06_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p07_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p07_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p08_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p08_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p09_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p09_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p10_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p10_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p11_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p11_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p12_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p12_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p13_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p13_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p14_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p14_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p15_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p15_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p16_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p16_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p17_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p17_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p18_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p18_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p19_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p19_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p20_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p20_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p21_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p21_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p22_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p22_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p23_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p23_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p24_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p24_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p25_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p25_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p26_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p26_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p27_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p27_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p28_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p28_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p29_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p29_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p30_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p30_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p31_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p31_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p32_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p32_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p33_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p33_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p34_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p34_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p35_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p35_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p36_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p36_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p37_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p37_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p38_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p38_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p39_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p39_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p40_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p40_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p41_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p41_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p42_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p42_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p43_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p43_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p44_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p44_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p45_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p45_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p46_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p46_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p47_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p47_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p48_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p48_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p49_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p49_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p50_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p50_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p51_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p51_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a41_p52_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a41_p52_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p01_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p01_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p02_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p02_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p03_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p03_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p04_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p04_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p05_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p05_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p06_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p06_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p07_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p07_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p08_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p08_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p09_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p09_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p10_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p10_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p11_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p11_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p12_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p12_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p13_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p13_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p14_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p14_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p15_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p15_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p16_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p16_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p17_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p17_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p18_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p18_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p19_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p19_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p20_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p20_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p21_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p21_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p22_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p22_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p23_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p23_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p24_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p24_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p25_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p25_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p26_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p26_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p27_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p27_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p28_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p28_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p29_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p29_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p30_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p30_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p31_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p31_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p32_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p32_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p33_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p33_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p34_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p34_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p35_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p35_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p36_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p36_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p37_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p37_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p38_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p38_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p39_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p39_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p40_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p40_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p41_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p41_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p42_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p42_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p43_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p43_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p44_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p44_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p45_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p45_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p46_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p46_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p47_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p47_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p48_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p48_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p49_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p49_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p50_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p50_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p51_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p51_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:a35_p52_2024.html",
+      "rezultat": "EȘUAT",
+      "detaliu": "pagină HTML în locul fișierului"
+    },
+    {
+      "verificare": "brut_nevid:a35_p52_2024.html",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:bpec_municipii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:bpec_municipii.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "117775 rânduri, minim 50000"
+    }
+  ],
+  "versiunea_anterioara": null,
+  "rezultat": "EȘUAT",
+  "rulare": "43518074892"
+}
