@@ -1,6 +1,6 @@
 {
   "sursa": "bpec",
   "rezultat": "EROARE",
-  "eroare": "RequestException: HTTP 429",
-  "terminat_utc": "2026-11-13T17:48:36+00:00"
+  "eroare": "RuntimeError: HTTP 429 (Retry-After: -) la anexa 56 provincia 01, după 6 reîncercări",
+  "terminat_utc": "2026-11-13T18:38:01+00:00"
 }
