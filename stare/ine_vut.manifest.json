@@ -1,0 +1,171 @@
+{
+  "sursa": "ine_vut",
+  "versiune": "20261114-14dfff9e",
+  "amprenta": "14dfff9eb0ad8c6812fbbe419812dcd52090c8ea1d444e066fd8353610b94e45",
+  "creat_utc": "2026-11-14T09:22:16+00:00",
+  "descarcat_in": "actions",
+  "nume": "INE – Medición del número de viviendas turísticas en España y su capacidad (estadística experimental)",
+  "editor": "Instituto Nacional de Estadística (INE)",
+  "pagina": "https://ine.es/experimental/viv_turistica/experimental_viv_turistica.htm",
+  "licenta": "Pagina INE spune CC BY-SA 4.0, linkul din subsol arată CC BY 4.0 (neconcordanță citită la 14.11.2026): de confirmat în avizul legal al INE înainte de publicare pe sit",
+  "atribuire": "„Fuente: INE, estadística experimental Medición del número de viviendas turísticas en España y su capacidad”",
+  "fisiere_brute": [
+    {
+      "fisier": "tabla_39363.json",
+      "url": "https://servicios.ine.es/wstempus/jsCache/es/DATOS_TABLA/39363?tip=AM",
+      "serii": 24621,
+      "octeti": 42877550,
+      "sha256": "f449004a2ce471380245da0c2d5e3c528f76064519d499e2eccfcb1f1e5cb94c"
+    },
+    {
+      "fisier": "tabla_39366.json",
+      "url": "https://servicios.ine.es/wstempus/jsCache/es/DATOS_TABLA/39366?tip=AM",
+      "serii": 8207,
+      "octeti": 16033999,
+      "sha256": "772dd5b9c6931d1e19e29f3c62f0b4a749b68b5287b8341891e746c09879be89"
+    },
+    {
+      "fisier": "tabla_39364.json",
+      "url": "https://servicios.ine.es/wstempus/jsCache/es/DATOS_TABLA/39364?tip=AM",
+      "serii": 216,
+      "octeti": 402805,
+      "sha256": "0ee62ea361c71d77fc06c0742bb9d15d307d065d6ebf70232ffab8d44f34b9d7"
+    },
+    {
+      "fisier": "tabla_39365.json",
+      "url": "https://servicios.ine.es/wstempus/jsCache/es/DATOS_TABLA/39365?tip=AM",
+      "serii": 72,
+      "octeti": 140658,
+      "sha256": "cd63746cc568baa92df2c0335a13d6b677df399efcdbfa88d0e58d4412f7755f"
+    }
+  ],
+  "produse": [
+    {
+      "fisier": "ine_vut.parquet",
+      "randuri": 407585,
+      "octeti": 7335074,
+      "sha256": "442289710223849584ff9005189b2b135a206baa84d45fe478e213a30cbdac47",
+      "coloane": {
+        "tabla": "string",
+        "serie_cod": "string",
+        "serie_nombre": "string",
+        "meta": "string",
+        "fecha": "string",
+        "anyo": "int64",
+        "id_periodo": "int64",
+        "valor": "double",
+        "secreto": "bool"
+      }
+    }
+  ],
+  "profil": {
+    "pe_tabla": {
+      "39363": {
+        "serii": 24621,
+        "randuri": 297317,
+        "exemplu_serie": "Total Nacional. Viviendas turísticas. Dato base. "
+      },
+      "39366": {
+        "serii": 8207,
+        "randuri": 106524,
+        "exemplu_serie": "Total Nacional. Porcentaje de viviendas turísticas sobre el total de viviendas censadas. Dato base. "
+      },
+      "39364": {
+        "serii": 216,
+        "randuri": 2808,
+        "exemplu_serie": "Total Nacional. Viviendas turísticas. Dato base. "
+      },
+      "39365": {
+        "serii": 72,
+        "randuri": 936,
+        "exemplu_serie": "Total Nacional. Porcentaje de viviendas turísticas sobre el total de viviendas censadas. Dato base. "
+      }
+    },
+    "perioade": [
+      [
+        2020,
+        null
+      ],
+      [
+        2021,
+        null
+      ],
+      [
+        2022,
+        null
+      ],
+      [
+        2023,
+        null
+      ],
+      [
+        2024,
+        null
+      ],
+      [
+        2025,
+        null
+      ],
+      [
+        2026,
+        null
+      ]
+    ],
+    "randuri": 407585
+  },
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:tabla_39363.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:tabla_39363.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:tabla_39366.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:tabla_39366.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:tabla_39364.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:tabla_39364.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nu_e_html:tabla_39365.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:tabla_39365.json",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:ine_vut.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:ine_vut.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "407585 rânduri, minim 1000"
+    }
+  ],
+  "versiunea_anterioara": null,
+  "rezultat": "TRECE",
+  "rulare": "43579998362"
+}
