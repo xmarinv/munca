@@ -1,0 +1,26 @@
+# INE – statistica experimentală „Medición del número de viviendas turísticas en España y su capacidad”: locuințe turistice
+# (anunțate pe platforme: scraping INE), locuri și procentul din locuințele recensământului, pe municipiu (și provincie).
+# Nu e un registru: nu are adrese sau nume de stabilimente. Se descarcă din API-ul Tempus al INE (INEbase).
+nume: "INE – Medición del número de viviendas turísticas en España y su capacidad (estadística experimental)"
+editor: Instituto Nacional de Estadística (INE)
+pagina: https://ine.es/experimental/viv_turistica/experimental_viv_turistica.htm
+licenta: "Pagina INE spune CC BY-SA 4.0, linkul din subsol arată CC BY 4.0 (neconcordanță citită la 14.11.2026): de confirmat în avizul legal al INE înainte de publicare pe sit"
+atribuire: "„Fuente: INE, estadística experimental Medición del número de viviendas turísticas en España y su capacidad”"
+descarcare: actions
+saptamanal: false          # două referințe pe an (mai, noiembrie); se rulează la cerere
+publica_brute: true        # statistică agregată, fără date personale
+cadenta: de două ori pe an (luni de referință mai și noiembrie din 2024)
+
+api: https://servicios.ine.es/wstempus/js/es/DATOS_TABLA
+tabele:
+  "39363": "Viviendas turísticas, plazas y plazas por vivienda turística. Municipios"
+  "39366": "Porcentaje de viviendas turísticas sobre el total de viviendas censadas. Municipios"
+  "39364": "Viviendas turísticas, plazas y plazas por vivienda turística. Nacional, CCAA y provincias"
+  "39365": "Porcentaje de viviendas turísticas sobre el total de viviendas censadas. Nacional, CCAA y provincias"
+
+produse:
+  ine_vut.parquet:
+    coloane: {tabla: string, serie_cod: string, serie_nombre: string, meta: string, fecha_ms: int64, anyo: int64,
+              id_periodo: int64, valor: double, secreto: bool}
+    randuri_minim: 1000
+scadere_maxima: 0.10
