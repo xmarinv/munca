@@ -4,8 +4,8 @@
 nume: "INE – Medición del número de viviendas turísticas en España y su capacidad (estadística experimental)"
 editor: Instituto Nacional de Estadística (INE)
 pagina: https://ine.es/experimental/viv_turistica/experimental_viv_turistica.htm
-licenta: "Pagina INE spune CC BY-SA 4.0, linkul din subsol arată CC BY 4.0 (neconcordanță citită la 14.11.2026): de confirmat în avizul legal al INE înainte de publicare pe sit"
-atribuire: "„Fuente: INE, estadística experimental Medición del número de viviendas turísticas en España y su capacidad”"
+atribuire: "Elaboración propia con datos extraídos del sitio web del INE: www.ine.es (estadística experimental Medición del número de viviendas turísticas en España y su capacidad), con el período de referencia; sin sugerir apoyo del INE."
+licenta: "Aviso legal INE (14.11.2026): CC BY 4.0, salvo que se indique lo contrario; el pie del sitio y la página de la estadística dicen CC BY-SA 4.0 (consulta enviada al INE; hasta la respuesta se respetan las condiciones de CC BY y no se amplía la publicación)"
 descarcare: actions
 saptamanal: false          # două referințe pe an (mai, noiembrie); se rulează la cerere
 publica_brute: true        # statistică agregată, fără date personale
