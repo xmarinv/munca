@@ -1,0 +1,6 @@
+{
+  "sursa": "ine_vut",
+  "rezultat": "EROARE",
+  "eroare": "ArrowInvalid: Could not convert '2026-05-01T00:00:00.000+02:00' with type str: tried to convert to int64",
+  "terminat_utc": "2026-11-14T09:18:59+00:00"
+}
