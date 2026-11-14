@@ -20,7 +20,7 @@ tabele:
 
 produse:
   ine_vut.parquet:
-    coloane: {tabla: string, serie_cod: string, serie_nombre: string, meta: string, fecha_ms: int64, anyo: int64,
+    coloane: {tabla: string, serie_cod: string, serie_nombre: string, meta: string, fecha: string, anyo: int64,
               id_periodo: int64, valor: double, secreto: bool}
     randuri_minim: 1000
 scadere_maxima: 0.10
