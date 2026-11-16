@@ -1,8 +1,8 @@
 {
   "sursa": "eea_aer",
-  "versiune": "20261109-1a5337a0",
-  "amprenta": "1a5337a02a02283da5e77c5028bc3b8d9eb04b7669261068769bca6df428ce2c",
-  "creat_utc": "2026-11-09T13:34:20+00:00",
+  "versiune": "20261116-16dd856c",
+  "amprenta": "16dd856c820fc8cdc11a5697df1727464167cd022c6021d069c7e438b0697c65",
+  "creat_utc": "2026-11-16T13:27:26+00:00",
   "descarcat_in": "actions",
   "nume": "European air quality data (interpolated data) – PM2.5, NO2, O3; grilă 1 km, decupată pe Spania (Peninsula, Baleare, Canare)",
   "editor": "European Environment Agency (EEA); hărțile ETC HE (metoda „regression-interpolation-merging mapping”)",
@@ -18,9 +18,9 @@
       "an": 2024,
       "stare": "validat",
       "titlu": "PM2.5, European air quality data for 2024, (interpolated data), validated data, June 2026",
-      "descarcat_utc": "2026-11-09T13:33:48Z",
+      "descarcat_utc": "2026-11-16T13:26:51Z",
       "octeti": 78199351,
-      "sha256": "6469600e6b2082190e887bdd8f68d939fd658329907b8c5c8562850c905742ba"
+      "sha256": "f903b9febc769438cfaac48601323e1a98665c275bece79727be0304b683f6c7"
     },
     {
       "fisier": "no2_2024_validat.zip",
@@ -30,9 +30,9 @@
       "an": 2024,
       "stare": "validat",
       "titlu": "NO2, European air quality data for 2024, (interpolated data), validated data, June 2026",
-      "descarcat_utc": "2026-11-09T13:33:55Z",
+      "descarcat_utc": "2026-11-16T13:27:00Z",
       "octeti": 78186051,
-      "sha256": "699cdc1da2857240a3cc64b2274edf2e0058f34abc796b8450e5427176b8f23f"
+      "sha256": "0b467eaadfcfb2bdfca65517fbc7abd5a6c9df945c56e00eecfbb3601dfd8a20"
     },
     {
       "fisier": "o3_2024_validat.zip",
@@ -42,9 +42,9 @@
       "an": 2024,
       "stare": "validat",
       "titlu": "O3, European air quality data for 2024, (interpolated data), validated data, June 2026",
-      "descarcat_utc": "2026-11-09T13:34:18Z",
+      "descarcat_utc": "2026-11-16T13:27:23Z",
       "octeti": 390880579,
-      "sha256": "d443dcb7488a7d02205101830e05100d298b75856f0637e4db773c4933d663ea"
+      "sha256": "eaaef3cd35c4cfb481a5e84ff2787156e65c60f0329f0017000cc692f4993e14"
     }
   ],
   "produse": [
@@ -620,7 +620,7 @@
       "detaliu": "5193596 -> 5193596 (-0.0%); prag −10%"
     }
   ],
-  "versiunea_anterioara": "20261102-4e3101f7",
+  "versiunea_anterioara": "20261109-1a5337a0",
   "rezultat": "TRECE",
-  "rulare": "42620945871"
+  "rulare": "43869815713"
 }

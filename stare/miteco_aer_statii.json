@@ -1,9 +1,6 @@
 {
   "sursa": "miteco_aer_statii",
-  "pornit_utc": "2026-11-09T13:35:06+00:00",
-  "rezultat": "neschimbat",
-  "noutati": [],
-  "amprenta": "db46bbce53e7eb3d2c0391f7f4d88addb1e421163cde8757ecf8d5ec64369c47",
-  "versiune": "20261101-db46bbce",
-  "terminat_utc": "2026-11-09T13:35:15+00:00"
+  "rezultat": "EROARE",
+  "eroare": "ChunkedEncodingError: ('Connection broken: IncompleteRead(25165824 bytes read, 2180157 more expected)', IncompleteRead(25165824 bytes read, 2180157 more expected))",
+  "terminat_utc": "2026-11-16T13:28:25+00:00"
 }
