@@ -6,7 +6,7 @@ structureaza: două tabele, fără interpretare:
     afișate (coordinatesForDisplay), adresa (liniile adresei unite cu „, ”), codul poștal, operatorul, tipul amplasamentului,
     accesul, programul, data actualizării și numărătorile (puncte, conectori, puterea maximă a unui conector);
   - recarga_conectori.parquet: un rând pe conector (refillPoint > connector).
-Datele personale: dacă identificatorul operatorului are forma unui NIF de persoană fizică (DNI 8 cifre + literă sau NIE
+Datele personale: dacă numele operatorului nu are formă juridică și identificatorul nu e CIF de societate, sau dacă identificatorul operatorului are forma unui NIF de persoană fizică (DNI 8 cifre + literă sau NIE
 X/Y/Z + 7 cifre + literă), identificatorul și numele operatorului nu se păstrează; rămâne doar indicatorul
 `operator_persoana_fizica` (aceeași regulă ca la registrele de cazare: nu stocăm numele titularilor persoane fizice).
 Unitatea puterii: fluxul dă maxPowerAtSocket în wați (mediana primului rulaj, 23.11.2026: 22.000); tabelele păstrează kW.
@@ -20,6 +20,7 @@ import requests
 
 UA = {'User-Agent': 'munca/1.0 (+https://github.com/xmarinv/munca)'}
 NIF_PERSOANA = re.compile(r'^(\d{8}[A-Z]|[XYZ]\d{7}[A-Z])$')
+CIF_SOCIETATE = re.compile(r'^[ABCDEFGHJNPQRSUVW]\d{7}[0-9A-J]$')
 # forme juridice și administrații: un nume fără ele poate fi al unei persoane fizice (doar numărat în profil, nu listat)
 SOCIETATE = re.compile(r'\b(S\.?\s?L\.?|S\.?\s?A\.?|S\.?L\.?U\.?|S\.?A\.?U\.?|S\.?\s?COOP|COOP|C\.?B\.?|S\.?C\.?|SLL|SLNE|AIE|LTD|GMBH|INC|BV|SAS|SRL|SPA)(\b|$)|\b(AYUNTAMIENTO|AJUNTAMENT|CONCELLO|DIPUTACI|CONSELL|CABILDO|GOBIERNO|JUNTA|GENERALITAT|MUNICIPAL|UNIVERSI|FUNDACI|ASOCIACI|COMUNIDAD|MANCOMUNIDAD|AUTORIDAD|EMPRESA|ENERG|ELECTR|RECARG|CHARG|MOBILITY|MOVILIDAD|GRUPO|HOTEL|TESLA|IBERDROLA|ENDESA|REPSOL)', re.I)
 
@@ -77,7 +78,7 @@ def structureaza(dir_brute, dir_produse, cfg):
                          'nr_puncte', 'nr_conectori', 'putere_max_kw')}
     C = {k: [] for k in ('site_id', 'punct_id', 'punct_tip', 'conector_tip', 'conector_format', 'mod_incarcare',
                          'putere_max_kw', 'tensiune_v', 'curent_a')}
-    publicat, persoane_fizice, fara_coord = None, 0, 0
+    publicat, persoane_fizice, fara_coord, posibil_ascunsi = None, 0, 0, 0
     for ev, el in ET.iterparse(str(Path(dir_brute) / 'electrolineras.xml'), events=('end',)):
         n = nume_local(el.tag)
         if n == 'publicationTime' and publicat is None:
@@ -99,9 +100,12 @@ def structureaza(dir_brute, dir_produse, cfg):
         op_id = op.get('id') if op is not None else None
         op_nume = text_valoare(primul(op, 'name')) if op is not None else None
         pf = bool(op_id and NIF_PERSOANA.match(op_id.strip().upper()))
-        if pf:
-            persoane_fizice += 1
-            op_id, op_nume = None, None
+        # nume fără formă juridică și identificator care nu e CIF de societate: posibil persoană fizică, nu se păstrează
+        posibil_pf = bool(op_nume and not SOCIETATE.search(op_nume) and not (op_id and CIF_SOCIETATE.match(op_id.strip().upper())))
+        if pf or posibil_pf:
+            persoane_fizice += pf
+            posibil_ascunsi += posibil_pf and not pf
+            op_id, op_nume, pf = None, None, True
         oh = primul(el, 'operatingHours')
         acc = primul(el, 'accessibility')
         puncte = [d for d in el.iter() if nume_local(d.tag) == 'refillPoint']
@@ -158,7 +162,7 @@ def structureaza(dir_brute, dir_produse, cfg):
     lats = [x for x in A['lat'] if x is not None]
     lons = [x for x in A['lon'] if x is not None]
     return {'publicat': publicat, 'amplasamente': len(A['site_id']), 'conectori': len(C['site_id']),
-            'fara_coordonate': fara_coord, 'operatori_persoane_fizice_ascunsi': persoane_fizice,
+            'fara_coordonate': fara_coord, 'operatori_persoane_fizice_ascunsi': persoane_fizice, 'amplasamente_posibil_persoana_fizica_ascunse': posibil_ascunsi,
             'operatori_distincti': len(set(x for x in A['operator_id'] if x)),
             'operatori_fara_forma_juridica': len(set(x for x in A['operator_nume'] if x and not SOCIETATE.search(x))),
             'amplasamente_operator_fara_forma_juridica': sum(1 for x in A['operator_nume'] if x and not SOCIETATE.search(x)),

@@ -6,11 +6,11 @@ nume: "MITECO – Puntos de recarga de vehículos eléctricos de acceso público
 editor: Ministerio para la Transición Ecológica y el Reto Demográfico (SG de Prospectiva y Estadísticas Energéticas); difuzare DGT (NAP)
 pagina: https://datos.gob.es/es/catalogo/e05068001-puntos-de-recarga-de-vehiculos-electricos
 url: https://nap.dgt.es/datex2/v3/miterd/EnergyInfrastructureTablePublication/electrolineras.xml
-atribuire: "Fuente: Ministerio para la Transición Ecológica y el Reto Demográfico (puntos de recarga de vehículos eléctricos), con la fecha de publicación; sin sugerir apoyo del Ministerio."
-licenta: "Setul MITECO pe datos.gob.es: CC BY 4.0 (http://publications.europa.eu/resource/authority/licence/CC_BY_4_0). Condițiile fluxului NAP DGT: de confirmat înainte de publicare (până atunci: fără release, fără brute)."
+atribuire: "Fuente: Ministerio para la Transición Ecológica y el Reto Demográfico (MITERD), puntos de recarga de vehículos eléctricos, vía Punto de Acceso Nacional (DGT), con la fecha de publicación; sin sugerir apoyo del Ministerio."
+licenta: "CC BY 4.0 (MITERD; datos.gob.es și fișa INSPIRE spaminPuntosRecarga). Fișa NAP DGT: CC BY, „Licence and Free of charge”; avizul legal DGT (2022) privește portalul, nu datele (Marin, 23.11.2026: fără probleme de utilizare)."
 descarcare: actions
 saptamanal: false          # la cerere, până la aprobarea setului în atlas
-publica_brute: false       # fișierul brut nu intră în release până la confirmarea licenței fluxului NAP
+publica_brute: false       # brutul conține numele tuturor operatorilor, inclusiv posibile persoane fizice
 cadenta: zilnic la sursă (publicationTime în fișier)
 
 produse:
