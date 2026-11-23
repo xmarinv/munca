@@ -2,7 +2,7 @@
   "sursa": "miteco_recarga",
   "versiune": "20261123-333abfe7",
   "amprenta": "333abfe70d74cb42521cc53c0ff5bd77e4e3ba5e372a18dcb45ad8cabfa322d2",
-  "creat_utc": "2026-11-23T18:02:02+00:00",
+  "creat_utc": "2026-11-23T18:03:27+00:00",
   "descarcat_in": "actions",
   "nume": "MITECO – Puntos de recarga de vehículos eléctricos de acceso público (DATEX II, NAP DGT)",
   "editor": "Ministerio para la Transición Ecológica y el Reto Demográfico (SG de Prospectiva y Estadísticas Energéticas); difuzare DGT (NAP)",
@@ -21,8 +21,8 @@
     {
       "fisier": "recarga_amplasamente.parquet",
       "randuri": 12150,
-      "octeti": 1220780,
-      "sha256": "cc5f27616a4f16c6867043f8c0473a1706f3b605fb58ef773eac6e8ab2ff3ab7",
+      "octeti": 1220716,
+      "sha256": "0634ba88114ff6c47cb555bf331ca1280ab91068ca7a976189d8aa17f1ed4322",
       "coloane": {
         "site_id": "string",
         "statie_id": "string",
@@ -46,8 +46,8 @@
     {
       "fisier": "recarga_conectori.parquet",
       "randuri": 43261,
-      "octeti": 951381,
-      "sha256": "f3ac442bb1c92054c6969797ddd7489738332948ffa422ffef1e5f5d79537975",
+      "octeti": 951316,
+      "sha256": "cd5a97749f22d70c154d048617c64f0d8cc2a4936e6964ec5d6528ad8727f14d",
       "coloane": {
         "site_id": "string",
         "punct_id": "string",
@@ -68,6 +68,8 @@
     "fara_coordonate": 0,
     "operatori_persoane_fizice_ascunsi": 0,
     "operatori_distincti": 160,
+    "operatori_fara_forma_juridica": 7,
+    "amplasamente_operator_fara_forma_juridica": 16,
     "operatori_top": {
       "ENDESA X WAY, S.L.": 2821,
       "IBERDROLA CLIENTES S.A.U": 2769,
@@ -128,11 +130,11 @@
       "mode2AC1p": 7424
     },
     "putere_conector_cuantile": {
-      "min": 60.0,
-      "p10": 7300.0,
-      "mediana": 22000.0,
-      "p90": 120000.0,
-      "max": 1000000.0
+      "min": 0.06,
+      "p10": 7.3,
+      "mediana": 22.0,
+      "p90": 120.0,
+      "max": 1000.0
     },
     "lat_interval": [
       27.751438,
@@ -183,5 +185,5 @@
   ],
   "versiunea_anterioara": null,
   "rezultat": "TRECE",
-  "rulare": "45233774446"
+  "rulare": "45234160243"
 }
