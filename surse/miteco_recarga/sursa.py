@@ -9,7 +9,7 @@ structureaza: două tabele, fără interpretare:
 Datele personale: dacă identificatorul operatorului are forma unui NIF de persoană fizică (DNI 8 cifre + literă sau NIE
 X/Y/Z + 7 cifre + literă), identificatorul și numele operatorului nu se păstrează; rămâne doar indicatorul
 `operator_persoana_fizica` (aceeași regulă ca la registrele de cazare: nu stocăm numele titularilor persoane fizice).
-Unitatea puterii (maxPowerAtSocket): DATEX II o dă în kW; profilul din stare/ arată distribuția, de verificat la primul rulaj.
+Unitatea puterii: fluxul dă maxPowerAtSocket în wați (mediana primului rulaj, 23.11.2026: 22.000); tabelele păstrează kW.
 """
 import re, time, xml.etree.ElementTree as ET
 from pathlib import Path
@@ -20,6 +20,8 @@ import requests
 
 UA = {'User-Agent': 'munca/1.0 (+https://github.com/xmarinv/munca)'}
 NIF_PERSOANA = re.compile(r'^(\d{8}[A-Z]|[XYZ]\d{7}[A-Z])$')
+# forme juridice și administrații: un nume fără ele poate fi al unei persoane fizice (doar numărat în profil, nu listat)
+SOCIETATE = re.compile(r'\b(S\.?\s?L\.?|S\.?\s?A\.?|S\.?L\.?U\.?|S\.?A\.?U\.?|S\.?\s?COOP|COOP|C\.?B\.?|S\.?C\.?|SLL|SLNE|AIE|LTD|GMBH|INC|BV|SAS|SRL|SPA)(\b|$)|\b(AYUNTAMIENTO|AJUNTAMENT|CONCELLO|DIPUTACI|CONSELL|CABILDO|GOBIERNO|JUNTA|GENERALITAT|MUNICIPAL|UNIVERSI|FUNDACI|ASOCIACI|COMUNIDAD|MANCOMUNIDAD|AUTORIDAD|EMPRESA|ENERG|ELECTR|RECARG|CHARG|MOBILITY|MOVILIDAD|GRUPO|HOTEL|TESLA|IBERDROLA|ENDESA|REPSOL)', re.I)
 
 
 def descarca(dir_brute, cfg):
@@ -107,6 +109,7 @@ def structureaza(dir_brute, dir_produse, cfg):
         for p in puncte:
             for c in (d for d in p.iter() if nume_local(d.tag) == 'connector'):
                 pw = num(primul(c, 'maxPowerAtSocket'))
+                pw = pw / 1000 if pw is not None else None
                 C['site_id'].append(sid)
                 C['punct_id'].append(p.get('id'))
                 C['punct_tip'].append(p.get('{http://www.w3.org/2001/XMLSchema-instance}type') or p.get('type'))
@@ -157,6 +160,8 @@ def structureaza(dir_brute, dir_produse, cfg):
     return {'publicat': publicat, 'amplasamente': len(A['site_id']), 'conectori': len(C['site_id']),
             'fara_coordonate': fara_coord, 'operatori_persoane_fizice_ascunsi': persoane_fizice,
             'operatori_distincti': len(set(x for x in A['operator_id'] if x)),
+            'operatori_fara_forma_juridica': len(set(x for x in A['operator_nume'] if x and not SOCIETATE.search(x))),
+            'amplasamente_operator_fara_forma_juridica': sum(1 for x in A['operator_nume'] if x and not SOCIETATE.search(x)),
             'operatori_top': top(A['operator_nume'], 20),
             'tip_amplasament': top(A['tip_amplasament']), 'acces': top(A['acces']), 'program': top(A['program']),
             'punct_tip': top(C['punct_tip']), 'conector_tip': top(C['conector_tip']), 'conector_format': top(C['conector_format']),
