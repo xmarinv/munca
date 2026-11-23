@@ -1,5 +1,5 @@
 # proba_url: verifică dacă o adresă se poate descărca din Actions și ce conține (rezumat XML/CSV/JSON), fără release și
-# fără commit. Rezultatul: artefactul `proba` (rezumat + primii 300 KB din fișier), păstrat 7 zile.
+# commit pe main. Rezultatul: artefactul `proba` și rezumatul pe ramura `proba-rezultate` (proba/rezumat.txt, suprascris).
 # Folosit pentru surse noi, înainte de a scrie `surse/<sursa>/` (ex. 23.11.2026: punctele de reîncărcare MITECO prin NAP DGT).
 name: proba_url
 on:
@@ -10,7 +10,7 @@ on:
         required: true
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   proba:
@@ -51,3 +51,11 @@ jobs:
           name: proba
           path: out/
           retention-days: 7
+      - name: Rezumatul pe ramura proba-rezultate (citibil din sesiuni fără acces la artefacte)
+        run: |
+          cp out/rezumat.txt /tmp/rezumat.txt
+          git init -q r && cd r
+          git config user.name "proba-bot" && git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir proba && cp /tmp/rezumat.txt proba/rezumat.txt
+          git add proba && git commit -qm "proba_url: ${{ inputs.url }}"
+          git push -qf "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" HEAD:proba-rezultate
