@@ -1,7 +1,7 @@
 {
   "sursa": "miteco_recarga",
-  "pornit_utc": "2026-11-23T18:03:21+00:00",
-  "rezultat": "verificat_nepublicat",
+  "pornit_utc": "2026-11-23T18:20:50+00:00",
+  "rezultat": "publicat",
   "noutati": [],
   "amprenta": "333abfe70d74cb42521cc53c0ff5bd77e4e3ba5e372a18dcb45ad8cabfa322d2",
   "versiune": "20261123-333abfe7",
@@ -37,5 +37,5 @@
       "detaliu": "43261 rânduri, minim 25000"
     }
   ],
-  "terminat_utc": "2026-11-23T18:03:27+00:00"
+  "terminat_utc": "2026-11-23T18:21:04+00:00"
 }

@@ -2,13 +2,13 @@
   "sursa": "miteco_recarga",
   "versiune": "20261123-333abfe7",
   "amprenta": "333abfe70d74cb42521cc53c0ff5bd77e4e3ba5e372a18dcb45ad8cabfa322d2",
-  "creat_utc": "2026-11-23T18:03:27+00:00",
+  "creat_utc": "2026-11-23T18:20:57+00:00",
   "descarcat_in": "actions",
   "nume": "MITECO – Puntos de recarga de vehículos eléctricos de acceso público (DATEX II, NAP DGT)",
   "editor": "Ministerio para la Transición Ecológica y el Reto Demográfico (SG de Prospectiva y Estadísticas Energéticas); difuzare DGT (NAP)",
   "pagina": "https://datos.gob.es/es/catalogo/e05068001-puntos-de-recarga-de-vehiculos-electricos",
-  "licenta": "Setul MITECO pe datos.gob.es: CC BY 4.0 (http://publications.europa.eu/resource/authority/licence/CC_BY_4_0). Condițiile fluxului NAP DGT: de confirmat înainte de publicare (până atunci: fără release, fără brute).",
-  "atribuire": "Fuente: Ministerio para la Transición Ecológica y el Reto Demográfico (puntos de recarga de vehículos eléctricos), con la fecha de publicación; sin sugerir apoyo del Ministerio.",
+  "licenta": "CC BY 4.0 (MITERD; datos.gob.es și fișa INSPIRE spaminPuntosRecarga). Fișa NAP DGT: CC BY, „Licence and Free of charge”; avizul legal DGT (2022) privește portalul, nu datele (Marin, 23.11.2026: fără probleme de utilizare).",
+  "atribuire": "Fuente: Ministerio para la Transición Ecológica y el Reto Demográfico (MITERD), puntos de recarga de vehículos eléctricos, vía Punto de Acceso Nacional (DGT), con la fecha de publicación; sin sugerir apoyo del Ministerio.",
   "fisiere_brute": [
     {
       "fisier": "electrolineras.xml",
@@ -21,8 +21,8 @@
     {
       "fisier": "recarga_amplasamente.parquet",
       "randuri": 12150,
-      "octeti": 1220716,
-      "sha256": "0634ba88114ff6c47cb555bf331ca1280ab91068ca7a976189d8aa17f1ed4322",
+      "octeti": 1220588,
+      "sha256": "045e00d824206beadca1ecf3bc857ab3907a26bdfbd119a0cf7a956565fc93d7",
       "coloane": {
         "site_id": "string",
         "statie_id": "string",
@@ -67,9 +67,10 @@
     "conectori": 43261,
     "fara_coordonate": 0,
     "operatori_persoane_fizice_ascunsi": 0,
-    "operatori_distincti": 160,
-    "operatori_fara_forma_juridica": 7,
-    "amplasamente_operator_fara_forma_juridica": 16,
+    "amplasamente_posibil_persoana_fizica_ascunse": 16,
+    "operatori_distincti": 153,
+    "operatori_fara_forma_juridica": 0,
+    "amplasamente_operator_fara_forma_juridica": 0,
     "operatori_top": {
       "ENDESA X WAY, S.L.": 2821,
       "IBERDROLA CLIENTES S.A.U": 2769,
@@ -185,5 +186,5 @@
   ],
   "versiunea_anterioara": null,
   "rezultat": "TRECE",
-  "rulare": "45234160243"
+  "rulare": "45237309223"
 }
