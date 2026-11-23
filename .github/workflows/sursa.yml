@@ -17,6 +17,10 @@ on:
         description: "Release-uri de șters înainte de rulare (tag-uri separate prin spațiu; ex. date personale publicate din greșeală)"
         required: false
         default: ""
+      fara_publicare:
+        description: "Doar descărcare + structurare + verificări, fără release (surse noi cu licența neconfirmată); profilul în stare/"
+        type: boolean
+        default: false
   schedule:
     - cron: "17 4 * * 1"
 
@@ -55,6 +59,7 @@ jobs:
         env:
           SURSA: ${{ inputs.sursa }}
           FORTEAZA: ${{ inputs.forteaza && '--forteaza' || '' }}
+          FARA_PUBLICARE: ${{ inputs.fara_publicare && '--fara-publicare' || '' }}
         run: |
           if [ -n "$SURSA" ]; then
             surse="$SURSA"
@@ -74,7 +79,7 @@ jobs:
           esec=0
           for s in $surse; do
             echo "::group::$s"
-            python -m comun.motor "$s" $FORTEAZA || esec=1
+            python -m comun.motor "$s" $FORTEAZA $FARA_PUBLICARE || esec=1
             echo "::endgroup::"
           done
           echo "esec=$esec" >> "$GITHUB_OUTPUT"

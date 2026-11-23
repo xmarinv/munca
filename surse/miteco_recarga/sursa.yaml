@@ -1,0 +1,27 @@
+# MITECO – infraestructura de recarga de vehículos eléctricos de acceso público (electrolineras), publicată prin punctul
+# național de acces al DGT (NAP) în DATEX II v3 (EnergyInfrastructureTablePublication). Același conținut ca setul MITECO
+# „Puntos de Recarga de Vehículos Eléctricos” de pe datos.gob.es (e05068001, CC BY 4.0): titular, localizare, conectori, putere.
+# Posibil înlocuitor pentru Mapa REVE (fără redistribuire) și pentru combinația REVE + OSM (decizia Marin, 23.11.2026: de cercetat).
+nume: "MITECO – Puntos de recarga de vehículos eléctricos de acceso público (DATEX II, NAP DGT)"
+editor: Ministerio para la Transición Ecológica y el Reto Demográfico (SG de Prospectiva y Estadísticas Energéticas); difuzare DGT (NAP)
+pagina: https://datos.gob.es/es/catalogo/e05068001-puntos-de-recarga-de-vehiculos-electricos
+url: https://nap.dgt.es/datex2/v3/miterd/EnergyInfrastructureTablePublication/electrolineras.xml
+atribuire: "Fuente: Ministerio para la Transición Ecológica y el Reto Demográfico (puntos de recarga de vehículos eléctricos), con la fecha de publicación; sin sugerir apoyo del Ministerio."
+licenta: "Setul MITECO pe datos.gob.es: CC BY 4.0 (http://publications.europa.eu/resource/authority/licence/CC_BY_4_0). Condițiile fluxului NAP DGT: de confirmat înainte de publicare (până atunci: fără release, fără brute)."
+descarcare: actions
+saptamanal: false          # la cerere, până la aprobarea setului în atlas
+publica_brute: false       # fișierul brut nu intră în release până la confirmarea licenței fluxului NAP
+cadenta: zilnic la sursă (publicationTime în fișier)
+
+produse:
+  recarga_amplasamente.parquet:
+    coloane: {site_id: string, statie_id: string, nume: string, lat: double, lon: double, adresa: string, cod_postal: string,
+              operator_id: string, operator_nume: string, operator_persoana_fizica: bool, tip_amplasament: string,
+              acces: string, program: string, actualizat: string, nr_puncte: int64, nr_conectori: int64,
+              putere_max_kw: double}
+    randuri_minim: 8000
+  recarga_conectori.parquet:
+    coloane: {site_id: string, punct_id: string, punct_tip: string, conector_tip: string, conector_format: string,
+              mod_incarcare: string, putere_max_kw: double, tensiune_v: double, curent_a: double}
+    randuri_minim: 25000
+scadere_maxima: 0.15
