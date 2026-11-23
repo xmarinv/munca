@@ -1,8 +1,8 @@
 {
   "sursa": "bdns_catalog",
-  "versiune": "20261116-9f713fcc",
-  "amprenta": "9f713fcc97c6a25224849343029975e1541cfb4f38c7d064c77a1750f9c4e255",
-  "creat_utc": "2026-11-16T13:26:22+00:00",
+  "versiune": "20261123-34d60efd",
+  "amprenta": "34d60efd723764f4ed486a149da1726523a8b0cb4e2b375d1b7137761c26e434",
+  "creat_utc": "2026-11-23T15:20:48+00:00",
   "descarcat_in": "actions",
   "nume": "Base de Datos Nacional de Subvenciones (BDNS) – catálogo de convocatorias con su detalle, API REST del SNPSAP",
   "editor": "Intervención General de la Administración del Estado (IGAE), Ministerio de Hacienda",
@@ -12,16 +12,16 @@
   "fisiere_brute": [
     {
       "fisier": "catalog.jsonl",
-      "octeti": 386356361,
-      "sha256": "89dfa93a69f9ec7808bc9744cc871d07bf4456763ad84ef1581316776315bfde"
+      "octeti": 387205582,
+      "sha256": "f4e766a4a0eabf648bcd081c49c5f07206a63c5233e897ce63fc36cf88625f91"
     }
   ],
   "produse": [
     {
       "fisier": "bdns_catalog.parquet",
-      "randuri": 140583,
-      "octeti": 66638918,
-      "sha256": "10ab7f72630e0ec1484ad890d004599f19c0bc94a9fa65894f3443b53459ba08",
+      "randuri": 140724,
+      "octeti": 66861955,
+      "sha256": "af753023f175905c0b7fc93f7b93929271164ab42254632be6e23a9f68daf842",
       "coloane": {
         "numeroConvocatoria": "string",
         "id": "int64",
@@ -57,20 +57,20 @@
   ],
   "profil": {
     "fereastra": [
-      "2024-11-16",
-      "2026-11-16"
+      "2024-11-23",
+      "2026-11-23"
     ],
-    "convocari": 140583,
-    "din_anterior": 140365,
-    "noi": 1546,
-    "reimprospatate_tinta": 5053,
-    "cereri_facute": 6599,
+    "convocari": 140724,
+    "din_anterior": 140845,
+    "noi": 1382,
+    "reimprospatate_tinta": 5160,
+    "cereri_facute": 6542,
     "erori": 0,
     "ramase_pentru_continuare": 0,
-    "cu_detaliu": 140583,
+    "cu_detaliu": 140724,
     "fara_detaliu": 0,
-    "canonice_cu_detaliu_intreg": 46230,
-    "instrumentale_rand_subtire": 94353
+    "canonice_cu_detaliu_intreg": 46326,
+    "instrumentale_rand_subtire": 94398
   },
   "verificari": [
     {
@@ -91,15 +91,15 @@
     {
       "verificare": "randuri_minim:bdns_catalog.parquet",
       "rezultat": "TRECE",
-      "detaliu": "140583 rânduri, minim 50000"
+      "detaliu": "140724 rânduri, minim 50000"
     },
     {
       "verificare": "scadere_randuri:bdns_catalog.parquet",
       "rezultat": "TRECE",
-      "detaliu": "140365 -> 140583 (+0.2%); prag −20%"
+      "detaliu": "140845 -> 140724 (-0.1%); prag −20%"
     }
   ],
-  "versiunea_anterioara": "20261109-057c42b9",
+  "versiunea_anterioara": "20261116-f135b000",
   "rezultat": "TRECE",
-  "rulare": "43869815713"
+  "rulare": "45197100401"
 }

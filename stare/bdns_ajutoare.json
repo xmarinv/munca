@@ -1,10 +1,10 @@
 {
   "sursa": "bdns_ajutoare",
-  "pornit_utc": "2026-11-16T13:28:27+00:00",
+  "pornit_utc": "2026-11-23T15:32:28+00:00",
   "rezultat": "publicat",
   "noutati": [],
-  "amprenta": "0587133e0abf63fdcbee5f0e3b434bef10e304f0f7110bc6e9b4bf0b2900a260",
-  "versiune": "20261116-0587133e",
+  "amprenta": "ca9e6a124abee2662a0540b7c1d618616b8ac472602b4060f71c7c4fee720662",
+  "versiune": "20261123-ca9e6a12",
   "verificari": [
     {
       "verificare": "brut_nu_e_html:bdns_catalog-ultima/bdns_catalog.parquet",
@@ -84,12 +84,12 @@
     {
       "verificare": "randuri_minim:ajutoare.parquet",
       "rezultat": "TRECE",
-      "detaliu": "5329 rânduri, minim 1000"
+      "detaliu": "5347 rânduri, minim 1000"
     },
     {
       "verificare": "scadere_randuri:ajutoare.parquet",
       "rezultat": "TRECE",
-      "detaliu": "5371 -> 5329 (-0.8%); prag −40%"
+      "detaliu": "5402 -> 5347 (-1.0%); prag −40%"
     },
     {
       "verificare": "schema:ajutoare_arii.parquet",
@@ -99,13 +99,13 @@
     {
       "verificare": "randuri_minim:ajutoare_arii.parquet",
       "rezultat": "TRECE",
-      "detaliu": "5395 rânduri, minim 1000"
+      "detaliu": "5410 rânduri, minim 1000"
     },
     {
       "verificare": "scadere_randuri:ajutoare_arii.parquet",
       "rezultat": "TRECE",
-      "detaliu": "5437 -> 5395 (-0.8%); prag −40%"
+      "detaliu": "5468 -> 5410 (-1.1%); prag −40%"
     }
   ],
-  "terminat_utc": "2026-11-16T13:28:55+00:00"
+  "terminat_utc": "2026-11-23T15:32:48+00:00"
 }
