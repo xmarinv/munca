@@ -1,0 +1,41 @@
+{
+  "sursa": "miteco_recarga",
+  "pornit_utc": "2026-11-23T18:01:58+00:00",
+  "rezultat": "verificat_nepublicat",
+  "noutati": [],
+  "amprenta": "333abfe70d74cb42521cc53c0ff5bd77e4e3ba5e372a18dcb45ad8cabfa322d2",
+  "versiune": "20261123-333abfe7",
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:electrolineras.xml",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:electrolineras.xml",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:recarga_amplasamente.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:recarga_amplasamente.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "12150 rânduri, minim 8000"
+    },
+    {
+      "verificare": "schema:recarga_conectori.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:recarga_conectori.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "43261 rânduri, minim 25000"
+    }
+  ],
+  "terminat_utc": "2026-11-23T18:02:02+00:00"
+}

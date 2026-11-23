@@ -1,0 +1,187 @@
+{
+  "sursa": "miteco_recarga",
+  "versiune": "20261123-333abfe7",
+  "amprenta": "333abfe70d74cb42521cc53c0ff5bd77e4e3ba5e372a18dcb45ad8cabfa322d2",
+  "creat_utc": "2026-11-23T18:02:02+00:00",
+  "descarcat_in": "actions",
+  "nume": "MITECO – Puntos de recarga de vehículos eléctricos de acceso público (DATEX II, NAP DGT)",
+  "editor": "Ministerio para la Transición Ecológica y el Reto Demográfico (SG de Prospectiva y Estadísticas Energéticas); difuzare DGT (NAP)",
+  "pagina": "https://datos.gob.es/es/catalogo/e05068001-puntos-de-recarga-de-vehiculos-electricos",
+  "licenta": "Setul MITECO pe datos.gob.es: CC BY 4.0 (http://publications.europa.eu/resource/authority/licence/CC_BY_4_0). Condițiile fluxului NAP DGT: de confirmat înainte de publicare (până atunci: fără release, fără brute).",
+  "atribuire": "Fuente: Ministerio para la Transición Ecológica y el Reto Demográfico (puntos de recarga de vehículos eléctricos), con la fecha de publicación; sin sugerir apoyo del Ministerio.",
+  "fisiere_brute": [
+    {
+      "fisier": "electrolineras.xml",
+      "url": "https://nap.dgt.es/datex2/v3/miterd/EnergyInfrastructureTablePublication/electrolineras.xml",
+      "octeti": 84020041,
+      "sha256": "53decd0d5c0a7afa76ecf1491ba656e69e7703a83936908a1d097afc988af4f7"
+    }
+  ],
+  "produse": [
+    {
+      "fisier": "recarga_amplasamente.parquet",
+      "randuri": 12150,
+      "octeti": 1220780,
+      "sha256": "cc5f27616a4f16c6867043f8c0473a1706f3b605fb58ef773eac6e8ab2ff3ab7",
+      "coloane": {
+        "site_id": "string",
+        "statie_id": "string",
+        "nume": "string",
+        "lat": "double",
+        "lon": "double",
+        "adresa": "string",
+        "cod_postal": "string",
+        "operator_id": "string",
+        "operator_nume": "string",
+        "operator_persoana_fizica": "bool",
+        "tip_amplasament": "string",
+        "acces": "string",
+        "program": "string",
+        "actualizat": "string",
+        "nr_puncte": "int64",
+        "nr_conectori": "int64",
+        "putere_max_kw": "double"
+      }
+    },
+    {
+      "fisier": "recarga_conectori.parquet",
+      "randuri": 43261,
+      "octeti": 951381,
+      "sha256": "f3ac442bb1c92054c6969797ddd7489738332948ffa422ffef1e5f5d79537975",
+      "coloane": {
+        "site_id": "string",
+        "punct_id": "string",
+        "punct_tip": "string",
+        "conector_tip": "string",
+        "conector_format": "string",
+        "mod_incarcare": "string",
+        "putere_max_kw": "double",
+        "tensiune_v": "double",
+        "curent_a": "double"
+      }
+    }
+  ],
+  "profil": {
+    "publicat": "2026-11-23T10:16:43.374+01:00",
+    "amplasamente": 12150,
+    "conectori": 43261,
+    "fara_coordonate": 0,
+    "operatori_persoane_fizice_ascunsi": 0,
+    "operatori_distincti": 160,
+    "operatori_top": {
+      "ENDESA X WAY, S.L.": 2821,
+      "IBERDROLA CLIENTES S.A.U": 2769,
+      "REPSOL SOLUCIONES ENERGÉTICAS SA": 1860,
+      "CHARGING TOGETHER SL": 540,
+      "Etecnic Movilidad Electrica, SRL": 470,
+      "EDP CLIENTES SAU": 328,
+      "ERANOVUM E-MOBILITY, S.L.": 236,
+      "Wenea Services Spain, S.L.": 234,
+      "TotalEnergies Charging Services España, SLU": 214,
+      "FENIE ENERGIA, SA": 188,
+      "PLENOIL, S.L.": 184,
+      "BARCELONA DE SERVEIS MUNICIPALS, SA": 177,
+      "WENEA EMOBILITY SERVICES S.L.": 140,
+      "Punto Recargas SL": 130,
+      "ACCIONA Recarga": 127,
+      "EMAYA, S.A.": 119,
+      "Galp Energía España, S.A.U.": 101,
+      "MAKSU ESPAÑA SL": 92,
+      "(ZUNDER) Grupo Easychargar SA": 86,
+      "Tesla Spain SLU": 80
+    },
+    "tip_amplasament": {
+      "openSpace": 6566,
+      "onstreet": 3220,
+      "other": 667,
+      "inBuilding": 480
+    },
+    "acces": {},
+    "program": {
+      "fac:OperatingHoursSpecification": 12150
+    },
+    "punct_tip": {
+      "egi:ElectricChargingPoint": 43261
+    },
+    "conector_tip": {
+      "iec62196T2": 27606,
+      "iec62196T2COMBO": 10520,
+      "chademo": 3753,
+      "domesticF": 1171,
+      "iec60309x2single16": 106,
+      "iec62196T1": 54,
+      "iec60309x2three32": 25,
+      "iec62196T1COMBO": 7,
+      "domesticE": 7,
+      "domesticA": 6,
+      "iec62196T3A": 4,
+      "iec62196T3C": 1,
+      "domesticL": 1
+    },
+    "conector_format": {
+      "cableMode3": 22933,
+      "socket": 20328
+    },
+    "mod_incarcare": {
+      "mode3AC3p": 21160,
+      "mode4DC": 14677,
+      "mode2AC1p": 7424
+    },
+    "putere_conector_cuantile": {
+      "min": 60.0,
+      "p10": 7300.0,
+      "mediana": 22000.0,
+      "p90": 120000.0,
+      "max": 1000000.0
+    },
+    "lat_interval": [
+      27.751438,
+      43.685726
+    ],
+    "lon_interval": [
+      -18.015152,
+      4.293881
+    ],
+    "cod_postal_lipsa": 0,
+    "site_id_duplicate": 0,
+    "actualizat_interval": [
+      "2023-07-04T10:58:32.000+02:00",
+      "2026-11-20T13:11:00.000+01:00"
+    ]
+  },
+  "verificari": [
+    {
+      "verificare": "brut_nu_e_html:electrolineras.xml",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "brut_nevid:electrolineras.xml",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "schema:recarga_amplasamente.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:recarga_amplasamente.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "12150 rânduri, minim 8000"
+    },
+    {
+      "verificare": "schema:recarga_conectori.parquet",
+      "rezultat": "TRECE",
+      "detaliu": ""
+    },
+    {
+      "verificare": "randuri_minim:recarga_conectori.parquet",
+      "rezultat": "TRECE",
+      "detaliu": "43261 rânduri, minim 25000"
+    }
+  ],
+  "versiunea_anterioara": null,
+  "rezultat": "TRECE",
+  "rulare": "45233774446"
+}
