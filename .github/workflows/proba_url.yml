@@ -1,0 +1,53 @@
+# proba_url: verifică dacă o adresă se poate descărca din Actions și ce conține (rezumat XML/CSV/JSON), fără release și
+# fără commit. Rezultatul: artefactul `proba` (rezumat + primii 300 KB din fișier), păstrat 7 zile.
+# Folosit pentru surse noi, înainte de a scrie `surse/<sursa>/` (ex. 23.11.2026: punctele de reîncărcare MITECO prin NAP DGT).
+name: proba_url
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "Adresa de verificat"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  proba:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Descărcare
+        env:
+          URL: ${{ inputs.url }}
+        run: |
+          mkdir -p out
+          curl -sS -L --max-time 600 -A "vivapueblo-munca/0.1 (github.com/xmarinv/munca)" -D out/antete.txt -o out/fisier \
+            -w "http=%{http_code} octeti=%{size_download} tip=%{content_type} timp=%{time_total}s\n" "$URL" | tee out/curl.txt || echo "curl a eșuat: $?" | tee -a out/curl.txt
+      - name: Rezumat
+        run: |
+          python3 - <<'EOF'
+          import collections, re, xml.etree.ElementTree as ET
+          from pathlib import Path
+          f = Path('out/fisier'); out = [Path('out/curl.txt').read_text()]
+          if f.exists() and f.stat().st_size:
+              b = f.read_bytes(); out.append(f'octeți: {len(b)}'); out.append('început:\n' + b[:1500].decode('utf-8', 'replace'))
+              try:
+                  tags, attrs, n = collections.Counter(), collections.Counter(), 0
+                  for ev, el in ET.iterparse(str(f), events=('end',)):
+                      t = re.sub(r'^\{.*\}', '', el.tag); tags[t] += 1
+                      for k in el.attrib: attrs[t + '@' + re.sub(r'^\{.*\}', '', k)] += 1
+                  out.append('elemente XML (cele mai frecvente 80):\n' + '\n'.join(f'{k}: {v}' for k, v in tags.most_common(80)))
+                  out.append('atribute (40):\n' + '\n'.join(f'{k}: {v}' for k, v in attrs.most_common(40)))
+              except Exception as e:
+                  out.append(f'nu e XML valid: {e}')
+          Path('out/rezumat.txt').write_text('\n\n'.join(out), encoding='utf-8')
+          print('\n\n'.join(out)[:3000])
+          EOF
+          head -c 300000 out/fisier > out/inceput_fisier 2>/dev/null || true
+          rm -f out/fisier
+      - uses: actions/upload-artifact@v4
+        with:
+          name: proba
+          path: out/
+          retention-days: 7
