@@ -36,11 +36,11 @@ HAB = re.compile(r'(\d{1,3}(?:\.\d{3})+|\d{3,7})\s*(?:habitantes|hab\.)', re.I)
 BOE_ID = re.compile(r'BOE-A-\d{4}-\d+')
 
 
-def get(url, **kw):
+def get(url, headers=None, **kw):
     for i in range(3):
         try:
             time.sleep(0.3)
-            r = S.get(url, headers=UA, timeout=(20, 120), **kw)
+            r = S.get(url, headers=headers or UA, timeout=(20, 120), **kw)
             if r.status_code in (429, 500, 502, 503, 504):
                 raise requests.RequestException(f'HTTP {r.status_code}')
             return r
