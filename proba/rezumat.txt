@@ -1,0 +1,9 @@
+http=200 octeti=8100 tip=application/json timp=2.021399s
+
+
+octeți: 8100
+
+început:
+{"id":1073200,"organo":{"nivel1":"ESTADO","nivel2":"MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO","nivel3":"DIRECCIÓN GENERAL DE POLÍTICAS CONTRA LA DESPOBLACIÓN"},"sedeElectronica":"Las personas interesadas podrán presentar sus solicitudes a través de la nueva herramienta electrónica PLATERO, disponible en la sede electrónica asociada del Ministerio para la Transición Ecológica y el Reto Demográfico (https://sede.miteco.gob.es)","codigoBDNS":"871639","fechaRecepcion":"2025-11-28","instrumentos":[{"descripcion":"SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "}],"tipoConvocatoria":"Concurrencia competitiva - canónica","presupuestoTotal":40000000,"mrr":false,"descripcion":"ORDEN POR LA QUE SE CONVOCAN SUBVENCIONES PARA LA FINANCIACIÓN DE PROYECTOS INNOVADORES PARA LA TRANSFORMACIÓN TERRITORIAL Y LA LUCHA CONTRA LA DESPOBLACIÓN, PROMOVIDOS POR ENTIDADES LOCALES, DURANTE EL EJERCICIO DE 2025","descripcionLeng":null,"tiposBeneficiarios":[{"descripcion":"PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"}],"sectores":[{"descripcion":"ACTIVIDADES ADMINISTRATIVAS Y SERVICIOS AUXILIARES","codigo":"O"},{"descripcion":"ACTIVIDADES ARTÍSTICAS, DEPORTIVAS Y DE ENTRETENIMIENTO","codigo":"S"},{"descripcion":"ACTIVIDADES INMOBILIARIAS","codigo":"M"},{"descripcion":"ACTIVIDADES SANITARIAS Y DE SERVICIOS SOCIALES","codigo":"R"},{"descripcion":"ADMINISTRACIÓN PÚBLICA Y DEFENSA; SEGURIDAD SOCIAL OBLIGATORIA","codigo":"P"},{"descripcion":"AGR
+
+nu e XML valid: not well-formed (invalid token): line 1, column 0
