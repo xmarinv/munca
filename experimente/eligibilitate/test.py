@@ -10,7 +10,7 @@ atlas/cercetari/raport_oportunitate_eligibilitate_primarii.md, ca să măsurăm 
   5. pragurile de populație („N habitantes”) găsite prin cod.
 Rezultatul: ramura `test-eligibilitate` (rezultate.csv, rezumat.json, texte/ pentru cele cu entități locale).
 """
-import csv, json, os, random, re, subprocess, sys, tempfile, time
+import collections, csv, json, os, random, re, subprocess, sys, tempfile, time
 from pathlib import Path
 
 import pyarrow.parquet as pq
@@ -31,7 +31,9 @@ TERMENI_EELL = {
     'diputacion': r'diputaci[oó]n(?:es)?',
     'mancomunidad_comarca': r'mancomunidad(?:es)?|comarcas?|consells? comarcals?',
 }
-TITLU_BENEF = re.compile(r'(?im)^[^\n]{0,60}(beneficiari|solicitantes|podr[aá]n (?:ser beneficiari|solicitar|acceder))[^\n]{0,80}$')
+BENEF = re.compile(r'(?i)beneficiari[oa]s?|personas? solicitantes|entidades solicitantes|podr[aá]n (?:ser beneficiari|solicitar|acceder|concurrir|optar)')
+PRIORITATE = [r'castellano|espa[ñn]ol', r'extracto', r'convocatoria|bases']
+EVITA = re.compile(r'(?i)otra lengua|cooficial|resoluci[oó]n|solicitud|anexo|formulario|modelo|concesi[oó]n|justificaci')
 HAB = re.compile(r'(\d{1,3}(?:\.\d{3})+|\d{3,7})\s*(?:habitantes|hab\.)', re.I)
 BOE_ID = re.compile(r'BOE-A-\d{4}-\d+')
 
@@ -73,7 +75,7 @@ def documente(d):
     return out
 
 
-def descarca_pdf(num, doc, tinta):
+def descarca_pdf(num, doc, tinta, motive):
     did = doc.get('id') or doc.get('idDocumento')
     for url in (f'{BAZA}/convocatorias/documentos?idDocumento={did}',
                 f'https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/{num}/document/{did}',
@@ -82,6 +84,7 @@ def descarca_pdf(num, doc, tinta):
         if r is not None and r.status_code == 200 and r.content[:5] == b'%PDF-':
             tinta.write_bytes(r.content)
             return url
+        motive.append('none' if r is None else f"{r.status_code}:{r.headers.get('content-type', '')[:30]}:{r.content[:8]!r}")
     return None
 
 
@@ -91,8 +94,17 @@ def text_pdf(p):
 
 
 def sectiune_beneficiari(txt):
-    m = TITLU_BENEF.search(txt)
-    return txt[m.start(): m.start() + 2500] if m else ''
+    """Primele trei apariții ale cuvintelor despre beneficiari, câte 900 de caractere fiecare."""
+    return '\n[...]\n'.join(txt[m.start(): m.start() + 900] for m in list(BENEF.finditer(txt))[:3])
+
+
+def ordoneaza(docs):
+    def cheie(x):
+        t = f"{x.get('descripcion', '')} {x.get('nombreFic', '')}"
+        if EVITA.search(t):
+            return 9
+        return next((i for i, rx in enumerate(PRIORITATE) if re.search(rx, t, re.I)), 5)
+    return sorted(docs, key=cheie)
 
 
 def consolidat_boe(bid):
@@ -112,13 +124,16 @@ def main():
         num, d = r['numeroConvocatoria'], json.loads(r['detaliu_json'])
         for k in d:
             chei_detaliu[k] = chei_detaliu.get(k, 0) + 1
-        docs = documente(d)
+        docs = ordoneaza(documente(d))
+        motive = []
         if docs and len(exemple_doc) < 5:
             exemple_doc.append({'num': num, 'documente': docs[:3]})
         texte, url_ok, pdf_n, pdf_fara_text = [], None, 0, 0
-        for j, doc in enumerate(docs[:4]):
+        for j, doc in enumerate(docs[:3]):
             p = tmp / f'{num}_{j}.pdf'
-            u = descarca_pdf(num, doc, p)
+            if EVITA.search(f"{doc.get('descripcion', '')} {doc.get('nombreFic', '')}") and texte:
+                continue
+            u = descarca_pdf(num, doc, p, motive)
             if u:
                 pdf_n += 1
                 url_ok = url_ok or u.split('?')[0].rsplit('/', 3)[0]
@@ -129,13 +144,16 @@ def main():
         txt = '\n\n'.join(texte)
         ben = sectiune_beneficiari(txt)
         termeni = sorted(k for k, rx in TERMENI_EELL.items() if re.search(rx, ben, re.I))
+        nucleu = bool(set(termeni) & {'ayuntamiento', 'entidad_local', 'municipio'})
         bases = ' '.join(filter(None, [r['urlBasesReguladoras'], r['descripcionBasesReguladoras'], txt[:20000]]))
         boe = sorted(set(BOE_ID.findall(bases)))
         hab = sorted({int(x.replace('.', '')) for x in HAB.findall(txt)})
         rez.append({
             'numero': num, 'fecha': r['fechaRecepcion'], 'nivel1': r['nivel1'], 'nivel2': r['nivel2'], 'titlu': (r['titlu'] or '')[:200],
             'documente_bdns': len(docs), 'pdf_descarcate': pdf_n, 'pdf_fara_text': pdf_fara_text, 'caractere_text': len(txt),
-            'sectiune_beneficiari_gasita': bool(ben), 'termeni_eell': ' '.join(termeni),
+            'sectiune_beneficiari_gasita': bool(ben), 'termeni_eell': ' '.join(termeni), 'eell_nucleu': nucleu,
+            'motiv_fara_pdf': '' if pdf_n else ' | '.join(motive[:3]), 'documente_descrieri': ' | '.join(str(x.get('descripcion', ''))[:50] for x in docs[:4]),
+            'beneficiari_fragment': re.sub(r'\s+', ' ', ben)[:600],
             'url_baze': r['urlBasesReguladoras'] or '', 'boe_ids': ' '.join(boe),
             'boe_consolidat_http': ' '.join(str(consolidat_boe(b)) for b in boe[:2]),
             'praguri_habitantes': ' '.join(map(str, hab[:12])), 'cale_document': url_ok or ''})
@@ -155,6 +173,8 @@ def main():
         'cu_text_extras': cnt(lambda x: x['caractere_text'] >= 2000), 'cu_pdf_scanat': cnt(lambda x: x['pdf_fara_text']),
         'sectiune_beneficiari_gasita': cnt(lambda x: x['sectiune_beneficiari_gasita']),
         'cu_termeni_eell_in_beneficiari': cnt(lambda x: x['termeni_eell']),
+        'eell_nucleu': cnt(lambda x: x['eell_nucleu']),
+        'domenii_url_baze': dict(sorted(collections.Counter(re.sub(r'^https?://', '', x['url_baze']).split('/')[0].lower() for x in rez).most_common(25))),
         'cu_url_baze': cnt(lambda x: x['url_baze']), 'cu_boe_id': cnt(lambda x: x['boe_ids']),
         'boe_consolidat_200': cnt(lambda x: '200' in x['boe_consolidat_http']),
         'cu_praguri_habitantes': cnt(lambda x: x['praguri_habitantes']),
