@@ -1,0 +1,189 @@
+{
+ "catalog": 140724,
+ "pool": 4720,
+ "esantion": 300,
+ "seed": 42,
+ "cu_documente_bdns": 300,
+ "cu_pdf_descarcat": 280,
+ "cu_text_extras": 275,
+ "cu_pdf_scanat": 7,
+ "sectiune_beneficiari_gasita": 254,
+ "cu_termeni_eell_in_beneficiari": 118,
+ "eell_nucleu": 86,
+ "domenii_url_baze": {
+  "bdns.depo.es": 5,
+  "boc.cantabria.es": 5,
+  "bon.navarra.es": 5,
+  "bop.dacoruna.gal": 5,
+  "bop.dipcas.es": 6,
+  "docm.jccm.es": 5,
+  "doe.juntaex.es": 7,
+  "dogc.gencat.cat": 13,
+  "dogv.gva.es": 13,
+  "ias1.larioja.org": 9,
+  "juntadeandalucia.es": 9,
+  "portaldogc.gencat.cat": 8,
+  "sede.asturias.es": 9,
+  "transparencia.dipuleon.es": 5,
+  "www.boa.aragon.es": 6,
+  "www.bocm.es": 7,
+  "www.boe.es": 19,
+  "www.bopsantacruzdetenerife.es": 5,
+  "www.caib.es": 7,
+  "www.dip-badajoz.es": 4,
+  "www.dipucuenca.es": 6,
+  "www.diputacionavila.es": 5,
+  "www.diputaciondepalencia.es": 6,
+  "www.diputaciondevalladolid.es": 5,
+  "www.xunta.gal": 15
+ },
+ "cu_url_baze": 300,
+ "cu_boe_id": 18,
+ "boe_consolidat_200": 8,
+ "cu_praguri_habitantes": 80,
+ "cale_document": {
+  "": 20,
+  "https://www.infosubvenciones.es/bdnstrans": 280
+ },
+ "chei_detaliu_bdns": {
+  "id": 300,
+  "organo": 300,
+  "sedeElectronica": 300,
+  "codigoBDNS": 300,
+  "fechaRecepcion": 300,
+  "instrumentos": 300,
+  "tipoConvocatoria": 300,
+  "presupuestoTotal": 300,
+  "mrr": 300,
+  "descripcion": 300,
+  "descripcionLeng": 300,
+  "tiposBeneficiarios": 300,
+  "sectores": 300,
+  "regiones": 300,
+  "descripcionFinalidad": 300,
+  "descripcionBasesReguladoras": 300,
+  "urlBasesReguladoras": 300,
+  "sePublicaDiarioOficial": 300,
+  "abierto": 300,
+  "fechaInicioSolicitud": 300,
+  "fechaFinSolicitud": 300,
+  "textInicio": 300,
+  "textFin": 300,
+  "ayudaEstado": 300,
+  "urlAyudaEstado": 300,
+  "fondos": 300,
+  "reglamento": 300,
+  "objetivos": 300,
+  "sectoresProductos": 300,
+  "documentos": 300,
+  "anuncios": 300,
+  "advertencia": 300
+ },
+ "exemple_documente": [
+  {
+   "num": "923104",
+   "documente": [
+    {
+     "id": 1514876,
+     "descripcion": "Texto en castellano de la convocatoria",
+     "nombreFic": "CrrgtConvoCLT503ES.pdf",
+     "long": 115995,
+     "datMod": "2026-09-01",
+     "datPublicacion": "2026-09-01"
+    },
+    {
+     "id": 1514877,
+     "descripcion": "Texto en otra lengua de la convocatoria",
+     "nombreFic": "CrrgtConvoCLT503_signed_CA (1).pdf",
+     "long": 274417,
+     "datMod": "2026-09-01",
+     "datPublicacion": "2026-09-01"
+    }
+   ]
+  },
+  {
+   "num": "937433",
+   "documente": [
+    {
+     "id": 1545553,
+     "descripcion": "Texto en castellano de la convocatoria",
+     "nombreFic": "Texto Convocatoria BDNS.pdf",
+     "long": 608192,
+     "datMod": "2026-10-27",
+     "datPublicacion": "2026-10-27"
+    },
+    {
+     "id": 1545554,
+     "descripcion": "Otros documentos  Extractos BOCM",
+     "nombreFic": "Otros documentos  Extractos BOCM.pdf",
+     "long": 91317,
+     "datMod": "2026-10-27",
+     "datPublicacion": "2026-10-27"
+    }
+   ]
+  },
+  {
+   "num": "877762",
+   "documente": [
+    {
+     "id": 1377821,
+     "descripcion": "Documento de la convocatoria en español",
+     "nombreFic": "Bases y convocatoria FOENAA-2026.pdf",
+     "long": 307608,
+     "datMod": "2025-12-26",
+     "datPublicacion": "2025-12-26"
+    },
+    {
+     "id": 1511740,
+     "descripcion": "Resolución concesión definitiva FOENAA 2026",
+     "nombreFic": "Resolución concesión definitiva FOENAA 2026.pdf",
+     "long": 388897,
+     "datMod": "2026-08-21",
+     "datPublicacion": "2026-08-21"
+    },
+    {
+     "id": 1377822,
+     "descripcion": "Documento de la convocatoria en lengua cooficial",
+     "nombreFic": "Bases e convocatoria FOENAA-2026.pdf",
+     "long": 307608,
+     "datMod": "2025-12-26",
+     "datPublicacion": "2025-12-26"
+    }
+   ]
+  },
+  {
+   "num": "880407",
+   "documente": [
+    {
+     "id": 1483732,
+     "descripcion": "Texto en castellano de la convocatoria",
+     "nombreFic": "Bases Galicia Exporta OOII 2026 (ca)_20260108_140822.pdf",
+     "long": 3473973,
+     "datMod": "2026-06-29",
+     "datPublicacion": "2026-06-29"
+    },
+    {
+     "id": 1483733,
+     "descripcion": "Solicitud de ayuda",
+     "nombreFic": "IG421A-C (1)_20260108_140851.pdf",
+     "long": 1796953,
+     "datMod": "2026-06-29",
+     "datPublicacion": "2026-06-29"
+    }
+   ]
+  },
+  {
+   "num": "914381",
+   "documente": [
+    {
+     "id": 1479348,
+     "descripcion": "Texto en castellano de la convocatoria",
+     "nombreFic": "Convocatoria.PDF",
+     "long": 2294421,
+     "datMod": "2026-06-19",
+     "datPublicacion": "2026-06-19"
+    }
+   ]
+  }
+ ]
+}
